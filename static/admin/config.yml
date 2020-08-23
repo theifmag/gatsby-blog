@@ -72,4 +72,5 @@ collections:
         media_library:
           config:
             multiple: false
+      - {name: author, label: author, widget: string}     
       - { name: body, label: Body, widget: markdown }

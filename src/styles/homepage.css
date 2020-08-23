@@ -1,0 +1,136 @@
+
+.homecontainer {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.leftcontainer {
+  flex: 1;
+  height: 100%;
+  padding-left: 5vw;
+  background-color: #eae8e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightcontainer {
+  flex: 1;
+  /* background-color: yellow; */
+  height: 100%;
+  padding-right: 5vw;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+}
+
+.mainheading {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.line-home{
+    height: 5px;
+    width: 30%;
+    background-color: darkgray;
+ 
+    margin-bottom: 5vh;
+}
+
+.mainpara{
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+
+.cta-style{
+    border : 1px solid darkgray ;
+    background-color: transparent;
+    width: 30%;
+    font-size: 1.1rem ;
+    padding: 5px;
+    margin-top: 5vh;
+    transition: all 0.5s;
+}
+
+
+.cta-style:hover{
+    background-color: #3fc178;
+    color: white;
+    border-radius: 5px;
+}
+
+.line-home:hover{
+    background-color: #3fc178;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .homecontainer {
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .leftcontainer {
+    width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightcontainer {
+    width: 100%;
+  }
+
+.mainpara{
+    width: 50%;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+.cta-style{
+    width: 30%;
+    padding: 10px;
+}
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .leftcontainer {
+        align-items: flex-start;
+        padding-left: 5vw;
+    }
+    .mainheading{
+        font-size: 3rem;
+        margin-top: 10vh;
+    }
+    .mainpara{
+        width: 90%;
+        text-align: left;
+        margin-bottom: 5vh;
+    }
+
+    .line-home{
+        margin-top: 2vh;
+        margin-bottom: 2;
+    }
+
+    .cta-style{
+      width: 30%;
+      padding: 10px;
+      margin-top: 0;
+  }
+
+}
