@@ -9,14 +9,13 @@ export default function Homepage() {
    <Navbar />
         <div className="homecontainer">
             <div className="leftcontainer">
-            <h1 className="mainheading">Tropical Plants</h1>
+            <h1 className="mainheading">The Future is Feminist.</h1>
 
 
             <div className="line-home"></div>
 
             <p className="mainpara">
-                Tropical Rainforest are the homes to half of the flora & Fauna of the world.
-                Let's learn about them more today.
+            It's not my responsibility to be beautiful. I'm not alive for that purpose. My existence is not about how desirable you find me.
             </p>
 
             <button className="cta-style">Explore</button>
