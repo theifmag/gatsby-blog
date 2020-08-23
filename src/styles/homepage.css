@@ -12,7 +12,7 @@
   flex: 1;
   height: 100%;
   padding-left: 5vw;
-  background-color: #eae8e7;
+  background-color:  #faeedd!important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  background-image: url("https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-image: url('../../static/assets/homebg.png');
 }
 
 .mainheading {
@@ -64,13 +64,13 @@
 
 
 .cta-style:hover{
-    background-color: #3fc178;
+    background-color: #381696;
     color: white;
     border-radius: 5px;
 }
 
 .line-home:hover{
-    background-color: #3fc178;
+    background-color:#381696 ;
     border-radius: 5px;
 }
 

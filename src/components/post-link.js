@@ -17,11 +17,14 @@ const PostLink = ({ post }) => (
     </div>
 
     <header className={blogStyles.blogtext}>
-      <h2>
-        <Link to={post.frontmatter.path} className="post-link">
+
+      <h2 className={blogStyles.linktag} >
+        <Link to={post.frontmatter.path} >
           {post.frontmatter.title}
         </Link>
       </h2>
+
+
       <div className={blogStyles.blogsubtext}>
         <div className={blogStyles.subtextDiv}>
           <h5>{post.frontmatter.date} </h5>

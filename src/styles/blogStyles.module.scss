@@ -2,14 +2,12 @@ $color: green;
 
 .container {
   width: 100vw;
-  background-color: white;
+  background-color: #faeedd!important;
   min-height: 90vh;
   text-align: center;
   height: auto;
   margin-bottom: 15vh;
 
-  .maincontainer {
-  }
 
   .heading {
     margin: 0;
@@ -34,16 +32,17 @@ $color: green;
 
   .blogcard {
     flex: 1;
-    height: 65vh;
+    min-height: 60vh;
     display: flex;
     border-radius: 10px;
-    background-color: white;
+    background-color: #faeedd!important;
+    border-radius: 2px;
     min-width: 30%;
-    margin-top: 5vh;
+    margin-top: 10vh;
     max-width: 30%;
     flex-direction: column;
     overflow-x: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.29);
   }
 
   .blogcard:hover {
@@ -53,13 +52,12 @@ $color: green;
 
   .blogimage {
     overflow: hidden;
-
     max-height: 35vh;
   }
 
-  .linktag {
+  .linktag a {
     text-decoration: none;
-    color: #000;
+    color: rgb(39, 39, 39) ;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -85,6 +83,8 @@ $color: green;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+
+  
   }
 
   .blogsubtext {
@@ -117,10 +117,12 @@ $color: green;
     font-size: 1rem;
   }
 
-  @media only screen and (max-width: 1400px) { 
+  @media only screen and (max-width: 1300px) { 
 
     .blogcard{
-      min-height: 55vh ;
+      min-height: 50vh ;
+      margin-top: 10vh;
+    
     }
     
   }
@@ -136,7 +138,7 @@ $color: green;
       margin-top: 5vh;
       margin-bottom: 5vh;
       max-width: 100%;
-      min-height: 55vh ;
+   
     
     }
   }
