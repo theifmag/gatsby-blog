@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `A Blog By Pranjal`,
+        short_name: `MyBlog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
