@@ -46,7 +46,7 @@ const openMenu = () =>{
               <Link to="/bloglist">Blog</Link>
             </li>
             <li>
-            <Link to="/login">Contact</Link>
+            <Link to="/404">Contact</Link>
             </li>
             {/* <li>
               <ThemeChanger />
