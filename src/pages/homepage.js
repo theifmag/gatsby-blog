@@ -13,6 +13,7 @@ export default function Homepage() {
           <div className="line-home"></div>
           <p className="mainpara">
             My existence is not about how desirable you find me.
+            It's about me.
           </p>
           <button className="cta-style">Explore</button>
         </div>
