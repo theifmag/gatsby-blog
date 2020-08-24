@@ -31,7 +31,7 @@ const openMenu = () =>{
 
     return (
       <nav>
-        <div className="logo-div"><a href="/"> {data2.title}</a></div>
+        <div className="logo-div"><a href="/"> MyBlog</a></div>
         <div className="nav-menu" id="navmenu">
           <ul>
           
