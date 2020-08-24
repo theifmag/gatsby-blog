@@ -125,7 +125,7 @@
     }
     .mainheading{
         font-size: 3rem;
-        margin-top: -10vh;
+        margin-top: -5vh;
     }
     .mainpara{
         width: 90%;
@@ -139,7 +139,7 @@
       object-fit: cover;
     }
     .rightcontainer img{
-      margin-top: -15vh;
+      margin-top: -12vh;
     }
 
     .line-home{

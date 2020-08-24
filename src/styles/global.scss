@@ -195,7 +195,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 18px;
+  border-radius: 0px;
   margin-bottom: 36px;
   color: var(--featured-text);
   display: grid;
@@ -274,9 +274,9 @@ a {
   }
 }
 .form-container {
-  background-color: var(--contact-bg);
+  background-color: transparent;
   padding: 32px;
-  border: 1px solid var(--contact-bdr);
+  border: 1px solid transparent;
   border-radius: 9px;
   label {
     display: block;
