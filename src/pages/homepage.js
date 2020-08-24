@@ -16,7 +16,9 @@ export default function Homepage() {
           </p>
           <button className="cta-style">Explore</button>
         </div>
-        <div className="rightcontainer"></div>
+        <div className="rightcontainer">
+          <img src={require('../../static/assets/home2.png')} />
+        </div>
       </div>
     </Layout>
   );
