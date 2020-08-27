@@ -26,7 +26,7 @@ export default function Homepage() {
         </div>
         <div className="rightcontainer">
    
-          <img src={require('../../static/assets/OK.gif')} />
+          <img src={require('../images/OK.gif')} />
         </div>
       </div>
     </Layout>
