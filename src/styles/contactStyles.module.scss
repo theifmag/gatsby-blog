@@ -82,6 +82,12 @@ align-content: flex-end;
       padding: 10px;
     }
 
+.sendButton:hover{
+  background-color: #381696;
+  color: white;
+  border-radius: 5px;
+}
+
     .contactInfoDiv {
       height: 30vh;
       display: flex;
