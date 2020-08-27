@@ -20,12 +20,12 @@ export default function Homepage() {
           <div className="line-home"></div>
           <p className="mainpara">
             My existence is not about how desirable you find me.
-           Not Anymore.
+           Not Anymore...
           </p>
           <button className="cta-style">Explore</button>
         </div>
         <div className="rightcontainer">
-          {/* <img src={require('../../static/assets/home2.png')} /> */}
+   
           <img src={require('../../static/assets/OK.gif')} />
         </div>
       </div>
