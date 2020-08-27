@@ -2,6 +2,8 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import Navbar from '../components/navbar/Navbar'
+import contactStyles from '../styles/contactStyles.module.scss'
 
 const ContactPage = ({
   data: {
@@ -14,35 +16,69 @@ const ContactPage = ({
         <title>Contact — {site.siteMetadata.title}</title>
         <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
       </Helmet>
-      <div className="two-grids -contact">
-        <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
-          <h1 className="post-title">Get in Touch</h1>
-          <p>Let me help you kick start your next project &rarr;</p>
+      <Navbar />
+      <div className={contactStyles.divider}></div>
+
+
+
+      <div className={contactStyles.mainContainer}>
+
+
+        <div className={contactStyles.imageContainer}>
+          <img src='https://bridge283.qodeinteractive.com/wp-content/uploads/2019/11/p2-img-01.jpg' />
         </div>
-        <div>
-          <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
-            <div>
-              <label htmlFor="w3lName">Name</label>
-              <input type="text" name="w3lName" id="w3lName"/>
+
+
+        <div className={contactStyles.innerContainer}>
+          <div className={contactStyles.leftContainer}>
+
+            <h3 className={contactStyles.formHeading}>Drop us a message....</h3>
+            <form className={contactStyles.form}>
+              <input placeholder="First Name" type="text" className={contactStyles.formInput} />
+              <input placeholder="youremail@gmail.com" type="email" className={contactStyles.formInput} />
+              <input placeholder="your Message ..." type="textarea" className={contactStyles.formInput} />
+              <button className={contactStyles.sendButton}>SEND</button>
+            </form>
+
+
+            <div className={contactStyles.contactInfoDiv}>
+
+                <div className={contactStyles.textSection}>
+                  <h4 className={contactStyles.textHeading}>Email</h4>
+                  <h6 className={contactStyles.textInnerText}> mybridge@example.com</h6>
+                  <h6 className={contactStyles.textInnerText}>mybridge@example.com</h6>
+                </div>
+                
+                <div className={contactStyles.textSection}>
+                  <h4 className={contactStyles.textHeading}>ADDRESS</h4>
+                  <h6 className={contactStyles.textInnerText}> 106 boulevard Malesherbes</h6>
+                  <h6 className={contactStyles.textInnerText}>Tel: +33 (0)1 80 48 96 00</h6>
+                </div>
+
+
+
             </div>
-            <div>
-              <label htmlFor="w3lSender">Email</label>
-              <input type="email" name="w3lSender" id="w3lSender"/>
-            </div>
-            <div>
-              <label htmlFor="w3lSubject">Subject</label>
-              <input type="text" name="w3lSubject" id="w3lSubject"/>
-            </div>
-            <div>
-              <label htmlFor="w3lMessage">Message</label>
-              <textarea name="w3lMessage" id="w3lMessage"></textarea>
-            </div>
-            <div style={{display: "flex", justifyContent: "flex-end"}}>
-              <input type="submit" className="button -primary" style={{marginRight: 0}} />
-            </div>
-          </form>
+
+          </div>
+
+
+
+
+          <div className={contactStyles.rightContainer}>
+
+          </div>
         </div>
+
+
+
       </div>
+
+
+
+
+
+
+
     </Layout>
   )
 }

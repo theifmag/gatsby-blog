@@ -1,11 +1,18 @@
 import React from "react";
 import "../styles/homepage.css";
 import Navbar from "../components/navbar/Navbar";
+import Helmet from 'react-helmet' ;
 import Layout from "../components/layout";
 
 export default function Homepage() {
   return (
     <Layout>
+
+<Helmet>
+        <title>MyBlog</title>
+        <meta name="description" content={"Myblog The Best Blogs on every topic"} />
+      </Helmet>
+
       <Navbar />
       <div className="homecontainer">
         <div className="leftcontainer">

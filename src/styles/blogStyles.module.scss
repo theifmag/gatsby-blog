@@ -32,7 +32,7 @@ $color: green;
 
   .blogcard {
     flex: 1;
-    min-height: 60vh;
+    min-height: 65vh;
     display: flex;
     border-radius: 10px;
     background-color: #faeedd!important;
@@ -42,7 +42,8 @@ $color: green;
     max-width: 30%;
     flex-direction: column;
     overflow-x: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.29);
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
   }
 
   .blogcard:hover {

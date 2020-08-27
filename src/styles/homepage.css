@@ -7,6 +7,8 @@
   overflow-x: hidden;
   box-sizing: border-box;
   margin-bottom: 10vh;
+  font-size: 10px;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .leftcontainer {
@@ -37,7 +39,7 @@
 }
 
 .mainheading {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -112,8 +114,8 @@
 
 }
 
-
-@media screen and (max-width: 900px) {
+/* 1200 px is the starting of ipad and mobile phone */
+@media screen and (max-width: 1200px) {
 
 .homecontainer{
   height: 120vh;
@@ -152,5 +154,18 @@
       padding: 10px;
       margin-top: 0;
   }
+
+}
+
+
+@media screen and (max-width: 400px) { 
+  .homecontainer{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+.leftcontainer{
+  margin-bottom: 5vh;
+}
 
 }
