@@ -67,6 +67,7 @@ const ContactPage = ({
           <div className={contactStyles.rightContainer}>
         
         <img src={require('../../static/assets/Messaging fun.gif')} loading="lazy" />
+        
           </div>
         </div>
 
