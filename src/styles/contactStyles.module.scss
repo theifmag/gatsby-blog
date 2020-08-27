@@ -1,9 +1,6 @@
 .mainContainer {
   height: auto;
-  padding-bottom: 10vh;
-  margin-bottom: 10vh;
-  font-size:10px;
-  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 5vh;
 
   .imageContainer {
     margin-top: 5vh;
@@ -37,8 +34,16 @@
 
     .rightContainer {
       flex: 1;
-      background-color: maroon;
+align-content: flex-end;
+      -o-object-fit: cover;
+      object-fit: cover;
+      overflow: hidden !important;
     }
+
+.rightContainer img{
+ max-width: 100%;
+ 
+}
 
     .form {
       height: 50%;
@@ -55,7 +60,8 @@
     .formHeading {
    
         color: #151515 ;
-      font-size : 1.6rem;
+      font-size : 1.8rem;
+     
     }
 
     .formInput {
@@ -97,14 +103,14 @@
 
 .textHeading{
     color: #151515 ;
-    font-size : 1.6rem;
+    font-size : 1.8rem;
     margin-bottom: 20px;
 }
 
     .textInnerText {
       margin: 5px;
       color: #565454;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: normal;
     }
   }
@@ -112,7 +118,7 @@
   @media screen and (max-width: 1200px) {
     .innerContainer {
       flex-direction: column;
-      height: 160vh !important;
+      height: 140vh !important;
     }
 
     .sendButton {
@@ -127,6 +133,10 @@
     margin-bottom: 5vh;
     }
    
+    
+    .formHeading {
+      margin-bottom: -10px;
+    }
 
 
   }

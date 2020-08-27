@@ -45,14 +45,14 @@ const ContactPage = ({
 
                 <div className={contactStyles.textSection}>
                   <h4 className={contactStyles.textHeading}>Email</h4>
-                  <h6 className={contactStyles.textInnerText}> mybridge@example.com</h6>
-                  <h6 className={contactStyles.textInnerText}>mybridge@example.com</h6>
+                  <h6 className={contactStyles.textInnerText}> sarrah25@gmail.com</h6>
+                  <h6 className={contactStyles.textInnerText}>myblog@example.com</h6>
                 </div>
                 
                 <div className={contactStyles.textSection}>
                   <h4 className={contactStyles.textHeading}>ADDRESS</h4>
-                  <h6 className={contactStyles.textInnerText}> 106 boulevard Malesherbes</h6>
-                  <h6 className={contactStyles.textInnerText}>Tel: +33 (0)1 80 48 96 00</h6>
+                  <h6 className={contactStyles.textInnerText}> 106 Malad East,Mumbai</h6>
+                  <h6 className={contactStyles.textInnerText}>Tel: +91 94322-05222</h6>
                 </div>
 
 
@@ -65,7 +65,8 @@ const ContactPage = ({
 
 
           <div className={contactStyles.rightContainer}>
-
+        
+        <img src={require('../../static/assets/Messaging fun.gif')} loading="lazy" />
           </div>
         </div>
 
