@@ -135,6 +135,8 @@ export default function Homeblog() {
 	</div> */}
         {/* ck cake wrapper End */}
         {/* ck best cake wrapper Start */}
+
+
         <div className="ck_bc_main_wrapper float_left">
           <div className="container">
             <div className="row">
@@ -144,6 +146,7 @@ export default function Homeblog() {
                   <h3>Our Latest Blogs</h3>
                 </div>
               </div>
+
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                 <div className="et_left_news_wrapper">
                   <div className="et_left_img_news2">
@@ -178,6 +181,10 @@ export default function Homeblog() {
                   </div>
                 </div>
               </div>
+
+
+
+              
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                 <div className="et_left_news_wrapper">
                   <div className="et_left_img_news2">
@@ -357,6 +364,10 @@ export default function Homeblog() {
             </div>
           </div>
         </div>
+
+
+
+
         {/* ck best cake wrapper End */}
         {/* ck cake wrapper Start */}
         {/* <div class="ck_offer_service_wrapper float_left">

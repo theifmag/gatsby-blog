@@ -2845,7 +2845,7 @@ padding-top:25px;
 .et_left_cont_news{
 	float:left;
 	width:calc(100% - 50%);
-	border:1px solid #f2f2f2;
+	/* border:1px solid #f2f2f2; */
 	padding-left:30px;
 	padding-top: 20px;
     padding-bottom: 20px;
@@ -2968,6 +2968,8 @@ padding-top:25px;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+    
+    
 }
 .et_left_news_wrapper:hover{
 	box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);

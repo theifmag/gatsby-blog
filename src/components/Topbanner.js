@@ -4,7 +4,10 @@ export default function Topbanner() {
     return (
         <div>
              <div className="et_top_header_wrapper">
-          <div className="container">
+          <div className="container-fluid" style={{
+            paddingLeft : '7vw',
+            paddingRight : '3vw'
+          }}>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 ">
                 <div className="et_left_side_warpper">

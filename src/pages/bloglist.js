@@ -22,6 +22,9 @@ const BlogList = ({
 
       <div className={blogStyles.container}>
         <h2 className={blogStyles.heading}>Blog Posts &darr;</h2>
+
+
+        
         <div className={blogStyles.blogsContainer}>{Posts}</div>
       </div>
     </div>
