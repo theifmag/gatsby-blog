@@ -26,7 +26,14 @@ closeMenu = () =>{
 render(){
     return (
       <nav style={{position : 'relative' , zIndex : 99 , top : 0 ,}} className="my-nav">
-        <div className="logo-div"><Link to="/">The IfMag</Link></div>
+        <div className="logo-div"><Link to="/">
+          
+          <img src={require('../../images/logo-main.png')} 
+          style={{
+            width : '90px'
+          }}/>
+          
+          </Link></div>
         <div className="nav-menu" id="navmenu">
           <ul>
             <li>
@@ -34,32 +41,34 @@ render(){
             </li>
 
             <li>
-              <Link to='/bloglist'>Opinions & Stories</Link>
+              <Link to="/about" onClick={this.closeMenu}>About</Link>
             </li>
+
+         
 
 
             <li>
-              <Link to='/bloglist'>Podcast</Link>
+              <Link to='/bloglist'>Explore </Link>
             </li>
+
 
             <li>
               <Link to='/bloglist'>Series</Link>
             </li>
 
+               {/* <li>
+              <Link to='/bloglist'>Opinions & Stories</Link>
+            </li> */}
 
-            <li>
-              <Link to='/bloglist'>Explore By Topic</Link>
-            </li>
+            {/* <li>
+              <Link to='/bloglist'>Series</Link>
+            </li> */}
 
             <li>
               <Link to='/bloglist'>Get Involved</Link>
             </li>
 
-            <li>
-              <Link to="/about" onClick={this.closeMenu}>About</Link>
-            </li>
-
-
+          
             <li>
             <Link to="/contact">Contact</Link>
             </li>

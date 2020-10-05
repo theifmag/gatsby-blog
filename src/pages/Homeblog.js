@@ -1,53 +1,33 @@
-import React from 'react'
+import React from "react";
 
+import "../styles/css/style.css";
 
-
-
-import "../styles/css/style.css"
-
-import "../styles/css/animate.css" 
-import "../styles/css/bootstrap.min.css" 
-import "../styles/css/fonts.css" 
-import "../styles/css/flaticon2.css" 
-import "../styles/css/font-awesome.css" 
-import "../styles/css/fullpage.min.css" 
-import "../styles/css/demo.css" 
-import "../styles/css/owl.carousel.css" 
-import "../styles/css/owl.theme.default.css" 
-import "../styles/css/magnific-popup.css" 
-import "../styles/css/style_V.css" 
-import "../styles/css/responsive_V.css" 
-
-
+import "../styles/css/animate.css";
+import "../styles/css/bootstrap.min.css";
+import "../styles/css/fonts.css";
+import "../styles/css/flaticon2.css";
+import "../styles/css/font-awesome.css";
+import "../styles/css/fullpage.min.css";
+import "../styles/css/demo.css";
+import "../styles/css/owl.carousel.css";
+import "../styles/css/owl.theme.default.css";
+import "../styles/css/magnific-popup.css";
+import "../styles/css/style_V.css";
+import "../styles/css/responsive_V.css";
 
 export default function Homeblog() {
+  function Open() {
+    alert("HELLO");
+  }
 
-function Open(){
-
-
-alert('HELLO')
-
-
-
-}
-
-    return (
-        <div>
-            
-
-
-
-
+  return (
+    <div>
       <div>
         {/* ET top header Start */}
-       
 
-
-
-       
         {/* ET top header End */}
         {/* ck header wrapper Start */}
-        
+
         <div className="ck_slider_main_wrapper float_left">
           <div className="ck_top_life_effect" />
           <div className="ck_top_right_effect" />
@@ -55,15 +35,25 @@ alert('HELLO')
           <div className="container">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
-                <div className="ck_slider_top_content float_left" style={{
-                  marginTop : '-30vh'
-                }}>
+                <div
+                  className="ck_slider_top_content float_left"
+                  style={{
+                    marginTop: "-30vh",
+                  }}
+                >
                   <h2>The words of Feminist</h2>
                   {/* <h3>From our best <span>Curators</span></h3> */}
-                  <p>If we aren't intersectional, some of us, the most vulnerable, are going to fall through the cracks.</p>
-                <strong>-Kimberlé Williams Crenshaw</strong>
+                  <h5 style={{
+                    marginTop : '5vh',
+                    marginBottom : '2vh',
+                  }}>
+                    If we aren't intersectional, some of us, the most
+                    vulnerable, are going to fall through the cracks.
+                  </h5>
+                  <strong>-Kimberlé Williams Crenshaw</strong>
                   <ul>
-                    <li><a href="#">read more</a>
+                    <li>
+                      <a href="#">read more</a>
                     </li>
                   </ul>
                 </div>
@@ -77,7 +67,7 @@ alert('HELLO')
           </div>
         </div>
         {/* ck slider wrapper End */}
-        <div className="ck_about_main_wrapper float_left">
+        {/* <div className="ck_about_main_wrapper float_left">
           <div className="container">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -100,7 +90,7 @@ alert('HELLO')
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ck cake wrapper Start */}
         {/* <div class="ck_our_cake_wrapper float_left">
 		<div class="ck_our_cake_img_overlay"></div>
@@ -160,9 +150,14 @@ alert('HELLO')
                     <div className="et_left_img_overlay" />
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p><i>News, Delivery</i>
+                        <p>
+                          <i>News, Delivery</i>
                         </p>
-                        <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                        <div className="heart_box">
+                          {" "}
+                          <a href="#">
+                            <i className="far fa-heart" />
+                          </a>
                         </div>
                         <h4>29-Jan-2019</h4>
                       </div>
@@ -172,8 +167,14 @@ alert('HELLO')
                     <h4>News</h4>
                     <h3>Services - 2019</h3>
                     <h5>29-Jan-2019</h5>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                    <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                    <p>
+                      This is Photoshop's version of Lorem Ipsum. Proin gravida
+                      nibh vel velit auctor aliquet.
+                    </p>
+                    <h2>
+                      <a href="#">Read More</a>{" "}
+                      <i className="fa fa-angle-double-right" />{" "}
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -183,9 +184,14 @@ alert('HELLO')
                     <div className="et_left_img_overlay" />
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p><i>News, Delivery</i>
+                        <p>
+                          <i>News, Delivery</i>
                         </p>
-                        <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                        <div className="heart_box">
+                          {" "}
+                          <a href="#">
+                            <i className="far fa-heart" />
+                          </a>
                         </div>
                         <h4>29-Jan-2019</h4>
                       </div>
@@ -195,8 +201,14 @@ alert('HELLO')
                     <h4>News</h4>
                     <h3>Services - 2019</h3>
                     <h5>29-Jan-2019</h5>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                    <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                    <p>
+                      This is Photoshop's version of Lorem Ipsum. Proin gravida
+                      nibh vel velit auctor aliquet.
+                    </p>
+                    <h2>
+                      <a href="#">Read More</a>{" "}
+                      <i className="fa fa-angle-double-right" />{" "}
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -206,9 +218,14 @@ alert('HELLO')
                     <div className="et_left_img_overlay" />
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p><i>News, Delivery</i>
+                        <p>
+                          <i>News, Delivery</i>
                         </p>
-                        <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                        <div className="heart_box">
+                          {" "}
+                          <a href="#">
+                            <i className="far fa-heart" />
+                          </a>
                         </div>
                         <h4>29-Jan-2019</h4>
                       </div>
@@ -218,8 +235,14 @@ alert('HELLO')
                     <h4>News</h4>
                     <h3>Services - 2019</h3>
                     <h5>29-Jan-2019</h5>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                    <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                    <p>
+                      This is Photoshop's version of Lorem Ipsum. Proin gravida
+                      nibh vel velit auctor aliquet.
+                    </p>
+                    <h2>
+                      <a href="#">Read More</a>{" "}
+                      <i className="fa fa-angle-double-right" />{" "}
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -229,9 +252,14 @@ alert('HELLO')
                     <div className="et_left_img_overlay" />
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p><i>News, Delivery</i>
+                        <p>
+                          <i>News, Delivery</i>
                         </p>
-                        <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                        <div className="heart_box">
+                          {" "}
+                          <a href="#">
+                            <i className="far fa-heart" />
+                          </a>
                         </div>
                         <h4>29-Jan-2019</h4>
                       </div>
@@ -241,8 +269,14 @@ alert('HELLO')
                     <h4>News</h4>
                     <h3>Services - 2019</h3>
                     <h5>29-Jan-2019</h5>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                    <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                    <p>
+                      This is Photoshop's version of Lorem Ipsum. Proin gravida
+                      nibh vel velit auctor aliquet.
+                    </p>
+                    <h2>
+                      <a href="#">Read More</a>{" "}
+                      <i className="fa fa-angle-double-right" />{" "}
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -252,9 +286,14 @@ alert('HELLO')
                     <div className="et_left_img_overlay" />
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p><i>News, Delivery</i>
+                        <p>
+                          <i>News, Delivery</i>
                         </p>
-                        <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                        <div className="heart_box">
+                          {" "}
+                          <a href="#">
+                            <i className="far fa-heart" />
+                          </a>
                         </div>
                         <h4>29-Jan-2019</h4>
                       </div>
@@ -264,8 +303,14 @@ alert('HELLO')
                     <h4>News</h4>
                     <h3>Services - 2019</h3>
                     <h5>29-Jan-2019</h5>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                    <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                    <p>
+                      This is Photoshop's version of Lorem Ipsum. Proin gravida
+                      nibh vel velit auctor aliquet.
+                    </p>
+                    <h2>
+                      <a href="#">Read More</a>{" "}
+                      <i className="fa fa-angle-double-right" />{" "}
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -275,9 +320,14 @@ alert('HELLO')
                     <div className="et_left_img_overlay" />
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p><i>News, Delivery</i>
+                        <p>
+                          <i>News, Delivery</i>
                         </p>
-                        <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                        <div className="heart_box">
+                          {" "}
+                          <a href="#">
+                            <i className="far fa-heart" />
+                          </a>
                         </div>
                         <h4>29-Jan-2019</h4>
                       </div>
@@ -287,13 +337,21 @@ alert('HELLO')
                     <h4>News</h4>
                     <h3>Services - 2019</h3>
                     <h5>29-Jan-2019</h5>
-                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                    <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                    <p>
+                      This is Photoshop's version of Lorem Ipsum. Proin gravida
+                      nibh vel velit auctor aliquet.
+                    </p>
+                    <h2>
+                      <a href="#">Read More</a>{" "}
+                      <i className="fa fa-angle-double-right" />{" "}
+                    </h2>
                   </div>
                 </div>
               </div>
               <div className="col-md-12">
-                <div className="ck_new_btn ck_new_btn_bc">	<a href="#">Read More</a>
+                <div className="ck_new_btn ck_new_btn_bc">
+                  {" "}
+                  <a href="#">Read More</a>
                 </div>
               </div>
             </div>
@@ -445,16 +503,33 @@ alert('HELLO')
                       <div className="ck_team_img_wrapper float_left">
                         <img src="images/t1.png" alt="img" />
                         <div className="ck_team_img_cont_wrapper float_left">
-                          <h3><a href="#">John Smith</a></h3>
-                          <p>Currently in her fourth year in law school, gowri has been deeply interested in gender and law.....</p>
+                          <h3>
+                            <a href="#">John Smith</a>
+                          </h3>
+                          <p>
+                            Currently in her fourth year in law school, gowri
+                            has been deeply interested in gender and law.....
+                          </p>
                           <ul>
-                            <li><a href="#"><i className="fab fa-facebook-f" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-facebook-f" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-twitter" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-twitter" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-pinterest-p" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-pinterest-p" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-google-plus-g" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-google-plus-g" />
+                              </a>
                             </li>
                           </ul>
                         </div>
@@ -464,16 +539,33 @@ alert('HELLO')
                       <div className="ck_team_img_wrapper float_left">
                         <img src="images/t1.png" alt="img" />
                         <div className="ck_team_img_cont_wrapper float_left">
-                          <h3><a href="#">John Smith</a></h3>
-                          <p>Currently in her fourth year in law school, gowri has been deeply interested in gender and law.....</p>
+                          <h3>
+                            <a href="#">John Smith</a>
+                          </h3>
+                          <p>
+                            Currently in her fourth year in law school, gowri
+                            has been deeply interested in gender and law.....
+                          </p>
                           <ul>
-                            <li><a href="#"><i className="fab fa-facebook-f" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-facebook-f" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-twitter" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-twitter" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-pinterest-p" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-pinterest-p" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-google-plus-g" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-google-plus-g" />
+                              </a>
                             </li>
                           </ul>
                         </div>
@@ -483,16 +575,33 @@ alert('HELLO')
                       <div className="ck_team_img_wrapper float_left">
                         <img src="images/t1.png" alt="img" />
                         <div className="ck_team_img_cont_wrapper float_left">
-                          <h3><a href="#">John Smith</a></h3>
-                          <p>Currently in her fourth year in law school, gowri has been deeply interested in gender and law.....</p>
+                          <h3>
+                            <a href="#">John Smith</a>
+                          </h3>
+                          <p>
+                            Currently in her fourth year in law school, gowri
+                            has been deeply interested in gender and law.....
+                          </p>
                           <ul>
-                            <li><a href="#"><i className="fab fa-facebook-f" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-facebook-f" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-twitter" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-twitter" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-pinterest-p" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-pinterest-p" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-google-plus-g" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-google-plus-g" />
+                              </a>
                             </li>
                           </ul>
                         </div>
@@ -510,16 +619,33 @@ alert('HELLO')
                       <div className="ck_team_img_wrapper float_left">
                         <img src="images/t1.png" alt="img" />
                         <div className="ck_team_img_cont_wrapper float_left">
-                          <h3><a href="#">John Smith</a></h3>
-                          <p>Currently in her fourth year in law school, gowri has been deeply interested in gender and law.....</p>
+                          <h3>
+                            <a href="#">John Smith</a>
+                          </h3>
+                          <p>
+                            Currently in her fourth year in law school, gowri
+                            has been deeply interested in gender and law.....
+                          </p>
                           <ul>
-                            <li><a href="#"><i className="fab fa-facebook-f" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-facebook-f" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-twitter" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-twitter" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-pinterest-p" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-pinterest-p" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-google-plus-g" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-google-plus-g" />
+                              </a>
                             </li>
                           </ul>
                         </div>
@@ -529,16 +655,33 @@ alert('HELLO')
                       <div className="ck_team_img_wrapper float_left">
                         <img src="images/t1.png" alt="img" />
                         <div className="ck_team_img_cont_wrapper float_left">
-                          <h3><a href="#">John Smith</a></h3>
-                          <p>Currently in her fourth year in law school, gowri has been deeply interested in gender and law.....</p>
+                          <h3>
+                            <a href="#">John Smith</a>
+                          </h3>
+                          <p>
+                            Currently in her fourth year in law school, gowri
+                            has been deeply interested in gender and law.....
+                          </p>
                           <ul>
-                            <li><a href="#"><i className="fab fa-facebook-f" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-facebook-f" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-twitter" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-twitter" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-pinterest-p" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-pinterest-p" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-google-plus-g" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-google-plus-g" />
+                              </a>
                             </li>
                           </ul>
                         </div>
@@ -548,16 +691,33 @@ alert('HELLO')
                       <div className="ck_team_img_wrapper float_left">
                         <img src="images/t1.png" alt="img" />
                         <div className="ck_team_img_cont_wrapper float_left">
-                          <h3><a href="#">John Smith</a></h3>
-                          <p>Currently in her fourth year in law school, gowri has been deeply interested in gender and law.....</p>
+                          <h3>
+                            <a href="#">John Smith</a>
+                          </h3>
+                          <p>
+                            Currently in her fourth year in law school, gowri
+                            has been deeply interested in gender and law.....
+                          </p>
                           <ul>
-                            <li><a href="#"><i className="fab fa-facebook-f" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-facebook-f" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-twitter" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-twitter" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-pinterest-p" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-pinterest-p" />
+                              </a>
                             </li>
-                            <li><a href="#"><i className="fab fa-google-plus-g" /></a>
+                            <li>
+                              <a href="#">
+                                <i className="fab fa-google-plus-g" />
+                              </a>
                             </li>
                           </ul>
                         </div>
@@ -655,9 +815,14 @@ alert('HELLO')
                           <div className="et_left_img_overlay" />
                           <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <p><i>News, Delivery</i>
+                              <p>
+                                <i>News, Delivery</i>
                               </p>
-                              <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                              <div className="heart_box">
+                                {" "}
+                                <a href="#">
+                                  <i className="far fa-heart" />
+                                </a>
                               </div>
                               <h4>29-Jan-2019</h4>
                             </div>
@@ -667,8 +832,14 @@ alert('HELLO')
                           <h4>News</h4>
                           <h3>Services - 2019</h3>
                           <h5>29-Jan-2019</h5>
-                          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                          <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                          <p>
+                            This is Photoshop's version of Lorem Ipsum. Proin
+                            gravida nibh vel velit auctor aliquet.
+                          </p>
+                          <h2>
+                            <a href="#">Read More</a>{" "}
+                            <i className="fa fa-angle-double-right" />{" "}
+                          </h2>
                         </div>
                       </div>
                     </div>
@@ -678,9 +849,14 @@ alert('HELLO')
                           <div className="et_left_img_overlay" />
                           <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <p><i>News, Delivery</i>
+                              <p>
+                                <i>News, Delivery</i>
                               </p>
-                              <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                              <div className="heart_box">
+                                {" "}
+                                <a href="#">
+                                  <i className="far fa-heart" />
+                                </a>
                               </div>
                               <h4>29-Jan-2019</h4>
                             </div>
@@ -690,8 +866,14 @@ alert('HELLO')
                           <h4>News</h4>
                           <h3>Services - 2019</h3>
                           <h5>29-Jan-2019</h5>
-                          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                          <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                          <p>
+                            This is Photoshop's version of Lorem Ipsum. Proin
+                            gravida nibh vel velit auctor aliquet.
+                          </p>
+                          <h2>
+                            <a href="#">Read More</a>{" "}
+                            <i className="fa fa-angle-double-right" />{" "}
+                          </h2>
                         </div>
                       </div>
                     </div>
@@ -701,9 +883,14 @@ alert('HELLO')
                           <div className="et_left_img_overlay" />
                           <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <p><i>News, Delivery</i>
+                              <p>
+                                <i>News, Delivery</i>
                               </p>
-                              <div className="heart_box">	<a href="#"><i className="far fa-heart" /></a>
+                              <div className="heart_box">
+                                {" "}
+                                <a href="#">
+                                  <i className="far fa-heart" />
+                                </a>
                               </div>
                               <h4>29-Jan-2019</h4>
                             </div>
@@ -713,8 +900,14 @@ alert('HELLO')
                           <h4>News</h4>
                           <h3>Services - 2019</h3>
                           <h5>29-Jan-2019</h5>
-                          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-                          <h2><a href="#">Read More</a> <i className="fa fa-angle-double-right" /> </h2>
+                          <p>
+                            This is Photoshop's version of Lorem Ipsum. Proin
+                            gravida nibh vel velit auctor aliquet.
+                          </p>
+                          <h2>
+                            <a href="#">Read More</a>{" "}
+                            <i className="fa fa-angle-double-right" />{" "}
+                          </h2>
                         </div>
                       </div>
                     </div>
@@ -722,7 +915,9 @@ alert('HELLO')
                 </div>
               </div>
               <div className="col-md-12">
-                <div className="ck_offer_btn ck_service_btn ck_client_btn float_left">	<a href="#">Read More</a>
+                <div className="ck_offer_btn ck_service_btn ck_client_btn float_left">
+                  {" "}
+                  <a href="#">Read More</a>
                 </div>
               </div>
             </div>
@@ -783,7 +978,7 @@ alert('HELLO')
         <div className="ck_call_main_wrapper ">
           <div className="container">
             <div className>
-              <div className="ck_cll_icon ">	
+              <div className="ck_cll_icon ">
                 <p>Your CTA Goes here...</p>
               </div>
             </div>
@@ -794,21 +989,30 @@ alert('HELLO')
         <div className="footer_wrapper float_left">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-6 col-12 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-12 col-sm-12">
                 <div className="footer_widget footer_about_wrapper float_left">
                   <div className="wrapper_first_image">
                     <a href="index">
-                      <h2 style={{color: '#fff'}}>theifmag</h2>
+                      <h2 style={{ color: "#fff" }}>theifmag</h2>
                     </a>
                   </div>
                   <div className="abotus_content">
-                    <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.
+                    <p>
+                      Donec id elit non mi porta gravida at eget metus. Donec id
+                      elit non mi porta gravida at eget metus. Aenean lacinia
+                      bibendum nulla sed consectetur.
                       <br />
-                      <br />Vestibulum id ligula porta felis euismod semper. pharetra augue. Maecenas faucibus interdum...</p>
-                  </div> <a href="#" className="blog_read">read more <i className="fas fa-long-arrow-alt-right" /></a>
+                      <br />
+                      Vestibulum id ligula porta felis euismod semper. pharetra
+                      augue. Maecenas faucibus interdum...
+                    </p>
+                  </div>{" "}
+                  <a href="#" className="blog_read">
+                    read more <i className="fas fa-long-arrow-alt-right" />
+                  </a>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-12 col-sm-12">
+              {/* <div className="col-lg-3 col-md-6 col-12 col-sm-12">
                 <div className="footer_widget footer_blog_wrapper footer_widget3 float_left">
                   <h4>recent posts</h4>
                   <div className="ft_blog_wrapper1">
@@ -842,39 +1046,51 @@ alert('HELLO')
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-12 col-sm-12">
+              </div> */}
+              <div className="col-lg-4 col-md-6 col-12 col-sm-12">
                 <div className="footer_widget footer_useful_wrapper footer_widget2 float_left">
                   <h4>get in touch</h4>
                   <div className="contect_form_footer float_left">
-                    <input type="text" name="name" placeholder="joahn doe" /><i className="fas fa-user-alt" />
+                    <input type="text" name="name" placeholder="joahn doe" />
+                    <i className="fas fa-user-alt" />
                   </div>
                   <div className="contect_form_footer float_left">
-                    <input type="text" name="Email" placeholder="Email ID" /><i className="fas fa-comment" />
+                    <input type="text" name="Email" placeholder="Email ID" />
+                    <i className="fas fa-comment" />
                   </div>
                   <div className="contect_form_footer float_left">
-                    <textarea name="message" rows={4} placeholder="Your Message..." defaultValue={""} />
+                    <textarea
+                      name="message"
+                      rows={4}
+                      placeholder="Your Message..."
+                      defaultValue={""}
+                    />
                   </div>
-                  <div className="footer_btn float_left"> <a href="#">send message</a>
+                  <div className="footer_btn float_left">
+                    {" "}
+                    <a href="#">send message</a>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-12 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-12 col-sm-12">
                 <div className="footer_widget footer_contact_wrapper footer_widget2 float_left">
                   <h4>contact info </h4>
                   <ul>
-                    <li> <span> Santa Cruz
+                    {/* <li> <span> Santa Cruz
                         Office: </span>
                       <p><a href="#">Theifmag , 
                           9860 Mill Road, 
                           Kolar, Delhi, Noida</a>
                       </p>
-                    </li>
-                    <li> <span>phone: </span>
+                    </li> */}
+                    {/* <li> <span>phone: </span>
                       <p>+1-22222222 +1-2222222222</p>
-                    </li>
-                    <li> <span>email: </span>
-                      <p><a href="#"> theifmag@gmail.com</a>
+                    </li> */}
+                    <li>
+                      {" "}
+                      <span>email: </span>
+                      <p>
+                        <a href="#"> theifmag@gmail.com</a>
                         <br />
                       </p>
                     </li>
@@ -889,7 +1105,9 @@ alert('HELLO')
             <div className="row">
               <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                 <div className="btm_foter_box">
-                  <p>Copyright © 2020 <a href="#"> Theifmag</a> Designed and Developed by<a href="#"> The Brandwick</a>
+                  <p>
+                    Copyright © 2020 <a href="#"> Theifmag</a> Designed and
+                    Developed by<a href="#"> The Brandwick</a>
                   </p>
                 </div>
               </div>
@@ -897,53 +1115,8 @@ alert('HELLO')
           </div>
         </div>
         {/* st login wrapper Start */}
-        <div className="modal fade st_pop_form_wrapper" id="myModal" role="dialog">
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <button type="button" className="close" data-dismiss="modal">×</button>
-              <div className="st_pop_form_heading_wrapper float_left">
-                <h3>Log in</h3>
-              </div>
-              <div className="st_profile_input float_left">
-                <input type="text" placeholder="Email / Mobile Number" />
-              </div>
-              <div className="st_profile_input st_profile__pass_input_pop float_left">
-                <input type="password" placeholder="Password" />
-              </div>
-              <div className="st_form_pop_fp float_left">
-                <h3><a href="#" data-toggle="modal" data-target="#myModa2" target="_blank">Forgot Password?</a></h3>
-              </div>
-              <div className="st_form_pop_or_btn float_left">
-                <h4>or</h4>
-              </div>
-              <div className="st_form_pop_facebook_btn float_left">	<a href="#"><i className="fab fa-facebook-f" /> Connect with Facebook</a>
-              </div>
-              <div className="st_form_pop_gmail_btn float_left">	<a href="#"><i className="fab fa-google-plus-g" /> Connect with Google</a>
-              </div>
-              <div className="st_form_pop_signin_btn float_left">
-                <h4>Don’t have an account? <a href="#" data-toggle="modal" data-target="#myModa3" target="_blank">Sign Up</a></h4>
-                <h5>I agree to the <a href="#">Terms &amp; Conditions</a> &amp; <a href="#">Privacy Policy</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="modal fade st_pop_form_wrapper" id="myModa2" role="dialog">
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <button type="button" className="close" data-dismiss="modal">×</button>
-              <div className="st_pop_form_heading_wrapper st_pop_form_heading_wrapper_fpass float_left">
-                <h3>Forgot Password</h3>
-                <p>We can help! All you need to do is enter your email ID and follow the instructions!</p>
-              </div>
-              <div className="st_profile_input st_profile_input_very float_left">
-                <input type="text" placeholder="Email / Mobile Number" />
-              </div>
-              <div className="st_form_pop_fpass_btn float_left">	<a href="#">Verify</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="modal fade st_pop_form_wrapper" id="myModa3" role="dialog">
+
+        {/* <div className="modal fade st_pop_form_wrapper" id="myModa3" role="dialog">
           <div className="modal-dialog">
             <div className="modal-content">
               <button type="button" className="close" data-dismiss="modal">×</button>
@@ -971,18 +1144,8 @@ alert('HELLO')
               </div>
             </div>
           </div>
-        </div></div>
-        </div>
-        
-   
-)
-
-
-
-
-
-
-
-
+        </div> */}
+      </div>
+    </div>
+  );
 }
-

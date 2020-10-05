@@ -34,7 +34,7 @@
 
 
   .nav-menu {
-    flex: 3;
+    flex: 1.5;
     transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
   }
