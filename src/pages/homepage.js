@@ -26,9 +26,9 @@ export default function Homepage() {
         </div>
         <div className="rightcontainer">
    
-        <img src={require('../../static/assets/homepage.gif')} loading="lazy" />
+        {/* <img src={'https://images.unsplash.com/photo-1524940341013-28b7a45da417?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80'} loading="lazy" /> */}
 
-
+        <img src={'https://images.unsplash.com/photo-1579117517382-78401a144da5?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80'} loading="lazy" />
 
 
 
