@@ -2,7 +2,7 @@ $color: green;
 
 .container {
   width: 100vw;
-  background-color: #faeedd!important;
+  background-color: #fff!important;
   min-height: 90vh;
   text-align: center;
   height: auto;
@@ -117,6 +117,9 @@ $color: green;
     flex: 2;
     font-size: 1rem;
   }
+
+
+
 
   @media only screen and (max-width: 1300px) { 
 

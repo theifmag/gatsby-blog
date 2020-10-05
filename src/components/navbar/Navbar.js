@@ -1,27 +1,12 @@
 import React from 'react' ;
 import './Navbar.css'
+
 import { Link } from 'gatsby';
-import { graphql,useStaticQuery } from "gatsby"
-import ThemeChanger from '../themeChanger'
+
+class Navbar extends React.Component{
 
 
-function Navbar(){
-
-const data = useStaticQuery(graphql`
-
-query{
-  
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  } `)
-
-  const data2 = data.site.siteMetadata ;
-
-
-const openMenu = () =>{
+openMenu = () =>{
 
   var navmenu = document.getElementById('navmenu') ;
   var hamburger = document.getElementById('burger') ;
@@ -29,33 +14,73 @@ const openMenu = () =>{
   navmenu.classList.toggle('open') ;
 }
 
+closeMenu = () =>{
+
+  var navmenu = document.getElementById('navmenu') ;
+  var hamburger = document.getElementById('burger') ;
+  hamburger.classList.toggle('hamburger-open') ;
+  navmenu.classList.toggle('open') ;
+}
+
+
+render(){
     return (
-      <nav>
-        <div className="logo-div"><a href="/"> MyBlog</a></div>
+      <nav style={{position : 'relative' , zIndex : 99 , top : 0 ,}} className="my-nav">
+        <div className="logo-div"><Link to="/">
+          
+          <img src={require('../../images/logo-main.png')} 
+          style={{
+            width : '90px'
+          }}/>
+          
+          </Link></div>
         <div className="nav-menu" id="navmenu">
           <ul>
-          
-          <li>
-            <Link to='/'>Home</Link>
-          </li>
-          <li>
-            <Link to='/about'>About </Link>
-          </li>
+            <li>
+              <Link to='/'> Home</Link>
+            </li>
 
             <li>
-              <Link to="/bloglist">Blog</Link>
+              <Link to="/about" onClick={this.closeMenu}>About</Link>
             </li>
+
+         
+
+
+            <li>
+              <Link to='/bloglist'>Explore </Link>
+            </li>
+
+
+            <li>
+              <Link to='/bloglist'>Series</Link>
+            </li>
+
+               {/* <li>
+              <Link to='/bloglist'>Opinions & Stories</Link>
+            </li> */}
+
+            {/* <li>
+              <Link to='/bloglist'>Series</Link>
+            </li> */}
+
+            <li>
+              <Link to='/bloglist'>Get Involved</Link>
+            </li>
+
+          
             <li>
             <Link to="/contact">Contact</Link>
             </li>
-            {/* <li>
-              <ThemeChanger />
-            </li> */}
+
+
+
+
 
           </ul>
         </div>
 
-        <div className="hamburger" id="burger" onClick={openMenu}>
+        <div className="hamburger-2" id="burger" onClick={this.openMenu}>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
@@ -64,6 +89,6 @@ const openMenu = () =>{
     );
 }
 
-
+}
 
 export default Navbar ;

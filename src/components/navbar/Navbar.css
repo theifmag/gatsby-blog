@@ -1,25 +1,26 @@
-nav {
+.my-nav{
     display: flex;
-    background-color: #faeedd!important;
-    font-size: 2rem;
+    background-color: white ;
     align-items: center;
     height: 10vh;
     animation-name: animation-opcaity ;
-    animation-duration: 1.2s;
+    animation-duration: 1.7s;
     animation-fill-mode: forwards;
     opacity: 0;
-    /* animation-delay: 0.2s; */
-    font-size: 10px;
-   width: 100vw;
-   overflow: hidden;
-   box-sizing: border-box;
+    animation-delay: 0.5s;
+    font-size: 20px;
+   width: 100%;
     cursor: pointer;
-    
     
   }
   
+
+.hamburger-2{
+  display: none;
+}
+
   .logo-div {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-left: 5vw;
     flex: 1;
@@ -33,7 +34,7 @@ nav {
 
 
   .nav-menu {
-    flex: 1;
+    flex: 1.5;
     transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
   }
@@ -42,8 +43,7 @@ nav {
   .nav-menu ul {
     display: flex;
     justify-content: space-around;
-margin-block-end: 0;
-margin-block-start: 0;
+    margin-bottom: 0;
   }
   
   nav ul li {
@@ -53,13 +53,11 @@ margin-block-start: 0;
   nav ul li a {
     text-decoration: none;
     color: #565454;
-    font-size: 1.4rem;
   }
   
   nav ul li a:hover{
-   color : #381696 ; 
+   color : #FF4A78 ; 
    transition: all 0.5s ease-in-out;
-   text-decoration: line-through;
   }
   
   @media screen and (max-width: 1200px) {
@@ -69,11 +67,7 @@ margin-block-start: 0;
   }
   
   @media screen and (max-width: 800px) {
-    nav{
-      font-size: 24px;
-    }
-
-    .hamburger{
+    .hamburger-2{
       position: relative;
       display: inline;
       z-index: 99;
@@ -82,17 +76,18 @@ margin-block-start: 0;
   }
   
   .nav-menu{
-    height: 100vh;
+    height: 108vh;
     position: absolute;
     opacity: 0;
+    left: 0;
     top: 10vh;
-    /* background-color: #8432C1; */
+    background-color: #ee4c7c;
     clip-path: circle(5vh at 90% -10%);
     -webkit-clip-path : circle(5vh at 90% -10%);
     width: 100%;
     transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
-    z-index: 99;
+    z-index: 98 !important;
   }
   
   .line{
@@ -110,8 +105,8 @@ margin-block-start: 0;
     opacity: 1;
     -webkit-transition: all 1.2s ease-in-out;
     position: absolute;
-    z-index: 99;
-    background-color: #381696;
+    top: 10vh;
+    z-index: 99 !important;
   }
   
   
@@ -139,6 +134,7 @@ margin-block-start: 0;
     }
    .nav-menu ul li a{
      color: white;
+     font-size: 32px;
    }
   }
   
