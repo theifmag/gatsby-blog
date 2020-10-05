@@ -231,11 +231,14 @@ export default function about() {
                     Mahima Meenaxi is a 22 year old, hailing from Bengaluru and
                     is currently pursuing her fifth year of BA LLB course. As
                     feminist and an advocate of labour rights, she believes that
-                    gender discrimination is a result of deep rooted class
-                    discrimination.
+                    gender discrimination is a
                   </p>
 
                   <div id="demo4" class="collapse">
+                  
+                    a result of deep rooted class
+                    discrimination.
+                    <br />
                     <br />
                     She also believes that gender justice is impossible to
                     achieve without the ideological spread of intersectional
@@ -283,7 +286,9 @@ export default function about() {
                     consultant at Accenture.
                   </p>
 
+                  <br />
                   <div id="demo5" class="collapse">
+
                     She is a feminist who believes that feminism does not belong
                     to just one gender. Her idea of feminism transcends labels
                     of causes pertaining to any single sphere of the society and
@@ -359,7 +364,7 @@ export default function about() {
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <h5 class="card-title"> Raagni Malhotra</h5>
+                  <h5 class="card-title"> Tanisha Sudarshan</h5>
                   <p class="card-text">
                     Tanisha Sudarshan is an aspiring lawyer with keen interest
                     in human rights, sustainable development and policy.
