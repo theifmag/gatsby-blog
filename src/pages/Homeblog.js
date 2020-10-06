@@ -13,8 +13,9 @@ import "../styles/css/owl.theme.default.css";
 import "../styles/css/magnific-popup.css";
 import "../styles/css/style_V.css";
 import "../styles/css/responsive_V.css";
+import {Link } from 'gatsby'
 
-export default function homeblog() {
+export default function Homeblog(props) {
 
   return (
     <div>
@@ -24,7 +25,7 @@ export default function homeblog() {
         {/* ET top header End */}
         {/* ck header wrapper Start */}
 
-        <div className="ck_slider_main_wrapper float_left">
+        {/* <div className="ck_slider_main_wrapper float_left" >
           <div className="ck_top_life_effect" />
           <div className="ck_top_right_effect" />
           <div className="ck_bot_life_effect" />
@@ -38,7 +39,7 @@ export default function homeblog() {
                   }}
                 >
                   <h2>The words of Feminist</h2>
-                  {/* <h3>From our best <span>Curators</span></h3> */}
+                  <h3>From our best <span>Curators</span></h3> 
                   <h5 style={{
                     marginTop : '5vh',
                     marginBottom : '2vh',
@@ -61,7 +62,45 @@ export default function homeblog() {
               </div>
             </div>
           </div>
+        </div> */}
+
+
+
+<div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-12"  style={{
+                    marginTop: "20vh",
+                    paddingLeft : '5vw'
+                  }}>
+          <h2 style={{
+                fontSize: '30px',
+                color: '#ee4c7c',
+                fontFamily: 'Bad Script',
+          }}>The words of Feminist</h2>
+                  {/* <h3>From our best <span>Curators</span></h3>  */}
+                  <h5 style={{
+                    marginTop : '5vh',
+                    marginBottom : '2vh',
+                  }}>
+                    If we aren't intersectional, some of us, the most
+                    vulnerable, are going to fall through the cracks.
+                  </h5>
+                  <strong>-Kimberlé Williams Crenshaw</strong>
+                  <ul>
+                    <li> 
+                    <div className="ck_new_btn ">
+                 
+                 <a href="#">Read More</a>
+               </div>
+                    </li>
+                  </ul>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+          <img src="images/header_ladi.png" alt="img" />
+          </div>
         </div>
+</div>
+
         {/* ck slider wrapper End */}
         {/* <div className="ck_about_main_wrapper float_left">
           <div className="container">
@@ -353,7 +392,7 @@ export default function homeblog() {
               </div>
               <div className="col-md-12">
                 <div className="ck_new_btn ck_new_btn_bc">
-                  {" "}
+                 
                   <a href="#">Read More</a>
                 </div>
               </div>

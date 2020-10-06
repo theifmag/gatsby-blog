@@ -1,12 +1,14 @@
 import React from "react";
 import "../styles/homepage.css";
-import navbar from '../components/navbar/navbar'
 import Helmet from "react-helmet";
-import layout from "../components/layout";
-import homeblog from "./homeblog";
 
 
-export default function homepage() {
+import Layout from '../components/layout';
+import Navbar from '../components/navbar/navbar'
+import Homeblog from './homeblog'
+
+
+export default function Homepage(props) {
   return (
     <Layout>
       <Helmet>
@@ -17,15 +19,15 @@ export default function homepage() {
         />
       </Helmet>
 
-      
-      <navbar />
+{/* <h2>Hello</h2> */}
 
-      <div
-        style={{
-          marginTop: "2vh",
-        }}
-      >
-        <homeblog />
+<Navbar />
+
+      
+
+<div>
+        <Homeblog />
+       
       </div>
     </Layout>
   );

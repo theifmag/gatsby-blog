@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function layout(props) {
+export default function Layout(props) {
     return (
         <div>
        
