@@ -15,7 +15,7 @@ export default function Homepage(props) {
         <title>The IfMag</title>
         <meta
           name="description"
-          content={"Myblog The Best Blogs on every topic"}
+          content={"The IfMag The Best Blogs on every topic"}
         />
       </Helmet>
 
