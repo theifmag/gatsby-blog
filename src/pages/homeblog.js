@@ -96,7 +96,7 @@ const Homeblog = (props) =>{
                   </ul>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
-          <img src="images/header_ladi.png" alt="img" />
+          <img src={require('../images/header_ladi.png')} alt="img" />
           </div>
         </div>
 </div>
