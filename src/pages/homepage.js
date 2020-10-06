@@ -19,7 +19,7 @@ export default function Homepage(props) {
         />
       </Helmet>
 
-{/* <h2>Hello</h2> */}
+
 
 <Navbar />
 

@@ -7,7 +7,7 @@ export default function About(props) {
   return (
     <Layout>
       <Helmet>
-        <title>MyBlog || About Us</title>
+        <title>The IfMag || About Us</title>
         <meta name="description" content={"About us page of Myblog"} />
       </Helmet>
       <Navbar />
@@ -122,6 +122,7 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo"
+                    
                   >
                     Read More
                   </button>

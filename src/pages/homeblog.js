@@ -15,7 +15,7 @@ import "../styles/css/style_V.css";
 import "../styles/css/responsive_V.css";
 import {Link } from 'gatsby'
 
-export default function Homeblog(props) {
+const Homeblog = (props) =>{
 
   return (
     <div>
@@ -1195,3 +1195,5 @@ export default function Homeblog(props) {
     </div>
   )
 }
+
+export default Homeblog ;

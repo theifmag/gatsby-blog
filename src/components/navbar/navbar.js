@@ -3,7 +3,7 @@ import "./navbar.css";
 
 import { Link } from "gatsby";
 
-export default function Navbar(props) {
+const Navbar = (props) =>{
 
   function openMenu() {
     var navmenu2 = document.getElementById("navmenu");
@@ -136,5 +136,7 @@ export default function Navbar(props) {
         </div>
       </nav>
     </div>
-  );
+  )
 }
+
+export default  Navbar ;
