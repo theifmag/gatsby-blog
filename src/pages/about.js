@@ -22,7 +22,7 @@ export default function About(props) {
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="ck_about_img_wrapper float_left">
-                  <img src="images/ice8.png" alt="img" />
+                  <img src={require('../images/ice8.png')} alt="img" />
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
