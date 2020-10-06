@@ -35,47 +35,46 @@ const PostLink = ({ post }) => (
 //     </header> 
 //   </article>
 
-<div>
 
 
 
-
-
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 " style={{
-            maxWidth : '45vw',
-            display : 'inline-block'
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 " >
+                <div className="et_left_news_wrapper " style={{
+            display : 'inline-block',
+            border: '1px solid #00000046',
+            margin: '5px 10px',
+            marginBottom : '5vh'
           }}>
-                <div className="et_left_news_wrapper">
-                  <div className="et_left_img_news2">
-                    <div className="et_left_img_overlay"  
+                  <div className="row">
+                    <div className="col-lg-6 col-md-6 col-sm-12" style={{
+                        backgroundImage: `url(${post.frontmatter.thumbnail})`,
+                        backgroundSize : 'cover',
+                        backgroundRepeat: 'no-repeat',
+                        width:'100%'
+                      }} >
+                      <div className="et_left_img_news2" >
+                     
+
+                    {/* <img src={post.frontmatter.thumbnail} 
                     style={{
-                      backgroundImage: `url(${post.frontmatter.thumbnail})`,
-                      backgroundSize : 'contain'
-                    }}
-                    />
-                   
-                   {/* <img src={post.frontmatter.thumbnail} 
-                   style={{
-                     objectFit : 'cover',
-                    height : '100%',
-                    width : '100%'
-                   }}/> */}
-                      <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p>
-                          <i>News, Delivery</i>
-                        </p>
-                        <div className="heart_box">
-                        
-                          <a href="#">
-                            <i className="far fa-heart" />
-                          </a>
+                      objectFit : 'cover',
+                      height : '100%',
+                      width : '100%'
+                    }}/> */}
+                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          
+                          {/* <h4>29-Jan-2019</h4> */}
                         </div>
-                        {/* <h4>29-Jan-2019</h4> */}
-                      </div>
-                   
-                  </div>
-                  <div className="et_left_cont_news" style={{
+                    
+                    </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="et_left_cont_news" style={{
                     textAlign : 'left',
+                    width: '100%',
+                    border:'none',
+                    padding:'10px 5px'
+
                     
                   }}>
                     <h4>News</h4>
@@ -86,7 +85,13 @@ const PostLink = ({ post }) => (
                       <Link to={post.frontmatter.path}>Read More</Link>
                       <i className="fa fa-angle-double-right" />
                     </h2>
+
+                    <h5>Written By : {post.frontmatter.author}</h5>
                   </div>
+                    </div>
+                  
+                  
+                </div>
                 </div>
               </div>
 
@@ -97,7 +102,6 @@ const PostLink = ({ post }) => (
 
 
 
-</div>
 
 );
 export default PostLink

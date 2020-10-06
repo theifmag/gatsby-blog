@@ -2828,11 +2828,9 @@ padding-top:25px;
 	float:left;
 }
 .et_left_img_news2{
-	background: url('../images/blog2.jpg') 50% 0 repeat-y;
+    background-image: none;
 	width:50%;
 	    min-height: 267px;
-	background-position:center 0;
-	background-size:cover;
 	position:relative;
 	float:left;
 }
