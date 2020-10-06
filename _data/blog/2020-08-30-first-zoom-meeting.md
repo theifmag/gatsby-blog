@@ -2,7 +2,7 @@
 template: BlogPost
 path: /zoommeeting
 date: 2020-08-30T16:51:21.305Z
-title: First zoom meeting
+title: Changed the title bro
 metaDescription: THis is my first blog
 thumbnail: /assets/755729.jpg
 author: Pranjal Doorwar
