@@ -83,21 +83,12 @@ const PostLink = ({ post }) => (
                     <h5>{post.frontmatter.date}</h5>
                     
                     <h2>
-                      <a href="#">Read More</a>
+                      <Link to={post.frontmatter.path}>Read More</Link>
                       <i className="fa fa-angle-double-right" />
                     </h2>
                   </div>
                 </div>
               </div>
-
-
-
-
-
-
-
-
-
 
 
 

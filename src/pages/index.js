@@ -17,7 +17,7 @@ import { graphql } from "gatsby";
 
 
 
-import Homepage from "./Homepage";
+import Homepage from "../pages/Homepage";
 
 const IndexPage = () => {
   return (
