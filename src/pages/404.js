@@ -47,7 +47,7 @@ const notFound = () => {
 }} /> */}
 
         
-        <p> <strong>Either you are in a wrong page or you have lost.
+        <p> <strong>Either you are in a wrong page or you have lost.Don't Panic.
         </strong>   </p> 
                 <button
         
