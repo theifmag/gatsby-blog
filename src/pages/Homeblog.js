@@ -16,9 +16,6 @@ import "../styles/css/style_V.css";
 import "../styles/css/responsive_V.css";
 
 export default function homeblog() {
-  function Open() {
-    alert("HELLO");
-  }
 
   return (
     <div>
