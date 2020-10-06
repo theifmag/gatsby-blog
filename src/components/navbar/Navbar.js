@@ -1,6 +1,6 @@
 import React from 'react' ;
 import './Navbar.css'
-
+import topbanner from '../topbanner' ;
 import { Link } from 'gatsby';
 
 class Navbar extends React.Component{
@@ -14,17 +14,13 @@ openMenu = () =>{
   navmenu.classList.toggle('open') ;
 }
 
-closeMenu = () =>{
-
-  var navmenu = document.getElementById('navmenu') ;
-  var hamburger = document.getElementById('burger') ;
-  hamburger.classList.toggle('hamburger-open') ;
-  navmenu.classList.toggle('open') ;
-}
 
 
 render(){
     return (
+<div>
+<topbanner />
+
       <nav style={{position : 'relative' , zIndex : 99 , top : 0 ,}} className="my-nav">
         <div className="logo-div"><Link to="/">
           
@@ -41,7 +37,7 @@ render(){
             </li>
 
             <li>
-              <Link to="/about" onClick={this.closeMenu}>About</Link>
+              <Link to="/about" onClick={this.openMenu}>About</Link>
             </li>
 
          
@@ -86,6 +82,7 @@ render(){
           <div className="line"></div>
         </div>
       </nav>
+      </div>
     );
 }
 
