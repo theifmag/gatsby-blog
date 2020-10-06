@@ -1,7 +1,6 @@
 import React from "react";
 
 import "../styles/css/style.css";
-
 import "../styles/css/animate.css";
 import "../styles/css/bootstrap.min.css";
 import "../styles/css/fonts.css";
@@ -1155,5 +1154,5 @@ export default function homeblog() {
         </div> */}
       </div>
     </div>
-  );
+  )
 }

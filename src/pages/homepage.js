@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/homepage.css";
-import Navbar from "../components/navbar/Navbar";
+import navbar from '../components/navbar/navbar'
 import Helmet from "react-helmet";
 import layout from "../components/layout";
 import homeblog from "./homeblog";
@@ -17,15 +17,15 @@ export default function homepage() {
         />
       </Helmet>
 
-      <Topbanner />
-      <Navbar />
+      
+      <navbar />
 
       <div
         style={{
           marginTop: "2vh",
         }}
       >
-        <Homeblog />
+        <homeblog />
       </div>
     </Layout>
   );

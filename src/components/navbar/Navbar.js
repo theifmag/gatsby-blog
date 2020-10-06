@@ -135,6 +135,3 @@ openMenu = () =>{
     );
 }
 
-
-
-export default Navbar ;
