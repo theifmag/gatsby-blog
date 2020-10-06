@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from 'react-helmet';
 import Layout from "../components/layout"
 import { Link } from "gatsby";
-import Navbar from '../components/navbar/Navbar'
+import Navbar from '../components/navbar/navbar'
 
 const notFound = () => {
   return (
