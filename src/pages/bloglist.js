@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import PostLink from "../components/post-link";
-import Navbar from "../components/navbar/Navbar";
+import Navbar from "../components/navbar/navbar";
 import blogStyles from "../styles/blogStyles.module.scss";
 
 const BlogList = ({

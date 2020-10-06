@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import Navbar from '../components/navbar/Navbar'
+import Navbar from '../components/navbar/navbar'
 import contactStyles from '../styles/contactStyles.module.scss'
 
 const ContactPage = ({
