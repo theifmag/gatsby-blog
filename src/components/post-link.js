@@ -50,7 +50,8 @@ const PostLink = ({ post }) => (
                         backgroundImage: `url(${post.frontmatter.thumbnail})`,
                         backgroundSize : 'cover',
                         backgroundRepeat: 'no-repeat',
-                        width:'100%'
+                        width:'100%',
+                        overflow: 'hidden',
                       }} >
                       <div className="et_left_img_news2" >
                      
@@ -77,7 +78,7 @@ const PostLink = ({ post }) => (
 
                     
                   }}>
-                    <h4>News</h4>
+                    <h4>{post.frontmatter.category}</h4>
                   <h2 >{post.frontmatter.title}</h2>
                     <h5>{post.frontmatter.date}</h5>
                     

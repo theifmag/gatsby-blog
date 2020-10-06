@@ -52,7 +52,7 @@ export const pageQuery = graphql`
             title
             thumbnail
             author
-            
+            category
           }
         }
       }
