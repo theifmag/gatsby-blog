@@ -73,9 +73,9 @@ collections:
           config:
             multiple: false
       - {name: author, label: author, widget: string}     
-      - label: "category"
-        name: "category"
-        widget: "select"
+      - label: category
+        name: category
+        widget: select
         options: ["Justice & law","Politics","Health","Economy","Education","Arts & Media","Environment","Violence & Harrasement","Casteism","Colorism & Racism","Sports"]
       - { name: body, label: Body, widget: markdown }
      
