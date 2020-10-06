@@ -1982,7 +1982,9 @@ padding-top:25px;
 	background-size:cover;
 	width:100%;
 	position:relative;
-	padding-top:40px;
+    padding-top:40px;
+    height: 100vh;
+    background-color: red;
 	box-shadow:8px 0 20px rgba(0,0,0,0.09);
 }
 .ck_slider_top_content h2{
@@ -3086,3 +3088,10 @@ padding-top:25px;
     display:none;
 }
 /*--- cll wrapper End -------*/
+
+
+
+
+
+
+

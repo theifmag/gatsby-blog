@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Navbar from "../components/navbar/Navbar";
 import Helmet from "react-helmet";
 
-export default function about() {
+export default function About(props) {
   return (
     <Layout>
       <Helmet>
