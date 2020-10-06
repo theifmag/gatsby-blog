@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 import Layout from "../components/layout";
 
 import Homeblog from "./Homeblog";
-import Topbanner from '../components/Topbanner'
+import Topbanner from "../components/Topbanner";
 
 export default function Homepage() {
   return (
@@ -18,10 +18,8 @@ export default function Homepage() {
         />
       </Helmet>
 
-
-<Topbanner />
-<Navbar />
-     
+      <Topbanner />
+      <Navbar />
 
       <div
         style={{

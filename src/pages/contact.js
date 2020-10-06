@@ -32,8 +32,10 @@ const ContactPage = ({
         <div className={contactStyles.innerContainer}>
           <div className={contactStyles.leftContainer}>
 
-            <h3 className={contactStyles.formHeading}>Drop us a message....</h3>
-            <form className={contactStyles.form}>
+            <h3 className={contactStyles.formHeading}>Drop us a message....</h3 >
+            <form className={contactStyles.form} style={{
+              marginTop : '5vh'
+            }}>
               <input placeholder="First Name" type="text" className={contactStyles.formInput} />
               <input placeholder="youremail@gmail.com" type="email" className={contactStyles.formInput} />
               <input placeholder="your Message ..." type="textarea" className={contactStyles.formInput} />
