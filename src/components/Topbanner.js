@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Topbanner() {
+export default function topbanner() {
     return (
         <div>
              <div className="et_top_header_wrapper">

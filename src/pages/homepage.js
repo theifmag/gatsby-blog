@@ -2,12 +2,11 @@ import React from "react";
 import "../styles/homepage.css";
 import Navbar from "../components/navbar/Navbar";
 import Helmet from "react-helmet";
-import Layout from "../components/layout";
+import layout from "../components/layout";
+import homeblog from "./homeblog";
 
-import Homeblog from "./Homeblog";
-import Topbanner from "../components/Topbanner";
 
-export default function Homepage() {
+export default function homepage() {
   return (
     <Layout>
       <Helmet>
