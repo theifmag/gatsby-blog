@@ -76,15 +76,15 @@ const Homeblog = (props) =>{
                 fontSize: '30px',
                 color: '#ee4c7c',
                 fontFamily: 'Bad Script',
-          }}>The words of Feminist</h2>
+          }}> </h2>
                   {/* <h3>From our best <span>Curators</span></h3>  */}
-                  <h5 style={{
+                  <h4 style={{
                     marginTop : '5vh',
                     marginBottom : '2vh',
                   }}>
                     If we aren't intersectional, some of us, the most
                     vulnerable, are going to fall through the cracks.
-                  </h5>
+                  </h4>
                   <strong>-Kimberlé Williams Crenshaw</strong>
                   <ul>
                     <li> 

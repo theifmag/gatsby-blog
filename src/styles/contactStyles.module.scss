@@ -10,11 +10,14 @@
     margin-right: auto;
     overflow: hidden;
     align-items: center;
+    justify-content: center;
+ background-size: cover;
+ background-color: lightcoral;
   
   }
 
 .imageContainer img{
-    object-fit: contain;
+    object-fit: cover;
 }
 
   .innerContainer {
@@ -163,3 +166,12 @@ align-content: flex-end;
 }
 
 /* 1200 px is the starting of ipad and mobile phone */
+
+
+.iconBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  padding-right: 10%;
+}

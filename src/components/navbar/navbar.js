@@ -14,9 +14,7 @@ const Navbar = (props) =>{
 
   return (
     <div>
-     
-
-     <div className="et_top_header_wrapper">
+      <div className="et_top_header_wrapper">
         <div
           className="container-fluid"
           style={{
@@ -29,12 +27,17 @@ const Navbar = (props) =>{
               <div className="et_left_side_warpper">
                 <div className="et_top_contect">
                   <p>
-                    <i className="fa fa-envelope" />{" "}
-                    <a href="#">Email@example.com</a>
+                    <i
+                      className="fa fa-envelope"
+                      style={{
+                        color: "gray",
+                      }}
+                    />
+                    <a href="#">Email : theifmag@gmail.com</a>
                   </p>
-                  <p className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                  {/* <p className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
                     <i className="fa fa-phone" /> +123456789
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -47,17 +50,17 @@ const Navbar = (props) =>{
                         <ul>
                           <li>
                             <a href="#">
-                              <i className="fab fa-facebook-square" />
+                              <i className="fab fa-facebook" />
                             </a>
                           </li>
                           <li>
                             <a href="#">
-                              <i className="fab fa-twitter-square" />
+                              <i className="fab fa-twitter" />
                             </a>
                           </li>
                           <li>
                             <a href="#">
-                              <i className="fab fa-pinterest-square" />
+                              <i class="fab fa-linkedin" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li>
@@ -75,7 +78,6 @@ const Navbar = (props) =>{
           </div>
         </div>
       </div>
-
 
       <nav
         style={{ position: "relative", zIndex: 99, top: 0 }}
@@ -98,13 +100,58 @@ const Navbar = (props) =>{
             </li>
 
             <li>
-              <Link to="/about" >
-                About
-              </Link>
+              <Link to="/about">About</Link>
             </li>
 
             <li>
-              <Link to="/bloglist">Explore </Link>
+              <div class="dropdown">
+                <a
+                  class="btn btn-secondary dropdown-toggle dropdown-menu-pd"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  
+                >
+                  Explore
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">
+                  Justice & law
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Politics
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Health
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Economy
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Education
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Arts & Media
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Environment
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Violence & Harrasement
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Casteism
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Colorism & Racism
+                  </a>
+                  <a class="dropdown-item" href="#">
+                  Sports
+                  </a>
+                </div>
+              </div>
             </li>
 
             <li>
@@ -129,14 +176,14 @@ const Navbar = (props) =>{
           </ul>
         </div>
 
-        <div className="hamburger-2" id="burger" onClick={()=>openMenu()}>
+        <div className="hamburger-2" id="burger" onClick={() => openMenu()}>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
 export default  Navbar ;

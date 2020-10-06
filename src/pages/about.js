@@ -28,8 +28,8 @@ export default function About(props) {
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
                 <div className="ck_about_img_cont_wrapper float_left">
                   <div className="ck_heading_wrapper ck_heading_wrapper2">
-                    <h4>what we offer</h4>
-                    <h3>Who we are?</h3>
+                    {/* <h4>what we offer</h4> */}
+                    <h3>About Us</h3>
                   </div>
                   <p>
                     IF is a pioneer online magazine dedicated exclusively to
@@ -97,7 +97,7 @@ export default function About(props) {
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Amrita</h5>
+                  <h5 class="card-title">Amrita S. Nair</h5>
                   <p class="card-text">
                     Amrita S. Nair is the Founder of The Intersectional
                     Feminist, The Silent Sexism Project and a Final Year Law
@@ -143,7 +143,7 @@ export default function About(props) {
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Astha</h5>
+                  <h5 class="card-title">Astha Chhabra</h5>
                   <p class="card-text">
                     Astha is a budding engineer by profession who always found
                     herself inclined towards writing. A keen interest to speak
@@ -185,7 +185,7 @@ export default function About(props) {
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Gowri</h5>
+                  <h5 class="card-title">Gowri R.</h5>
                   <p class="card-text">
                     Currently in her fourth year in law school, gowri has been
                     deeply interested in gender and law. Having closely worked
@@ -331,9 +331,9 @@ export default function About(props) {
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <h5 class="card-title"> Parinishta.T</h5>
+                  <h5 class="card-title"> Parinishta T.</h5>
                   <p class="card-text">
-                    Parinishta.T is a Communication and media studies graduate
+                    Parinishta T. is a Communication and media studies graduate
                     and currently works as an Online Media Executive. She
                     believes in creating and consuming media responsibly having
                     studied its effects first hand.

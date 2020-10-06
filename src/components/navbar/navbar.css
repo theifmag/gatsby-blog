@@ -59,6 +59,22 @@
    color : #FF4A78 ; 
    transition: all 0.5s ease-in-out;
   }
+
+
+  #dropdownMenuButton{
+background-color: transparent;
+color: #565454;
+font-size: 18px;
+padding: 0;
+border: none;
+}
+
+
+
+
+
+
+  
   
   @media screen and (max-width: 1200px) {
     .nav-menu{
@@ -136,6 +152,19 @@
      color: white;
      font-size: 32px;
    }
+
+#dropdownMenuButton{
+  background-color: transparent;
+  border: 0;
+  color : white;
+}
+
+
+.dropdown-item a{
+  color: #565454;
+}
+
+
   }
   
 

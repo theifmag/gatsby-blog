@@ -25,7 +25,7 @@ const ContactPage = ({
 
 
         <div className={contactStyles.imageContainer}>
-          <img src='https://bridge283.qodeinteractive.com/wp-content/uploads/2019/11/p2-img-01.jpg' />
+          <img src='https://image.freepik.com/free-vector/protesting-women-fighting-rights_74855-7830.jpg' />
         </div>
 
 
@@ -47,14 +47,41 @@ const ContactPage = ({
 
                 <div className={contactStyles.textSection}>
                   <h4 className={contactStyles.textHeading}>Email</h4>
-                  <h6 className={contactStyles.textInnerText}> sarrah25@gmail.com</h6>
-                  <h6 className={contactStyles.textInnerText}>myblog@example.com</h6>
+                  <h6 className={contactStyles.textInnerText}>theifmag@gmail.com</h6>
+                  {/* <h6 className={contactStyles.textInnerText}>myblog@example.com</h6> */}
                 </div>
                 
                 <div className={contactStyles.textSection}>
-                  <h4 className={contactStyles.textHeading}>ADDRESS</h4>
-                  <h6 className={contactStyles.textInnerText}> 106 Malad East,Mumbai</h6>
-                  <h6 className={contactStyles.textInnerText}>Tel: +91 94322-05222</h6>
+                  <h4 className={contactStyles.textHeading}>Social Media</h4>
+                  <h5 className={contactStyles.iconBox}>
+                  
+                            <a href="#" style={{
+                              flex : '1'
+                            }}>
+                              <i className="fab fa-facebook" />
+                            </a>
+                        
+                            <a href="#" style={{
+                              flex : '1'
+                            }}>
+                              <i className="fab fa-twitter" />
+                            </a>
+                        
+                       
+                            <a href="#" style={{
+                              flex : '1'
+                            }}>
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                       
+                            <a href="#" style={{
+                              flex : '1'
+                            }}>
+                              <i className="fab fa-instagram" />
+                            </a>
+                        
+                  </h5>
+                  
                 </div>
 
 
