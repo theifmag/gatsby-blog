@@ -15,8 +15,6 @@ openMenu = () =>{
 }
 
 
-
-render(){
     return (
 <div>
 
@@ -137,6 +135,6 @@ render(){
     );
 }
 
-}
+
 
 export default Navbar ;
