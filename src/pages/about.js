@@ -122,6 +122,7 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo"
+                    
                   >
                     Read More
                   </button>
