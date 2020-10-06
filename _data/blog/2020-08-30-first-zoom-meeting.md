@@ -4,10 +4,11 @@ path: /zoommeeting
 date: 2020-08-30T16:51:21.305Z
 title: First zoom meeting
 metaDescription: THis is my first blog
-thumbnail: /assets/2024780.jpg
+thumbnail: /assets/755729.jpg
 author: Pranjal Doorwar
+category: Sports
 ---
-![](/assets/404.png)
+![]()
 
 # No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister.
 
