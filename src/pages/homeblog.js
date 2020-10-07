@@ -13,9 +13,9 @@ import "../styles/css/owl.theme.default.css";
 import "../styles/css/magnific-popup.css";
 import "../styles/css/style_V.css";
 import "../styles/css/responsive_V.css";
-import {Link } from 'gatsby'
+import { Link } from 'gatsby'
 
-const Homeblog = (props) =>{
+const Homeblog = (props) => {
 
   return (
     <div>
@@ -64,42 +64,48 @@ const Homeblog = (props) =>{
           </div>
         </div> */}
 
-
-
-<div className="container-fluid">
-        <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12"  style={{
-                    marginTop: "20vh",
-                    paddingLeft : '5vw'
-                  }}>
-          <h2 style={{
-                fontSize: '30px',
-                color: '#ee4c7c',
-                fontFamily: 'Bad Script',
-          }}> </h2>
-                  {/* <h3>From our best <span>Curators</span></h3>  */}
-                  <h4 style={{
-                    marginTop : '5vh',
-                    marginBottom : '2vh',
-                  }}>
-                    If we aren't intersectional, some of us, the most
-                    vulnerable, are going to fall through the cracks.
-                  </h4>
-                  <strong>-Kimberlé Williams Crenshaw</strong>
-                  <ul>
-                    <li> 
-                    <div className="ck_new_btn ">
-                 
-                 <a href="#">Read More</a>
-               </div>
-                    </li>
-                  </ul>
-          </div>
-          <div className="col-lg-6 col-md-6 col-sm-12">
-          <img src={require('../images/header_ladi.png')} alt="img" />
+        <div className="container-fluid">
+          <div className="row">
+            <div
+              className="col-lg-6 col-md-6 col-sm-12"
+              style={{
+                marginTop: "20vh",
+                paddingLeft: "5vw",
+              }}
+            >
+              <h2
+                style={{
+                  fontSize: "30px",
+                  color: "#ee4c7c",
+                  fontFamily: "Bad Script",
+                }}
+              >
+                {" "}
+              </h2>
+              {/* <h3>From our best <span>Curators</span></h3>  */}
+              <h4
+                style={{
+                  marginTop: "5vh",
+                  marginBottom: "2vh",
+                }}
+              >
+                If we aren't intersectional, some of us, the most vulnerable,
+                are going to fall through the cracks.
+              </h4>
+              <strong>-Kimberlé Williams Crenshaw</strong>
+              <ul>
+                <li>
+                  <div className="ck_new_btn ">
+                    <a href="#">Read More</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <img src={require("../images/header_ladi.png")} alt="img" />
+            </div>
           </div>
         </div>
-</div>
 
         {/* ck slider wrapper End */}
         {/* <div className="ck_about_main_wrapper float_left">
@@ -171,7 +177,6 @@ const Homeblog = (props) =>{
         {/* ck cake wrapper End */}
         {/* ck best cake wrapper Start */}
 
-
         <div className="ck_bc_main_wrapper float_left">
           <div className="container">
             <div className="row">
@@ -217,9 +222,6 @@ const Homeblog = (props) =>{
                 </div>
               </div>
 
-
-
-              
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                 <div className="et_left_news_wrapper">
                   <div className="et_left_img_news2">
@@ -392,16 +394,12 @@ const Homeblog = (props) =>{
               </div>
               <div className="col-md-12">
                 <div className="ck_new_btn ck_new_btn_bc">
-                 
                   <a href="#">Read More</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-
 
         {/* ck best cake wrapper End */}
         {/* ck cake wrapper Start */}
@@ -1113,7 +1111,7 @@ const Homeblog = (props) =>{
                     />
                   </div>
                   <div className="footer_btn float_left">
-                    {" "}
+
                     <a href="#">send message</a>
                   </div>
                 </div>
@@ -1122,24 +1120,57 @@ const Homeblog = (props) =>{
                 <div className="footer_widget footer_contact_wrapper footer_widget2 float_left">
                   <h4>contact info </h4>
                   <ul>
-                    {/* <li> <span> Santa Cruz
-                        Office: </span>
-                      <p><a href="#">Theifmag , 
-                          9860 Mill Road, 
-                          Kolar, Delhi, Noida</a>
-                      </p>
-                    </li> */}
-                    {/* <li> <span>phone: </span>
-                      <p>+1-22222222 +1-2222222222</p>
-                    </li> */}
                     <li>
-                      {" "}
                       <span>email: </span>
                       <p>
                         <a href="#"> theifmag@gmail.com</a>
                         <br />
                       </p>
                     </li>
+
+
+                    <h4>Follow Us </h4>
+
+                    <h5 style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                    }}>
+                      <a
+                        href="#"
+                        style={{
+                          flex: "1",
+                        }}
+                      >
+                        <i className="fab fa-facebook" />
+                      </a>
+
+                      <a
+                        href="#"
+                        style={{
+                          flex: "1",
+                        }}
+                      >
+                        <i className="fab fa-twitter" />
+                      </a>
+
+                      <a
+                        href="#"
+                        style={{
+                          flex: "1",
+                        }}
+                      >
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                      </a>
+
+                      <a
+                        href="#"
+                        style={{
+                          flex: "1",
+                        }}
+                      >
+                        <i className="fab fa-instagram" />
+                      </a>
+                    </h5>
                   </ul>
                 </div>
               </div>
@@ -1193,7 +1224,7 @@ const Homeblog = (props) =>{
         </div> */}
       </div>
     </div>
-  )
+  );
 }
 
-export default Homeblog ;
+export default Homeblog;

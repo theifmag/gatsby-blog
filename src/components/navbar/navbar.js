@@ -60,7 +60,7 @@ const Navbar = (props) =>{
                           </li>
                           <li>
                             <a href="#">
-                              <i class="fab fa-linkedin" aria-hidden="true"></i>
+                              <i className="fab fa-linkedin" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li>
@@ -79,7 +79,7 @@ const Navbar = (props) =>{
         </div>
       </div>
 
-      <nav
+      {/* <nav
         style={{ position: "relative", zIndex: 99, top: 0 }}
         className="my-nav"
       >
@@ -104,9 +104,9 @@ const Navbar = (props) =>{
             </li>
 
             <li>
-              <div class="dropdown">
+              <div className="dropdown">
                 <a
-                  class="btn btn-secondary dropdown-toggle dropdown-menu-pd"
+                  className="btn btn-secondary dropdown-toggle dropdown-menu-pd"
                   type="button"
                   id="dropdownMenuButton"
                   data-toggle="dropdown"
@@ -116,38 +116,38 @@ const Navbar = (props) =>{
                 >
                   Explore
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">
+                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a className="dropdown-item" href="#">
                   Justice & law
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Politics
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Health
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Economy
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Education
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Arts & Media
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Environment
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Violence & Harrasement
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Casteism
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Colorism & Racism
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                   Sports
                   </a>
                 </div>
@@ -158,13 +158,6 @@ const Navbar = (props) =>{
               <Link to="/bloglist">Series</Link>
             </li>
 
-            {/* <li>
-              <Link to='/bloglist'>Opinions & Stories</Link>
-            </li> */}
-
-            {/* <li>
-              <Link to='/bloglist'>Series</Link>
-            </li> */}
 
             <li>
               <Link to="/bloglist">Get Involved</Link>
@@ -181,8 +174,83 @@ const Navbar = (props) =>{
           <div className="line"></div>
           <div className="line"></div>
         </div>
-      </nav>
+      </nav> */}
+      <nav className="navbar navbar-expand-lg navbar-light custom-color">
+    <Link className="navbar-brand" to="/">
+            <img
+              src={require("../../images/logo-main.png")}
+              style={{
+                width: "70px",
+                marginLeft : '5vw'
+              }}
+            />
+          </Link>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul className="navbar-nav ml-auto">
+        <li className="nav-item active">
+          <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+          
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/about">About</Link>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Explore
+          </a>
+          <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <Link className="dropdown-item" to="/" >
+                  Justice & law
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Politics
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Health
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Economy
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Education
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Arts & Media
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Environment
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Violence & Harrasement
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Casteism
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Colorism & Racism
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                  Sports
+                  </Link>
+          </div>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/bloglist">Series</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/bloglist">Get Involved</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/contact">Contact</Link>
+        </li>
+      </ul>
     </div>
+  </nav>
+    </div>
+    
   );
 }
 
