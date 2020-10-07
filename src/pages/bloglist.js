@@ -1,10 +1,14 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import PostLink from "../components/post-link";
 import Navbar from "../components/navbar/navbar";
 import blogStyles from "../styles/blogStyles.module.scss";
+import { useQueryParam, NumberParam, StringParam } from "use-query-params";
+
+
+
 
 const BlogList = ({
   data: {
@@ -12,20 +16,102 @@ const BlogList = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const Posts = edges
-    .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
+  const [CategoryGiven, setCategoryGiven] = useQueryParam("Category", StringParam);
+  const [CurrentCategory, setCurrentCategory] = useState('all') ;
+  useEffect(() => {
+  
+  console.log('category ',CategoryGiven)
+  switch(CategoryGiven){
+    case 'justice': 
+          setCurrentCategory('Justice & Law')
+          break;
+    case 'Politics': 
+          setCurrentCategory('Politics')
+          break;
+    case 'Health': 
+          setCurrentCategory('Health')
+          break;
+    case 'Economy': 
+          setCurrentCategory('Economy')
+          break;
+    case 'Education': 
+          setCurrentCategory('Education')
+          break;
+    case 'Arts': 
+          setCurrentCategory('Arts & Media')
+          break;
+    case 'Environment': 
+          setCurrentCategory('Environment')
+          break;
+    case 'Violence': 
+          setCurrentCategory('Violence & Harrasement')
+          break;
+    case 'Casteism': 
+          setCurrentCategory('Casteism')
+          break;
+    case 'colorism': 
+          setCurrentCategory('Colorism & Racism')
+          break;
+    case 'Sports': 
+          setCurrentCategory('Sports')
+          break;
+    default:
+      setCurrentCategory('all')
+  }
+
+    return () => {
+      console.log("Unmounted Category")
+    }
+  }, [CategoryGiven])
+  
+
+ 
+  // const Posts = edges
+  //   .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+  //   .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
+
 
   return (
     <div>
       <Navbar />
 
       <div className={blogStyles.container}>
-        <h2 className={blogStyles.heading}>Blog Posts &darr;</h2>
+        <h2 className={blogStyles.heading}>{CurrentCategory} Articles  &darr;</h2>
 
 
         
-        <div className={blogStyles.blogsContainer}>{Posts}</div>
+        <div className={blogStyles.blogsContainer}>
+
+
+{ 
+  edges.map((item)=>{
+    if( CategoryGiven ==='all' ){
+     return <PostLink key={item.node.id} post={item.node} />
+    }else{
+      if(item.node.frontmatter.category === CurrentCategory){
+      return <PostLink key={item.node.id} post={item.node} />
+}
+    }
+  })
+}
+
+
+{/* { CurrentCategory ==='all' && 
+  edges.map((item)=>{
+    
+      console.log(item)
+     return <PostLink key={item.node.id} post={item.node} />
+    
+  })
+}
+ */}
+
+
+
+
+
+
+        </div>
       </div>
     </div>
   );
@@ -33,7 +119,7 @@ const BlogList = ({
 
 export default BlogList;
 
-export const pageQuery = graphql`
+export const query = graphql`
   query indexPageQuery {
     site {
       siteMetadata {

@@ -2,7 +2,7 @@
 template: BlogPost
 path: /supreme-court-justice
 date: 2020-10-06T09:55:17.722Z
-title: Sc expresses shock Today
+title: Sc expresses shock Today Hathras case
 metaDescription: >-
   In an order delivered recently, the court directed the trial court to proceed
   with the trial pertaining to the death of the petitioner’s father almost on a
@@ -10,7 +10,7 @@ metaDescription: >-
   period of one year from its commencement.
 thumbnail: /assets/rachel-penney-SMFznuwHDT4-unsplash.jpg
 author: Jaymanyoo Singh
-category: Justice & law
+category: Sports
 ---
 <!--StartFragment-->
 

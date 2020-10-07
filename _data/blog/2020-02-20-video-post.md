@@ -5,6 +5,7 @@ date: 2020-02-20T15:05:49.332Z
 title: Post with Youtube Video embed
 thumbnail: /assets/image-1.jpg
 author : pranjal doorwar
+category: Human Rights
 ---
 I have embedded a youtude video in this page. By adding HTML to the markdown
 

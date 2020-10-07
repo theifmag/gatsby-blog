@@ -14,9 +14,7 @@ const Navbar = (props) =>{
 
   return (
     <div>
-     
-
-     <div className="et_top_header_wrapper">
+      <div className="et_top_header_wrapper">
         <div
           className="container-fluid"
           style={{
@@ -29,12 +27,17 @@ const Navbar = (props) =>{
               <div className="et_left_side_warpper">
                 <div className="et_top_contect">
                   <p>
-                    <i className="fa fa-envelope" />{" "}
-                    <a href="#">Email@example.com</a>
+                    <i
+                      className="fa fa-envelope"
+                      style={{
+                        color: "gray",
+                      }}
+                    />
+                    <a href="#">Email : theifmag@gmail.com</a>
                   </p>
-                  <p className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                  {/* <p className="d-none d-sm-none d-md-block d-lg-block d-xl-block">
                     <i className="fa fa-phone" /> +123456789
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -47,17 +50,17 @@ const Navbar = (props) =>{
                         <ul>
                           <li>
                             <a href="#">
-                              <i className="fab fa-facebook-square" />
+                              <i className="fab fa-facebook" />
                             </a>
                           </li>
                           <li>
                             <a href="#">
-                              <i className="fab fa-twitter-square" />
+                              <i className="fab fa-twitter" />
                             </a>
                           </li>
                           <li>
                             <a href="#">
-                              <i className="fab fa-pinterest-square" />
+                              <i className="fab fa-linkedin" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li>
@@ -76,8 +79,7 @@ const Navbar = (props) =>{
         </div>
       </div>
 
-
-      <nav
+      {/* <nav
         style={{ position: "relative", zIndex: 99, top: 0 }}
         className="my-nav"
       >
@@ -98,26 +100,64 @@ const Navbar = (props) =>{
             </li>
 
             <li>
-              <Link to="/about" >
-                About
-              </Link>
+              <Link to="/about">About</Link>
             </li>
 
             <li>
-              <Link to="/bloglist">Explore </Link>
+              <div className="dropdown">
+                <a
+                  className="btn btn-secondary dropdown-toggle dropdown-menu-pd"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  
+                >
+                  Explore
+                </a>
+                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a className="dropdown-item" href="#">
+                  Justice & law
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Politics
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Health
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Economy
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Education
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Arts & Media
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Environment
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Violence & Harrasement
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Casteism
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Colorism & Racism
+                  </a>
+                  <a className="dropdown-item" href="#">
+                  Sports
+                  </a>
+                </div>
+              </div>
             </li>
 
             <li>
               <Link to="/bloglist">Series</Link>
             </li>
 
-            {/* <li>
-              <Link to='/bloglist'>Opinions & Stories</Link>
-            </li> */}
-
-            {/* <li>
-              <Link to='/bloglist'>Series</Link>
-            </li> */}
 
             <li>
               <Link to="/bloglist">Get Involved</Link>
@@ -129,14 +169,89 @@ const Navbar = (props) =>{
           </ul>
         </div>
 
-        <div className="hamburger-2" id="burger" onClick={()=>openMenu()}>
+        <div className="hamburger-2" id="burger" onClick={() => openMenu()}>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
         </div>
-      </nav>
+      </nav> */}
+      <nav className="navbar navbar-expand-lg navbar-light custom-color">
+    <Link className="navbar-brand" to="/">
+            <img
+              src={require("../../images/logo-main.png")}
+              style={{
+                width: "70px",
+                marginLeft : '5vw'
+              }}
+            />
+          </Link>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul className="navbar-nav ml-auto">
+        <li className="nav-item active">
+          <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+          
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/about">About</Link>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Explore
+          </a>
+          <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <Link className="dropdown-item" to="/bloglist?Category=justice&law" >
+                  Justice & law
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Politics">
+                  Politics
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Health">
+                  Health
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Economy">
+                  Economy
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Education">
+                  Education
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Arts&Media">
+                  Arts & Media
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Environment">
+                  Environment
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Violence&Harrasement">
+                  Violence & Harrasement
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Casteism">
+                  Casteism
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=colorism&Racism">
+                  Colorism & Racism
+                  </Link>
+                  <Link className="dropdown-item" to="/bloglist?Category=Sports">
+                  Sports
+                  </Link>
+          </div>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/bloglist?Category=all">Series</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/">Get Involved</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/contact">Contact</Link>
+        </li>
+      </ul>
     </div>
-  )
+  </nav>
+    </div>
+    
+  );
 }
 
 export default  Navbar ;

@@ -2813,7 +2813,8 @@ padding-top:25px;
 	right:0;
 	top:0;
 	bottom:0;
-	background:rgba(0,0,0,0.9);
+    background:rgba(0,0,0,0.9);
+    z-index: -1;
 }
 .et_left_news_wrapper{
 	margin-top:20px;
@@ -2968,7 +2969,8 @@ background-image : none ;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-    
+    overflow: hidden;
+   
     
 }
 .et_left_news_wrapper:hover{
@@ -3090,6 +3092,15 @@ background-image : none ;
 
 
 
+
+@media screen and (max-width: 1000px) {
+
+    .et_left_news_wrapper{
+        height: 75vh;
+    }
+
+
+}
 
 
 
