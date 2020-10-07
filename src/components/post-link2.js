@@ -38,7 +38,9 @@ const PostLink2 = ({ post }) => (
 
 
 
-          <div className="col-lg-6" >
+          <div className="col-lg-10" 
+
+          >
                 <div className="et_left_news_wrapper " style={{
             display : 'inline-block',
             border: '1px solid #00000046',

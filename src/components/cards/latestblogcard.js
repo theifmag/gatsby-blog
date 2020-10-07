@@ -2,9 +2,22 @@ import React from 'react'
 import { StaticQuery, graphql } from "gatsby"
 import PostLink from '../post-link' ;
 import PostLink2 from '../post-link2';
+import Slider from "react-slick";
 
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows : false,
+};
 
 export default  function Latestblogcard () {
+
+
+
     return (
       <StaticQuery
         query={graphql`
@@ -33,22 +46,35 @@ export default  function Latestblogcard () {
         `}
         render={data => (
       
-            <div style={{
-                display : 'flex',
-                flexDirection : 'row',
-                overflowX : 'scroll'
-            }}>
+//           <Slider {...settings}>
+//             <div>
            
 
-            {data.allMarkdownRemark.edges.map((item)=>{
+//             {data.allMarkdownRemark.edges.map((item)=>{
 
-              return  <PostLink2 key={item.node.id} post={item.node} />
+//               return  <PostLink2 key={item.node.id} post={item.node} />
+
+//             })}
+
+       
+// </div>
+// </Slider>
+<center>
+<div className="container">
+        
+        <Slider {...settings}>
+     
+
+        {data.allMarkdownRemark.edges.map((item)=>{
+
+            return <div> <PostLink2 key={item.node.id} post={item.node} /></div>
 
             })}
 
-       
-</div>
 
+        </Slider>
+      </div>
+      </center>
 
 
         )}

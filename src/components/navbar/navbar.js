@@ -197,49 +197,80 @@ const Navbar = (props) =>{
         <li className="nav-item">
           <Link className="nav-link" to="/about">About</Link>
         </li>
+
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Explore
           </a>
           <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+          <Link className="dropdown-item" to="/bloglist?Category=Arts&Media">
+                  Arts & Media
+                  </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=Casteism">
+                  Casteism
+                  </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=colorism&Racism">
+                  Colorism & Racism
+                  </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=Economy">
+                  Economy
+                  </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=Education">
+                  Education
+                  </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=Environment">
+                  Environment
+                  </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=Health">
+                  Health
+                  </Link>
+
                   <Link className="dropdown-item" to="/bloglist?Category=justice&law" >
                   Justice & law
                   </Link>
                   <Link className="dropdown-item" to="/bloglist?Category=Politics">
                   Politics
                   </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Health">
-                  Health
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Economy">
-                  Economy
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Education">
-                  Education
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Arts&Media">
-                  Arts & Media
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Environment">
-                  Environment
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Violence&Harrasement">
-                  Violence & Harrasement
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Casteism">
-                  Casteism
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=colorism&Racism">
-                  Colorism & Racism
-                  </Link>
+                
                   <Link className="dropdown-item" to="/bloglist?Category=Sports">
                   Sports
                   </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=Violence&Harrasement">
+                  Violence & Harrasement
+                  </Link>
           </div>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/bloglist?Category=all">Series</Link>
+
+
+        
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Series
+          </a>
+          <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                
+                 <Link className="dropdown-item" to="/bloglist?Category=Opinion">
+                  Opinion & Stories
+                  </Link>
+
+                  <Link className="dropdown-item" to="/bloglist?Category=Podcasts" >
+                   Podcast
+                  </Link>
+                 
+               
+                
+          </div>
         </li>
+
+
         <li className="nav-item">
           <Link className="nav-link" to="/">Get Involved</Link>
         </li>
