@@ -202,46 +202,46 @@ const Navbar = (props) =>{
             Explore
           </a>
           <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <Link className="dropdown-item" to="/" >
+                  <Link className="dropdown-item" to="/bloglist?Category=justice&law" >
                   Justice & law
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Politics">
                   Politics
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Health">
                   Health
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Economy">
                   Economy
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Education">
                   Education
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Arts&Media">
                   Arts & Media
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Environment">
                   Environment
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Violence&Harrasement">
                   Violence & Harrasement
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Casteism">
                   Casteism
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=colorism&Racism">
                   Colorism & Racism
                   </Link>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/bloglist?Category=Sports">
                   Sports
                   </Link>
           </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/bloglist">Series</Link>
+          <Link className="nav-link" to="/bloglist?Category=all">Series</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/bloglist">Get Involved</Link>
+          <Link className="nav-link" to="/">Get Involved</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/contact">Contact</Link>

@@ -194,12 +194,13 @@ a {
   text-align: center;
   min-height: 380px;
   //background-image: url('/assets/circles-light.png');
-  background-color: var(--featured-bg);
+  // background-color: var(--featured-bg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   border-radius: 0px;
   margin-bottom: 36px;
+ 
   color: var(--featured-text);
   display: grid;
   align-content: center;
@@ -208,7 +209,7 @@ a {
   overflow: hidden;
   &:before {
     content: "";
-    background: rgba(0,0,0,0.4);
+    // background: rgba(0,0,0,0.4);
     position: absolute;
     top: 0;
     left: 0;

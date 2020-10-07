@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import blogStyles from "../styles/blogStyles.module.scss"
 
-const PostLink = ({ post }) => (
+const PostLink2 = ({ post }) => (
 
 
 
@@ -38,7 +38,7 @@ const PostLink = ({ post }) => (
 
 
 
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 " >
+          <div className="col-lg-6" >
                 <div className="et_left_news_wrapper " style={{
             display : 'inline-block',
             border: '1px solid #00000046',
@@ -116,4 +116,4 @@ const PostLink = ({ post }) => (
 
 
 );
-export default PostLink
+export default PostLink2

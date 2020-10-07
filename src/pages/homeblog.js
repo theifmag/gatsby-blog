@@ -1,5 +1,5 @@
 import React from "react";
-
+import Latestblogcard from '../components/cards/latestblogcard'
 import "../styles/css/style.css";
 import "../styles/css/animate.css";
 import "../styles/css/bootstrap.min.css";
@@ -14,13 +14,21 @@ import "../styles/css/magnific-popup.css";
 import "../styles/css/style_V.css";
 import "../styles/css/responsive_V.css";
 import { Link } from 'gatsby'
+import { graphql } from "gatsby";
 
-const Homeblog = (props) => {
+
+const Homeblog = ({
+
+}) => {
+
+
 
   return (
     <div>
       <div>
         {/* ET top header Start */}
+
+
 
         {/* ET top header End */}
         {/* ck header wrapper Start */}
@@ -63,6 +71,9 @@ const Homeblog = (props) => {
             </div>
           </div>
         </div> */}
+
+
+
 
         <div className="container-fluid">
           <div className="row">
@@ -184,10 +195,20 @@ const Homeblog = (props) => {
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_bc float_left">
                   <h4>Blogs</h4>
                   <h3>Our Latest Blogs</h3>
+                  
+
+
                 </div>
               </div>
 
-              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+
+     
+      
+        
+         
+
+
+              {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                 <div className="et_left_news_wrapper">
                   <div className="et_left_img_news2">
                     <div className="et_left_img_overlay" />
@@ -399,380 +420,49 @@ const Homeblog = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ck best cake wrapper End */}
-        {/* ck cake wrapper Start */}
-        {/* <div class="ck_offer_service_wrapper float_left">
-		<div class="ck_offer_service_img_overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
-					<div class="ck_offer_img_cont_wrapper float_left">
-						<div class="ck_heading_wrapper float_left">
-							<h4>special offer</h4>
-							<h3>what we offer</h3>
-						</div>
-						<div class="ck_offer_mian_box_wrapper ck_offer_mian_box_wrapper_first float_left">
-							<div class="ck_offer_icon_wrapper">	<i class="flaticon-beverage"></i>
-							</div>
-							<div class="ck_offer_icon_cont_wrapper">
-								<h3>Always Fresh</h3>
-								<p>We Understant behind every good products, it's also have to be accessi- bleeasily. Our intention is to get you started</p>
-							</div>
-						</div>
-						<div class="ck_offer_mian_box_wrapper ck_offer_mian_box_wrapper_second float_left">
-							<div class="ck_offer_icon_wrapper">	<i class="flaticon-rice-cooker"></i>
-							</div>
-							<div class="ck_offer_icon_cont_wrapper">
-								<h3>Healthy Cakes</h3>
-								<p>We Understant behind every good products, it's also have to be accessi- bleeasily. Our intention is to get you started</p>
-							</div>
-						</div>
-						<div class="ck_offer_mian_box_wrapper ck_offer_mian_box_wrapper_second float_left">
-							<div class="ck_offer_icon_wrapper">	<i class="flaticon-spaghetti"></i>
-							</div>
-							<div class="ck_offer_icon_cont_wrapper">
-								<h3>100% Fresh</h3>
-								<p>We Understant behind every good products, it's also have to be accessi- bleeasily. Our intention is to get you started</p>
-							</div>
-						</div>
-						<div class="ck_offer_btn float_left">	<a href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
-					<div class="ck_special_img_wrapper float_left">
-						<img src="images/ice9.png" alt="img">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> */}
-        {/* ck_obc_main_wrapper Start */}
-        {/* <div class="ck_obc_main_wrapper float_left">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="ck_heading_center_wrapper ck_heading_center_wrapper_bc float_left">
-						<h4>Trending Blogs</h4>
-					
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="ck_team_slider_wrapper float_left">
-						<div class="owl-carousel owl-theme">
-							<div class="item">
-								<div class="ck_elem_slide_img_wrapper float_left">
-									<div class="ck_elem_slide_img float_left">
-										<img src="images/cake1.png" alt="img">
-										<h5>Categorey</h5>
-									</div>
-									<div class="ck_elem_slide_img_cont float_left">
-										<div class="ck_elem_star">	<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-										</div>
-										<h3>Cherry Vanilla</h3>
-										<p>Aenean sollicitudin, lorem quis</p>
-										<div class="ck_bc_btn float_left">	<a href="#">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="ck_elem_slide_img_wrapper float_left">
-									<div class="ck_elem_slide_img float_left">
-										<img src="images/cake2.png" alt="img">
-										<h5>Categorey</h5>
-									</div>
-									<div class="ck_elem_slide_img_cont float_left">
-										<div class="ck_elem_star">	<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-										</div>
-										<h3>Cherry Vanilla</h3>
-										<p>Aenean sollicitudin, lorem quis</p>
-										<div class="ck_bc_btn float_left">	<a href="#">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="ck_elem_slide_img_wrapper float_left">
-									<div class="ck_elem_slide_img float_left">
-										<img src="images/cake3.png" alt="img">
-										<h5>Categorey</h5>
-									</div>
-									<div class="ck_elem_slide_img_cont float_left">
-										<div class="ck_elem_star">	<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-											<i class="fas fa-star"></i>
-										</div>
-										<h3>Cherry Vanilla</h3>
-										<p>Aenean sollicitudin, lorem quis</p>
-										<div class="ck_bc_btn float_left">	<a href="#">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> */}
-        {/* ck_obc_main_wrapper End */}
-        {/* ck cake wrapper Start */}
-        <div className="ck_client_cake_wrapper float_left">
-          <div className="ck_client_cake_img_overlay" />
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="ck_heading_center_wrapper ck_heading_center_wrapper_ok float_left">
-                  <h4>Members</h4>
-                  <h3>Our Team</h3>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div className="ck_team_slider_wrapper ck_team_slider_wrapper2 float_left">
-                  <div className="owl-carousel owl-theme">
-                    <div className="item">
-                      <div className="ck_team_img_wrapper float_left">
-                        <img src="images/t1.png" alt="img" />
-                        <div className="ck_team_img_cont_wrapper float_left">
-                          <h3>
-                            <a href="#">John Smith</a>
-                          </h3>
-                          <p>
-                            Currently in her fourth year in law school, gowri
-                            has been deeply interested in gender and law.....
-                          </p>
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-facebook-f" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-pinterest-p" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-google-plus-g" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="ck_team_img_wrapper float_left">
-                        <img src="images/t1.png" alt="img" />
-                        <div className="ck_team_img_cont_wrapper float_left">
-                          <h3>
-                            <a href="#">John Smith</a>
-                          </h3>
-                          <p>
-                            Currently in her fourth year in law school, gowri
-                            has been deeply interested in gender and law.....
-                          </p>
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-facebook-f" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-pinterest-p" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-google-plus-g" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="ck_team_img_wrapper float_left">
-                        <img src="images/t1.png" alt="img" />
-                        <div className="ck_team_img_cont_wrapper float_left">
-                          <h3>
-                            <a href="#">John Smith</a>
-                          </h3>
-                          <p>
-                            Currently in her fourth year in law school, gowri
-                            has been deeply interested in gender and law.....
-                          </p>
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-facebook-f" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-pinterest-p" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-google-plus-g" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div className="ck_team_slider_wrapper ck_team_slider_wrapper2 float_left">
-                  <div className="owl-carousel">
-                    <div className="item">
-                      <div className="ck_team_img_wrapper float_left">
-                        <img src="images/t1.png" alt="img" />
-                        <div className="ck_team_img_cont_wrapper float_left">
-                          <h3>
-                            <a href="#">John Smith</a>
-                          </h3>
-                          <p>
-                            Currently in her fourth year in law school, gowri
-                            has been deeply interested in gender and law.....
-                          </p>
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-facebook-f" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-pinterest-p" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-google-plus-g" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="ck_team_img_wrapper float_left">
-                        <img src="images/t1.png" alt="img" />
-                        <div className="ck_team_img_cont_wrapper float_left">
-                          <h3>
-                            <a href="#">John Smith</a>
-                          </h3>
-                          <p>
-                            Currently in her fourth year in law school, gowri
-                            has been deeply interested in gender and law.....
-                          </p>
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-facebook-f" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-pinterest-p" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-google-plus-g" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="ck_team_img_wrapper float_left">
-                        <img src="images/t1.png" alt="img" />
-                        <div className="ck_team_img_cont_wrapper float_left">
-                          <h3>
-                            <a href="#">John Smith</a>
-                          </h3>
-                          <p>
-                            Currently in her fourth year in law school, gowri
-                            has been deeply interested in gender and law.....
-                          </p>
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-facebook-f" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-pinterest-p" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i className="fab fa-google-plus-g" />
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+<Latestblogcard />
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="container">
+
+<Latestblogcard />
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
         {/* ck_obc_main_wrapper Start */}
         {/* ck_testi_main_wrapper Start */}
         {/* <div class="ck_testi_main_wrapper float_left">
@@ -846,124 +536,16 @@ const Homeblog = (props) => {
             <div className="row">
               <div className="col-md-12">
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_ok float_left">
-                  <h4>Check out Blog</h4>
-                  <h3>Trending</h3>
+                 
+                  <h3>Editor's Choice</h3>
                 </div>
               </div>
-              <div className="col-md-12">
-                <div className="ck_blog_slider_wrapper float_left">
-                  <div className="owl-carousel owl-theme">
-                    <div className="item">
-                      <div className="et_left_news_wrapper">
-                        <div className="et_left_img_news2">
-                          <div className="et_left_img_overlay" />
-                          <div className="row">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <p>
-                                <i>News, Delivery</i>
-                              </p>
-                              <div className="heart_box">
-                                {" "}
-                                <a href="#">
-                                  <i className="far fa-heart" />
-                                </a>
-                              </div>
-                              <h4>29-Jan-2019</h4>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="et_left_cont_news">
-                          <h4>News</h4>
-                          <h3>Services - 2019</h3>
-                          <h5>29-Jan-2019</h5>
-                          <p>
-                            This is Photoshop's version of Lorem Ipsum. Proin
-                            gravida nibh vel velit auctor aliquet.
-                          </p>
-                          <h2>
-                            <a href="#">Read More</a>{" "}
-                            <i className="fa fa-angle-double-right" />{" "}
-                          </h2>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="et_left_news_wrapper">
-                        <div className="et_left_img_news2 et_left_img_news22">
-                          <div className="et_left_img_overlay" />
-                          <div className="row">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <p>
-                                <i>News, Delivery</i>
-                              </p>
-                              <div className="heart_box">
-                                {" "}
-                                <a href="#">
-                                  <i className="far fa-heart" />
-                                </a>
-                              </div>
-                              <h4>29-Jan-2019</h4>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="et_left_cont_news">
-                          <h4>News</h4>
-                          <h3>Services - 2019</h3>
-                          <h5>29-Jan-2019</h5>
-                          <p>
-                            This is Photoshop's version of Lorem Ipsum. Proin
-                            gravida nibh vel velit auctor aliquet.
-                          </p>
-                          <h2>
-                            <a href="#">Read More</a>{" "}
-                            <i className="fa fa-angle-double-right" />{" "}
-                          </h2>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="et_left_news_wrapper">
-                        <div className="et_left_img_news2 et_left_img_news23">
-                          <div className="et_left_img_overlay" />
-                          <div className="row">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <p>
-                                <i>News, Delivery</i>
-                              </p>
-                              <div className="heart_box">
-                                {" "}
-                                <a href="#">
-                                  <i className="far fa-heart" />
-                                </a>
-                              </div>
-                              <h4>29-Jan-2019</h4>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="et_left_cont_news">
-                          <h4>News</h4>
-                          <h3>Services - 2019</h3>
-                          <h5>29-Jan-2019</h5>
-                          <p>
-                            This is Photoshop's version of Lorem Ipsum. Proin
-                            gravida nibh vel velit auctor aliquet.
-                          </p>
-                          <h2>
-                            <a href="#">Read More</a>{" "}
-                            <i className="fa fa-angle-double-right" />{" "}
-                          </h2>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div className="ck_offer_btn ck_service_btn ck_client_btn float_left">
-                  {" "}
-                  <a href="#">Read More</a>
-                </div>
-              </div>
+             
+
+<Latestblogcard style={{
+  zIndex : '100'
+}}/>
+
             </div>
           </div>
         </div>
@@ -1228,3 +810,7 @@ const Homeblog = (props) => {
 }
 
 export default Homeblog;
+
+
+
+

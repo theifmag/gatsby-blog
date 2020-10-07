@@ -2,8 +2,13 @@ import React from "react";
 import Layout from "../components/layout";
 import Navbar from "../components/navbar/navbar";
 import Helmet from "react-helmet";
+import { useQueryParam, NumberParam, StringParam } from "use-query-params";
 
 export default function About(props) {
+
+
+
+
   return (
     <Layout>
       <Helmet>
