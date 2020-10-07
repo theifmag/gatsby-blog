@@ -55,6 +55,12 @@ const BlogList = ({
     case 'Sports': 
           setCurrentCategory('Sports')
           break;
+          case 'Podcasts': 
+          setCurrentCategory('Podcasts')
+          break;
+          case 'Opinion': 
+          setCurrentCategory('Opinion & Stories')
+          break;
     default:
       setCurrentCategory('all')
   }

@@ -25,7 +25,7 @@ const ContactPage = ({ data: { site } }) => {
 
         <div className={contactStyles.innerContainer}>
           <div className={contactStyles.leftContainer}>
-            <h3 className={contactStyles.formHeading}>Drop us a message....</h3>
+            <h3 className={contactStyles.formHeading}>Send us a message...</h3>
             <form
               className={contactStyles.form}
               style={{

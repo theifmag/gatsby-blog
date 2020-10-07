@@ -76,6 +76,6 @@ collections:
       - label: category
         name: category
         widget: select
-        options: ["Justice & law","Politics","Health","Economy","Education","Arts & Media","Environment","Violence & Harrasement","Casteism","Colorism & Racism","Sports"]
+        options: ["Justice & law","Politics","Health","Economy","Education","Arts & Media","Environment","Violence & Harrasement","Casteism","Colorism & Racism","Sports","Podcasts","Opinion & Stories"]
       - { name: body, label: Body, widget: markdown }
      
