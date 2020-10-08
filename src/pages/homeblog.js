@@ -82,7 +82,7 @@ const Homeblog = ({
             <div
               className="col-lg-6 col-md-6 col-sm-12"
               style={{
-                marginTop: "20vh",
+                marginTop: "15vh",
                 paddingLeft: "5vw",
               }}
             >
@@ -324,7 +324,7 @@ const Homeblog = ({
         {/* cll wrapper Start*/}
         <div className="ck_call_main_wrapper ">
           <div className="container">
-            <div className>
+            <div >
               <div className="ck_cll_icon ">
                 <p>Your CTA Goes here...</p>
               </div>
