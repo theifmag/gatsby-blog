@@ -126,7 +126,7 @@ a:hover {
     content: "/\00a0";
 }
 .et_top_contect p:last-child{
-	margin-left:40px;
+	margin-left:0px;
 	color:rgba(255, 255, 255, 0.62);
 }
 .et_top_contect p a:hover{
@@ -2799,7 +2799,7 @@ padding-top:25px;
 /*---------------- ck testi wrapper End --------------*/
 /*---------------- ck blog wrapper Start --------------*/
 .ck_blog_cake_wrapper{
-	background: url('../images/blo1.jpg') 50% 0 repeat-y;
+	background: url('../../images/editorbg.jpg') 50% 0 repeat-y;
     background-position: center 0;
     background-size: cover;
     width: 100%;

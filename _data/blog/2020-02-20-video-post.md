@@ -6,6 +6,7 @@ title: Post with Youtube Video embed
 thumbnail: /assets/image-1.jpg
 author : pranjal doorwar
 category: Human Rights
+EditorChoice : false
 ---
 I have embedded a youtude video in this page. By adding HTML to the markdown
 

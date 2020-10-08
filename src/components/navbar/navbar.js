@@ -49,22 +49,18 @@ const Navbar = (props) =>{
                       <div className="plumb_top_socialicon">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/theifmag" target="_blank">
                               <i className="fab fa-facebook" />
                             </a>
                           </li>
+                         
                           <li>
-                            <a href="#">
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/company/theifmag" target="_blank">
                               <i className="fab fa-linkedin" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="https://www.instagram.com/theifmag/" target="_blank">
                               <i className="fab fa-instagram" />
                             </a>
                           </li>
@@ -178,9 +174,9 @@ const Navbar = (props) =>{
       <nav className="navbar navbar-expand-lg navbar-light custom-color">
     <Link className="navbar-brand" to="/">
             <img
-              src={require("../../images/logo-main.png")}
+              src={require("../../images/logo-main-3.png")}
               style={{
-                width: "70px",
+                width: "150px",
                 marginLeft : '5vw'
               }}
             />

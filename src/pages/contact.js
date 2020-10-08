@@ -19,13 +19,13 @@ const ContactPage = ({ data: { site } }) => {
       <div className={contactStyles.divider}></div>
 
       <div className={contactStyles.mainContainer}>
-        <div className={contactStyles.imageContainer}>
+        {/* <div className={contactStyles.imageContainer}>
           <img src="https://image.freepik.com/free-vector/protesting-women-fighting-rights_74855-7830.jpg" />
-        </div>
+        </div> */}
 
         <div className={contactStyles.innerContainer}>
           <div className={contactStyles.leftContainer}>
-            <h3 className={contactStyles.formHeading}>Send us a message...</h3>
+            <h3 className={contactStyles.formHeading}>Send us a message</h3>
             <form
               className={contactStyles.form}
               style={{
@@ -43,7 +43,7 @@ const ContactPage = ({ data: { site } }) => {
                 className={contactStyles.formInput}
               />
               <input
-                placeholder="your Message ..."
+                placeholder="your Message"
                 type="textarea"
                 className={contactStyles.formInput}
               />
@@ -108,6 +108,12 @@ const ContactPage = ({ data: { site } }) => {
               loading="lazy"
             />
           </div>
+
+
+
+
+
+
         </div>
       </div>
     </Layout>

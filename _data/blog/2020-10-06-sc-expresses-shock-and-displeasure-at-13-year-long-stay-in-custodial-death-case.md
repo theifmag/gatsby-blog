@@ -11,6 +11,7 @@ metaDescription: >-
 thumbnail: /assets/rachel-penney-SMFznuwHDT4-unsplash.jpg
 author: Jaymanyoo Singh
 category: Sports
+EditorChoice : true
 ---
 <!--StartFragment-->
 

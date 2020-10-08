@@ -443,6 +443,59 @@ export default function About(props) {
               </div>
             </div>
 
+
+
+            <div
+              className="col-md-6 col-lg-4 col-sm-12 card-margin"
+              style={{
+                marginTop: "5vh",
+              }}
+            >
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://instagram.fnag5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/120912691_411026743217813_61978370642169605_n.jpg?_nc_ht=instagram.fnag5-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=9WyP62Gc99cAX_mLISN&oh=f87c4c0d3b1acef283e3e549dcec775f&oe=5FA8EF99"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"> Sarah Jacob</h5>
+                  <p class="card-text">
+                  Sarah is a third year design student at Srishti Bangalore. 
+                  She loves to create and believes in the impact art and design can have
+                   on society.
+                  </p>
+
+                  <br />
+                  <div id="demo9" class="collapse">
+                  When she isn't busy starting perpetual work in progress projects
+                   she can be found daydreaming about her next ramen. Feminism to her is 
+                   about inclusivity and passing the mike. She hopes to listen, observe, 
+                   acknowledge her privilege when due and initiate dialogue through her work.
+                   She thinks the world is a little bit messy like her and wonders if it could 
+                   also use a few screaming mothers to clean it up.
+                  </div>
+                  <br />
+
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-toggle="collapse"
+                    data-target="#demo9"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
             <div
               style={{
                 height: "10vh",
