@@ -16,6 +16,7 @@ import "../styles/css/responsive_V.css";
 import { Link } from 'gatsby'
 import { graphql } from "gatsby";
 import Editorcard from "../components/cards/editorcard";
+import Footer from "../components/footer" ;
 
 
 const Homeblog = ({
@@ -119,7 +120,7 @@ const Homeblog = ({
               
             }}>
               <center>
-              <img src={require("../images/HomeImage2.jpg")} alt="img" 
+              <img src={require("../images/Homeimage2.jpg")} alt="img" 
               style={{
                maxWidth : '430px',
                width : '100%'
@@ -332,7 +333,10 @@ const Homeblog = ({
         </div>
         {/* cll wrapper End*/}
         {/* ck footer wrapper Start */}
-        <div className="footer_wrapper float_left">
+        
+<Footer/>
+
+        {/* <div className="footer_wrapper float_left">
           <div className="container">
             <div className="row">
               <div className="col-lg-4 col-md-6 col-12 col-sm-12">
@@ -344,13 +348,15 @@ const Homeblog = ({
                   </div>
                   <div className="abotus_content">
                     <p>
-                      Donec id elit non mi porta gravida at eget metus. Donec id
-                      elit non mi porta gravida at eget metus. Aenean lacinia
-                      bibendum nulla sed consectetur.
+                    IF is a pioneer online magazine dedicated to intersectionality. 
+                    <br/>
+                    
+                    We are ambitious and hope to be a significant entity in promoting a
+                     better future through inclusivity and feminism for everyone, 
+                     regardless of their identities.
                       <br />
-                      <br />
-                      Vestibulum id ligula porta felis euismod semper. pharetra
-                      augue. Maecenas faucibus interdum...
+                      <br/>
+                      Because IF not now, then when?
                     </p>
                   </div>{" "}
                   <Link href="/about" className="blog_read">
@@ -358,46 +364,13 @@ const Homeblog = ({
                   </Link>
                 </div>
               </div>
-              {/* <div className="col-lg-3 col-md-6 col-12 col-sm-12">
-                <div className="footer_widget footer_blog_wrapper footer_widget3 float_left">
-                  <h4>recent posts</h4>
-                  <div className="ft_blog_wrapper1">
-                    <div className="ft_blog_image">
-                      <img src="images/blg1.jpg" className="img-responsive" alt="img" />
-                    </div>
-                    <div className="ft_blog_text">
-                      <p><a href="#">Donec id elit non mi porta gravida </a>
-                      </p>
-                      <div className="ft_blog_date">22 april, 2019</div>
-                    </div>
-                  </div>
-                  <div className="ft_blog_wrapper1">
-                    <div className="ft_blog_image">
-                      <img src="images/blg3.jpg" className="img-responsive" alt="img" />
-                    </div>
-                    <div className="ft_blog_text">
-                      <p><a href="#">elit non mi porta  Donec id gravida </a>
-                      </p>
-                      <div className="ft_blog_date">11 april, 2019</div>
-                    </div>
-                  </div>
-                  <div className="ft_blog_wrapper2">
-                    <div className="ft_blog_image">
-                      <img src="images/blg2.jpg" className="img-responsive" alt="img" />
-                    </div>
-                    <div className="ft_blog_text">
-                      <p><a href="#">Donec id elit non elit non mi porta </a>
-                      </p>
-                      <div className="ft_blog_date">12 april, 2019</div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
+         
               <div className="col-lg-4 col-md-6 col-12 col-sm-12">
                 <div className="footer_widget footer_useful_wrapper footer_widget2 float_left">
                   <h4>get in touch</h4>
+                  <form name="contact" method="POST" data-netlify="true">
                   <div className="contect_form_footer float_left">
-                    <input type="text" name="name" placeholder="joahn doe" />
+                    <input type="text" name="name" placeholder="john doe" />
                     <i className="fas fa-user-alt" />
                   </div>
                   <div className="contect_form_footer float_left">
@@ -416,6 +389,7 @@ const Homeblog = ({
 
                     <a href="#">send message</a>
                   </div>
+                  </form>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 col-sm-12">
@@ -485,7 +459,7 @@ const Homeblog = ({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* st login wrapper Start */}
 
         {/* <div className="modal fade st_pop_form_wrapper" id="myModa3" role="dialog">

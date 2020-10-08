@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Navbar from "../components/navbar/navbar";
 import contactStyles from "../styles/contactStyles.module.scss";
+import Footer from '../components/footer' ;
 
 const ContactPage = ({ data: { site } }) => {
   return (
@@ -31,6 +32,7 @@ const ContactPage = ({ data: { site } }) => {
               style={{
                 marginTop: "5vh",
               }}
+              name="contact" method="POST" data-netlify="true"
             >
               <input
                 placeholder="First Name"
@@ -116,6 +118,8 @@ const ContactPage = ({ data: { site } }) => {
 
         </div>
       </div>
+<Footer />
+
     </Layout>
   );
 };
