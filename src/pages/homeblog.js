@@ -15,6 +15,7 @@ import "../styles/css/style_V.css";
 import "../styles/css/responsive_V.css";
 import { Link } from 'gatsby'
 import { graphql } from "gatsby";
+import Editorcard from "../components/cards/editorcard";
 
 
 const Homeblog = ({
@@ -112,8 +113,18 @@ const Homeblog = ({
                 </li>
               </ul>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <img src={require("../images/header_ladi.png")} alt="img" />
+            <div className="col-lg-6 col-md-6 col-sm-12" style={{
+              overflow : 'hidden',
+              objectFit : 'contain',
+              
+            }}>
+              <center>
+              <img src={require("../images/HomeImage2.jpg")} alt="img" 
+              style={{
+               maxWidth : '430px',
+               width : '100%'
+                
+              }}/></center>
             </div>
           </div>
         </div>
@@ -244,12 +255,14 @@ const Homeblog = ({
               <div className="col-md-12">
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_ok float_left">
                  
-                  <h3>Editor's Choice</h3>
+                  <h3 style={{
+                    color : 'black'
+                  }}>Editor's Choice</h3>
                 </div>
               </div>
              
 
-<Latestblogcard style={{
+<Editorcard style={{
   zIndex : '100'
 }}/>
 
@@ -425,7 +438,7 @@ const Homeblog = ({
                       flexDirection: 'row',
                     }}>
                       <a
-                        href="#"
+                       href="https://www.facebook.com/theifmag" target="_blank"
                         style={{
                           flex: "1",
                         }}
@@ -433,17 +446,10 @@ const Homeblog = ({
                         <i className="fab fa-facebook" />
                       </a>
 
+                  
                       <a
-                        href="#"
-                        style={{
-                          flex: "1",
-                        }}
-                      >
-                        <i className="fab fa-twitter" />
-                      </a>
-
-                      <a
-                        href="#"
+                        href="https://www.linkedin.com/company/theifmag"
+                        target="_blank"
                         style={{
                           flex: "1",
                         }}
@@ -452,7 +458,7 @@ const Homeblog = ({
                       </a>
 
                       <a
-                        href="#"
+                       href="https://www.instagram.com/theifmag/" target="_blank"
                         style={{
                           flex: "1",
                         }}

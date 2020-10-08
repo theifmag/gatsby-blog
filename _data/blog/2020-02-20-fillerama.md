@@ -6,6 +6,7 @@ title: Dummy Content from Pranjal
 thumbnail: /assets/image-5.jpg
 author: pranjal doorwar
 category: Justice & law
+EditorChoice : true
 ---
 # No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister.
 
