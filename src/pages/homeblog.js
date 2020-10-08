@@ -119,7 +119,7 @@ const Homeblog = ({
               
             }}>
               <center>
-              <img src={require("../images/HomeImage2.jpg")} alt="img" 
+              <img src={require("../images/Homeimage2.jpg")} alt="img" 
               style={{
                maxWidth : '430px',
                width : '100%'
@@ -344,13 +344,15 @@ const Homeblog = ({
                   </div>
                   <div className="abotus_content">
                     <p>
-                      Donec id elit non mi porta gravida at eget metus. Donec id
-                      elit non mi porta gravida at eget metus. Aenean lacinia
-                      bibendum nulla sed consectetur.
+                    IF is a pioneer online magazine dedicated to intersectionality. 
+                    <br/>
+                    
+                    We are ambitious and hope to be a significant entity in promoting a
+                     better future through inclusivity and feminism for everyone, 
+                     regardless of their identities.
                       <br />
-                      <br />
-                      Vestibulum id ligula porta felis euismod semper. pharetra
-                      augue. Maecenas faucibus interdum...
+                      <br/>
+                      Because IF not now, then when?
                     </p>
                   </div>{" "}
                   <Link href="/about" className="blog_read">
