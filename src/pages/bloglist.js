@@ -6,6 +6,7 @@ import PostLink from "../components/post-link";
 import Navbar from "../components/navbar/navbar";
 import blogStyles from "../styles/blogStyles.module.scss";
 import { useQueryParam, NumberParam, StringParam } from "use-query-params";
+import Footer from '../components/footer'
 
 
 
@@ -118,7 +119,12 @@ const BlogList = ({
 
 
         </div>
+
+
+
+        
       </div>
+      <Footer />
     </div>
   );
 };
