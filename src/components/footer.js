@@ -29,7 +29,7 @@ export default function Footer() {
                       Because IF not now, then when?
                     </p>
                   </div>{" "}
-                  <Link href="/about" className="blog_read">
+                  <Link to="/about" className="blog_read">
                     read more <i className="fas fa-long-arrow-alt-right" />
                   </Link>
                 </div>
@@ -57,7 +57,7 @@ export default function Footer() {
                   </div>
                   <div className="footer_btn float_left">
 
-                    <a href="#">send message</a>
+                    <a type="submit">send message</a>
                   </div>
                   </form>
                 </div>
@@ -98,7 +98,7 @@ export default function Footer() {
                           flex: "1",
                         }}
                       >
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <i className="fab fa-linkedin" aria-hidden="true"></i>
                       </a>
 
                       <a
@@ -123,7 +123,7 @@ export default function Footer() {
                 <div className="btm_foter_box">
                   <p>
                     Copyright © 2020 <a href="#"> Theifmag</a> Designed and
-                    Developed by<a href="#"> The Brandwick</a>
+                    Developed by<a href="https://www.thebrandwick.com/" target="_blank"> The Brandwick</a>
                   </p>
                 </div>
               </div>

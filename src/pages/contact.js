@@ -49,7 +49,7 @@ const ContactPage = ({ data: { site } }) => {
                 type="textarea"
                 className={contactStyles.formInput}
               />
-              <button className={contactStyles.sendButton}>SEND</button>
+              <button className={contactStyles.sendButton} type="submit">SEND</button>
             </form>
 
             <div className={contactStyles.contactInfoDiv}>
