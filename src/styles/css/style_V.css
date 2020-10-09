@@ -3093,10 +3093,11 @@ background-image : none ;
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
 
     .et_left_news_wrapper{
-        height: 75vh;
+        /* height: 75vh; */
+        width : 75vw ;
     }
 
 

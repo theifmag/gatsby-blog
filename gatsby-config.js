@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `A Blog By Pranjal`,
-        short_name: `MyBlog`,
+        name: `The Ifmag Blog`,
+        short_name: `IfMAg`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
