@@ -60,19 +60,22 @@ export default  function Latestblogcard () {
 // </div>
 // </Slider>
 <center>
-<div className="container">
+<div className="container" >
+<div  >
         
         <Slider {...settings}>
      
 
         {data.allMarkdownRemark.edges.map((item)=>{
 
-            return <div> <PostLink2 key={item.node.id} post={item.node} /></div>
+            return <div > <PostLink2 key={item.node.id} post={item.node} /></div>
 
             })}
 
 
         </Slider>
+
+        </div >
       </div>
       </center>
 

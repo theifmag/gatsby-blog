@@ -38,14 +38,16 @@ const PostLink2 = ({ post }) => (
 
 
 
-          <div className="col-lg-10 col-sm-10" 
+          <div className="col-xl-8 col-lg-10 col-md-12 col-sm-12" 
 
           >
-                <div className="et_left_news_wrapper " style={{
-            display : 'inline-block',
+                <div className="" style={{
+            backgroundColor : 'white',
             border: '1px solid #00000046',
             margin: '5px 10px',
-            marginBottom : '5vh'
+            marginBottom : '5vh',
+            overflow : 'hidden'
+
           }}>
                   <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12" style={{

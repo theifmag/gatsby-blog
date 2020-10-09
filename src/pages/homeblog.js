@@ -30,8 +30,6 @@ const Homeblog = ({
       <div>
         {/* ET top header Start */}
 
-
-
         {/* ET top header End */}
         {/* ck header wrapper Start */}
 
@@ -74,9 +72,6 @@ const Homeblog = ({
           </div>
         </div> */}
 
-
-
-
         <div className="container-fluid">
           <div className="row">
             <div
@@ -114,23 +109,26 @@ const Homeblog = ({
                 </li>
               </ul>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12" style={{
-              overflow : 'hidden',
-              objectFit : 'contain',
-              
-            }}>
-              <center>
-              <img src={require("../images/Homeimage2.jpg")} alt="img" 
+            <div
+              className="col-lg-6 col-md-6 col-sm-12"
               style={{
-               maxWidth : '430px',
-               width : '100%'
-                
-              }}/></center>
+                overflow: "hidden",
+                objectFit: "contain",
+              }}
+            >
+              <center>
+                <img
+                  src={require("../images/Homeimage2.jpg")}
+                  alt="img"
+                  style={{
+                    maxWidth: "430px",
+                    width: "100%",
+                  }}
+                />
+              </center>
             </div>
           </div>
         </div>
-
- 
 
         <div className="ck_bc_main_wrapper float_left">
           <div className="container">
@@ -139,49 +137,16 @@ const Homeblog = ({
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_bc float_left">
                   <h4>Blogs</h4>
                   <h3>Our Latest Blogs</h3>
-                  
-
-
                 </div>
               </div>
-
-
-     
-      
-        
-         
-
-
+            </div>
+          </div>
 
 
 <Latestblogcard />
 
+        </div>
 
-
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
         {/* ck_obc_main_wrapper Start */}
         {/* ck_testi_main_wrapper Start */}
         {/* <div class="ck_testi_main_wrapper float_left">
@@ -255,20 +220,22 @@ const Homeblog = ({
             <div className="row">
               <div className="col-md-12">
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_ok float_left">
-                 
-                  <h3 style={{
-                    color : 'black'
-                  }}>Editor's Choice</h3>
+                  <h3
+                    style={{
+                      color: "black",
+                    }}
+                  >
+                    Editor's Choice
+                  </h3>
                 </div>
               </div>
-             
 
-<Editorcard style={{
-  zIndex : '100'
-}}/>
-
+              
             </div>
           </div>
+
+          <Editorcard style={{ zIndex: "100"}}/>
+
         </div>
         {/* ck blog wrapper End */}
         {/* partner wrapper Start*/}
@@ -324,7 +291,7 @@ const Homeblog = ({
         {/* cll wrapper Start*/}
         <div className="ck_call_main_wrapper ">
           <div className="container">
-            <div >
+            <div>
               <div className="ck_cll_icon ">
                 <p>Your CTA Goes here...</p>
               </div>
@@ -333,8 +300,8 @@ const Homeblog = ({
         </div>
         {/* cll wrapper End*/}
         {/* ck footer wrapper Start */}
-        
-<Footer/>
+
+        <Footer />
 
         {/* <div className="footer_wrapper float_left">
           <div className="container">
