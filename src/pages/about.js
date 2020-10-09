@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Navbar from "../components/navbar/navbar";
 import Helmet from "react-helmet";
 import { useQueryParam, NumberParam, StringParam } from "use-query-params";
+import Footer from "../components/footer";
 
 export default function About(props) {
 
@@ -27,7 +28,9 @@ export default function About(props) {
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="ck_about_img_wrapper float_left">
-                  <img src={require('../images/ice8.png')} alt="img" />
+                  <img src={require('../images/about2.jpeg')} alt="img"  style={{
+                    maxWidth : '500px'
+                  }} />
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
@@ -37,29 +40,45 @@ export default function About(props) {
                     <h3>About Us</h3>
                   </div>
                   <p>
-                    IF is a pioneer online magazine dedicated exclusively to
-                    content relating to intersectional feminism. We are a group
-                    of young editors, writers and illustrators from varied
-                    regional, cultural, and educational backgrounds. In our
-                    shared vision of an equal and equitable society we aim to
-                    vocalise the role of discrimination on the basis of social
-                    costructs such as caste, class, gender, race, and religion.
-                    We are determined to represent varied geo-political,
-                    ideological, and linguistic identities in the fight against
-                    partiarchaical structures.
+                  <i> IF</i> is a pioneer online magazine dedicated exclusively to content relating to
+                  intersectional feminism. We are a group of young editors, writers, 
+                  and illustrators from varied regional, cultural, and educational backgrounds.
                     <br />
                     <br />
-                    We are strong believers of freedom of expression and in
-                    pursuance of our beliefs, we will share content under a
-                    spectrum of areas. From current affairs to history, and
-                    including our areas of expertise in environmentalism,
-                    justice, laws and policies, multimedia, and STEM among other
-                    subjects, we're going to have something for everyone!
+                    In our shared vision of an equal and equitable society, we aim to 
+                    vocalise the role of discrimination on the basis of social constructs 
+                    such as caste, class, gender, race, and religion. We are determined to 
+                    represent varied geopolitical, ideological, and linguistic identities 
+                    in the fight against patriarchal structures.
                   </p>
-                  <div className="ck_new_btn">
-                    {" "}
-                    <a href="#">Read More</a>
+                    <br/>
+                  <div id="demo99" class="collapse">
+                  We are strong believers in freedom of expression and in pursuance of our beliefs, 
+                  we will share content under a spectrum of areas. From current affairs to history,
+                   and including our areas of expertise in environmentalism, justice, laws and 
+                   policies, multimedia, and STEM among other subjects, we're going to have 
+                   something for everyone!
+
+                   <br/>
+                   <br/>
+
+                  <i> IF</i> is ambitious and hopes to be a significant entity in promoting a
+                   better future through inclusivity and feminism for everyone, 
+                   regardless of their identities.
+                   <br/>
+                   <i>  Because IF not now, then when? </i>
+                  <br /><br/>
                   </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-toggle="collapse"
+                    data-target="#demo99"
+                    id="about-button"
+                   
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>
@@ -127,7 +146,7 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo"
-                    
+                    id="about-button"
                   >
                     Read More
                   </button>
@@ -170,6 +189,8 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo2"
+                    id="about-button"
+
                   >
                     Read More
                   </button>
@@ -212,6 +233,8 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo3"
+                    id="about-button"
+
                   >
                     Read More
                   </button>
@@ -264,6 +287,8 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo4"
+                    id="about-button"
+
                   >
                     Read More
                   </button>
@@ -316,6 +341,8 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo5"
+                    id="about-button"
+
                   >
                     Read More
                   </button>
@@ -332,70 +359,41 @@ export default function About(props) {
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="https://instagram.fnag5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/120145897_342098310454207_2171474110639739579_n.jpg?_nc_ht=instagram.fnag5-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=tbhPIqYoEtUAX8cR25a&oh=fe53c19fa318072aa4fc879517db5543&oe=5FA41B16"
+                  src={require('../images/pari.jpg')}
                   alt="Card image cap"
                 />
                 <div class="card-body">
                   <h5 class="card-title"> Parinishta T.</h5>
                   <p class="card-text">
-                    Parinishta T. is a Communication and media studies graduate
-                    and currently works as an Online Media Executive. She
-                    believes in creating and consuming media responsibly having
-                    studied its effects first hand.
+                  Parinishta T. is a Communication and Media Studies graduate and currently
+                   works as an Online Media Executive. She believes in both 
+                   creating and consuming media responsibly, having observed 
+                   the kind of impact it has on people's psyches.
                   </p>
                   <br />
 
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-toggle="collapse"
-                    data-target="#demo"
-                  >
-                    Read More
-                  </button>
+                  <div id="demo6" class="collapse">
+
+                  She likes analysing pop culture: movies, songs, literature, and other kinds of media in her spare time. She also loves basketball, sketching, and is an aspiring designer.
+
+</div>
+<br />
+
+<button
+type="button"
+class="btn btn-primary"
+data-toggle="collapse"
+data-target="#demo6"
+id="about-button"
+
+>
+Read More
+</button>
                 </div>
               </div>
             </div>
 
-            <div
-              className="col-md-6 col-lg-4 col-sm-12 card-margin"
-              style={{
-                marginTop: "5vh",
-              }}
-            >
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://instagram.fnag5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/120284639_1763355180485045_8987198536097119543_n.jpg?_nc_ht=instagram.fnag5-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=iOE2Tw286n8AX-B5c55&oh=0101f426423f02db3055812afdb7032d&oe=5FA32620"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title"> Tanisha Sudarshan</h5>
-                  <p class="card-text">
-                    Tanisha Sudarshan is an aspiring lawyer with keen interest
-                    in human rights, sustainable development and policy.
-                  </p>
-
-                  <br />
-                  <div id="demo7" class="collapse">
-                    An avid reader, she also pens academic articles and poetry
-                    with the same ease. Tanisha is a firm believer of
-                    intersectionality and balance and hopes to contribute to the
-                    field through her work for the IF Magazine.
-                  </div>
-                  <br />
-
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-toggle="collapse"
-                    data-target="#demo7"
-                  >
-                    Read More
-                  </button>
-                </div>
-              </div>
-            </div>
+           
 
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
@@ -436,6 +434,8 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo8"
+                    id="about-button"
+
                   >
                     Read More
                   </button>
@@ -481,6 +481,8 @@ export default function About(props) {
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#demo9"
+                    id="about-button"
+
                   >
                     Read More
                   </button>
@@ -491,115 +493,60 @@ export default function About(props) {
 
 
 
-
-
-
-
-
             <div
+              className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                height: "10vh",
-                marginBottom: "10vh",
-                width: "100%",
+                marginTop: "5vh",
               }}
-            ></div>
-          </div>
-        </div>
-
-        <div className="footer_wrapper float_left">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4 col-md-6 col-12 col-sm-12">
-                <div className="footer_widget footer_about_wrapper float_left">
-                  <div className="wrapper_first_image">
-                    <a href="index">
-                      <h2 style={{ color: "#fff" }}>theifmag</h2>
-                    </a>
-                  </div>
-                  <div className="abotus_content">
-                    <p>
-                      Donec id elit non mi porta gravida at eget metus. Donec id
-                      elit non mi porta gravida at eget metus. Aenean lacinia
-                      bibendum nulla sed consectetur.
-                      <br />
-                      <br />
-                      Vestibulum id ligula porta felis euismod semper. pharetra
-                      augue. Maecenas faucibus interdum...
-                    </p>
-                  </div>{" "}
-                  <a href="#" className="blog_read">
-                    read more <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 col-12 col-sm-12">
-                <div className="footer_widget footer_useful_wrapper footer_widget2 float_left">
-                  <h4>get in touch</h4>
-                  <div className="contect_form_footer float_left">
-                    <input type="text" name="name" placeholder="joahn doe" />
-                    <i className="fas fa-user-alt" />
-                  </div>
-                  <div className="contect_form_footer float_left">
-                    <input type="text" name="Email" placeholder="Email ID" />
-                    <i className="fas fa-comment" />
-                  </div>
-                  <div className="contect_form_footer float_left">
-                    <textarea
-                      name="message"
-                      rows={4}
-                      placeholder="Your Message..."
-                      defaultValue={""}
-                    />
-                  </div>
-                  <div className="footer_btn float_left">
-                    {" "}
-                    <a href="#">send message</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-12 col-sm-12">
-                <div className="footer_widget footer_contact_wrapper footer_widget2 float_left">
-                  <h4>contact info </h4>
-                  <ul>
-                    {/* <li> <span> Santa Cruz
-                        Office: </span>
-                      <p><a href="#">Theifmag , 
-                          9860 Mill Road, 
-                          Kolar, Delhi, Noida</a>
-                      </p>
-                    </li> */}
-                    {/* <li> <span>phone: </span>
-                      <p>+1-22222222 +1-2222222222</p>
-                    </li> */}
-                    <li>
-                      {" "}
-                      <span>email: </span>
-                      <p>
-                        <a href="#"> theifmag@gmail.com</a>
-                        <br />
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="section2_bottom_wrapper float_left">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                <div className="btm_foter_box">
-                  <p>
-                    Copyright © 2020 <a href="#"> Theifmag</a> Designed and
-                    Developed by<a href="#"> The Brandwick</a>
+            >
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://instagram.fnag5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/120284639_1763355180485045_8987198536097119543_n.jpg?_nc_ht=instagram.fnag5-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=iOE2Tw286n8AX-B5c55&oh=0101f426423f02db3055812afdb7032d&oe=5FA32620"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"> Tanisha Sudarshan</h5>
+                  <p class="card-text">
+                    Tanisha Sudarshan is an aspiring lawyer with keen interest
+                    in human rights, sustainable development and policy.
                   </p>
+
+                  <br />
+                  <div id="demo7" class="collapse">
+                    An avid reader, she also pens academic articles and poetry
+                    with the same ease. Tanisha is a firm believer of
+                    intersectionality and balance and hopes to contribute to the
+                    field through her work for the IF Magazine.
+                  </div>
+                  <br />
+
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-toggle="collapse"
+                    data-target="#demo7"
+                    id="about-button"
+
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>
+
+
+
+
           </div>
         </div>
+
+       
+
+  <Footer />
+
+
+
       </div>
     </Layout>
   );

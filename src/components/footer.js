@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="footer_widget footer_about_wrapper float_left">
                   <div className="wrapper_first_image">
                     <a href="index">
-                      <h2 style={{ color: "#fff" }}>theifmag</h2>
+                      <h2 style={{ color: "#fff" }}>The IF Magazine</h2>
                     </a>
                   </div>
                   <div className="abotus_content">
@@ -40,7 +40,7 @@ export default function Footer() {
                   <h4>get in touch</h4>
                   <form name="contact" method="POST" data-netlify="true">
                   <div className="contect_form_footer float_left">
-                    <input type="text" name="name" placeholder="john doe" />
+                    <input type="text" name="name" placeholder="your name" />
                     <i className="fas fa-user-alt" />
                   </div>
                   <div className="contect_form_footer float_left">

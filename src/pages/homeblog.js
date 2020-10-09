@@ -289,7 +289,7 @@ const Homeblog = ({
 	</div> */}
         {/* partner wrapper End*/}
         {/* cll wrapper Start*/}
-        <div className="ck_call_main_wrapper ">
+        {/* <div className="ck_call_main_wrapper ">
           <div className="container">
             <div>
               <div className="ck_cll_icon ">
@@ -297,7 +297,7 @@ const Homeblog = ({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* cll wrapper End*/}
         {/* ck footer wrapper Start */}
 

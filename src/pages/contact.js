@@ -65,7 +65,8 @@ const ContactPage = ({ data: { site } }) => {
                 <h4 className={contactStyles.textHeading}>Social Media</h4>
                 <h5 className={contactStyles.iconBox}>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/theifmag"
+                    target="_blank"
                     style={{
                       flex: "1",
                     }}
@@ -73,17 +74,11 @@ const ContactPage = ({ data: { site } }) => {
                     <i className="fab fa-facebook" />
                   </a>
 
-                  <a
-                    href="#"
-                    style={{
-                      flex: "1",
-                    }}
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
+              
 
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/theifmag"
+                    target="_blank"
                     style={{
                       flex: "1",
                     }}
@@ -92,7 +87,8 @@ const ContactPage = ({ data: { site } }) => {
                   </a>
 
                   <a
-                    href="#"
+                    href="https://www.instagram.com/theifmag/"
+                    target="_blank"
                     style={{
                       flex: "1",
                     }}
@@ -106,7 +102,7 @@ const ContactPage = ({ data: { site } }) => {
 
           <div className={contactStyles.rightContainer}>
             <img
-              src={require("../../static/assets/Messaging fun.gif")}
+              src={require("../images/contact2.jpeg")}
               loading="lazy"
             />
           </div>
