@@ -56,8 +56,9 @@ export default function Footer() {
                     />
                   </div>
                   <div className="footer_btn float_left">
-
-                    <a type="submit">send message</a>
+                  <div className="ck_new_btn " style={{marginTop : '-15px'}}>
+                    <a type="submit" href="#">Send Message</a>
+                  </div>
                   </div>
                   </form>
                 </div>
@@ -80,6 +81,8 @@ export default function Footer() {
                     <h5 style={{
                       display: 'flex',
                       flexDirection: 'row',
+                      width : '60%',
+                     
                     }}>
                       <a
                        href="https://www.facebook.com/theifmag" target="_blank"
@@ -122,8 +125,10 @@ export default function Footer() {
               <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                 <div className="btm_foter_box">
                   <p>
-                    Copyright © 2020 <a href="#"> Theifmag</a> Designed and
-                    Developed by<a href="https://www.thebrandwick.com/" target="_blank"> The Brandwick</a>
+                 ©<a href="#"> Theifmag.</a> Designed and
+                    Developed by<a href="https://www.thebrandwick.com/" target="_blank" style={{
+                      color : '#ee4c7c'
+                    }}> The Brandwick</a>
                   </p>
                 </div>
               </div>

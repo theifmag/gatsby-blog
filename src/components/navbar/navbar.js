@@ -268,7 +268,7 @@ const Navbar = (props) =>{
 
 
         <li className="nav-item">
-          <Link className="nav-link" to="/">Get Involved</Link>
+          <Link className="nav-link" to="/comingsoon">Get Involved</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/contact">Contact</Link>
