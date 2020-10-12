@@ -76,10 +76,10 @@ collections:
       - label: category
         name: category
         widget: select
-        options: ["Justice & law","Politics","Health","Economy","Education","Arts & Media","Environment","Violence & Harrasement","Casteism","Colorism & Racism","Sports","Podcasts","Opinion & Stories"]
+        options: ["Justice & Law","Politics","Health","Economy","Education","Arts & Media","Environment","Violence & Harassment","Casteism","Colorism & Racism","Sports","Podcasts","Opinions & Stories","Rendezvous"]
       - label: "Editor's Choice"
-        name: "EditorChoice", 
-        widget: "boolean", 
+        name: "EditorChoice"
+        widget: "boolean"
         default: false
       - { name: body, label: Body, widget: markdown }
      

@@ -45,7 +45,7 @@ const BlogList = ({
           setCurrentCategory('Environment')
           break;
     case 'Violence': 
-          setCurrentCategory('Violence & Harrasement')
+          setCurrentCategory('Violence & Harassment')
           break;
     case 'Casteism': 
           setCurrentCategory('Casteism')
@@ -56,12 +56,16 @@ const BlogList = ({
     case 'Sports': 
           setCurrentCategory('Sports')
           break;
-          case 'Podcasts': 
+    case 'Podcasts': 
           setCurrentCategory('Podcasts')
           break;
-          case 'Opinion': 
-          setCurrentCategory('Opinion & Stories')
+    case 'Opinion': 
+          setCurrentCategory('Opinions & Stories')
           break;
+      case 'Rendezvous': 
+          setCurrentCategory('Rendezvous')
+          break;
+
     default:
       setCurrentCategory('all')
   }
@@ -71,6 +75,7 @@ const BlogList = ({
     }
   }, [CategoryGiven])
   
+ 
 
  
   // const Posts = edges
@@ -83,7 +88,7 @@ const BlogList = ({
       <Navbar />
 
       <div className={blogStyles.container}>
-        <h2 className={blogStyles.heading}>{CurrentCategory} Articles  &darr;</h2>
+        <h2 className={blogStyles.heading}>{CurrentCategory}   &darr;</h2>
 
 
         

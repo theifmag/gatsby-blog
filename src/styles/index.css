@@ -45,6 +45,13 @@
 }
 
 
+.main-text-div{
+    margin-top: 17vh;
+   padding-left: 5vw;
+}
+
+
+
 @media screen and (max-width: 1000px) {
 
     .comingsoon-container{
@@ -58,4 +65,14 @@
         margin-top: 10vh;
     }
 
+
+.main-text-div{
+margin-top: 5vh;
+margin-bottom: 2vh;
 }
+
+
+}
+
+
+

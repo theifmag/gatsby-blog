@@ -35,17 +35,17 @@ const ContactPage = ({ data: { site } }) => {
               name="contact" method="POST" data-netlify="true"
             >
               <input
-                placeholder="First Name"
+                placeholder="Your Name"
                 type="text"
                 className={contactStyles.formInput}
               />
               <input
-                placeholder="youremail@gmail.com"
+                placeholder="Email ID"
                 type="email"
                 className={contactStyles.formInput}
               />
               <input
-                placeholder="your Message"
+                placeholder="Your Message..."
                 type="textarea"
                 className={contactStyles.formInput}
               />
