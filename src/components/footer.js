@@ -57,7 +57,13 @@ export default function Footer() {
                   </div>
                   <div className="footer_btn float_left">
                   <div className="ck_new_btn " style={{marginTop : '-15px'}}>
-                    <a type="submit" href="#">Send Message</a>
+                    <button type="submit" style={{
+                      marginTop : '20px',
+                      background: '#ee4c7c',
+                      color: 'white',
+                      border :  'none',
+                      padding : '7px 10px'
+                    }}>Send Message</button>
                   </div>
                   </div>
                   </form>
