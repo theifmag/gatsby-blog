@@ -75,11 +75,8 @@ const Homeblog = ({
         <div className="container-fluid">
           <div className="row">
             <div
-              className="col-lg-6 col-md-6 col-sm-12"
-              style={{
-                marginTop: "15vh",
-                paddingLeft: "5vw",
-              }}
+              className="col-lg-6 col-md-6 col-sm-12 main-text-div"
+           
             >
               <h2
                 style={{
@@ -135,7 +132,7 @@ const Homeblog = ({
             <div className="row">
               <div className="col-md-12">
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_bc float_left">
-                  <h4>Articles</h4>
+                  {/* <h4>Articles</h4> */}
                   <h3>Our Latest Articles</h3>
                 </div>
               </div>

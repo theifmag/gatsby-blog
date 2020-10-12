@@ -229,7 +229,7 @@ const Navbar = (props) =>{
                   </Link>
 
                   <Link className="dropdown-item" to="/bloglist?Category=justice&law" >
-                  Justice & law
+                  Justice & Law
                   </Link>
                   <Link className="dropdown-item" to="/bloglist?Category=Politics">
                   Politics
@@ -240,7 +240,7 @@ const Navbar = (props) =>{
                   </Link>
 
                   <Link className="dropdown-item" to="/bloglist?Category=Violence&Harrasement">
-                  Violence & Harrasement
+                  Violence & Harrassment
                   </Link>
           </div>
         </li>
@@ -254,13 +254,16 @@ const Navbar = (props) =>{
           <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 
                  <Link className="dropdown-item" to="/bloglist?Category=Opinion">
-                  Opinion & Stories
+                  Opinions & Stories
                   </Link>
 
                   <Link className="dropdown-item" to="/bloglist?Category=Podcasts" >
                    Podcast
                   </Link>
                  
+                  <Link className="dropdown-item" to="/bloglist?Category=Rendezvous" >
+                    Rendezvous 
+                  </Link>
                
                 
           </div>
