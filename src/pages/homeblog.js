@@ -104,7 +104,7 @@ const Homeblog = ({
               <ul>
                 <li>
                   <div className="ck_new_btn ">
-                    <a href="#">Read More</a>
+                    <Link href="/about">Read More</Link>
                   </div>
                 </li>
               </ul>
@@ -135,8 +135,8 @@ const Homeblog = ({
             <div className="row">
               <div className="col-md-12">
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_bc float_left">
-                  <h4>Blogs</h4>
-                  <h3>Our Latest Blogs</h3>
+                  <h4>Articles</h4>
+                  <h3>Our Latest Articles</h3>
                 </div>
               </div>
             </div>
