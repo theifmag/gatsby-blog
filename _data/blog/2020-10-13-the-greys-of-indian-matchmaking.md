@@ -11,7 +11,15 @@ EditorChoice: true
 ---
 As a 26-year-old woman in India, people don’t ask me about my future plans anymore. I’m at a stage where the next logical step for me is to get married. That’s it. For kids in India, that is the natural order of things: you’re born, you grow up, you go through various levels of education (usually in engineering or medicine), you work, you get married, you have kids, you help them through this cycle, and then you die.
 
+
+
+
+
 Up until a year ago, after putting up with stress at work all week, my weekends were a welcome respite. . . now, not so much. Every weekend is spent going through profiles, trying to judge a human being in 2D, and seeing if they could be my potential life partner. I know! Exciting stuff (insert eye-roll). Now, I have absolutely nothing against the concept of arranged marriages. It’s very convenient for people like me, honestly. Vetting another human is hard work and someone else is doing that for me!
+
+
+
+
 
 That being said, the process of arranged marriages has some very obvious and glaring problems. An entire human’s life is compressed onto paper -- the only basis you have for initially judging them. Appearances are everything. I have been on both the receiving and dealing end of such judgements, as are all of my fellow matrimonial-site users. The process is extremely uncomfortable, but you learn quite quickly to deal with outright rejections, and you get comfortable rejecting others too. It is common on dating apps and sites as well. And at this point, prejudices come unconsciously to us. So, no matter how ‘woke’ we think we are, we often make these decisions based on superficial ideas.
 
@@ -51,9 +59,5 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
 In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
 
 I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
-
-
-
-
 
 *DISCLAIMER: The views expressed in this article are the personal opinions of the author.*
