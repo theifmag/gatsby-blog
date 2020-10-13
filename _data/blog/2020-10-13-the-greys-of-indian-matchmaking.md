@@ -9,7 +9,7 @@ author: Manasa M. Poovayil
 category: Opinions & Stories
 EditorChoice: true
 ---
-![Illustration by Sarah Jacob.](/assets/IFIndMat.jpeg)
+![Illustration by Sarah Jacob.]()
 
 As a 26-year-old woman in India, people don’t ask me about my future plans anymore. I’m at a stage where the next logical step for me is to get married. That’s it. For kids in India, that is the natural order of things: you’re born, you grow up, you go through various levels of education (usually in engineering or medicine), you work, you get married, you have kids, you help them through this cycle, and then you die.
 
