@@ -38,7 +38,8 @@ export default function Footer() {
               <div className="col-lg-4 col-md-6 col-12 col-sm-12">
                 <div className="footer_widget footer_useful_wrapper footer_widget2 float_left">
                   <h4>get in touch</h4>
-                  <form name="contact" method="POST" data-netlify="true">
+                  <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                  <input type="hidden" name="form-name" value="contact" />
                   <div className="contect_form_footer float_left">
                     <input type="text" name="name" placeholder="your name" />
                     <i className="fas fa-user-alt" />
