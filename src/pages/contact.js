@@ -32,21 +32,25 @@ const ContactPage = ({ data: { site } }) => {
               style={{
                 marginTop: "5vh",
               }}
-              name="contact" method="POST" data-netlify="true"
+              name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"
             >
+                <input type="hidden" name="form-name" value="contact" />
               <input
                 placeholder="Your Name"
+                name="your name"
                 type="text"
                 className={contactStyles.formInput}
               />
               <input
                 placeholder="Email ID"
+                name="email"
                 type="email"
                 className={contactStyles.formInput}
               />
               <input
                 placeholder="Your Message..."
                 type="textarea"
+                name="Message"
                 className={contactStyles.formInput}
               />
               <button className={contactStyles.sendButton} type="submit">SEND</button>
