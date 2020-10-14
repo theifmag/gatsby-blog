@@ -53,7 +53,7 @@ export default function Template({
                       flexDirection: 'row',
                     }}>
                       <a
-                        href="#"
+                      href="https://www.facebook.com/theifmag" target="_blank"
                         style={{
                           flex: "1",
                         }}
@@ -64,7 +64,8 @@ export default function Template({
                  
 
                       <a
-                        href="#"
+                         href="https://www.linkedin.com/company/theifmag"
+                         target="_blank"
                         style={{
                           flex: "1",
                         }}
@@ -73,7 +74,7 @@ export default function Template({
                       </a>
 
                       <a
-                        href="#"
+                        href="https://www.instagram.com/theifmag/" target="_blank"
                         style={{
                           flex: "1",
                         }}
