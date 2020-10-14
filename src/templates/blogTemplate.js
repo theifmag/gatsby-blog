@@ -61,14 +61,7 @@ export default function Template({
                         <i className="fab fa-facebook" />
                       </a>
 
-                      <a
-                        href="#"
-                        style={{
-                          flex: "1",
-                        }}
-                      >
-                        <i className="fab fa-twitter" />
-                      </a>
+                 
 
                       <a
                         href="#"
