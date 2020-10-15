@@ -16,6 +16,7 @@ export default function Template({
       <Helmet>
         <title>
           {frontmatter.title} | {siteMetadata.title}
+          
         </title>
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
@@ -112,7 +113,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "DD  MMM,YYYY")
+        date(formatString: "MMMM DD,YYYY")
         path
         title
         thumbnail

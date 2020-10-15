@@ -13,7 +13,7 @@ export default function About(props) {
   return (
     <Layout>
       <Helmet>
-        <title>The IfMag || About Us</title>
+      <title>About - The Intersectional Feminist</title>
         <meta name="description" content={"About us page of Myblog"} />
       </Helmet>
       <Navbar />

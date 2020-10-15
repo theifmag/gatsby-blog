@@ -8,7 +8,7 @@ const notFound = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Page not found</title>
+      <title>The Intersectional Feminist</title>
       </Helmet>
       <Navbar />
       <div style={{textAlign: "center", padding:"5vh 0", lineHeight: "1.5"}}>
