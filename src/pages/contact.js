@@ -16,6 +16,7 @@ const ContactPage = ({ data: { site } }) => {
           content={"Contact page of " + site.siteMetadata.description}
         />
       </Helmet>
+      
       <Navbar />
       <div className={contactStyles.divider}></div>
 

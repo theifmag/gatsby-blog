@@ -40,10 +40,15 @@ export default function Footer() {
                   <h4>get in touch</h4>
 
 
-                  <form name="contact-footer" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                  <input type="hidden" name="form-name-footer" value="contact-footer" />
+                  <form name="contact-footer" method="post" data-netlify="true" data-netlify-honeypot="bot-field" 
+                >
+                  <input 
+                  style={{ textTransform : 'lowercase !important' }}
+                  type="hidden" name="form-name-footer" value="contact-footer"  />
                   <div className="contect_form_footer float_left">
-                    <input type="text" name="person's name" placeholder="your name" />
+                    <input
+                    
+                    type="text" name="person's name" placeholder="your name" />
                     <i className="fas fa-user-alt" />
                   </div>
                   <div className="contect_form_footer float_left">
@@ -135,7 +140,7 @@ export default function Footer() {
               <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                 <div className="btm_foter_box">
                   <p>
-                 ©<a href="#"> Theifmag.</a> Designed and
+                 ©<a href="#"> The If Magazine.</a> Designed and
                     Developed by<a href="https://www.thebrandwick.com/" target="_blank" style={{
                       color : '#ee4c7c'
                     }}> The Brandwick</a>
