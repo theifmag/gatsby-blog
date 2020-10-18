@@ -41,9 +41,10 @@ export default function Footer() {
 
 
                   <form name="contact-footer" method="post" data-netlify="true" data-netlify-honeypot="bot-field" 
-                >
+                style={{ textTransform : 'lowercase !important' }}
+               >
                   <input 
-                  style={{ textTransform : 'lowercase !important' }}
+                 
                   type="hidden" name="form-name-footer" value="contact-footer"  />
                   <div className="contect_form_footer float_left">
                     <input
@@ -59,6 +60,7 @@ export default function Footer() {
                     <textarea
                       name="person's message"
                       rows={4}
+                      style={{ textTransform : 'lowercase !important' }}
                       placeholder=" Message..."
                       defaultValue={""}
                     />
@@ -140,7 +142,7 @@ export default function Footer() {
               <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                 <div className="btm_foter_box">
                   <p>
-                 ©<a href="#"> The If Magazine.</a> Designed and
+                 ©<a href="#"> The IF Magazine.</a> Designed and
                     Developed by<a href="https://www.thebrandwick.com/" target="_blank" style={{
                       color : '#ee4c7c'
                     }}> The Brandwick</a>

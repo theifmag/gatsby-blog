@@ -123,22 +123,20 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Amrita S. Nair</h5>
                   <p class="card-text">
-                    Amrita S. Nair is the Founder of The Intersectional
-                    Feminist, The Silent Sexism Project and a Final Year Law
-                    Student with a keen interest in Human Rights Law,
-                    Constitutional Law and Gender Studies.
+                  Amrita S. Nair is the founder of The Intersectional Feminist and 
+                  The Silent Sexism Project. She is a final year Law student with a keen 
+                  interest in Human Rights Law, Constitutional Law, and Gender Studies.
                   </p>
 
                   <div id="demo" class="collapse">
                     <br />
-                    As the founder of the Silent Sexism Project, Amrita believes
-                    that sexism is deeply entrenched in our society and
-                    manifests itself in a myriad of ways, which must be
-                    challenged. As a Fauji child, Amrita has lived across the
-                    country, reveling in the glorious variety of Indian music,
-                    dance and cuisine. When not championing the causes or honing
-                    the plethora of talents she has, she's usually found curled
-                    up with a book and some hot chocolate in a cozy nook.
+                    As the founder of the Silent Sexism Project,
+                     Amrita believes that sexism is deeply entrenched in our 
+                     society and manifests itself in a myriad of ways, which must be 
+                     challenged. As a Fauji child, Amrita has lived across the country, 
+                     reveling in the glorious variety of Indian music, dance, and cuisine.
+                      When not championing the mentioned causes or honing the plethora of talents
+                       she has, she's usually found curled up with a book and some hot chocolate in a cozy nook.
                   </div>
                   <br />
                   <button
@@ -169,20 +167,14 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Astha Chhabra</h5>
                   <p class="card-text">
-                    Astha is a budding engineer by profession who always found
-                    herself inclined towards writing. A keen interest to speak
-                    up in support of feminism prompted her to create a platform
-                    to share her thoughts.
+                  Astha is a budding engineer by profession who has always found herself inclined towards writing. A keen interest to speak up in support of feminism prompted her to create a platform to share her thoughts.
                   </p>
 
                   <div id="demo2" class="collapse">
-                    <br />A strong advocate of equality, Astha hopes to reach
-                    out to her readers and help them connect through her
-                    writing. As a pet parent, Astha also stands up for animal
-                    rights and encourages others to do so too. She's also
-                    equipped with graphic design skills, and will be on IF
-                    magazine's design team.
-                  </div>
+                    <br />As a strong advocate of equality, Astha hopes to reach out to her readers and help them connect with her writing. As a pet parent, Astha also stands up for animal rights and encourages others to do so too. She's also equipped with graphic design skills and will be on IF magazine's design team.
+                  <br/>
+                </div>
+                  <br />
                   <br />
                   <button
                     type="button"
@@ -213,18 +205,12 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Gowri R.</h5>
                   <p class="card-text">
-                    Currently in her fourth year in law school, gowri has been
-                    deeply interested in gender and law. Having closely worked
-                    with the gender studies committee in her college for three
-                    years now.
+                  Currently in her fourth year of law school, Gowri is deeply interested in the overlapping of gender and law. She has also closely worked with the Gender Studies Committee at her college for three years now.
                   </p>
 
                   <div id="demo3" class="collapse">
                     <br />
-                    She currently heads as convenor for this academic year. In
-                    her remaining time she's been actively pursuing art
-                    professionally with a particular interest in feminist art
-                    and would be a part of our design team.
+                    She currently heads as convenor of the committee for this academic year. In her remaining time, she's been actively pursuing art professionally with a particular interest in feminist art and will be a part of IF magazine's design team.
                   </div>
                   <br />
 
@@ -257,28 +243,13 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Mahima Meenaxi</h5>
                   <p class="card-text">
-                    Mahima Meenaxi is a 22 year old, hailing from Bengaluru and
-                    is currently pursuing her fifth year of BA LLB course. As
-                    feminist and an advocate of labour rights, she believes that
-                    gender discrimination is a
+                  Mahima Meenaxi is a 22-year-old, hailing from Bengaluru and is currently pursuing her fifth year of a BA LLB course. As a feminist and an advocate of labour rights, she believes that gender discrimination is a result of deep-rooted class discrimination.
                   </p>
 
+                  <br />
                   <div id="demo4" class="collapse">
                   
-                    a result of deep rooted class
-                    discrimination.
-                    <br />
-                    <br />
-                    She also believes that gender justice is impossible to
-                    achieve without the ideological spread of intersectional
-                    feminism. She is an aspiring litigant with experience of
-                    practice in labour courts and tribunals. Her areas of
-                    research specialisation include Constitutional Law,
-                    Philosophy, Feminist Jurisprudence and Competition Law
-                    amongst others. She is an avid reader and takes pleasure in
-                    writing opinion pieces analysing laws and policies. Her
-                    interests are varied and range from Carnatic music to
-                    painting. She is also a multi-linguistic poetess.
+                  She also believes that gender justice is impossible to achieve without the ideological spread of intersectional feminism. She is an aspiring litigant with experience of practice in labour courts and tribunals. Her areas of research specialisation include Constitutional Law, Philosophy, Feminist Jurisprudence, and Competition Law amongst others. She is an avid reader, takes pleasure in writing opinion pieces, and analysing laws and policies. Her interests are varied, ranging from Carnatic music to painting. She is also a multi-linguistic poetess.
                   </div>
                   <br />
 
@@ -460,19 +431,12 @@ Read More
                 <div class="card-body">
                   <h5 class="card-title"> Sarah Jacob</h5>
                   <p class="card-text">
-                  Sarah is a third year design student at Srishti Bangalore. 
-                  She loves to create and believes in the impact art and design can have
-                   on society.
+                  Sarah is a third-year design student at Srishti Bangalore. She loves to create and believes in the impact art and design can have on society.
                   </p>
 
                   <br />
                   <div id="demo9" class="collapse">
-                  When she isn't busy starting perpetual work in progress projects
-                   she can be found daydreaming about her next ramen. Feminism to her is 
-                   about inclusivity and passing the mike. She hopes to listen, observe, 
-                   acknowledge her privilege when due and initiate dialogue through her work.
-                   She thinks the world is a little bit messy like her and wonders if it could 
-                   also use a few screaming mothers to clean it up.
+                  When she isn't busy starting perpetual work in progress projects, she can be found daydreaming about her next bowl of ramen. Feminism to her is about inclusivity and passing the mic. She hopes to listen, observe, acknowledge her privilege when due, and initiate dialogue through her work. She thinks the world is a little bit messy like her and wonders if it could also use a few screaming mothers to clean it up.
                   </div>
                   <br />
 
@@ -508,16 +472,12 @@ Read More
                 <div class="card-body">
                   <h5 class="card-title"> Tanisha Sudarshan</h5>
                   <p class="card-text">
-                    Tanisha Sudarshan is an aspiring lawyer with keen interest
-                    in human rights, sustainable development and policy.
+                  Tanisha Sudarshan is an aspiring lawyer with a keen interest in human rights, sustainable development, and policy.
                   </p>
 
                   <br />
                   <div id="demo7" class="collapse">
-                    An avid reader, she also pens academic articles and poetry
-                    with the same ease. Tanisha is a firm believer of
-                    intersectionality and balance and hopes to contribute to the
-                    field through her work for the IF Magazine.
+                  An avid reader, she also pens academic articles and poetry with the same ease. Tanisha is a firm believer in intersectionality and balance and hopes to contribute to the field through her work for the IF Magazine.
                   </div>
                   <br />
 
