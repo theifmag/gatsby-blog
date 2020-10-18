@@ -23,7 +23,7 @@ export default function Template({
 
       <Navbar />
 
-      <div className="blog-post-container container ">
+      <div className="blog-post-container  ">
         <article className="post">
           {/* {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
