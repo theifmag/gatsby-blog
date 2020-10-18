@@ -1607,7 +1607,7 @@ a:hover {
 	font-style:italic;
     padding-left: 10px;
     margin-bottom: 10px;
-    text-transform: capitalize;
+    text-transform: none;
     line-height: 40px;
     border-radius: 2px;
     border:0;
@@ -1644,7 +1644,7 @@ a:hover {
 	color:#c8c8c8;
 	font-style:italic;
     line-height: 24px;
-    text-transform: capitalize;
+    text-transform: none;
     border-radius: 2px;
     border: 0;
 	resize:none;

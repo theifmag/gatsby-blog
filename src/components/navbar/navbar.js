@@ -258,7 +258,7 @@ const Navbar = (props) =>{
                   </Link>
 
                   <Link className="dropdown-item" to="/bloglist?Category=Podcasts" >
-                   Podcast
+                   Podcasts
                   </Link>
                  
                   <Link className="dropdown-item" to="/bloglist?Category=Rendezvous" >

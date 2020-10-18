@@ -155,7 +155,7 @@ export const query = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD,YYYY")
+            date(formatString: "MMMM DD, YYYY")
             path
             title
             thumbnail
