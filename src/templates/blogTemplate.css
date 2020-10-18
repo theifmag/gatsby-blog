@@ -1,5 +1,5 @@
 .blog-post-container{
-    padding-bottom: 5vh;
+  
     font-size: 10px;
     background-color: #fff!important;
   
@@ -56,7 +56,7 @@
 }
 
 .post{
- 
+
     justify-content: center;
 }
 
