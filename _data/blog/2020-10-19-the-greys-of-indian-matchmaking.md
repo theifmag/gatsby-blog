@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: theifmag.com/Indian-matchmaking
+path: /Indian-matchmaking
 date: 2020-10-19T09:28:11.250Z
 title: The Greys of Indian Matchmaking
 metaDescription: 'The author analyses the '
