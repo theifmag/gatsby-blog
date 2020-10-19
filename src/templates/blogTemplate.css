@@ -2,6 +2,9 @@
   
     font-size: 10px;
     background-color: #fff!important;
+
+    padding-left: 10px;
+    padding-right: 10px;
   
 }
 
@@ -63,6 +66,8 @@
 .blog-post-content{
     overflow: hidden;
     box-sizing: border-box;
+    text-align: justify;
+   
 }
 
 .blog-post-content img{

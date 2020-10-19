@@ -66,10 +66,11 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
 
 
 
-In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
+
+ In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
 
 
-
-I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
+ I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
+ 
 
 ***(DISCLAIMER: The views expressed in this article are the personal opinions of the author.)***
