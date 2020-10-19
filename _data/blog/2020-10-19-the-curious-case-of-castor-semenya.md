@@ -16,7 +16,7 @@ From Chris Mosier to Castor Semenya, we’ve seen how homophobia and lack of awa
 
 <br>
 
-Speaking to BBC for an interview, he summed up the situation by saying, “A lot of people just shrug when they hear that I’m a trans man on the men’s national team and a two-time men’s national champion...people don’t think someone assigned female at birth could ever be competitive with someone assigned male at birth, and I think that’s why we see discrimination against trans women. People believe they have some sort of advantage over any other women, which is simply not true.” The ‘replacement’ of cisgender female atheletes captures the public imagination as a very potent threat by trans and intersex players. The controversy in 2018 regarding Castor Semenya’s participation especially made this painfully clear. Semenya is legally a female, identifies as such and was raised from birth as one too—her gender is indisputable but her intersex body cannot negotiate with the confused authorities at Court of Arbitration in Sport (CAS).
+Speaking to BBC for an interview, he summed up the situation by saying, “A lot of people just shrug when they hear that I’m a trans man on the men’s national team and a two-time men’s national champion...people don’t think someone assigned female at birth could ever be competitive with someone assigned male at birth, and I think that’s why we see discrimination against trans women. People believe they have some sort of advantage over any other women, which is simply not true.” The ‘replacement’ of cisgender female athletes captures the public imagination as a very potent threat by trans and intersex players. The controversy in 2018 regarding Castor Semenya’s participation especially made this painfully clear. Semenya is legally a female, identifies as such and was raised from birth as one too—her gender is indisputable but her intersex body cannot negotiate with the confused authorities at Court of Arbitration in Sport (CAS).
 
 <br>
 
@@ -57,8 +57,6 @@ Sources:
 <br>
 
 <https://www.outsports.com/2019/7/24/20696610/olympic-tokyo-summer-lgbtq-gay-lesbian-trans-athlete>
-
-
 
 <br>
 
