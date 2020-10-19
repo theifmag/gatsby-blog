@@ -18,7 +18,9 @@ Up until a year ago, after putting up with stress at work all week, my weekends 
 
 That being said, the process of arranged marriages has some very obvious and glaring problems. An entire human’s life is compressed onto paper -- the only basis you have for initially judging them. Appearances are everything. I have been on both the receiving and dealing end of such judgments, as are all of my fellow matrimonial-site users. The process is extremely uncomfortable, but you learn quite quickly to deal with outright rejections, and you get comfortable rejecting others too. It is common on dating apps and sites as well. And at this point, prejudices come unconsciously to us. So, no matter how ‘woke’ we think we are, we often make these decisions based on superficial ideas. 
 
-<br>\
+<br>
+
+\
 Recently, I finally truly (and I mean wanted-to-break-something-truly) got frustrated with this process. My father had been talking about getting a professional photographer to take my photos for a matrimonial site, although I'd always manage to talk him down. But our relationship manager from the website advised him to get this done because of the certain ‘expectations’ of prospective suitors and their families. Much to my chagrin, I couldn't win this time. Draped in a saree, I was taken to the nearest GK Vale. While I love wearing sarees and taking photos, this occasion sucked the joy right out of the experience. They seemed to be telling me that my looks in photos taken in a natural setting weren’t good enough to get me a life partner. So, that day, as I was sulking, I grabbed a big chocolate bar and sat down to watch Indian Matchmaking.
 
 <br>
