@@ -4,7 +4,7 @@ path: /The-Curious-Case-of-Castor-Semenya
 date: 2020-10-19T14:01:55.661Z
 title: The Curious Case of Castor Semenya
 thumbnail: /assets/PicsArt_10-19-06.00.05.jpg
-author: Rutvi saxena
+author: Rutvi Saxena
 category: Sports
 EditorChoice: true
 ---
@@ -20,7 +20,7 @@ Speaking to BBC for an interview, he summed up the situation by saying, “A lot
 
 <br>
 
-A bit of introductory biology:
+**A bit of introductory biology:**
 
 <br>
 
@@ -40,24 +40,24 @@ The LGBT+ community then, already struggling to find a healthy conception of the
 
 <br>
 
-Sources:
+**Sources:**
 
 <br>
 
-<https://theconversation.com/ten-ethical-flaws-in-the-caster-semenya-decision-on-intersex-in-sport-116448>
+*<https://theconversation.com/ten-ethical-flaws-in-the-caster-semenya-decision-on-intersex-in-sport-116448>*
 
 <br>
 
-<https://www.pinknews.co.uk/2020/04/21/trans-athlete-chris-mosier-lgbt-sport-transphobia-sexism-racewalking-olympics-team-usa/>
+*<https://www.pinknews.co.uk/2020/04/21/trans-athlete-chris-mosier-lgbt-sport-transphobia-sexism-racewalking-olympics-team-usa/>*
 
 <br>
 
-<https://www.smithsonianmag.com/history/brief-history-openly-gay-olympians-180968125/>
+*<https://www.smithsonianmag.com/history/brief-history-openly-gay-olympians-180968125/>*
 
 <br>
 
-<https://www.outsports.com/2019/7/24/20696610/olympic-tokyo-summer-lgbtq-gay-lesbian-trans-athlete>
+*<https://www.outsports.com/2019/7/24/20696610/olympic-tokyo-summer-lgbtq-gay-lesbian-trans-athlete>*
 
 <br>
 
-https://yourstory.com/socialstory/2019/11/stoptransbill2019-india-transgender-community-rights
+*https://yourstory.com/socialstory/2019/11/stoptransbill2019-india-transgender-community-rights*
