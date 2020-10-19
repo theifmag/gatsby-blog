@@ -18,11 +18,17 @@ Patriarchy, a system perceived to be administered by men, of men, and for men ha
 
 <br>
 
+<br>
+
 Patriarchy’s most fundamental expectation out of men is to be physically, intellectually, emotionally and financially stronger than people of other genders. While this fundamental ideal springs out of its own set of privileges, it also imposes a sense of “superiority” that more often than not, leads to “toxic masculinity”. The argument that toxic masculinity leads to oppression of women and people of other genders is undeniable. But, it is also true that the expectation to be perpetually strong in every aspect of life, with no choice given to express vulnerabilities is inherently unreasonable.
 
 <br>
 
+<br>
+
 Understanding and empathising with the vulnerable has played an active role in the sociological evolution of humankind. Our ability to specialise in certain roles while simultaneously developing a sense of co-dependability, aids in creating social value which invariably leads to positive social evolution. Yuval Noah Harari claims that the reason why humans successfully create more value in addition to what nature offers us, is owing to our ability to function better in groups. In other words, we “create” because we are aware of our “abilities” and “inabilities” and empathise with one another.
+
+<br>
 
 <br>
 
