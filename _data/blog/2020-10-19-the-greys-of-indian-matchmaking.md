@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /Indian-matchmaking
+path: theifmag.com/Indian-matchmaking
 date: 2020-10-19T09:28:11.250Z
 title: The Greys of Indian Matchmaking
 thumbnail: /assets/SAVE_20201016_230638.jpg
