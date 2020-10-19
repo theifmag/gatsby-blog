@@ -2,7 +2,7 @@
 template: BlogPost
 path: /be-a-man
 date: 2020-10-19T15:21:40.300Z
-title: '"Be a Man" - The Most Toxic Statement Every Man Has Heard'
+title: '"Be a Man" - The Most Toxic Statement Every Male Has Heard'
 thumbnail: /assets/19A89C1A-B523-4BA5-A6CF-EECF536C9508.jpg
 author: Astha Chhabra
 category: Health
@@ -20,7 +20,7 @@ The Oxford English Dictionary defines “crying” as to shed tears, typically a
 
 <br>
 
-The question that we are now faced with is why are women associated with weakness and men with strength? The mere reason that the body structures are different, doesn’t mean that the same difference exists in the case of mental health is too. Studies show that men find it difficult to share their sorrows and thoughts than women, simply because our society finds it obnoxious to understand that men can feel distress or pin too.
+The question that we are now faced with is why are women associated with weakness and men with strength? The mere reason that the body structures are different, doesn’t mean that the same difference exists in the case of mental health too. Studies show that men find it difficult to share their sorrows and thoughts than women, simply because our society finds it obnoxious to understand that men can feel distress or pin too.
 
 <br>
 
