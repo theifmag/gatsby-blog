@@ -10,10 +10,10 @@ category: Opinions & Stories
 EditorChoice: true
 ---
 \
-As a 26-year-old woman in India, people don’t ask me about my future plans anymore. I’m at a stage where the next logical step for me is to get married. That’s it. For kids in India, that is the natural order of things: you’re born, you grow up, you go through various levels of education (usually in engineering or medicine), you work, you get married, you have kids, you help them through this cycle, and then you die. 
+As a 26-year-old woman in India, people don’t ask me about my future plans anymore. I’m at a stage where the next logical step for me is to get married. That’s it. For kids in India, that is the natural order of things: you’re born, you grow up, you go through various levels of education (usually in engineering or medicine), you work, you get married, you have kids, you help them through this cycle, and then you die.   
 \
 \
-Up until a year ago, after putting up with stress at work all week, my weekends were a welcome respite. . . now, not so much. Every weekend is spent going through profiles, trying to judge a human being in 2D, and seeing if they could be my potential life partner. I know! Exciting stuff (insert eye-roll). Now, I have absolutely nothing against the concept of arranged marriages. It’s very convenient for people like me, honestly. Vetting another human is hard work and someone else is doing that for me! 
+Up until a year ago, after putting up with stress at work all week, my weekends were a welcome respite. . . now, not so much. Every weekend is spent going through profiles, trying to judge a human being in 2D, and seeing if they could be my potential life partner. I know! Exciting stuff (insert eye-roll). Now, I have absolutely nothing against the concept of arranged marriages. It’s very convenient for people like me, honestly. Vetting another human is hard work and someone else is doing that for me !    
 \
 \
 \
