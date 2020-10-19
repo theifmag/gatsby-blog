@@ -10,9 +10,11 @@ category: Opinions & Stories
 EditorChoice: true
 ---
 \
-As a 26-year-old woman in India, people don’t ask me about my future plans anymore. I’m at a stage where the next logical step for me is to get married. That’s it. For kids in India, that is the natural order of things: you’re born, you grow up, you go through various levels of education (usually in engineering or medicine), you work, you get married, you have kids, you help them through this cycle, and then you die.  
+As a 26-year-old woman in India, people don’t ask me about my future plans anymore. I’m at a stage where the next logical step for me is to get married. That’s it. For kids in India, that is the natural order of things: you’re born, you grow up, you go through various levels of education (usually in engineering or medicine), you work, you get married, you have kids, you help them through this cycle, and then you die. 
 
-<br>\
+<br>
+
+\
 Up until a year ago, after putting up with stress at work all week, my weekends were a welcome respite. . . now, not so much. Every weekend is spent going through profiles, trying to judge a human being in 2D, and seeing if they could be my potential life partner. I know! Exciting stuff (insert eye-roll). Now, I have absolutely nothing against the concept of arranged marriages. It’s very convenient for people like me, honestly. Vetting another human is hard work and someone else is doing that for me!\
 <br>
 
@@ -48,7 +50,6 @@ I’m starting with something I liked about the show. In arranged marriages, one
 Sima Taparia, a well-known marriage consultant based out of Mumbai, was the star of this show. She’s from an industrial family and was married at the young age of 19. Matchmaking has been done by a lot of people, professionally and otherwise. But bearing in mind that she started laying foundations for this business when she was very young is commendable. She professionalized this concept at a time when women were struggling to be taken seriously as businesswomen.
 
 <br>\
-\
 Her advice to her clients of not basing their decisions on superficial factors was also en pointe. She says that marriage is not just about two individuals and families coming together, but a fusion of two minds and it is necessary that these two minds complement each other. Very progressive!
 
 <br>
@@ -59,10 +60,7 @@ Her advice to her clients of not basing their decisions on superficial factors w
 \
 Young people don’t know what they want. Period. This is universally applicable but is often more prominent in matters of the heart. We often have no clue as to why we wanted to get married in the first place. It’s usually factors like societal and familial pressures or the mere fact that we are at that age where all our peers are getting hitched. Although, the show placed an unnecessary amount of focus on that confusion.
 
-<br>
-
-\
-\
+<br>\
 That the confusion exists is well established, but little was done in order to help the clients, and in turn, the viewers, to cut through it. Sure, though there were unproductive instances where the clients were referred to life coaches (something most middle-class families can’t afford). But I personally feel that it would have helped to focus more on the couples they showed at the beginning and end of each episode — many of whom have been happily married for a long time, and listen to them on what made their marriages successful!
 
 <br>
@@ -83,9 +81,7 @@ The unending demands; people being measured against checklists. These are all re
 \
 While the show did open our eyes (intentionally or unintentionally) to existent societal prejudices, there were times I wasn’t able to relate to the content as well. Quite often it seemed scripted and far from reality. To be fair, I’ll call it a selective reality. The show was exclusively about NRIs and rich Indian families, which is a very small percentage of the Indian community. This was misleading to people foreign to our culture, inaccurately representing a community that is majorly comprised of simple, middle-class families.
 
-<br>
-
-\
+<br>\
 The platform would have been better used if it talked about real and dangerous social evils like dowry and casteism--ideas that are still prevalent in some sections of Indian society. Instead, they chose to commercialize it and turned it into just another reality TV bordering on a soap opera.
 
 <br>
@@ -96,9 +92,7 @@ The platform would have been better used if it talked about real and dangerous s
 \
 The show made it quite obvious that certain social stigmas still exist and are quite normal. Divorcees find it hard to find someone and it’s tougher if there’s a kid involved. Parents insist on finding suitors within the caste while discounting the choice of their children.
 
-<br>
-
-\
+<br>\
 \
 My generation has come a long way in fighting a certain prevalent social mindset here. The show portrayed such a regressive mindset and tagged it ‘Indian’ matchmaking, that it managed to make it look like all Indians hold these views. And that they had highly educated, successful individuals and families on the show selling such outdated notions made it worse.
 
