@@ -24,6 +24,8 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
 
 
 
+
+
 1. **Age no bar!**\
    \
    I’m starting with something I liked about the show. In arranged marriages, one of the criteria that is almost always mandatory is that of the man being older than the woman by a few years. While I personally agree with this for a few reasons, I don’t believe everyone has to. Anyone who doesn’t care about following this norm should have the freedom to choose, and the show did a good job of showcasing that in a couple of cases.
@@ -52,7 +54,7 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
    \
    While the show did open our eyes (intentionally or unintentionally) to existent societal prejudices, there were times I wasn’t able to relate to the content as well. Quite often it seemed scripted and far from reality. To be fair, I’ll call it a selective reality. The show was exclusively about NRIs and rich Indian families, which is a very small percentage of the Indian community. This was misleading to people foreign to our culture, inaccurately representing a community that is majorly comprised of simple, middle-class families.\
    \
-   The platform would have been better used if it talked about real and dangerous social evils like dowry and casteism--ideas that are still prevalent in some sections of Indian society. Instead, they chose to commercialise it and turned it into just another reality TV bordering on a soap opera.
+   The platform would have been better used if it talked about real and dangerous social evils like dowry and casteism--ideas that are still prevalent in some sections of Indian society. Instead, they chose to commercialize it and turned it into just another reality TV bordering on a soap opera.
 
 
 6. **Social Stigma and Regressive Mindset**\
@@ -61,11 +63,7 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
    \
    My generation has come a long way in fighting a certain prevalent social mindset here. The show portrayed such a regressive mindset and tagged it ‘Indian’ matchmaking, that it managed to make it look like all Indians hold these views. And that they had highly educated, successful individuals and families on the show selling such outdated notions made it worse.
 
-
-
 In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
-
-
 
 I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
 
