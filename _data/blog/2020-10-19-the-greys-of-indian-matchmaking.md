@@ -33,11 +33,15 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
 
 <br>
 
+
+
 **1. Age no bar!**\
 \
 I’m starting with something I liked about the show. In arranged marriages, one of the criteria that is almost always mandatory is that of the man being older than the woman by a few years. While I personally agree with this for a few reasons, I don’t believe everyone has to. Anyone who doesn’t care about following this norm should have the freedom to choose, and the show did a good job of showcasing that in a couple of cases.
 
 <br>
+
+
 
 **2. The Matchmaker**\
 \
@@ -49,49 +53,77 @@ Her advice to her clients of not basing their decisions on superficial factors w
 
 <br>
 
+
+
 **3. Confusion, Confusion!**\
 \
 Young people don’t know what they want. Period. This is universally applicable but is often more prominent in matters of the heart. We often have no clue as to why we wanted to get married in the first place. It’s usually factors like societal and familial pressures or the mere fact that we are at that age where all our peers are getting hitched. Although, the show placed an unnecessary amount of focus on that confusion.
 
-<br>\
+<br>
+
+\
 \
 That the confusion exists is well established, but little was done in order to help the clients, and in turn, the viewers, to cut through it. Sure, though there were unproductive instances where the clients were referred to life coaches (something most middle-class families can’t afford). But I personally feel that it would have helped to focus more on the couples they showed at the beginning and end of each episode — many of whom have been happily married for a long time, and listen to them on what made their marriages successful!
 
 <br>
 
+
+
 **4. The Checklist** \
 \
-The unending demands; people being measured against checklists. These are all realities: the ‘tall, slim, and fair’ girl and the ‘tall, dark, and handsome’ guy are common demands across matrimonial sites. People who don’t fit these bills find it harder to get married, and sometimes, even when all these boxes are ticked, there is always something else lacking. Rejecting men based on their bank balance and rejecting women based on their body type is notoriously popular in India. The show normalized the demand for these requirements, but as they aren’t expressing a stand on these aspects, it could be taken either way – as an acceptable norm or as a regressive mindset. I, for one, hope that it’s the latter.<br> 
+The unending demands; people being measured against checklists. These are all realities: the ‘tall, slim, and fair’ girl and the ‘tall, dark, and handsome’ guy are common demands across matrimonial sites. People who don’t fit these bills find it harder to get married, and sometimes, even when all these boxes are ticked, there is always something else lacking. Rejecting men based on their bank balance and rejecting women based on their body type is notoriously popular in India. The show normalized the demand for these requirements, but as they aren’t expressing a stand on these aspects, it could be taken either way – as an acceptable norm or as a regressive mindset. I, for one, hope that it’s the latter.
+
+<br> 
+
+
 
 **5. “Reality Check”**\
 \
 While the show did open our eyes (intentionally or unintentionally) to existent societal prejudices, there were times I wasn’t able to relate to the content as well. Quite often it seemed scripted and far from reality. To be fair, I’ll call it a selective reality. The show was exclusively about NRIs and rich Indian families, which is a very small percentage of the Indian community. This was misleading to people foreign to our culture, inaccurately representing a community that is majorly comprised of simple, middle-class families.
 
-<br>\
+<br>
+
+\
 The platform would have been better used if it talked about real and dangerous social evils like dowry and casteism--ideas that are still prevalent in some sections of Indian society. Instead, they chose to commercialize it and turned it into just another reality TV bordering on a soap opera.
 
 <br>
 
+
+
 **6. Stigma and Regressive Mindset**\
 \
-The show made it quite obvious that certain social stigmas still exist and are quite normal. Divorcees find it hard to find someone and it’s tougher if there’s a kid involved. Parents insist on finding suitors within the caste while discounting the choice of their children.\
+The show made it quite obvious that certain social stigmas still exist and are quite normal. Divorcees find it hard to find someone and it’s tougher if there’s a kid involved. Parents insist on finding suitors within the caste while discounting the choice of their children.
+
+<br>
+
+\
 \
 My generation has come a long way in fighting a certain prevalent social mindset here. The show portrayed such a regressive mindset and tagged it ‘Indian’ matchmaking, that it managed to make it look like all Indians hold these views. And that they had highly educated, successful individuals and families on the show selling such outdated notions made it worse.
+
+<br>
 
 In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.  
 
 <br>
 
+
+
  I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
 
 <br>
+
+
 
 In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
 
 <br>
 
+
+
 I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
 
 <br>
+
+
 
 ***(DISCLAIMER: The views expressed in this article are the personal opinions of the author.)***
