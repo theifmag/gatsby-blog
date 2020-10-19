@@ -10,9 +10,9 @@ EditorChoice: false
 ---
 <!--StartFragment-->
 
-Disclaimer: This article in no manner intends to disregard the victimisation of women and persons of other genders by patriarchy. It only aims to propagate the struggle against patriarchy by reasoning the need for a more inclusive approach in feminism.
+**Disclaimer: This article in no manner intends to disregard the victimisation of women and persons of other genders by patriarchy. It only aims to propagate the struggle against patriarchy by reasoning the need for a more inclusive approach in feminism.**
 
-
+<br>
 
 Patriarchy, a system perceived to be administered by men, of men, and for men has its ill-effects not merely on women and persons of other gender identities, but on men as well. The tiniest consequence of patriarchy’s sordid expectation out of men with something like men must hold doors open for women (who are completely capable of doing it themselves) is on the surface, the problem penetrates deeper, having serious ill-effects.
 
@@ -35,8 +35,6 @@ The problem of lack of empathy in the reception of men’s expression of vulnera
 * * Men often use more lethal means of suicide than women.
   * Men are less likely than women to seek help when they are struggling.
   * Men are subject to the expectation that they will persevere through adverse situations or that they will follow through on decisions (including to die by suicide) and “get it done”
-
-    <br>
 
 **2) “You got raped? But aren’t you a man?”**
 
@@ -67,7 +65,5 @@ Patriarchy is blind to the marginalisation of men belonging to marginalised race
 What is the solution?
 
 Feminism is often criticised to be a movement for women against men. The development of an understanding that feminism does not promote the idea of“men v. women”but“us v. patriarchy”is essential to truly bring a change in society. Men, women, children, and persons of other gender identities are all victims of patriarchy on different levels. It is also true that anyone can perpetrate patriarchy and its notions regardless of their gender. Hence, the real struggle of feminists is not against men but against patriarchy and its agents.
-
-
 
 <!--EndFragment-->
