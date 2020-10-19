@@ -3,7 +3,7 @@ template: BlogPost
 path: /Indian-matchmaking
 date: 2020-10-19T09:28:11.250Z
 title: The Greys of Indian Matchmaking
-metaDescription: 'The author analyses the '
+metaDescription: ''
 thumbnail: /assets/SAVE_20201016_230638.jpg
 author: Manasa Poovayil
 category: Opinions & Stories
@@ -21,6 +21,8 @@ Recently, I finally truly (and I mean wanted-to-break-something-truly) got frust
 (Yeah. Good going, Manasa. Of the number of titles you could have watched, you chose this show on the day you were supremely frustrated with the process of arranged marriage!)
 
 Needless to say, my sour mood was worsened by the end of the show. But I thought that watching it through a lens of irritation made me view the concept very negatively the first time around. It’s possible that I was forced to face the prejudices that were subconsciously rooted in me as well. So, I went back and watched it again. My judgment? The concept of arranged marriage is not black and white. There are a lot of grey areas, and every aspect of ‘Indian Matchmaking’ made that more evident to me.
+
+
 
 1. **Age no bar!**\
    \
@@ -59,7 +61,11 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
    \
    My generation has come a long way in fighting a certain prevalent social mindset here. The show portrayed such a regressive mindset and tagged it ‘Indian’ matchmaking, that it managed to make it look like all Indians hold these views. And that they had highly educated, successful individuals and families on the show selling such outdated notions made it worse.
 
+
+
 In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
+
+
 
 I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
 
