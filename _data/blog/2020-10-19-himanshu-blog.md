@@ -10,11 +10,9 @@ EditorChoice: true
 ---
 Hello this isnew para
 
-
+  <br>  
 
 Hello this is second paragraph
-
-
 
 Hello this is third para  
 
