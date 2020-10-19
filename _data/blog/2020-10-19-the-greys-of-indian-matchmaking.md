@@ -73,6 +73,8 @@ That the confusion exists is well established, but little was done in order to h
 \
 The unending demands; people being measured against checklists. These are all realities: the ‘tall, slim, and fair’ girl and the ‘tall, dark, and handsome’ guy are common demands across matrimonial sites. People who don’t fit these bills find it harder to get married, and sometimes, even when all these boxes are ticked, there is always something else lacking. Rejecting men based on their bank balance and rejecting women based on their body type is notoriously popular in India. The show normalized the demand for these requirements, but as they aren’t expressing a stand on these aspects, it could be taken either way – as an acceptable norm or as a regressive mindset. I, for one, hope that it’s the latter.
 
+
+
 <br> 
 
 
@@ -106,19 +108,13 @@ In India, marriage alliances have different meanings depending on which part of 
 
 <br>
 
-
-
  I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
 
 <br>
 
-
-
 In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
 
 <br>
-
-
 
 I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
 
