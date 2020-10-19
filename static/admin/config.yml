@@ -81,5 +81,8 @@ collections:
         name: "EditorChoice"
         widget: "boolean"
         default: false
-      - { name: body, label: Body, widget: markdown }
+      - { name: body, label: Body, widget: markdown,
+          hint: "<br> Add this to start a new Para"
+       }
+          
      

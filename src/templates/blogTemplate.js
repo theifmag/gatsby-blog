@@ -99,12 +99,15 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
+
+        <br/>
+      <br/>
+      <br/>
+      <br/>
+
+        <Footer />
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-<Footer />
+      
 
     </Layout>
   );
