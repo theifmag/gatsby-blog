@@ -93,7 +93,7 @@ const BlogList = ({
       <Navbar />
 
       <div className={blogStyles.container}>
-        <h2 className={blogStyles.heading}>{CurrentCategory}   &darr;</h2>
+        <h2 className={blogStyles.heading}>{CurrentCategory}  </h2>
 
 
         

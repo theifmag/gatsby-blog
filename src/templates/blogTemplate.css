@@ -80,6 +80,14 @@
 
 @media screen and (max-width: 1200px) {
 
+    .blog-post-container{
+  
+        font-size: 10px;
+        background-color: #fff!important;
+      
+    }
+
+
 .post-title-main{
     width: 100%;
     font-size: 2.5rem;
