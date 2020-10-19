@@ -49,17 +49,12 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
 4. **The Checklist** \
    \
    The unending demands; people being measured against checklists. These are all realities: the ‘tall, slim, and fair’ girl and the ‘tall, dark, and handsome’ guy are common demands across matrimonial sites. People who don’t fit these bills find it harder to get married, and sometimes, even when all these boxes are ticked, there is always something else lacking. Rejecting men based on their bank balance and rejecting women based on their body type is notoriously popular in India. The show normalized the demand for these requirements, but as they aren’t expressing a stand on these aspects, it could be taken either way – as an acceptable norm or as a regressive mindset. I, for one, hope that it’s the latter. 
-
-
 5. **“Reality Check”**\
    \
    While the show did open our eyes (intentionally or unintentionally) to existent societal prejudices, there were times I wasn’t able to relate to the content as well. Quite often it seemed scripted and far from reality. To be fair, I’ll call it a selective reality. The show was exclusively about NRIs and rich Indian families, which is a very small percentage of the Indian community. This was misleading to people foreign to our culture, inaccurately representing a community that is majorly comprised of simple, middle-class families.
 
    \
-   \
    The platform would have been better used if it talked about real and dangerous social evils like dowry and casteism--ideas that are still prevalent in some sections of Indian society. Instead, they chose to commercialize it and turned it into just another reality TV bordering on a soap opera.
-
-
 6. **Social Stigma and Regressive Mindset**\
    \
    The show made it quite obvious that certain social stigmas still exist and are quite normal. Divorcees find it hard to find someone and it’s tougher if there’s a kid involved. Parents insist on finding suitors within the caste while discounting the choice of their children.\
