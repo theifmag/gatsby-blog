@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `The Ifmag Blog`,
-        short_name: `If MAg`,
+        name: `The IF Mag Blog`,
+        short_name: `IF Mag`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
@@ -61,5 +61,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     "gatsby-plugin-use-query-params",
+    `gatsby-remark-line-breaks`,
   ],
 }

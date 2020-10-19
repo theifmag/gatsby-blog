@@ -68,9 +68,13 @@ Needless to say, my sour mood was worsened by the end of the show. But I thought
    <br>
 6. **Social Stigma and Regressive Mindset**\
    \
-   The show made it quite obvious that certain social stigmas still exist and are quite normal. Divorcees find it hard to find someone and it’s tougher if there’s a kid involved. Parents insist on finding suitors within the caste while discounting the choice of their children.
+   The show made it quite obvious that certain social stigmas still exist and are quite normal. Divorcees find it hard to find someone and it’s tougher if there’s a kid involved. Parents insist on finding suitors within the caste while discounting the choice of their children.\
+   \
+   My generation has come a long way in fighting a certain prevalent social mindset here. The show portrayed such a regressive mindset and tagged it ‘Indian’ matchmaking, that it managed to make it look like all Indians hold these views. And that they had highly educated, successful individuals and families on the show selling such outdated notions made it worse.
 
-   <br>\
+
+
+   <br>
    My generation has come a long way in fighting a certain prevalent social mindset here. The show portrayed such a regressive mindset and tagged it ‘Indian’ matchmaking, that it managed to make it look like all Indians hold these views. And that they had highly educated, successful individuals and families on the show selling such outdated notions made it worse.
 
    <br>
@@ -79,7 +83,13 @@ In India, marriage alliances have different meanings depending on which part of 
 
 <br>
 
+ I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
+ 
+
+In India, marriage alliances have different meanings depending on which part of society you’re from. Granted that archaic ideals are still prevalent in chunks of our society, but the beauty of Indian culture is that it has always been adaptive. Our generation has been very vocal about its disapproval of social evils and stigmas, enabling progressive change in Indian society.
+
 I hope this show serves as a reminder to my generation about what actually matters and not the norms that they should live up to. Don’t get married because the guy has an impressive bank balance, or because the girl has looks which could belong on a ramp. Or because your family thinks ‘it’s time’, or some astrologer tells you that this is the ‘Only Time’, or simply because you see that all your friends are getting married. Appearances fade, and when they do, what are you actually left with?
+
 
 <br>
 

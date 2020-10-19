@@ -2,6 +2,8 @@
   
     font-size: 10px;
     background-color: #fff!important;
+
+
   
 }
 
@@ -56,13 +58,16 @@
 }
 
 .post{
-
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: center;
 }
 
 .blog-post-content{
     overflow: hidden;
     box-sizing: border-box;
+    text-align: justify;
+   
 }
 
 .blog-post-content img{
@@ -79,6 +84,18 @@
 
 
 @media screen and (max-width: 1200px) {
+
+    .blog-post-container{
+  
+        font-size: 10px;
+        background-color: #fff!important;
+      
+    }
+
+    .post{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 .post-title-main{
     width: 100%;

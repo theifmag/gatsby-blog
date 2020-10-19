@@ -21,6 +21,7 @@
     "gatsby-plugin-sitemap": "^2.4.0",
     "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-remark-emojis": "^0.4.2",
+    "gatsby-remark-line-breaks": "^1.0.0",
     "gatsby-remark-prismjs": "^3.3.31",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-telemetry": "^1.3.35",
