@@ -87,7 +87,7 @@ export default function Template({
 
               </div>
             </div>
-          </div>
+          </div> 
 
           <div
             className="post-thumbnail"
