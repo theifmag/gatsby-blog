@@ -10,7 +10,7 @@ EditorChoice: false
 ---
 <!--StartFragment-->
 
-**Disclaimer: This article in no manner intends to disregard the victimisation of women and persons of other genders by patriarchy. It only aims to propagate the struggle against patriarchy by reasoning the need for a more inclusive approach in feminism.**
+***Disclaimer: This article in no manner intends to disregard the victimisation of women and persons of other genders by patriarchy. It only aims to propagate the struggle against patriarchy by reasoning the need for a more inclusive approach in feminism.***
 
 <br>
 
