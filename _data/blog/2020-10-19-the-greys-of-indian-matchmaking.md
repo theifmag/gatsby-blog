@@ -26,15 +26,13 @@ I’m starting with something I liked about the show. In arranged marriages, one
 
 **2. The Matchmaker<br>**
 
-Sima Taparia, a well-known marriage consultant based out of Mumbai, was the star of this show. She’s from an industrial family and was married at the young age of 19. Matchmaking has been done by a lot of people, professionally and otherwise. But bearing in mind that she started laying foundations for this business when she was very young is commendable. She professionalized this concept at a time when women were struggling to be taken seriously as businesswomen.<br>\
-Her advice to her clients of not basing their decisions on superficial factors was also en pointe. She says that marriage is not just about two individuals and families coming together, but a fusion of two minds and it is necessary that these two minds complement each other. Very progressive!<br>
+Sima Taparia, a well-known marriage consultant based out of Mumbai, was the star of this show. She’s from an industrial family and was married at the young age of 19. Matchmaking has been done by a lot of people, professionally and otherwise. But bearing in mind that she started laying foundations for this business when she was very young is commendable. She professionalized this concept at a time when women were struggling to be taken seriously as businesswomen.<br>Her advice to her clients of not basing their decisions on superficial factors was also en pointe. She says that marriage is not just about two individuals and families coming together, but a fusion of two minds and it is necessary that these two minds complement each other. Very progressive!<br>
 
-**3. Confusion, Confusion!**\
-\
+**3. Confusion, Confusion!<br>**\
 Young people don’t know what they want. Period. This is universally applicable but is often more prominent in matters of the heart. We often have no clue as to why we wanted to get married in the first place. It’s usually factors like societal and familial pressures or the mere fact that we are at that age where all our peers are getting hitched. Although, the show placed an unnecessary amount of focus on that confusion.<br>\
 That the confusion exists is well established, but little was done in order to help the clients, and in turn, the viewers, to cut through it. Sure, though there were unproductive instances where the clients were referred to life coaches (something most middle-class families can’t afford). But I personally feel that it would have helped to focus more on the couples they showed at the beginning and end of each episode — many of whom have been happily married for a long time, and listen to them on what made their marriages successful!<br>
 
-**4. The Checklist<br>**
+**4. The Checklist**
 
 The unending demands; people being measured against checklists. These are all realities: the ‘tall, slim, and fair’ girl and the ‘tall, dark, and handsome’ guy are common demands across matrimonial sites. People who don’t fit these bills find it harder to get married, and sometimes, even when all these boxes are ticked, there is always something else lacking. Rejecting men based on their bank balance and rejecting women based on their body type is notoriously popular in India. The show normalized the demand for these requirements, but as they aren’t expressing a stand on these aspects, it could be taken either way – as an acceptable norm or as a regressive mindset. I, for one, hope that it’s the latter.<br> 
 
