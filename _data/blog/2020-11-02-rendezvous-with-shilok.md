@@ -14,7 +14,7 @@ EditorChoice: true
 
 <br>
 
-Shilok is a National Award recipient for her radio show "Lesbians in the shadows", from the Ministry of Information and Broadcasting, Government of India. She is currently working as a Dancer forChris Leuenberger Production, Switzerland on EF femininity Project and as a Performer for Zubaan Project with “Undraping Silence”. She also writes a fortnightly Column on Inclusivity and Diversity titled “Somewhere in Between” in the Indian National Newspaper, Deccan Herald. Recently, one of her poems has been included in the syllabus at Kuvempu University.
+Shilok is a National Award recipient for her radio show "Lesbians in the shadows", from the Ministry of Information and Broadcasting, Government of India. She is currently working as a Dancer for Chris Leuenberger Production, Switzerland on EF femininity Project and as a Performer for Zubaan Project with “Undraping Silence”. She also writes a fortnightly Column on Inclusivity and Diversity titled “Somewhere in Between” in the Indian National Newspaper, Deccan Herald. Recently, one of her poems has been included in the syllabus at Kuvempu University.
 
 <br>
 
