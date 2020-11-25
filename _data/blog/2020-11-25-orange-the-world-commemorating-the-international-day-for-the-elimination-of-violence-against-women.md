@@ -10,13 +10,13 @@ author: Manasa Poovayil
 category: Violence & Harassment
 EditorChoice: true
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -55,9 +55,9 @@ EditorChoice: true
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -636,9 +636,9 @@ EditorChoice: true
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -665,58 +665,88 @@ EditorChoice: true
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
+<br>
+
 25th November was marked as a day against violence by the United Nations in 1981. However, in 1999, the day was declared by the UN as International Day of Elimination of Violence against Women, honouring the Mirabal sisters of Dominican Republic who were brutally murdered in 1960 on orders from the country’s ruler, Rafael Trujillo. That many women have been subjected to physical and mental trauma has never been a secret. Women have historically been kept in a disadvantaged position by patriarchy, by any means necessary – physical, mental, sexual, and economic. While there has been a long struggle to obtain the rights and freedom women enjoy today, we are still far from the goal. As per estimates given by WHO, 1 in every 3 of women worldwide have experienced violence in either physical or sexual form, from a partner or otherwise. And those numbers are as high as 80% in certain countries like Egypt and Nigeria. India is not far behind, with nearly 70% of women having been victims of domestic violence. In 2017, a dismal Gender Equality Index rating of 0.524 placed in India in the bottom 20% of countries ranked in that year. This day was adopted by the UN nearly 20 years ago to spread awareness and educate people on crimes against women and what can the society do to prevent them. But 20 years on, not a lot has changed.
 
-
+<br>
 
 ***Why 25 November?***
 
+<br>
+
 It was the year 1960 and the place Dominican Republic. For 30 years, Rafael Trujillo had his clutches on the country, keeping it forever plunged in despair. His regime is known to have been responsible for countless deaths, including close to 67,000 Haitians in the Parsley Massacre. His era, one of the bloodiest ever in Americas, propagated crimes against many ethnic communities including, but not limited to, Cubans, Costa Ricans, Nicaraguans, and Puerto Ricans.
+
+<br>
 
 The Mirabal family had four daughters – Patria, Minerva, [María Teresa](https://en.wikipedia.org/wiki/Mar%C3%ADa_Teresa_Mirabal "María Teresa Mirabal"), and Dedé; three out of the four of them were actively involved in clandestine activities against this tyrannical regime. They refused to raise their children in a country rid with corruption and injustice. The three sisters had already been through a lot because of their activities. Minerva had studied law but was not allowed to practice as she did not accept Trujillo’s sexual advances and Maria Teresa has been arrested and harassed on express orders from Trujillo.
 
+<br>
+
 On 25th November, the Patria, Minerva and Maria Teresa were on their way home after visiting Minerva and Maria Teresa’s incarcerated husbands when they were stopped by Trujillo’s men. The sisters were strangled and clubbed to death; their bodies were put into a vehicle that was then rolled off the mountain road.
+
+<br>
 
 The Mirabal sisters became a symbol of popular and feminist resistance.
 
-
+<br>
 
 ***Violence against women in India***
 
+<br>
+
 In India, nearly every woman has experienced some form of violence against her. The offences range from insult to modesty to rape and murders. As per the latest report by the National Crime Records Bureau, in 2019 alone nearly 400,000 cases of violence against women were registered in India. Due to the societal fabric and stigma, not to mention little to no access to any means of communication in many places, this number is far from reality.
 
-<!--\[if !supportLists]-->·<!--\[endif]-->Nearly 31% of these crimes have been tagged under ‘Cruelty by Husband or His Relatives’
+<br>
 
-<!--\[if !supportLists]-->·<!--\[endif]-->‘Assault on Women with Intent to Outrage her Modesty’ had nearly 22% cases under the label
+<!--\\[if !supportLists]-->·<!--\\[endif]-->Nearly 31% of these crimes have been tagged under ‘Cruelty by Husband or His Relatives’
 
-<!--\[if !supportLists]-->·<!--\[endif]-->Close to 18% cases made its way into the ‘Kidnapping and Abduction’ bucket
+<!--\\[if !supportLists]-->·<!--\\[endif]-->‘Assault on Women with Intent to Outrage her Modesty’ had nearly 22% cases under the label
 
-<!--\[if !supportLists]-->·<!--\[endif]-->Finally, ‘Rape’ has nearly 8% cases tagged to it
+<!--\\[if !supportLists]-->·<!--\\[endif]-->Close to 18% cases made its way into the ‘Kidnapping and Abduction’ bucket
+
+<!--\\[if !supportLists]-->·<!--\\[endif]-->Finally, ‘Rape’ has nearly 8% cases tagged to it
 
 Rate of crimes against women in India saw a rise from 2018 to 2019, with the state of Uttar Pradesh holding the worst record at 14.7% of crimes against women in the country.
 
+<br>
+
 Most of these issues are made worse by many other factors like backwardness, poverty and lack of education.
+
+<br>
 
 This year, due to the pandemic, saw a spurt of domestic violence cases being reported. The pandemic has given birth to a ‘Shadow Pandemic’ where women are as much in danger of being abused and violated as they are in danger of contracting the COVID-19.
 
+<br>
+
 ***What can you do?***
+
+<br>
 
 This is a deep-rooted social problem that, like many other social evils tat we fight, arise from long years of social conditioning. It is an illness that our society is suffering from. However, it is curable. Each of us needs to do our part. Be more aware of such problems. Learn to recognize the signs of abuse and call for help as soon as you can. Often these women are under the careful watch of their perpetrators and find it extremely hard to call for help on their own. Educate yourself and your children; spread the word.
 
-
+<br>
 
 This is not a new problem. In fact, it is quite an old one. And the fight seems never-ending.
 
+<br>
+
 It will not end until every single person opens their eyes to a bigger underlying problem. Objectification of women on any platform should be put a stop to. Archaic thoughts that do not serve the society as a whole need to be done away with. We must wake up to the rot that has taken roots in our minds. Become aware of your own biases and boldly call out people on theirs.
+
+<br>
 
 25th November marks the beginning of a 16-day long campaign for Elimination of Violence against Women. This year, pledge to become more aware and fight this disease actively.
 
-
+<br>
 
 For more information, head to the link in the bio on UN Women's Instagram page: <https://lnk.bio/unwomen>
+
+<br>
+
+\#OrangeTheWorld #EndViolenceAgainstWomen
 
 <!--EndFragment-->
