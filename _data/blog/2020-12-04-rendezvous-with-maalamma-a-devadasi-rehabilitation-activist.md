@@ -3,7 +3,7 @@ template: BlogPost
 path: /Rendezvous-with-Maalamma-a-Devadasi-Rehabilitation-Activist
 date: 2020-12-04T12:15:52.354Z
 title: 'Rendezvous with Maalamma, a Devadasi Rehabilitation Activist'
-thumbnail: /assets/dev.jpg
+thumbnail: /assets/FINAL.jpg
 author: Mahima Meenaxi
 category: Rendezvous
 EditorChoice: true
