@@ -8,13 +8,13 @@ author: Mahima Meenaxi
 category: Casteism
 EditorChoice: true
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -53,9 +53,9 @@ EditorChoice: true
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -634,9 +634,9 @@ EditorChoice: true
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -663,7 +663,7 @@ EditorChoice: true
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -743,15 +743,11 @@ Owing to the bastardisation and abandonment of children, the Devadasis and their
 
 3. ***Pension and Job Security***
 
-   <br>
-
 Since the Devadasi system is essentially a form of prostitution, the Devadasis are considered worthless in old age and are denied obtaining of pensions/retirement benefits. Though the National Commission of Women has come up with several schemes to provide pensions for these women, the beneficiaries are not as many owing to improper allocation of funds and collection of data regarding the actual number of devadasis in the particular area.
 
 <br>
 
 4. ***Protection for migrants***
-
-   <br>
 
 Another problem that the law fails to recognise is that some women who cease to become a part of the system are eventually pushed out of their villages owing to social stigma. They are not offered new jobs because of their past association to the system. Hence, they are forced to migrate to nearby towns/cities in search of new jobs, with a hope that their past identities will be erased. Such migration calls for rehabilitation facilities and protection from the Government.
 
@@ -759,15 +755,11 @@ Another problem that the law fails to recognise is that some women who cease to 
 
 5. ***Right to Health and accessible Healthcare***
 
-   <br>
-
 The Rehabilitation of the Devadasis is impossible without ensuring that they are physically and emotionally healthy. Therefore, the right to health and accessible healthcare is another everyday need of Devadasis that we, as a society, are ignoring.
 
 <br>
 
 <br>
-
-
 
 Maalamma truly believes that empowerment of Devadasi women is only possible on the recognition of their needs which springs from grassroots level activism. The struggles that one faces during the indulgence of such grassroots level activism is innumerable. Despite such struggles, she is hopeful that the emancipation of Devadasi women from feudalistic cuffs is not a distant dream if laws, policies and grassroots level activism work hand in hand.
 
