@@ -3,7 +3,7 @@ template: BlogPost
 path: /Conundrum-of-a-Devadasi-Rehabilitation-Activist
 date: 2020-12-09T13:56:24.829Z
 title: Conundrum of a Devadasi Rehabilitation Activist
-thumbnail: /assets/WhatsApp Image 2020-12-01 at 6.14.55 PM.jpeg
+thumbnail: /assets/FINAL.jpg
 author: Mahima Meenaxi
 category: Casteism
 EditorChoice: true
