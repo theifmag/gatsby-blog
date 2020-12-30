@@ -3,13 +3,12 @@ import "./navbar.css";
 
 import { Link } from "gatsby";
 
-const Navbar = (props) =>{
-
+const Navbar = props => {
   function openMenu() {
     var navmenu2 = document.getElementById("navmenu");
     var hamburger2 = document.getElementById("burger");
-     hamburger2.classList.toggle("hamburger-open");
-     navmenu2.classList.toggle("open");
+    hamburger2.classList.toggle("hamburger-open");
+    navmenu2.classList.toggle("open");
   }
 
   return (
@@ -19,7 +18,7 @@ const Navbar = (props) =>{
           className="container-fluid"
           style={{
             paddingLeft: "7vw",
-            paddingRight: "3vw",
+            paddingRight: "3vw"
           }}
         >
           <div className="row">
@@ -30,7 +29,7 @@ const Navbar = (props) =>{
                     <i
                       className="fa fa-envelope"
                       style={{
-                        color: "gray",
+                        color: "gray"
                       }}
                     />
                     <a href="#">Email : theifmag@gmail.com</a>
@@ -49,18 +48,30 @@ const Navbar = (props) =>{
                       <div className="plumb_top_socialicon">
                         <ul>
                           <li>
-                            <a href="https://www.facebook.com/theifmag" target="_blank">
+                            <a
+                              href="https://www.facebook.com/theifmag"
+                              target="_blank"
+                            >
                               <i className="fab fa-facebook" />
                             </a>
                           </li>
-                         
+
                           <li>
-                            <a href="https://www.linkedin.com/company/theifmag" target="_blank">
-                              <i className="fab fa-linkedin" aria-hidden="true"></i>
+                            <a
+                              href="https://www.linkedin.com/company/theifmag"
+                              target="_blank"
+                            >
+                              <i
+                                className="fab fa-linkedin"
+                                aria-hidden="true"
+                              ></i>
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.instagram.com/theifmag/" target="_blank">
+                            <a
+                              href="https://www.instagram.com/theifmag/"
+                              target="_blank"
+                            >
                               <i className="fab fa-instagram" />
                             </a>
                           </li>
@@ -172,116 +183,171 @@ const Navbar = (props) =>{
         </div>
       </nav> */}
       <nav className="navbar navbar-expand-lg navbar-light custom-color">
-    <Link className="navbar-brand" to="/">
-            <img
-              src={require("../../images/logo-main-3.png")}
-              style={{
-                width: "150px",
-                marginLeft : '5vw'
-              }}
-            />
-          </Link>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul className="navbar-nav ml-auto">
-        <li className="nav-item active">
-          <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
-          
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/about">About</Link>
-        </li>
+        <Link className="navbar-brand" to="/">
+          <img
+            src={require("../../images/logo-main-3.png")}
+            style={{
+              width: "150px",
+              marginLeft: "5vw"
+            }}
+          />
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <Link className="nav-link" to="/">
+                Home <span className="sr-only">(current)</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
+            </li>
 
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Explore
-          </a>
-          <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-
-          <Link className="dropdown-item" to="/bloglist?Category=Arts&Media">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Explore
+              </a>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Arts&Media"
+                >
                   Arts & Media
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=Casteism">
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Casteism"
+                >
                   Casteism
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=colorism&Racism">
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=colorism&Racism"
+                >
                   Colorism & Racism
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=Economy">
+                <Link className="dropdown-item" to="/bloglist?Category=Economy">
                   Economy
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=Education">
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Education"
+                >
                   Education
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=Environment">
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Environment"
+                >
                   Environment
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=Health">
+                <Link className="dropdown-item" to="/bloglist?Category=Health">
                   Health
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=justice&law" >
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=justice&law"
+                >
                   Justice & Law
-                  </Link>
-                  <Link className="dropdown-item" to="/bloglist?Category=Politics">
+                </Link>
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Politics"
+                >
                   Politics
-                  </Link>
-                
-                  <Link className="dropdown-item" to="/bloglist?Category=Sports">
+                </Link>
+
+                <Link className="dropdown-item" to="/bloglist?Category=Sports">
                   Sports
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=Violence&Harrasement">
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Violence&Harrasement"
+                >
                   Violence & Harrassment
-                  </Link>
-          </div>
-        </li>
+                </Link>
+              </div>
+            </li>
 
-
-        
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Series
-          </a>
-          <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                
-                 <Link className="dropdown-item" to="/bloglist?Category=Opinion">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Series
+              </a>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <Link className="dropdown-item" to="/bloglist?Category=Opinion">
                   Opinions & Stories
-                  </Link>
+                </Link>
 
-                  <Link className="dropdown-item" to="/bloglist?Category=Podcasts" >
-                   Podcasts
-                  </Link>
-                 
-                  <Link className="dropdown-item" to="/bloglist?Category=Rendezvous" >
-                    Rendezvous 
-                  </Link>
-               
-                
-          </div>
-        </li>
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Podcasts"
+                >
+                  Podcasts
+                </Link>
 
+                <Link
+                  className="dropdown-item"
+                  to="/bloglist?Category=Rendezvous"
+                >
+                  Rendezvous
+                </Link>
+              </div>
+            </li>
 
-        <li className="nav-item">
-          <Link className="nav-link" to="/comingsoon">Get Involved</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/contact">Contact</Link>
-        </li>
-      </ul>
+            <li className="nav-item">
+              <Link className="nav-link" to="/comingsoon">
+                Get Involved
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
-    </div>
-    
   );
-}
+};
 
-export default  Navbar ;
+export default Navbar;

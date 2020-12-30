@@ -4,10 +4,10 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import "./blogTemplate.css";
 import Navbar from "../components/navbar/navbar";
-import Footer from '../components/footer'
+import Footer from "../components/footer";
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data // this prop will be injected by the GraphQL query below.
 }) {
   const { site, markdownRemark } = data; // data.markdownRemark holds your post data
   const { siteMetadata } = site;
@@ -17,7 +17,6 @@ export default function Template({
       <Helmet>
         <title>
           {frontmatter.title} | {siteMetadata.title}
-          
         </title>
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
@@ -40,54 +39,53 @@ export default function Template({
           )} */}
 
           <div>
-          
-          <h3 className="post-title-main">{frontmatter.title}</h3>
+            <h3 className="post-title-main">{frontmatter.title}</h3>
             <div className="data-div">
-           
               <div className="author-container">
                 <h5 className="content">{frontmatter.author}</h5>
                 <h5 className="content">{frontmatter.date}</h5>
               </div>
 
               <div className="social-container">
-              <h5 style={{
-                      display: 'flex',
-                      flexDirection: 'row',
-                    }}>
-                      <a
-                      href="https://www.facebook.com/theifmag" target="_blank"
-                        style={{
-                          flex: "1",
-                        }}
-                      >
-                        <i className="fab fa-facebook" />
-                      </a>
+                <h5
+                  style={{
+                    display: "flex",
+                    flexDirection: "row"
+                  }}
+                >
+                  <a
+                    href="https://www.facebook.com/theifmag"
+                    target="_blank"
+                    style={{
+                      flex: "1"
+                    }}
+                  >
+                    <i className="fab fa-facebook" />
+                  </a>
 
-                 
+                  <a
+                    href="https://www.linkedin.com/company/theifmag"
+                    target="_blank"
+                    style={{
+                      flex: "1"
+                    }}
+                  >
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                  </a>
 
-                      <a
-                         href="https://www.linkedin.com/company/theifmag"
-                         target="_blank"
-                        style={{
-                          flex: "1",
-                        }}
-                      >
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                      </a>
-
-                      <a
-                        href="https://www.instagram.com/theifmag/" target="_blank"
-                        style={{
-                          flex: "1",
-                        }}
-                      >
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </h5>
-
+                  <a
+                    href="https://www.instagram.com/theifmag/"
+                    target="_blank"
+                    style={{
+                      flex: "1"
+                    }}
+                  >
+                    <i className="fab fa-instagram" />
+                  </a>
+                </h5>
               </div>
             </div>
-          </div> 
+          </div>
 
           <div
             className="post-thumbnail"
@@ -100,15 +98,12 @@ export default function Template({
           />
         </article>
 
-        <br/>
-      <br/>
-      <br/>
-      
+        <br />
+        <br />
+        <br />
 
         <Footer />
       </div>
-      
-
     </Layout>
   );
 }

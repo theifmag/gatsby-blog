@@ -1,5 +1,5 @@
 import React from "react";
-import Latestblogcard from '../components/cards/latestblogcard'
+import Latestblogcard from "../components/cards/latestblogcard";
 import "../styles/css/style.css";
 import "../styles/css/animate.css";
 import "../styles/css/bootstrap.min.css";
@@ -13,18 +13,12 @@ import "../styles/css/owl.theme.default.css";
 import "../styles/css/magnific-popup.css";
 import "../styles/css/style_V.css";
 import "../styles/css/responsive_V.css";
-import { Link } from 'gatsby'
+import { Link } from "gatsby";
 import { graphql } from "gatsby";
 import Editorcard from "../components/cards/editorcard";
-import Footer from "../components/footer" ;
+import Footer from "../components/footer";
 
-
-const Homeblog = ({
-
-}) => {
-
-
-
+const Homeblog = ({}) => {
   return (
     <div>
       <div>
@@ -74,15 +68,12 @@ const Homeblog = ({
 
         <div className="container-fluid">
           <div className="row">
-            <div
-              className="col-lg-6 col-md-6 col-sm-12 main-text-div"
-           
-            >
+            <div className="col-lg-6 col-md-6 col-sm-12 main-text-div">
               <h2
                 style={{
                   fontSize: "30px",
                   color: "#ee4c7c",
-                  fontFamily: "Bad Script",
+                  fontFamily: "Bad Script"
                 }}
               >
                 {" "}
@@ -91,7 +82,7 @@ const Homeblog = ({
               <h4
                 style={{
                   marginTop: "5vh",
-                  marginBottom: "2vh",
+                  marginBottom: "2vh"
                 }}
               >
                 If we aren't intersectional, some of us, the most vulnerable,
@@ -110,7 +101,7 @@ const Homeblog = ({
               className="col-lg-6 col-md-6 col-sm-12"
               style={{
                 overflow: "hidden",
-                objectFit: "contain",
+                objectFit: "contain"
               }}
             >
               <center>
@@ -119,7 +110,7 @@ const Homeblog = ({
                   alt="img"
                   style={{
                     maxWidth: "430px",
-                    width: "100%",
+                    width: "100%"
                   }}
                 />
               </center>
@@ -139,9 +130,7 @@ const Homeblog = ({
             </div>
           </div>
 
-
-<Latestblogcard />
-
+          <Latestblogcard />
         </div>
 
         {/* ck_obc_main_wrapper Start */}
@@ -219,20 +208,17 @@ const Homeblog = ({
                 <div className="ck_heading_center_wrapper ck_heading_center_wrapper_ok float_left">
                   <h3
                     style={{
-                      color: "black",
+                      color: "black"
                     }}
                   >
                     Editor's Choice
                   </h3>
                 </div>
               </div>
-
-              
             </div>
           </div>
 
-          <Editorcard style={{ zIndex: "100"}}/>
-
+          <Editorcard style={{ zIndex: "100" }} />
         </div>
         {/* ck blog wrapper End */}
         {/* partner wrapper Start*/}
@@ -458,10 +444,6 @@ const Homeblog = ({
       </div>
     </div>
   );
-}
+};
 
 export default Homeblog;
-
-
-
-

@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Navbar from "../components/navbar/navbar";
 import contactStyles from "../styles/contactStyles.module.scss";
-import Footer from '../components/footer' ;
+import Footer from "../components/footer";
 
 const ContactPage = ({ data: { site } }) => {
   return (
@@ -16,7 +16,7 @@ const ContactPage = ({ data: { site } }) => {
           content={"Contact page of " + site.siteMetadata.description}
         />
       </Helmet>
-      
+
       <Navbar />
       <div className={contactStyles.divider}></div>
 
@@ -31,11 +31,14 @@ const ContactPage = ({ data: { site } }) => {
             <form
               className={contactStyles.form}
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
-              name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"
+              name="contact"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
             >
-                <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="form-name" value="contact" />
               <input
                 placeholder="Your Name"
                 name="your name"
@@ -54,7 +57,9 @@ const ContactPage = ({ data: { site } }) => {
                 name="Message"
                 className={contactStyles.formInput}
               />
-              <button className={contactStyles.sendButton} type="submit">SEND</button>
+              <button className={contactStyles.sendButton} type="submit">
+                SEND
+              </button>
             </form>
 
             <div className={contactStyles.contactInfoDiv}>
@@ -73,19 +78,17 @@ const ContactPage = ({ data: { site } }) => {
                     href="https://www.facebook.com/theifmag"
                     target="_blank"
                     style={{
-                      flex: "1",
+                      flex: "1"
                     }}
                   >
                     <i className="fab fa-facebook" />
                   </a>
 
-              
-
                   <a
                     href="https://www.linkedin.com/company/theifmag"
                     target="_blank"
                     style={{
-                      flex: "1",
+                      flex: "1"
                     }}
                   >
                     <i class="fab fa-linkedin" aria-hidden="true"></i>
@@ -95,7 +98,7 @@ const ContactPage = ({ data: { site } }) => {
                     href="https://www.instagram.com/theifmag/"
                     target="_blank"
                     style={{
-                      flex: "1",
+                      flex: "1"
                     }}
                   >
                     <i className="fab fa-instagram" />
@@ -106,26 +109,14 @@ const ContactPage = ({ data: { site } }) => {
           </div>
 
           <div className={contactStyles.rightContainer}>
-            <img
-              src={require("../images/contact2.jpeg")}
-              loading="lazy"
-            />
+            <img src={require("../images/contact2.jpeg")} loading="lazy" />
           </div>
-
-
-
-
-
-
         </div>
       </div>
-<Footer />
-
+      <Footer />
     </Layout>
   );
 };
-
-
 
 export default ContactPage;
 

@@ -8,9 +8,10 @@ author: Tanisha Sudarshan and Mahima Meenaxi
 category: Rendezvous
 EditorChoice: true
 ---
+
 <br>
 
-***RENZDEZVOUS WITH SHILOK, A NATIONAL AWARD RECEPIENT OF THE RADIO SHOW, “LESBIANS IN THE SHADOWS”***
+**_RENZDEZVOUS WITH SHILOK, A NATIONAL AWARD RECEPIENT OF THE RADIO SHOW, “LESBIANS IN THE SHADOWS”_**
 
 <br>
 

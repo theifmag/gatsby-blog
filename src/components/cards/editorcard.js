@@ -10,7 +10,7 @@ const settings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  arrows: false,
+  arrows: false
 };
 
 export default function Editorcard() {
@@ -39,7 +39,7 @@ export default function Editorcard() {
           }
         }
       `}
-      render={(data) => (
+      render={data => (
         <center>
           <div className="container">
             <div>
@@ -48,7 +48,7 @@ export default function Editorcard() {
          console.log(data.allMarkdownRemark.edges)
      } */}
 
-                {data.allMarkdownRemark.edges.map((item) => {
+                {data.allMarkdownRemark.edges.map(item => {
                   if (item.node.frontmatter.EditorChoice) {
                     return (
                       <div>

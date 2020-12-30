@@ -6,14 +6,10 @@ import { useQueryParam, NumberParam, StringParam } from "use-query-params";
 import Footer from "../components/footer";
 
 export default function About(props) {
-
-
-
-
   return (
     <Layout>
       <Helmet>
-      <title>About - The Intersectional Feminist</title>
+        <title>About - The Intersectional Feminist</title>
         <meta name="description" content={"About us page of Myblog"} />
       </Helmet>
       <Navbar />
@@ -21,16 +17,20 @@ export default function About(props) {
         <div
           className="ck_about_main_wrapper float_left"
           style={{
-            marginBottom: "10vh",
+            marginBottom: "10vh"
           }}
         >
           <div className="container">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="ck_about_img_wrapper float_left">
-                  <img src={require('../images/about2.jpeg')} alt="img"  style={{
-                    maxWidth : '500px'
-                  }} />
+                  <img
+                    src={require("../images/about2.jpeg")}
+                    alt="img"
+                    style={{
+                      maxWidth: "500px"
+                    }}
+                  />
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
@@ -40,34 +40,36 @@ export default function About(props) {
                     <h3>About Us</h3>
                   </div>
                   <p>
-                  <i> IF</i> is a pioneer online magazine dedicated exclusively to content relating to
-                  intersectional feminism. We are a group of young editors, writers, 
-                  and illustrators from varied regional, cultural, and educational backgrounds.
+                    <i> IF</i> is a pioneer online magazine dedicated
+                    exclusively to content relating to intersectional feminism.
+                    We are a group of young editors, writers, and illustrators
+                    from varied regional, cultural, and educational backgrounds.
                     <br />
                     <br />
-                    In our shared vision of an equal and equitable society, we aim to 
-                    vocalise the role of discrimination on the basis of social constructs 
-                    such as caste, class, gender, race, and religion. We are determined to 
-                    represent varied geopolitical, ideological, and linguistic identities 
-                    in the fight against patriarchal structures.
+                    In our shared vision of an equal and equitable society, we
+                    aim to vocalise the role of discrimination on the basis of
+                    social constructs such as caste, class, gender, race, and
+                    religion. We are determined to represent varied
+                    geopolitical, ideological, and linguistic identities in the
+                    fight against patriarchal structures.
                   </p>
-                    <br/>
+                  <br />
                   <div id="demo99" class="collapse">
-                  We are strong believers in freedom of expression and in pursuance of our beliefs, 
-                  we will share content under a spectrum of areas. From current affairs to history,
-                   and including our areas of expertise in environmentalism, justice, laws and 
-                   policies, multimedia, and STEM among other subjects, we're going to have 
-                   something for everyone!
-
-                   <br/>
-                   <br/>
-
-                  <i> IF</i> is ambitious and hopes to be a significant entity in promoting a
-                   better future through inclusivity and feminism for everyone, 
-                   regardless of their identities.
-                   <br/>
-                   <i>  Because IF not now, then when? </i>
-                  <br /><br/>
+                    We are strong believers in freedom of expression and in
+                    pursuance of our beliefs, we will share content under a
+                    spectrum of areas. From current affairs to history, and
+                    including our areas of expertise in environmentalism,
+                    justice, laws and policies, multimedia, and STEM among other
+                    subjects, we're going to have something for everyone!
+                    <br />
+                    <br />
+                    <i> IF</i> is ambitious and hopes to be a significant entity
+                    in promoting a better future through inclusivity and
+                    feminism for everyone, regardless of their identities.
+                    <br />
+                    <i> Because IF not now, then when? </i>
+                    <br />
+                    <br />
                   </div>
                   <button
                     type="button"
@@ -75,7 +77,6 @@ export default function About(props) {
                     data-toggle="collapse"
                     data-target="#demo99"
                     id="about-button"
-                   
                   >
                     Read More
                   </button>
@@ -92,7 +93,7 @@ export default function About(props) {
             marginTop: "10vh",
             marginBottom: "10vh",
             fontSize: "38px",
-            fontWeight: "500",
+            fontWeight: "500"
           }}
         >
           Meet the team
@@ -104,14 +105,14 @@ export default function About(props) {
             color: "#953f73",
 
             marginTop: "2vh",
-            marginBottom: "10vh",
+            marginBottom: "10vh"
           }}
         >
           <div className="row">
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -123,20 +124,23 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Amrita S. Nair</h5>
                   <p class="card-text">
-                  Amrita S. Nair is the founder of The Intersectional Feminist and 
-                  The Silent Sexism Project. She is a final year Law student with a keen 
-                  interest in Human Rights Law, Constitutional Law, and Gender Studies.
+                    Amrita S. Nair is the founder of The Intersectional Feminist
+                    and The Silent Sexism Project. She is a final year Law
+                    student with a keen interest in Human Rights Law,
+                    Constitutional Law, and Gender Studies.
                   </p>
 
                   <div id="demo" class="collapse">
                     <br />
-                    As the founder of the Silent Sexism Project,
-                     Amrita believes that sexism is deeply entrenched in our 
-                     society and manifests itself in a myriad of ways, which must be 
-                     challenged. As a Fauji child, Amrita has lived across the country, 
-                     reveling in the glorious variety of Indian music, dance, and cuisine.
-                      When not championing the mentioned causes or honing the plethora of talents
-                       she has, she's usually found curled up with a book and some hot chocolate in a cozy nook.
+                    As the founder of the Silent Sexism Project, Amrita believes
+                    that sexism is deeply entrenched in our society and
+                    manifests itself in a myriad of ways, which must be
+                    challenged. As a Fauji child, Amrita has lived across the
+                    country, reveling in the glorious variety of Indian music,
+                    dance, and cuisine. When not championing the mentioned
+                    causes or honing the plethora of talents she has, she's
+                    usually found curled up with a book and some hot chocolate
+                    in a cozy nook.
                   </div>
                   <br />
                   <button
@@ -155,7 +159,7 @@ export default function About(props) {
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -167,13 +171,22 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Astha Chhabra</h5>
                   <p class="card-text">
-                  Astha is a budding engineer by profession who has always found herself inclined towards writing. A keen interest to speak up in support of feminism prompted her to create a platform to share her thoughts.
+                    Astha is a budding engineer by profession who has always
+                    found herself inclined towards writing. A keen interest to
+                    speak up in support of feminism prompted her to create a
+                    platform to share her thoughts.
                   </p>
 
                   <div id="demo2" class="collapse">
-                    <br />As a strong advocate of equality, Astha hopes to reach out to her readers and help them connect with her writing. As a pet parent, Astha also stands up for animal rights and encourages others to do so too. She's also equipped with graphic design skills and will be on IF magazine's design team.
-                  <br/>
-                </div>
+                    <br />
+                    As a strong advocate of equality, Astha hopes to reach out
+                    to her readers and help them connect with her writing. As a
+                    pet parent, Astha also stands up for animal rights and
+                    encourages others to do so too. She's also equipped with
+                    graphic design skills and will be on IF magazine's design
+                    team.
+                    <br />
+                  </div>
                   <br />
                   <br />
                   <button
@@ -182,7 +195,6 @@ export default function About(props) {
                     data-toggle="collapse"
                     data-target="#demo2"
                     id="about-button"
-
                   >
                     Read More
                   </button>
@@ -193,7 +205,7 @@ export default function About(props) {
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -205,12 +217,19 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Gowri R.</h5>
                   <p class="card-text">
-                  Currently in her fourth year of law school, Gowri is deeply interested in the overlapping of gender and law. She has also closely worked with the Gender Studies Committee at her college for three years now.
+                    Currently in her fourth year of law school, Gowri is deeply
+                    interested in the overlapping of gender and law. She has
+                    also closely worked with the Gender Studies Committee at her
+                    college for three years now.
                   </p>
 
                   <div id="demo3" class="collapse">
                     <br />
-                    She currently heads as convenor of the committee for this academic year. In her remaining time, she's been actively pursuing art professionally with a particular interest in feminist art and will be a part of IF magazine's design team.
+                    She currently heads as convenor of the committee for this
+                    academic year. In her remaining time, she's been actively
+                    pursuing art professionally with a particular interest in
+                    feminist art and will be a part of IF magazine's design
+                    team.
                   </div>
                   <br />
 
@@ -220,7 +239,6 @@ export default function About(props) {
                     data-toggle="collapse"
                     data-target="#demo3"
                     id="about-button"
-
                   >
                     Read More
                   </button>
@@ -231,7 +249,7 @@ export default function About(props) {
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -243,13 +261,25 @@ export default function About(props) {
                 <div class="card-body">
                   <h5 class="card-title">Mahima Meenaxi</h5>
                   <p class="card-text">
-                  Mahima Meenaxi is a 22-year-old, hailing from Bengaluru and is currently pursuing her fifth year of a BA LLB course. As a feminist and an advocate of labour rights, she believes that gender discrimination is a result of deep-rooted class discrimination.
+                    Mahima Meenaxi is a 22-year-old, hailing from Bengaluru and
+                    is currently pursuing her fifth year of a BA LLB course. As
+                    a feminist and an advocate of labour rights, she believes
+                    that gender discrimination is a result of deep-rooted class
+                    discrimination.
                   </p>
 
                   <br />
                   <div id="demo4" class="collapse">
-                  
-                  She also believes that gender justice is impossible to achieve without the ideological spread of intersectional feminism. She is an aspiring litigant with experience of practice in labour courts and tribunals. Her areas of research specialisation include Constitutional Law, Philosophy, Feminist Jurisprudence, and Competition Law amongst others. She is an avid reader, takes pleasure in writing opinion pieces, and analysing laws and policies. Her interests are varied, ranging from Carnatic music to painting. She is also a multi-linguistic poetess.
+                    She also believes that gender justice is impossible to
+                    achieve without the ideological spread of intersectional
+                    feminism. She is an aspiring litigant with experience of
+                    practice in labour courts and tribunals. Her areas of
+                    research specialisation include Constitutional Law,
+                    Philosophy, Feminist Jurisprudence, and Competition Law
+                    amongst others. She is an avid reader, takes pleasure in
+                    writing opinion pieces, and analysing laws and policies. Her
+                    interests are varied, ranging from Carnatic music to
+                    painting. She is also a multi-linguistic poetess.
                   </div>
                   <br />
 
@@ -259,7 +289,6 @@ export default function About(props) {
                     data-toggle="collapse"
                     data-target="#demo4"
                     id="about-button"
-
                   >
                     Read More
                   </button>
@@ -270,7 +299,7 @@ export default function About(props) {
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -290,7 +319,6 @@ export default function About(props) {
 
                   <br />
                   <div id="demo5" class="collapse">
-
                     She is a feminist who believes that feminism does not belong
                     to just one gender. Her idea of feminism transcends labels
                     of causes pertaining to any single sphere of the society and
@@ -313,7 +341,6 @@ export default function About(props) {
                     data-toggle="collapse"
                     data-target="#demo5"
                     id="about-button"
-
                   >
                     Read More
                   </button>
@@ -324,52 +351,50 @@ export default function About(props) {
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
                 <img
                   class="card-img-top"
-                  src={require('../images/pari.jpg')}
+                  src={require("../images/pari.jpg")}
                   alt="Card image cap"
                 />
                 <div class="card-body">
                   <h5 class="card-title"> Parinishta T.</h5>
                   <p class="card-text">
-                  Parinishta T. is a Communication and Media Studies graduate and currently
-                   works as an Online Media Executive. She believes in both 
-                   creating and consuming media responsibly, having observed 
-                   the kind of impact it has on people's psyches.
+                    Parinishta T. is a Communication and Media Studies graduate
+                    and currently works as an Online Media Executive. She
+                    believes in both creating and consuming media responsibly,
+                    having observed the kind of impact it has on people's
+                    psyches.
                   </p>
                   <br />
 
                   <div id="demo6" class="collapse">
+                    She likes analysing pop culture: movies, songs, literature,
+                    and other kinds of media in her spare time. She also loves
+                    basketball, sketching, and is an aspiring designer.
+                  </div>
+                  <br />
 
-                  She likes analysing pop culture: movies, songs, literature, and other kinds of media in her spare time. She also loves basketball, sketching, and is an aspiring designer.
-
-</div>
-<br />
-
-<button
-type="button"
-class="btn btn-primary"
-data-toggle="collapse"
-data-target="#demo6"
-id="about-button"
-
->
-Read More
-</button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-toggle="collapse"
+                    data-target="#demo6"
+                    id="about-button"
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>
 
-           
-
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -406,7 +431,6 @@ Read More
                     data-toggle="collapse"
                     data-target="#demo8"
                     id="about-button"
-
                   >
                     Read More
                   </button>
@@ -414,12 +438,10 @@ Read More
               </div>
             </div>
 
-
-
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -431,12 +453,21 @@ Read More
                 <div class="card-body">
                   <h5 class="card-title"> Sarah Jacob</h5>
                   <p class="card-text">
-                  Sarah is a third-year design student at Srishti Bangalore. She loves to create and believes in the impact art and design can have on society.
+                    Sarah is a third-year design student at Srishti Bangalore.
+                    She loves to create and believes in the impact art and
+                    design can have on society.
                   </p>
 
                   <br />
                   <div id="demo9" class="collapse">
-                  When she isn't busy starting perpetual work in progress projects, she can be found daydreaming about her next bowl of ramen. Feminism to her is about inclusivity and passing the mic. She hopes to listen, observe, acknowledge her privilege when due, and initiate dialogue through her work. She thinks the world is a little bit messy like her and wonders if it could also use a few screaming mothers to clean it up.
+                    When she isn't busy starting perpetual work in progress
+                    projects, she can be found daydreaming about her next bowl
+                    of ramen. Feminism to her is about inclusivity and passing
+                    the mic. She hopes to listen, observe, acknowledge her
+                    privilege when due, and initiate dialogue through her work.
+                    She thinks the world is a little bit messy like her and
+                    wonders if it could also use a few screaming mothers to
+                    clean it up.
                   </div>
                   <br />
 
@@ -446,7 +477,6 @@ Read More
                     data-toggle="collapse"
                     data-target="#demo9"
                     id="about-button"
-
                   >
                     Read More
                   </button>
@@ -454,13 +484,10 @@ Read More
               </div>
             </div>
 
-
-
-
             <div
               className="col-md-6 col-lg-4 col-sm-12 card-margin"
               style={{
-                marginTop: "5vh",
+                marginTop: "5vh"
               }}
             >
               <div class="card">
@@ -472,12 +499,16 @@ Read More
                 <div class="card-body">
                   <h5 class="card-title"> Tanisha Sudarshan</h5>
                   <p class="card-text">
-                  Tanisha Sudarshan is an aspiring lawyer with a keen interest in human rights, sustainable development, and policy.
+                    Tanisha Sudarshan is an aspiring lawyer with a keen interest
+                    in human rights, sustainable development, and policy.
                   </p>
 
                   <br />
                   <div id="demo7" class="collapse">
-                  An avid reader, she also pens academic articles and poetry with the same ease. Tanisha is a firm believer in intersectionality and balance and hopes to contribute to the field through her work for the IF Magazine.
+                    An avid reader, she also pens academic articles and poetry
+                    with the same ease. Tanisha is a firm believer in
+                    intersectionality and balance and hopes to contribute to the
+                    field through her work for the IF Magazine.
                   </div>
                   <br />
 
@@ -487,26 +518,16 @@ Read More
                     data-toggle="collapse"
                     data-target="#demo7"
                     id="about-button"
-
                   >
                     Read More
                   </button>
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
 
-       
-
-  <Footer />
-
-
-
+        <Footer />
       </div>
     </Layout>
   );
