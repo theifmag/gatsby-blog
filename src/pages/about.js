@@ -256,7 +256,7 @@ export default function About(props) {
 										<p class='card-text'>{shortText}</p>
 
 										<br />
-										<div id='demo7' class='collapse'>
+										<div id={'demo' + key} class='collapse'>
 											{readMore}
 										</div>
 										<br />
@@ -265,7 +265,7 @@ export default function About(props) {
 											type='button'
 											class='btn btn-primary'
 											data-toggle='collapse'
-											data-target='#demo7'
+											data-target={'#demo' + key}
 											id='about-button'>
 											Read More
 										</button>
