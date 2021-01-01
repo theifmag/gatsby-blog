@@ -148,7 +148,7 @@ export default function About(props) {
 		<Layout>
 			<Helmet>
 				<title>About - The Intersectional Feminist</title>
-				<meta name='description' content={'About us page of Myblog'} />
+				<meta name='description' content={'About us page of the IF mag'} />
 			</Helmet>
 			<Navbar />
 			<div>
