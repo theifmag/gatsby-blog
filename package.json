@@ -40,6 +40,7 @@
     "use-query-params": "^1.1.8"
   },
   "devDependencies": {
+    "eslint": "^7.16.0",
     "prettier": "^1.19.1"
   },
   "homepage": "https://github.com/W3Layouts/gatsby-starter-delog#readme",
@@ -58,6 +59,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "lint": "eslint ./",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
