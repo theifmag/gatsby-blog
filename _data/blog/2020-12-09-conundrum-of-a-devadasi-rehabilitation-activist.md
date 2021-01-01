@@ -3,11 +3,12 @@ template: BlogPost
 path: /Conundrum-of-a-Devadasi-Rehabilitation-Activist
 date: 2020-12-09T13:56:24.829Z
 title: Conundrum of a Devadasi Rehabilitation Activist
-thumbnail: /assets/FINAL LQ web.jpg
+thumbnail: /assets/FINAL-LQ-web.jpg
 author: Mahima Meenaxi
 category: Casteism
 EditorChoice: true
 ---
+
 <!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
@@ -681,11 +682,11 @@ Maalamma was born and brought up in Beylal, a village in Karnataka’s Bellary D
 
 <br>
 
-The system has its roots in the age old oppressive tradition of “muththu kattodhu” which translates to *“tying of pearls”.* The tradition entails the tying of pearls on the bodies of girls before they attain puberty. Once the pearls are tied, it signifies that the girl is engaged to the God (in effect the Priest) of a particular temple in the locality. Another tradition is the practice of throwing coloured water on girls during the community festivities of Ugadi (the local New Year) or Holi. It signifies that the girls are welcome to be Devadasis.
+The system has its roots in the age old oppressive tradition of “muththu kattodhu” which translates to _“tying of pearls”._ The tradition entails the tying of pearls on the bodies of girls before they attain puberty. Once the pearls are tied, it signifies that the girl is engaged to the God (in effect the Priest) of a particular temple in the locality. Another tradition is the practice of throwing coloured water on girls during the community festivities of Ugadi (the local New Year) or Holi. It signifies that the girls are welcome to be Devadasis.
 
 <br>
 
-When the *IF Magazine*’s team inquired on what would happen if these girls rejected being a Devdasi after such traditions have been imposed on them, Maalamma recalled an incident from1984, where the huts of 3 Devadasi women were burnt as they had refused to partake in the system anymore. She recalls that there were large scale protests against this incident under the leadership of one Mr. Basavaraj.
+When the _IF Magazine_’s team inquired on what would happen if these girls rejected being a Devdasi after such traditions have been imposed on them, Maalamma recalled an incident from1984, where the huts of 3 Devadasi women were burnt as they had refused to partake in the system anymore. She recalls that there were large scale protests against this incident under the leadership of one Mr. Basavaraj.
 
 <br>
 
@@ -725,7 +726,7 @@ Maalamma states that the Devadasi Rehabilitation Activists are fighting for the 
 
 <br>
 
-***1. Abandonment of Children***
+**_1. Abandonment of Children_**
 
 <br>
 
@@ -733,7 +734,7 @@ One of the system’s gravest consequences is the abandonment of children. The D
 
 <br>
 
-2. ***Property Rights***
+2. **_Property Rights_**
 
 <br>
 
@@ -741,19 +742,19 @@ Owing to the bastardisation and abandonment of children, the Devadasis and their
 
 <br>
 
-3. ***Pension and Job Security***
+3. **_Pension and Job Security_**
 
 Since the Devadasi system is essentially a form of prostitution, the Devadasis are considered worthless in old age and are denied obtaining of pensions/retirement benefits. Though the National Commission of Women has come up with several schemes to provide pensions for these women, the beneficiaries are not as many owing to improper allocation of funds and collection of data regarding the actual number of devadasis in the particular area.
 
 <br>
 
-4. ***Protection for migrants***
+4. **_Protection for migrants_**
 
 Another problem that the law fails to recognise is that some women who cease to become a part of the system are eventually pushed out of their villages owing to social stigma. They are not offered new jobs because of their past association to the system. Hence, they are forced to migrate to nearby towns/cities in search of new jobs, with a hope that their past identities will be erased. Such migration calls for rehabilitation facilities and protection from the Government.
 
 <br>
 
-5. ***Right to Health and accessible Healthcare***
+5. **_Right to Health and accessible Healthcare_**
 
 The Rehabilitation of the Devadasis is impossible without ensuring that they are physically and emotionally healthy. Therefore, the right to health and accessible healthcare is another everyday need of Devadasis that we, as a society, are ignoring.
 
