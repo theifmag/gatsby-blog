@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
 import PostLink from '../components/post-link'
 import Navbar from '../components/navbar/navbar'
 import blogStyles from '../styles/blogStyles.module.scss'
-import { useQueryParam, NumberParam, StringParam } from 'use-query-params'
+import { useQueryParam, StringParam } from 'use-query-params'
 import Footer from '../components/footer'
 
 const BlogList = ({
@@ -14,13 +13,9 @@ const BlogList = ({
 		allMarkdownRemark: { edges },
 	},
 }) => {
-	const [CategoryGiven, setCategoryGiven] = useQueryParam(
-		'Category',
-		StringParam
-	)
+	const [CategoryGiven] = useQueryParam('Category', StringParam)
 	const [CurrentCategory, setCurrentCategory] = useState('all')
 	useEffect(() => {
-		console.log('category ', CategoryGiven)
 		switch (CategoryGiven) {
 			case 'justice':
 				setCurrentCategory('Justice & Law')
@@ -68,24 +63,14 @@ const BlogList = ({
 			default:
 				setCurrentCategory('all')
 		}
-
-		return () => {
-			console.log('Unmounted Category')
-		}
 	}, [CategoryGiven])
-
-	// const Posts = edges
-	//   .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-	//   .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
 	return (
 		<div>
 			<Helmet>
 				<title> {site.siteMetadata.title}</title>
 			</Helmet>
-
 			<Navbar />
-
 			<div className={blogStyles.container}>
 				<h2 className={blogStyles.heading}>{CurrentCategory} </h2>
 
@@ -97,18 +82,9 @@ const BlogList = ({
 							if (item.node.frontmatter.category === CurrentCategory) {
 								return <PostLink key={item.node.id} post={item.node} />
 							}
+							return <></>
 						}
 					})}
-
-					{/* { CurrentCategory ==='all' && 
-  edges.map((item)=>{
-    
-      console.log(item)
-     return <PostLink key={item.node.id} post={item.node} />
-    
-  })
-}
- */}
 				</div>
 			</div>
 			<Footer />
