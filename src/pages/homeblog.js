@@ -105,6 +105,7 @@ const Homeblog = () => {
 
 					<Editorcard style={{ zIndex: '100' }} />
 				</div>
+				<Footer />
 			</div>
 		</div>
 	)
