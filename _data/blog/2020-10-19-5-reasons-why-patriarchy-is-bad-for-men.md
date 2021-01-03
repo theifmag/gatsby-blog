@@ -8,7 +8,8 @@ author: Mahima Meenaxi
 category: Opinions & Stories
 EditorChoice: false
 ---
-***Disclaimer: This article in no manner intends to disregard the victimisation of women and persons of other genders by patriarchy. It only aims to propagate the struggle against patriarchy by reasoning the need for a more inclusive approach in feminism.***
+
+**_Disclaimer: This article in no manner intends to disregard the victimisation of women and persons of other genders by patriarchy. It only aims to propagate the struggle against patriarchy by reasoning the need for a more inclusive approach in feminism._**
 
 <br>
 
@@ -22,13 +23,9 @@ Patriarchy’s most fundamental expectation out of men is to be physically, inte
 
 Understanding and empathising with the vulnerable has played an active role in the sociological evolution of humankind. Our ability to specialise in certain roles while simultaneously developing a sense of co-dependability, aids in creating social value which invariably leads to positive social evolution. Yuval Noah Harari claims that the reason why humans successfully create more value in addition to what nature offers us, is owing to our ability to function better in groups. In other words, we “create” because we are aware of our “abilities” and “inabilities” and empathise with one another.
 
-
-
 <br>
 
 Patriarchy’s gruesome role is in removing the experience, acknowledgement, and expression of vulnerabilities from men, by constantly demanding them to be stronger. This consequently leads to building and retaining a false conscience that “men are always strong”, taking away from them the choice to be vulnerable and/or choose to seek help.
-
-
 
 <br>
 
@@ -46,9 +43,9 @@ The problem of lack of empathy in the reception of men’s expression of vulnera
 
 <br>
 
-* * Men often use more lethal means of suicide than women.
-  * Men are less likely than women to seek help when they are struggling.
-  * Men are subject to the expectation that they will persevere through adverse situations or that they will follow through on decisions (including to die by suicide) and “get it done”
+- - Men often use more lethal means of suicide than women.
+  - Men are less likely than women to seek help when they are struggling.
+  - Men are subject to the expectation that they will persevere through adverse situations or that they will follow through on decisions (including to die by suicide) and “get it done”
 
 <br>
 

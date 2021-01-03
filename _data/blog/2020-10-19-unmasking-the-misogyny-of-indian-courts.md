@@ -8,11 +8,12 @@ author: Amrita Nair
 category: Justice & Law
 EditorChoice: false
 ---
-***As altars of justice, the judiciary dictates perceptions and is made of social perception. The judiciary’s viewpoint on social issues such as patriarchy performs a crucial role in the dispensation of justice. Time and again we have come across disturbing judgments and statements that endorse sexism. The author examines the impact of such judgments on the rule of law and justice.***
+
+**_As altars of justice, the judiciary dictates perceptions and is made of social perception. The judiciary’s viewpoint on social issues such as patriarchy performs a crucial role in the dispensation of justice. Time and again we have come across disturbing judgments and statements that endorse sexism. The author examines the impact of such judgments on the rule of law and justice._**
 
 ———-
 
-*“A woman cannot be herself in the society of the present day, which is an exclusively masculine society, with laws framed by men and with a judicial system that judges feminine conduct from a masculine point of view.”*
+_“A woman cannot be herself in the society of the present day, which is an exclusively masculine society, with laws framed by men and with a judicial system that judges feminine conduct from a masculine point of view.”_
 
 <br>
 
@@ -32,8 +33,6 @@ In one instance, the Jammu and Kashmir High Court in M.I. Shahdad v. Mohd. Abdul
 
 <br>\
 It is no secret that motherhood, pregnancy, menstruation, childbirth, and marriage constitute the identity of women in paid work and determine their worth in the eyes of an employer. For example, while applying for a position in the Life Insurance Corporation, a woman has to divulge the following information: “Name of the husband, occupation, number of children, last date of menstrual period, whether periods are regular and painless, whether pregnant at the time of applying, number of conceptions, date of last delivery, abortion or miscarriage if any.” One might find it shocking and downright humiliating for a woman to answer these questions, and rightly so.
-
-
 
 <br>\
 However, when this [issue was raised before the Supreme Court](https://indiankanoon.org/doc/832598/), it stated: “The modesty and self-respect may perhaps preclude the disclosure of such personal problems whether menstrual periods are regular or painless etc… if the purpose of the declaration is to deny maternity leave and benefits to a lady candidate who is pregnant at the time of entering the service (the legality of which we express no opinion) the corporation could subject her to medical examination, including pregnancy test”. Not only was the blatant discrimination on the basis of sex ignored, but the invasion of privacy and indignity of forcing a pregnancy test for employment was also tacitly approved of.

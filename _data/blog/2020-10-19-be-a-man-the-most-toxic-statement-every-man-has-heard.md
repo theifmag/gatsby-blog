@@ -8,6 +8,7 @@ author: Astha Chhabra
 category: Health
 EditorChoice: false
 ---
+
 It is not uncommon to hear expressions such as “Men don’t cry”, “Stop whining like a girl”, “Be a man”, “Don’t show that you are weak”.
 
 <br>
