@@ -5,7 +5,7 @@ date: 2020-11-25T13:47:39.484Z
 title: >-
   Orange the World: Commemorating the International Day for the Elimination of
   Violence Against Women
-thumbnail: /assets/homepage_featured_gif_image_2019.gif
+thumbnail: /assets/IF.jpg.png
 author: Manasa Poovayil
 category: Violence & Harassment
 EditorChoice: true
