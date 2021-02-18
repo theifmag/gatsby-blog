@@ -9,7 +9,7 @@ metaDescription: >-
 thumbnail: /assets/WhatsApp Image 2021-02-18 at 11.03.16.jpeg
 author: Manasa Poovayil and Tanisha  Sudarshan
 category: Politics
-EditorChoice: false
+EditorChoice: true
 ---
 <!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
