@@ -11,7 +11,7 @@ author: Manasa Poovayil and Tanisha  Sudarshan
 category: Politics
 EditorChoice: false
 ---
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -53,9 +53,9 @@ EditorChoice: false
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
   DefSemiHidden="true" DefQFormat="false" DefPriority="99"
   LatentStyleCount="267">
@@ -311,9 +311,9 @@ EditorChoice: false
   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
  </w:LatentStyles>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 10]>
+<!--\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -340,7 +340,7 @@ EditorChoice: false
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 </style>
-<!\\[endif]-->
+<!\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -354,7 +354,7 @@ One’s first thoughts towards Democracy is usually Lincoln’s famous *“Democ
 
 The LGBTQ community has for long been ignored or disregarded. Only in recent times, with enough activism, the community has gained traction and is now part of the bugger political spectrum. With Prime Minister Jacinda Ardern’s landslide victory at the end of 2020, New Zealand’s elected government is up to [10%](https://www.nzherald.co.nz/nz/world-record-new-zealand-overtakes-the-uks-title-for-the-most-rainbow-parliament/CLEAKIDVKRIOQDF5ZO67EGIDCY/) of its members being of the LGBTQ community, surpassing the UK’s representation which is at 7%. Apart from having a solid representation from the LGBTQ community, there is an increase in representation for women, people of color, and indigenous communities in the cabinet. This is considered a win for intersectionality all across the globe as there is nothing more empowering than having a strong representation for the community in the democratic body of a nation.
 
-It is pertinent to mention that New Zealand is not just a rapidly developing country on the economic front, but also with respect to the liberal laws and well-being of its citizens. In New Zealand, the [rights](https://www.hrc.co.nz/files/1914/2388/0525/HRNZ_10_rights_of_sexual_and_gender_minorities.pdf) for LGBTQ are the same as the gen pop -- whether it’s with respect to marriage, property rights, or adoption and parenting. The country was the 1st in the region (Oceania) and 13th in the world to legalise same-sex marriages in 2013. It decriminalized archaic laws on non-heterosexual intercourse in 1986 (age of consent at 16, same as heterosexual intercourse), and discrimination against the LGBTQ community is banned since 1993.
+It is pertinent to mention that New Zealand is not just a rapidly developing country on the economic front, but also with respect to the liberal laws and well-being of its citizens. In New Zealand, the [rights](https://www.hrc.co.nz/files/1914/2388/0525/HRNZ_10_rights_of_sexual_and_gender_minorities.pdf) for LGBTQ are the same as the gen pop -- whether it’s for marriage, property rights, or adoption and parenting. The country was the 1st in the region (Oceania) and 13th in the world to legalise same-sex marriages in 2013. It decriminalized archaic laws on non-heterosexual intercourse in 1986 (age of consent at 16, same as heterosexual intercourse), and discrimination against the LGBTQ community is banned since 1993.
 
 One of the most important things this brings to the fore of a common underlying thought process in the morphing of cultures across the world: inclusion and diversity in the elected body is certainly a desirable state. A diverse government helps to address long-standing issues of biases. If a government can accurately represent the composition of its society, it will be more successful in implementing policies that consider the variances across its populace, thus, creating a much more stable and inclusive environment in the country. Alternatively, it also helps address issues that are exclusive to specific pockets of society.
 
