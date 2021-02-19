@@ -163,7 +163,7 @@ export default function About(props) {
 								<div className='ck_about_img_wrapper float_left'>
 									<img
 										src={require('../images/about2.jpeg')}
-										alt='img'
+										alt='about'
 										style={{
 											maxWidth: '500px',
 										}}
@@ -250,7 +250,7 @@ export default function About(props) {
 									marginTop: '5vh',
 								}}>
 								<div class='card'>
-									<img class='card-img-top' src={imgUrl} alt='Card image cap' />
+									<img class='card-img-top' src={imgUrl} alt='Card cap' />
 									<div class='card-body'>
 										<h5 class='card-title'>{name}</h5>
 										<p class='card-text'>{shortText}</p>
