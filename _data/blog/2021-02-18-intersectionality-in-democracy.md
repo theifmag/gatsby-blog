@@ -10,7 +10,7 @@ author: Manasa Poovayil and Tanisha  Sudarshan
 category: Politics
 EditorChoice: true
 ---
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -52,9 +52,9 @@ EditorChoice: true
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
   DefSemiHidden="true" DefQFormat="false" DefPriority="99"
   LatentStyleCount="267">
@@ -310,9 +310,9 @@ EditorChoice: true
   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
  </w:LatentStyles>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 10]>
+<!--\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -339,7 +339,7 @@ EditorChoice: true
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 </style>
-<!\\\\[endif]-->
+<!\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -353,7 +353,7 @@ One’s first thoughts towards Democracy is usually Lincoln’s famous *“Democ
 
 <br>
 
-The LGBTQ community has for long been ignored or disregarded. Only in recent times, with enough activism, the community has gained traction and is now part of the bugger political spectrum. With Prime Minister Jacinda Ardern’s landslide victory at the end of 2020, New Zealand’s elected government is up to [10%](https://www.nzherald.co.nz/nz/world-record-new-zealand-overtakes-the-uks-title-for-the-most-rainbow-parliament/CLEAKIDVKRIOQDF5ZO67EGIDCY/) of its members being of the LGBTQ community, surpassing the UK’s representation which is at 7%. Apart from having a solid representation from the LGBTQ community, there is an increase in representation for women, people of color, and indigenous communities in the cabinet. This is considered a win for intersectionality all across the globe as there is nothing more empowering than having a strong representation for the community in the democratic body of a nation.
+The LGBTQ community has for long been ignored or disregarded. Only in recent times, with enough activism, the community has gained traction and is now part of the bigger political spectrum. With Prime Minister Jacinda Ardern’s landslide victory at the end of 2020, New Zealand’s elected government is up to [10%](https://www.nzherald.co.nz/nz/world-record-new-zealand-overtakes-the-uks-title-for-the-most-rainbow-parliament/CLEAKIDVKRIOQDF5ZO67EGIDCY/) of its members being of the LGBTQ community, surpassing the UK’s representation which is at 7%. Apart from having a solid representation from the LGBTQ community, there is an increase in representation for women, people of color, and indigenous communities in the cabinet. This is considered a win for intersectionality all across the globe as there is nothing more empowering than having a strong representation for the community in the democratic body of a nation.
 
 <br>
 
