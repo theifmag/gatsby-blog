@@ -6,7 +6,7 @@ title: Women in Politics
 thumbnail: /assets/whatsapp-imagewip.jpeg
 author: Soumya Thakur
 category: Politics
-EditorChoice: true
+EditorChoice: false
 ---
 <!--StartFragment-->
 
