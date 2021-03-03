@@ -30,23 +30,23 @@ And the harassment! We have come a long way to legally provide aid to women agai
 
 <br>
 
-This inadequacy of our legal system prevents women from getting equal opportunities to work and live with dignity. This fact got highlighted in the case of Bhanwari Devi, which paved the way for the law against sexual harassment at the workplace in 2013. Notwithstanding shortcomings, this act claims to be a pioneer in many ways as it mandates awareness against harassment in workplaces through educational workshops, asks for a women majority Internal Complaints Committee at all levels and branches of the workplace, and protects the confidentiality of the identity of the complainant.
+This inadequacy of our legal system prevents women from getting equal opportunities to work and live with dignity. This fact got highlighted in the case of Bhanwari Devi (Vishaka v State of Rajasthan), which paved the way for the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act in 2013. Notwithstanding shortcomings, this Act claims to be a pioneer in many ways as it mandates awareness against harassment in workplaces through educational workshops, asks for a women majority Internal Complaints Committee at all levels and branches of the workplace, and protects the confidentiality of the identity of the complainant.
 
 <br>
 
-Nonetheless, is this act at all suited to be adopted by political parties in India? What are the existing provisions available for ensuring the protection of women against harassment within a political party?
+Nonetheless, is this Act at all suited to be adopted by political parties in India? What are the existing provisions available for ensuring the protection of women against harassment within a political party?
 
 <br>
 
-The Peoples Representation act of 1951, mandates for all the parties that they must include in their constitution, “shall be true to the principles of socialism, secularism, and democracy and would uphold the sovereignty, unity, and integrity of India”. The very act also bars the candidate from asking someone to vote on the name of caste, race, religion, community, or language by appealing to religious and national sentiments. But no one can suspect a violation of any of these categories in the macho masculine appeal of “Chhappan inch ka Seena”
+The Peoples Representation Act of 1951, mandates for all the parties that they must include in their constitution, “shall be true to the principles of socialism, secularism, and democracy and would uphold the sovereignty, unity, and integrity of India”. The very Act also bars the candidate from asking someone to vote on the name of caste, race, religion, community, or language by appealing to religious and national sentiments. But no one can suspect a violation of any of these categories in the macho masculine appeal of “Chhappan inch ka Seena”
 
 <br>
 
-The act is tranquil about the systematic exclusion faced by women in Indian politics. If a women’s reservation bill ever passed, can it make any change in the existing state of affairs, without checking on this gaffe?
+The Act is tranquil about the systematic exclusion faced by women in Indian politics. If a women’s reservation bill ever passed, can it make any change in the existing state of affairs, without checking on this gaffe?
 
 <br>
 
-When the voice of women is so underrepresented in the People’s Representation act itself, can a political party that takes pride in its gender-neutral environment, get away with enacting Internal Complaints Committee under sexual harassment at the workplace within its party?
+When the voice of women is so underrepresented in the People’s Representation Act itself, can a political party that takes pride in its gender-neutral environment, get away with enacting Internal Complaints Committee under sexual harassment at the workplace within its party?
 
 <br>
 
@@ -71,7 +71,5 @@ Can’t political parties address this issue within their parties by the same to
 <br>
 
 Thinking aloud, these experiments could be anything ranging from reserving seats for women in all units of the party to defining the ways a woman could be talked to in party WhatsApp groups. From recognising the contribution of wives and mothers of party members, to making of youth wings under the compulsory leadership of young women. But until and unless parties are not ready to debate the patriarchy in their political culture, they will continue to lag far behind the popular opinion about the gender discourse.
-
-
 
 <!--EndFragment-->
