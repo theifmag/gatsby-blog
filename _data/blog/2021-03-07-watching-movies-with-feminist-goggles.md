@@ -31,6 +31,9 @@ predominantly engaged by the female leads. Despite depicting females in such hig
 
 <br>
 
+![](/assets/whatsapp-image-2021-03-07-at-22.04.08.jpeg "One of Alison Bechdel's many Cartoons")
+
+<br>
 
 **So, is Bechdel’s Test inadequate?**
 <br>
@@ -51,11 +54,9 @@ I believe that the inadequacy in Bechdel’s test is yet again mirrored in these
 
 <br>
 
-
 **Why put movies through tests?**
 
 <br>
-
 
 The object of putting these movies to tests such as Bechdel’s is to promote viewing women as ends in themselves rather than means to an end. It discourages viewing women in art as mere ornaments or objects of sexual gratification and/or entities that exist solely to propagate the male characters’ plots.
 <br>
@@ -80,3 +81,9 @@ It is honourable that these tests intend to remove objectification of women in m
 
 The best solution is to encourage female and other genders’ participation in making and
 reviewing art. It is no surprise that wage disparity exists in the movie industry on every level of production. Laws and policy to ensure equal wages for men and women in the movie industry; along with a socio-cultural change in appreciating feminist art is pertinent to ensure inclusivity in movies. So, people, go ahead and grab your feminist goggles before entering the theatres. Dare you take them off!
+
+<br>
+
+<br>
+
+Illustration credits- Prashanth
