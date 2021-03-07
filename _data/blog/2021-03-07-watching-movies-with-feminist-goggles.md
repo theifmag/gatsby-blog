@@ -31,7 +31,9 @@ predominantly engaged by the female leads. Despite depicting females in such hig
 
 <br>
 
-![](/assets/whatsapp-image-2021-03-07-at-22.04.08.jpeg "One of Alison Bechdel's many Cartoons")
+![](/assets/whatsapp-image-2021-03-07-at-22.04.08.jpeg)
+
+One of Alison Bechdel's many Cartoons
 
 <br>
 
