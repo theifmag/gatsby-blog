@@ -26,10 +26,7 @@ export default function Footer() {
 										<br />
 										Because IF not now, then when?
 									</p>
-								</div>{' '}
-								<Link to='/about' className='blog_read'>
-									read more <i className='fas fa-long-arrow-alt-right' />
-								</Link>
+								</div>
 							</div>
 						</div>
 
