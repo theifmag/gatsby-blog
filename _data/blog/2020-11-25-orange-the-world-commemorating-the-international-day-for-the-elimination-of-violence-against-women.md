@@ -10,6 +10,7 @@ author: Manasa Poovayil
 category: Violence & Harassment
 EditorChoice: true
 ---
+
 <!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
@@ -675,7 +676,7 @@ EditorChoice: true
 
 <br>
 
-***Why 25 November?***
+**_Why 25 November?_**
 
 <br>
 
@@ -695,7 +696,7 @@ The Mirabal sisters became a symbol of popular and feminist resistance.
 
 <br>
 
-***Violence against women in India***
+**_Violence against women in India_**
 
 <br>
 
@@ -723,7 +724,7 @@ This year, due to the pandemic, saw a spurt of domestic violence cases being rep
 
 <br>
 
-***What can you do?***
+**_What can you do?_**
 
 <br>
 

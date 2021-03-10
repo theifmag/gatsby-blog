@@ -10,6 +10,7 @@ author: Manasa Poovayil and Tanisha  Sudarshan
 category: Politics
 EditorChoice: true
 ---
+
 <!--\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
@@ -343,13 +344,13 @@ EditorChoice: true
 
 <!--StartFragment-->
 
-*“Inclusion is a philosophy that embraces the idea that everyone has something of value to contribute and that everyone has a right to belong.”*
+_“Inclusion is a philosophy that embraces the idea that everyone has something of value to contribute and that everyone has a right to belong.”_
 
 \-Lisa Friedman
 
 <br>
 
-One’s first thoughts towards Democracy is usually Lincoln’s famous *“Democracy is government of, by and for the people ''*. Democracy has changed from the Athenian times. The struggle for an inclusive democracy gave rise to many political movements- the Suffragette, the Anti-apartheid to name a few. A country, much like a well-oiled machine requires all parts, big or small, to run efficiently. If one begins to exclude parts of it because they seem small or one does not know how they fit in, the machine is bound to crash at some point.
+One’s first thoughts towards Democracy is usually Lincoln’s famous _“Democracy is government of, by and for the people ''_. Democracy has changed from the Athenian times. The struggle for an inclusive democracy gave rise to many political movements- the Suffragette, the Anti-apartheid to name a few. A country, much like a well-oiled machine requires all parts, big or small, to run efficiently. If one begins to exclude parts of it because they seem small or one does not know how they fit in, the machine is bound to crash at some point.
 
 <br>
 
@@ -367,11 +368,11 @@ One of the most important things this brings to the fore of a common underlying 
 
 A democracy is as strong as the people that are chosen to represent it and a true mark of representation is yet to arrive in India. If you do an internet search for the percentage of the population in India that forms the LGBTQ community, you will have a tough time getting any figures.
 
-***<br>***
+**_<br>_**
 
-***There are no official demographics for the LGBTQ population in India.***
+**_There are no official demographics for the LGBTQ population in India._**
 
-The only definite figure the Government of India made public was in the year 2012 when the Supreme Court, while hearing *Suresh Kumar Kaushal and Anr. v. Naz Foundation and Ors.,* demanded the numbers during a hearing on decriminalization of Section 377 of IPC. The numbers stood at [2.5 million](https://www.thehindu.com/news/national/govt-submits-data-on-gay-population/article2991667.ece) as per their reports to the SC. According to a news report, the LGBTQ community is [104 million](https://www.indiatoday.in/india/story/india-united-nations-lgbtq-rights-1567935-2019-07-12) strong- 8% of India's population. Nearly nine years on, there is no solid number yet.
+The only definite figure the Government of India made public was in the year 2012 when the Supreme Court, while hearing _Suresh Kumar Kaushal and Anr. v. Naz Foundation and Ors.,_ demanded the numbers during a hearing on decriminalization of Section 377 of IPC. The numbers stood at [2.5 million](https://www.thehindu.com/news/national/govt-submits-data-on-gay-population/article2991667.ece) as per their reports to the SC. According to a news report, the LGBTQ community is [104 million](https://www.indiatoday.in/india/story/india-united-nations-lgbtq-rights-1567935-2019-07-12) strong- 8% of India's population. Nearly nine years on, there is no solid number yet.
 
 <br>
 
