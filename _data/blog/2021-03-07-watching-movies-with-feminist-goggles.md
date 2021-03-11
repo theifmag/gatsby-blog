@@ -8,6 +8,7 @@ author: Mahima Meenaxi
 category: Arts & Media
 EditorChoice: true
 ---
+
 I wonder if I would be rich had I received a rupee every time I was asked not to perpetually perceive the world through the eyes of a feminist. Alas! All I hear is, “you’re overthinking this”, “not everything is about feminism” and my personal favourite, “can’t you take off those feminist goggles - live and let live?” No, I can’t. The truth is once you learn to see the subtle, silent sexism in the world around you, it is impossible to unlearn it.
 
 <br>
@@ -69,7 +70,7 @@ women are more often than not seen as ornaments in movies. It suggests movies th
 
 <br>
 
-**The Swedish cinema certification process involves the passing of Bechdel’s test to obtain an “A” certificate. Should other countries follow suit?** 
+**The Swedish cinema certification process involves the passing of Bechdel’s test to obtain an “A” certificate. Should other countries follow suit?**
 
 <br>
 

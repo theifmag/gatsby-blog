@@ -26,83 +26,22 @@ export default function Footer() {
 										<br />
 										Because IF not now, then when?
 									</p>
-								</div>{' '}
-								<Link to='/about' className='blog_read'>
-									read more <i className='fas fa-long-arrow-alt-right' />
-								</Link>
+								</div>
 							</div>
 						</div>
 
-						<div className='col-lg-4 col-md-6 col-12 col-sm-12'>
-							<div className='footer_widget footer_useful_wrapper footer_widget2 float_left'>
-								<h4>get in touch</h4>
-
-								<form
-									name='contact-footer'
-									method='post'
-									data-netlify='true'
-									data-netlify-honeypot='bot-field'
-									style={{ textTransform: 'lowercase !important' }}>
-									<input
-										type='hidden'
-										name='form-name-footer'
-										value='contact-footer'
-									/>
-									<div className='contect_form_footer float_left'>
-										<input
-											type='text'
-											name="person's name"
-											placeholder='your name'
-										/>
-										<i className='fas fa-user-alt' />
-									</div>
-									<div className='contect_form_footer float_left'>
-										<input
-											type='text'
-											name="person's Email"
-											placeholder='Email ID'
-										/>
-										<i className='fas fa-comment' />
-									</div>
-									<div className='contect_form_footer float_left'>
-										<textarea
-											name="person's message"
-											rows={4}
-											style={{ textTransform: 'lowercase !important' }}
-											placeholder=' Message...'
-											defaultValue={''}
-										/>
-									</div>
-									<div className='footer_btn float_left'>
-										<div className='ck_new_btn ' style={{ marginTop: '-15px' }}>
-											<button
-												type='submit'
-												style={{
-													marginTop: '20px',
-													background: '#ee4c7c',
-													color: 'white',
-													border: 'none',
-													padding: '7px 10px',
-												}}>
-												Send Message
-											</button>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
 						<div className='col-lg-4 col-md-6 col-12 col-sm-12'>
 							<div className='footer_widget footer_contact_wrapper footer_widget2 float_left'>
 								<h4>contact info </h4>
 								<ul>
 									<li>
-										<span>email: </span>
+										<span>email:</span>
 										<p>
 											<a
 												href='mailto:theifmag@gmail.com'
 												rel='noreferrer'
 												target='_blank'>
-												Email : theifmag@gmail.com
+												theifmag@gmail.com
 											</a>
 											<br />
 										</p>

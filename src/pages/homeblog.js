@@ -35,17 +35,10 @@ const Homeblog = () => {
 								marginTop: '5vh',
 								marginBottom: '2vh',
 							}}>
-							If we aren't intersectional, some of us, the most vulnerable, are
-							going to fall through the cracks.
+							If we aren&#39;t intersectional, some of us, the most vulnerable,
+							are going to fall through the cracks.
 						</h4>
 						<strong>-Kimberlé Williams Crenshaw</strong>
-						<ul>
-							<li>
-								<div className='ck_new_btn '>
-									<Link href='/about'>Read More</Link>
-								</div>
-							</li>
-						</ul>
 					</div>
 					<div
 						className='col-lg-6 col-md-6 col-sm-12'
@@ -92,7 +85,7 @@ const Homeblog = () => {
 									style={{
 										color: 'black',
 									}}>
-									Editor's Choice
+									Editor&#39;s Choice
 								</h3>
 							</div>
 						</div>

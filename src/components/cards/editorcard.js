@@ -3,13 +3,16 @@ import { StaticQuery, graphql } from 'gatsby'
 import PostLink2 from '../post-link2'
 import Slider from 'react-slick'
 
+import './latestblogcard.css'
+
 const settings = {
 	dots: true,
 	infinite: true,
 	speed: 500,
 	slidesToShow: 1,
 	slidesToScroll: 1,
-	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 4000,
 }
 
 export default function Editorcard() {
@@ -40,15 +43,13 @@ export default function Editorcard() {
 			`}
 			render={(data) => (
 				<center>
-					<div className='container'>
+					<div className='container slide-show-container'>
 						<div>
 							<Slider {...settings}>
 								{data.allMarkdownRemark.edges
 									.filter((i) => i.node.frontmatter.EditorChoice)
 									.map((item) => (
-										<div>
-											<PostLink2 key={item.node.id} post={item.node} />
-										</div>
+										<PostLink2 key={item.node.id} post={item.node} />
 									))}
 							</Slider>
 						</div>

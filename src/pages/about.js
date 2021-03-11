@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from '../components/layout'
 import Navbar from '../components/navbar/navbar'
 import Helmet from 'react-helmet'
@@ -144,6 +144,15 @@ const teamData = [
 ]
 
 export default function About(props) {
+	const onButtonClick = (e) => {
+		let buttonText = e.target.innerText
+		if (buttonText === 'Read More') {
+			e.target.innerText = 'Read Less'
+		} else {
+			e.target.innerText = 'Read More'
+		}
+	}
+
 	return (
 		<Layout>
 			<Helmet>
@@ -190,13 +199,13 @@ export default function About(props) {
 										fight against patriarchal structures.
 									</p>
 									<br />
-									<div id='demo99' class='collapse'>
+									<div id='demo99' className='collapse'>
 										We are strong believers in freedom of expression and in
 										pursuance of our beliefs, we will share content under a
 										spectrum of areas. From current affairs to history, and
 										including our areas of expertise in environmentalism,
 										justice, laws and policies, multimedia, and STEM among other
-										subjects, we're going to have something for everyone!
+										subjects, we&#39;re going to have something for everyone!
 										<br />
 										<br />
 										<i> IF</i> is ambitious and hopes to be a significant entity
@@ -209,9 +218,10 @@ export default function About(props) {
 									</div>
 									<button
 										type='button'
-										class='btn btn-primary'
+										className='btn btn-primary'
 										data-toggle='collapse'
 										data-target='#demo99'
+										onClick={onButtonClick}
 										id='about-button'>
 										Read More
 									</button>
@@ -249,23 +259,24 @@ export default function About(props) {
 								style={{
 									marginTop: '5vh',
 								}}>
-								<div class='card'>
-									<img class='card-img-top' src={imgUrl} alt='Card cap' />
-									<div class='card-body'>
-										<h5 class='card-title'>{name}</h5>
-										<p class='card-text'>{shortText}</p>
+								<div className='card'>
+									<img className='card-img-top' src={imgUrl} alt='Card cap' />
+									<div className='card-body'>
+										<h5 className='card-title'>{name}</h5>
+										<p className='card-text'>{shortText}</p>
 
 										<br />
-										<div id={'demo' + key} class='collapse'>
+										<div id={'demo' + key} className='collapse'>
 											{readMore}
 										</div>
 										<br />
 
 										<button
 											type='button'
-											class='btn btn-primary'
+											className='btn btn-primary'
 											data-toggle='collapse'
 											data-target={'#demo' + key}
+											onClick={onButtonClick}
 											id='about-button'>
 											Read More
 										</button>
