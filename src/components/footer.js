@@ -35,13 +35,13 @@ export default function Footer() {
 								<h4>contact info </h4>
 								<ul>
 									<li>
-										<span>email: </span>
+										<span>email:</span>
 										<p>
 											<a
 												href='mailto:theifmag@gmail.com'
 												rel='noreferrer'
 												target='_blank'>
-												Email : theifmag@gmail.com
+												theifmag@gmail.com
 											</a>
 											<br />
 										</p>
