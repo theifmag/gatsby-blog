@@ -41,6 +41,23 @@ collections:
                 label: Description
                 default: ''
                 required: false
+      - name: configs
+        label: Bios
+        file: bios.json
+        fields:
+          - widget: list
+            name: Bios
+            label: Bios
+            fields:
+              - widget: string
+                name: name
+                label: Name
+                default: ''
+              - widget: string
+                name: bio
+                label: Bio
+                default: ''
+
   - name: blog
     label: Blog
     folder: _data/blog
