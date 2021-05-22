@@ -1,0 +1,18 @@
+.button {
+	align-items: center;
+	padding: 12px 20px;
+	border-radius: 4px;
+	background-image: linear-gradient(
+		to top,
+		var(--color-primary),
+		rgba(212, 23, 118, 0.48)
+	);
+	border: 0;
+	font-family: var(--font-secondary);
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: var(--white);
+	text-transform: capitalize;
+	cursor: pointer;
+}

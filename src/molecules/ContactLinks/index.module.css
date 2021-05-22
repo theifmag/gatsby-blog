@@ -1,5 +1,13 @@
+.container > h2 {
+	font-family: var(--font-secondary);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	color: var(--color-text);
+}
+
 .email {
-	color: var(--color-primary);
+	color: var(--color-dark);
 	font-family: var(--font-secondary);
 	font-size: 1em;
 	font-weight: 600;

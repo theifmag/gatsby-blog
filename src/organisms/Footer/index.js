@@ -2,6 +2,7 @@ import React from 'react'
 import FooterBottomSection from '../../atoms/FooterBottomSection'
 import Spacer from '../../atoms/Spacer'
 import ContactLinks from '../../molecules/ContactLinks'
+import FooterForm from '../../molecules/FooterForm'
 
 import styles from './index.module.css'
 
@@ -15,7 +16,9 @@ const Footer = () => {
 					<div className={styles.contactSection}>
 						<ContactLinks />
 					</div>
-					<div className={styles.talkToUs}>form</div>
+					<div className={styles.talkToUs}>
+						<FooterForm />
+					</div>
 				</section>
 			</footer>
 			<FooterBottomSection />

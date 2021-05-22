@@ -4,7 +4,7 @@ import Spacer from '../../atoms/Spacer'
 import styles from './index.module.css'
 
 const ContactLinks = () => (
-	<div>
+	<div className={styles.container}>
 		<h2>Contact</h2>
 		<Spacer y={16} />
 		<a className={styles.email} href='mailto:theifmag@gmail.com'>
