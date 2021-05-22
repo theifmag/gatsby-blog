@@ -1,9 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import styles from './index.module.css'
-import Navbar from '../../components/navbar/navbar'
+
+import Header from '../../organisms/Header'
 import Footer from '../../organisms/Footer'
+
+import styles from './index.module.css'
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -20,7 +22,7 @@ export default function Template({
 				<meta name='description' content={frontmatter.metaDescription} />
 			</Helmet>
 
-			<Navbar />
+			<Header />
 
 			<div className={styles.container}>
 				<article className='post'>
