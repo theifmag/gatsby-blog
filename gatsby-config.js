@@ -69,5 +69,8 @@ module.exports = {
 		`gatsby-plugin-offline`,
 		'gatsby-plugin-use-query-params',
 		`gatsby-remark-line-breaks`,
+		`gatsby-plugin-image`,
+		`gatsby-plugin-sharp`,
+		`gatsby-transformer-sharp`,
 	],
 }

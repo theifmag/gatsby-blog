@@ -16,3 +16,7 @@
 	text-align: left;
 	text-decoration: none;
 }
+
+.socialIconsContainer {
+	display: flex;
+}
