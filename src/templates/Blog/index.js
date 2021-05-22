@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import styles from './index.module.css'
 import Navbar from '../../components/navbar/navbar'
-import Footer from '../../components/footer'
+import Footer from '../../organisms/Footer'
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -41,8 +41,8 @@ export default function Template({
 				<br />
 				<br />
 				<br />
-				<Footer />
 			</div>
+			<Footer />
 		</>
 	)
 }

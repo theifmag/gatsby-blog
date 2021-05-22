@@ -1,0 +1,12 @@
+.container {
+	padding: 50px var(--horizontal-padding);
+	background-color: var(--color-tertiary);
+}
+
+.contactSection {
+	flex: 1;
+}
+
+.talkToUs {
+	flex: 1;
+}

@@ -15,8 +15,30 @@
 	--white: #fafcfe;
 	--color-light: #fafcfe;
 	--color-primary: #d41776;
+	--color-dark: #870e4b;
 	--color-secondary: #47797a;
 	--color-tertiary: #ffdadc;
 	--color-black: #0e0e2c;
 	--color-text: #58586f;
+
+	margin: 0;
+}
+
+.titleText {
+	font-family: var(--font-primary);
+	font-size: 2.2em;
+	font-weight: bold;
+	text-align: left;
+	color: var(--color-black);
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-row-space-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }

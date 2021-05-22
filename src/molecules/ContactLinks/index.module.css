@@ -1,0 +1,10 @@
+.email {
+	color: var(--color-primary);
+	font-family: var(--font-secondary);
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	text-decoration: none;
+}
