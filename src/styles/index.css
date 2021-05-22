@@ -1,78 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+* {
+	--column-gap: 40px;
+	--one-column: calc((100vw - (var(--column-gap) * 11)) / 12);
+	--two-columns: calc((var(--one-column) * 2) + var(--column-gap));
+	--three-columns: calc(
+		var(--one-column) + var(--two-columns) + var(--column-gap)
+	);
+	--four-columns: calc((var(--two-columns) * 2) + var(--column-gap));
+	--five-columns: calc(var(--four-columns) + var(--column-gap));
+	--six-columns: calc((var(--one-column) * 6) + (var(--column-gap) * 5));
+	--horizontal-padding: calc(var(--column-gap) + var(--one-column));
+	--font-primary: 'Playfair Display';
+	--font-secondary: 'Montserrat';
 
-
-.slick-dots li button:before{
-    
-    font-size: 10px !important;
+	--white: #fafcfe;
+	--color-light: #fafcfe;
+	--color-primary: #d41776;
+	--color-secondary: #47797a;
+	--color-tertiary: #ffdadc;
+	--color-black: #0e0e2c;
+	--color-text: #58586f;
 }
-
-#about-button{
-    background-color: #ee4c7c;
-    border: none;
-}
-
-.comingsoon-container{
-    display: flex;
-    width: 100vw;
-    height: 80vh;
-
-    padding-left: 5vw;
-    padding-right: 5vw;
-    align-items: center;
-}
-
-.comingsoon-left{
-    flex: 1;
-    margin-top: -10vh;
-}
-
-.comingsoon-right{
-    flex: 1;
-    overflow: hidden;
-    object-fit: contain;
-}
-
-.comingsoon-right img{
-    object-fit: contain;
-    width: 100%;
-    object-position: right;
-}
-
-.comingsoon-social-icon{
-    width: 20vw;
-    display: flex;
-
-}
-
-
-.main-text-div{
-    margin-top: 17vh;
-   padding-left: 5vw;
-}
-
-
-
-@media screen and (max-width: 1000px) {
-
-    .comingsoon-container{
-        flex-direction: column;
-        height: 90vh;
-
-       
-    }
-
-    .comingsoon-left{
-        margin-top: 10vh;
-    }
-
-
-.main-text-div{
-margin-top: 5vh;
-margin-bottom: 2vh;
-}
-
-
-}
-
-
-
