@@ -10,7 +10,6 @@
 }
 
 .thumbnailImage {
-	margin: 50px 0 20px 0;
 	width: 100%;
 	border-radius: 1em;
 }
@@ -30,7 +29,6 @@
 }
 
 .blogContent {
-	margin-top: 50px;
 	font-family: var(--font-secondary);
 	font-size: 1.1em;
 	color: var(--color-black);

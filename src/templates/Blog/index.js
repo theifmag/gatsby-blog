@@ -4,8 +4,11 @@ import { graphql } from 'gatsby'
 
 import Header from '../../organisms/Header'
 import Footer from '../../organisms/Footer'
+import Title from '../../atoms/Title'
+import Spacer from '../../atoms/Spacer'
 
 import styles from './index.module.css'
+import AsideContainer from '../../molecules/AsideContainer'
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -13,6 +16,7 @@ export default function Template({
 	const { site, markdownRemark } = data // data.markdownRemark holds your post data
 	const { siteMetadata } = site
 	const { frontmatter, html } = markdownRemark
+
 	return (
 		<>
 			<Helmet>
@@ -25,24 +29,25 @@ export default function Template({
 			<Header />
 
 			<div className={styles.container}>
-				<article className='post'>
-					<h1 className={styles.title}>{frontmatter.title}</h1>
-
+				<article>
+					<Spacer y={100} />
+					<Title text={frontmatter.title} />
+					<Spacer y={80} />
 					<img src={frontmatter.thumbnail} className={styles.thumbnailImage} />
-
+					<Spacer y={20} />
 					<div>
 						<h5 className={styles.authorName}>{frontmatter.author}</h5>
 						<h5 className={styles.articleDate}>{frontmatter.date}</h5>
 					</div>
-
-					<div
-						className={styles.blogContent}
-						dangerouslySetInnerHTML={{ __html: html }}
-					/>
+					<Spacer y={50} />
+					<div className='flex-row'>
+						<div
+							className={styles.blogContent}
+							dangerouslySetInnerHTML={{ __html: html }}
+						/>
+						<AsideContainer category={frontmatter.category} />
+					</div>
 				</article>
-				<br />
-				<br />
-				<br />
 			</div>
 			<Footer />
 		</>
@@ -65,6 +70,7 @@ export const pageQuery = graphql`
 				thumbnail
 				metaDescription
 				author
+				category
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 * {
 	--column-gap: 40px;
-	--one-column: calc((100vw - (var(--column-gap) * 11)) / 12);
+	--one-column: min(80px, calc((100vw - (var(--column-gap) * 11)) / 12));
 	--two-columns: calc((var(--one-column) * 2) + var(--column-gap));
 	--three-columns: calc(
 		var(--one-column) + var(--two-columns) + var(--column-gap)
@@ -8,7 +8,11 @@
 	--four-columns: calc((var(--two-columns) * 2) + var(--column-gap));
 	--five-columns: calc(var(--four-columns) + var(--column-gap));
 	--six-columns: calc((var(--one-column) * 6) + (var(--column-gap) * 5));
-	--horizontal-padding: calc(var(--column-gap) + var(--one-column));
+	--max-space: 1200px;
+	--horizontal-padding: max(
+		calc((100vw - var(--max-space)) / 2),
+		calc(var(--column-gap) + var(--one-column))
+	);
 	--font-primary: 'Playfair Display';
 	--font-secondary: 'Montserrat';
 
@@ -20,8 +24,17 @@
 	--color-tertiary: #ffdadc;
 	--color-black: #0e0e2c;
 	--color-text: #7b7b89;
+	--color-aside: #f4f8fc;
 
 	margin: 0;
+	/* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+	display: none;
 }
 
 .titleText {
