@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Header from '../organisms/Header'
 import Footer from '../organisms/Footer'
-import Homeblog from './homeblog'
+import Homeblog from '../components/homeblog'
 
 import '../styles/index.css'
 

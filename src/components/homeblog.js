@@ -1,5 +1,5 @@
 import React from 'react'
-import Latestblogcard from '../components/cards/latestblogcard'
+import Latestblogcard from './cards/latestblogcard'
 // import '../styles/css/style.css'
 // import '../styles/css/animate.css'
 // import '../styles/css/fonts.css'
@@ -13,8 +13,8 @@ import Latestblogcard from '../components/cards/latestblogcard'
 // import '../styles/css/style_V.css'
 // import '../styles/css/responsive_V.css'
 import { Link } from 'gatsby'
-import Editorcard from '../components/cards/editorcard'
-import Footer from '../components/footer'
+import Editorcard from './cards/editorcard'
+import Footer from './footer'
 
 const Homeblog = () => {
 	return (
