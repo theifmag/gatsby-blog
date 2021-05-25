@@ -27,6 +27,18 @@ collections:
             label: Description
             default: ''
             required: false
+          - widget: list
+            name: bio
+            label: Bio
+            fields:
+              - widget: string
+                name: name
+                label: Name
+                default: ''
+              - widget: string
+                name: bio
+                label: Bio
+                default: ''
           - widget: object
             name: home
             label: Homepage Options

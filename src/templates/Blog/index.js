@@ -47,6 +47,7 @@ export default function Template({
 						/>
 						<AsideContainer category={frontmatter.category} />
 					</div>
+					<Spacer y={150} />
 				</article>
 			</div>
 			<Footer />
