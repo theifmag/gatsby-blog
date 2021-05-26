@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Button from '../../atoms/Button'
 import Spacer from '../../atoms/Spacer'
 import Input, { TextArea } from '../../atoms/Input'
@@ -6,22 +6,23 @@ import Input, { TextArea } from '../../atoms/Input'
 import styles from './index.module.css'
 
 const FooterForm = () => {
-	const nameRef = useRef()
-	const emailRef = useRef()
-	const messageRef = useRef()
-
 	return (
 		<>
-			<h2 classNames={styles.title}>Talk to us</h2>
+			<h2 className={styles.title}>Talk to us</h2>
 			<Spacer y={20} />
-			<form className={styles.form}>
-				<Input placeholder='name' ref={nameRef} />
+			<form
+				name='contact-us-footer'
+				data-netlify-honeypot='bot-field'
+				data-netlify='true'
+				className={styles.form}>
+				<input type='hidden' name='form-name' value='contact' />
+				<Input name='name' placeholder='name' />
 				<Spacer y={16} />
-				<Input placeholder='email' ref={emailRef} />
+				<Input name='email' placeholder='email' />
 				<Spacer y={16} />
-				<TextArea placeholder='your message' ref={messageRef} />
+				<TextArea name='message' placeholder='your message' />
 				<Spacer y={32} />
-				<Button text='submit' onClick={() => {}} />
+				<Button text='submit' type='submit' />
 			</form>
 		</>
 	)
