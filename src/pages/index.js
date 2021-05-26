@@ -1,10 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import BannerSection from '../templates/BannerSection'
+import EditorsChoiceSection from '../organisms/EditorsChoice'
 import Footer from '../organisms/Footer'
 
 import '../styles/index.css'
-import BannerSection from '../templates/BannerSection'
 
 const HomePage = () => {
 	return (
@@ -17,6 +18,7 @@ const HomePage = () => {
 				/>
 			</Helmet>
 			<BannerSection />
+			<EditorsChoiceSection />
 			<Footer />
 		</>
 	)
