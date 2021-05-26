@@ -7,6 +7,11 @@
 	text-decoration: none;
 	padding: 10px 0;
 }
+@media only screen and (max-width: 1024px) {
+	.link {
+		font-size: 1.1em;
+	}
+}
 
 .link:hover {
 	color: var(--color-primary);
