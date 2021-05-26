@@ -1,0 +1,12 @@
+.pageContainer {
+	height: 100vh;
+	min-height: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	padding: 0 var(--horizontal-padding);
+	display: flex;
+	flex: 1;
+}
