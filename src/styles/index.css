@@ -5,8 +5,8 @@
 	--three-columns: calc(
 		var(--one-column) + var(--two-columns) + var(--column-gap)
 	);
-	--four-columns: calc((var(--two-columns) * 2) + var(--column-gap));
-	--five-columns: calc(var(--four-columns) + var(--column-gap));
+	--four-columns: calc((var(--one-column) * 4) + (var(--column-gap) * 3));
+	--five-columns: calc((var(--one-column) * 5) + (var(--column-gap) * 4));
 	--six-columns: calc((var(--one-column) * 6) + (var(--column-gap) * 5));
 	--max-space: 1200px;
 	--horizontal-padding: max(
