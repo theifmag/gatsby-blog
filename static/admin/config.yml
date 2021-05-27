@@ -41,26 +41,27 @@ collections:
                 label: Description
                 default: ''
                 required: false
-      - name: aboutPage
-        label: AboutPage
-        file: aboutPage.json
-        fields:
-          - widget: string
-            name: about
-            label: 'About Page Text'
-            required: true
-          - widget: list
-            name: bios
-            label: Bios
+          - widget: object
+            name: aboutPage
+            label: About Page Data
             fields:
               - widget: string
-                name: name
-                label: Name
+                name: about
+                label: About
                 default: ''
-              - widget: string
-                name: bio
-                label: Bio
-                default: ''
+                required: false
+              - widget: list
+                name: bios
+                label: Bios
+                fields:
+                  - widget: string
+                    name: name
+                    label: Name
+                    default: ''
+                  - widget: string
+                    name: bio
+                    label: Bio
+                    default: ''
 
   - name: blog
     label: Blog
