@@ -43,7 +43,7 @@ collections:
                 required: false
       - name: aboutPage
         label: AboutPage
-        file: bios.json
+        file: aboutPage.json
         fields:
           - widget: string
             name: about
