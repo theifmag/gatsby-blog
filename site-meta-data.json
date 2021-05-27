@@ -7,15 +7,52 @@
 		"description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
 	},
 	"aboutPage": {
-		"about": "asdasdasdadasd",
+		"about": "Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry. Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. Arius id, vulputate nec nunc. Suspendisse magna asdbry.Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry. Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry. Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry",
 		"bios": [
 			{
-				"name": "Tanisha",
-				"bio": "asdasdasd"
+				"name": "Tanisha Sudarshan",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "A lawyer with a keen interest in human rights, sustainable development, and policy. An avid reader, she also pens academic articles and poetry with the same ease."
 			},
 			{
-				"name": "Amrita",
-				"bio": "asdasdasd"
+				"name": "Amrita S Nair",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "The founder of The IF Magazine and The Silent Sexism Project.  A Lawyer with a keen interest in Human Rights Law, Constitutional Law & Gender Studies"
+			},
+			{
+				"name": "Gowri R",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "An artist who aims to reflect her ideology, that is feminism, through her art. She is interested in the overlapping of gender and law. Gowri is a part of IF magazine & design team."
+			},
+			{
+				"name": "Raagni Malhotra",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "With an Associate’s degree in Criminal Justice. this born New Yorker, was raised between the U.S. and India & brings a multicultural perspective on feminist issues to the table."
+			},
+			{
+				"name": "Astha Chhabra",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "An engineer by profession who has always found herself inclined towards writing. A keen interest to speak up in support of feminism prompted her to create a platform to share her thoughts."
+			},
+			{
+				"name": "Mahima Meenaxi",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "A lawyer hailing from Bengaluru. As a feminist and an advocate of labour rights, she believes that gender discrimination is a result of deep-rooted class discrimination."
+			},
+			{
+				"name": "Parinishta T.",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "A communication and Media Studies graduate and currently works as an Online Media Executive. She believes in both creating and consuming media responsibly"
+			},
+			{
+				"name": "Sarah Jacob",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "A design student at Srishti Bangalore. She loves to create and believes in the impact art and design can have on society. When she isn’t busy starting perpetual work in progress projects."
+			},
+			{
+				"name": "Manasa M Poovayil",
+				"thumbnail": "/assets/tanisha.png",
+				"bio": "A graduate of Electronics and Communication Engineering. She is a feminist who believes that feminism does not belong to just one gender."
 			}
 		]
 	}

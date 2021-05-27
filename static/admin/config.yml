@@ -62,6 +62,10 @@ collections:
                     name: bio
                     label: Bio
                     default: ''
+                  - widget: string
+                    name: thumbnail
+                    label: Thumbnail
+                    default: ''
 
   - name: blog
     label: Blog
