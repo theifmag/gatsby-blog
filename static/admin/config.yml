@@ -53,6 +53,49 @@ collections:
                 label: Description
                 default: ''
                 required: false
+      - name: configuration
+        label: COnfiguration
+        file: non-meta-data.json
+        fields:
+          - widget: string
+            name: title
+            label: Site Title
+            required: true
+          - widget: string
+            name: siteUrl
+            label: Website URL
+            required: true
+          - widget: text
+            name: description
+            label: Description
+            default: ''
+            required: false
+          - widget: list
+            name: bio
+            label: Bio
+            fields:
+              - widget: string
+                name: name
+                label: Name
+                default: ''
+              - widget: string
+                name: bio
+                label: Bio
+                default: ''
+          - widget: object
+            name: home
+            label: Homepage Options
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                default: ''
+                required: false
+              - widget: markdown
+                name: description
+                label: Description
+                default: ''
+                required: false
       - name: configs
         label: Bios
         file: bios.json
