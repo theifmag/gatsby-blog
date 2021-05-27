@@ -1,1 +1,13 @@
-[]
+{
+	"about": "asdasdasdadasd",
+	"bios": [
+		{
+			"name": "Tanisha",
+			"bio": "asdasdasd"
+		},
+		{
+			"name": "Amrita",
+			"bio": "asdasdasd"
+		}
+	]
+}

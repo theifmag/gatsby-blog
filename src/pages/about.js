@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Layout from '../components/layout'
-import Navbar from '../components/navbar/navbar'
 import Helmet from 'react-helmet'
-import Footer from '../components/footer'
+
+import Header from '../organisms/Header'
+import Footer from '../organisms/Footer'
 
 import AMRITA_IMAGE from '../images/admins/amritaNair.jpg'
 import ASTHA_IMAGE from '../images/admins/asthaChabra.jpeg'
@@ -13,6 +13,7 @@ import PARINISHTA_IMAGE from '../images/admins/parinishtaT.jpg'
 import RAAGNI_IMAGE from '../images/admins/raagniMalhotra.jpeg'
 import SARAH_IMAGE from '../images/admins/sarahJacob.jpeg'
 import TANISHA_IMAGE from '../images/admins/TanishaSudarshan.jpeg'
+import OurStory from '../templates/OurStory'
 
 const teamData = [
 	{
@@ -143,152 +144,16 @@ const teamData = [
 	},
 ]
 
-export default function About(props) {
-	const onButtonClick = (e) => {
-		let buttonText = e.target.innerText
-		if (buttonText === 'Read More') {
-			e.target.innerText = 'Read Less'
-		} else {
-			e.target.innerText = 'Read More'
-		}
-	}
-
+export default function About() {
 	return (
-		<Layout>
+		<section>
 			<Helmet>
 				<title>About - The Intersectional Feminist</title>
 				<meta name='description' content={'About us page of the IF mag'} />
 			</Helmet>
-			<Navbar />
-			<div>
-				<div
-					className='ck_about_main_wrapper float_left'
-					style={{
-						marginBottom: '10vh',
-					}}>
-					<div className='container'>
-						<div className='row'>
-							<div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12'>
-								<div className='ck_about_img_wrapper float_left'>
-									<img
-										src={require('../images/about2.jpeg')}
-										alt='about'
-										style={{
-											maxWidth: '500px',
-										}}
-									/>
-								</div>
-							</div>
-							<div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center'>
-								<div className='ck_about_img_cont_wrapper float_left'>
-									<div className='ck_heading_wrapper ck_heading_wrapper2'>
-										<h3>About Us</h3>
-									</div>
-									<p>
-										<i> IF</i> is a pioneer online magazine dedicated
-										exclusively to content relating to intersectional feminism.
-										We are a group of young editors, writers, and illustrators
-										from varied regional, cultural, and educational backgrounds.
-										<br />
-										<br />
-										In our shared vision of an equal and equitable society, we
-										aim to vocalise the role of discrimination on the basis of
-										social constructs such as caste, class, gender, race, and
-										religion. We are determined to represent varied
-										geopolitical, ideological, and linguistic identities in the
-										fight against patriarchal structures.
-									</p>
-									<br />
-									<div id='demo99' className='collapse'>
-										We are strong believers in freedom of expression and in
-										pursuance of our beliefs, we will share content under a
-										spectrum of areas. From current affairs to history, and
-										including our areas of expertise in environmentalism,
-										justice, laws and policies, multimedia, and STEM among other
-										subjects, we&#39;re going to have something for everyone!
-										<br />
-										<br />
-										<i> IF</i> is ambitious and hopes to be a significant entity
-										in promoting a better future through inclusivity and
-										feminism for everyone, regardless of their identities.
-										<br />
-										<i> Because IF not now, then when? </i>
-										<br />
-										<br />
-									</div>
-									<button
-										type='button'
-										className='btn btn-primary'
-										data-toggle='collapse'
-										data-target='#demo99'
-										onClick={onButtonClick}
-										id='about-button'>
-										Read More
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<h3
-					style={{
-						color: '#953f73',
-						textAlign: 'center',
-						marginTop: '10vh',
-						marginBottom: '10vh',
-						fontSize: '38px',
-						fontWeight: '500',
-					}}>
-					Meet the team
-				</h3>
-
-				<div
-					className='container'
-					style={{
-						color: '#953f73',
-
-						marginTop: '2vh',
-						marginBottom: '10vh',
-					}}>
-					<div className='row'>
-						{teamData.map(({ imgUrl, name, shortText, readMore }, key) => (
-							<div
-								className='col-md-6 col-lg-4 col-sm-12 card-margin'
-								key={key}
-								style={{
-									marginTop: '5vh',
-								}}>
-								<div className='card'>
-									<img className='card-img-top' src={imgUrl} alt='Card cap' />
-									<div className='card-body'>
-										<h5 className='card-title'>{name}</h5>
-										<p className='card-text'>{shortText}</p>
-
-										<br />
-										<div id={'demo' + key} className='collapse'>
-											{readMore}
-										</div>
-										<br />
-
-										<button
-											type='button'
-											className='btn btn-primary'
-											data-toggle='collapse'
-											data-target={'#demo' + key}
-											onClick={onButtonClick}
-											id='about-button'>
-											Read More
-										</button>
-									</div>
-								</div>
-							</div>
-						))}
-					</div>
-				</div>
-
-				<Footer />
-			</div>
-		</Layout>
+			<Header />
+			<OurStory />
+			<Footer />
+		</section>
 	)
 }

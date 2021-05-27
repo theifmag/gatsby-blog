@@ -7,6 +7,7 @@
 module.exports = {
 	/* Your site config here */
 	siteMetadata: require('./site-meta-data.json'),
+	bios: require('./bios.json'),
 	plugins: [
 		{
 			resolve: `gatsby-source-filesystem`,
