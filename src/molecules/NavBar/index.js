@@ -8,6 +8,7 @@ import styles from './index.module.css'
 
 const NavBar = () => {
 	const [mobile] = useWindowResize()
+
 	return (
 		<div className={['flex-row', styles.container].join(' ')}>
 			<Link className={styles.link} activeClassName={styles.activeLink} to='/'>

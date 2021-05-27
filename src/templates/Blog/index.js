@@ -6,9 +6,10 @@ import Header from '../../organisms/Header'
 import Footer from '../../organisms/Footer'
 import Title from '../../atoms/Title'
 import Spacer from '../../atoms/Spacer'
+import useWindowResize from '../../functions/useWindowResize'
+import AsideContainer from '../../molecules/AsideContainer'
 
 import styles from './index.module.css'
-import AsideContainer from '../../molecules/AsideContainer'
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -16,6 +17,8 @@ export default function Template({
 	const { site, markdownRemark } = data // data.markdownRemark holds your post data
 	const { siteMetadata } = site
 	const { frontmatter, html } = markdownRemark
+
+	const [mobile] = useWindowResize()
 
 	return (
 		<>
@@ -30,9 +33,9 @@ export default function Template({
 
 			<div className={styles.container}>
 				<article>
-					<Spacer y={100} />
+					<Spacer y={mobile ? 20 : 100} />
 					<Title text={frontmatter.title} />
-					<Spacer y={80} />
+					<Spacer y={mobile ? 20 : 80} />
 					<img src={frontmatter.thumbnail} className={styles.thumbnailImage} />
 					<Spacer y={20} />
 					<div>

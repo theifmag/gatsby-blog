@@ -11,3 +11,15 @@
 	flex: 1;
 	align-self: flex-end;
 }
+
+@media only screen and (max-width: 1024px) {
+	.title {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.title {
+		font-size: 1.3em;
+	}
+}

@@ -5,11 +5,14 @@ import styles from './index.module.css'
 const FooterBottomSection = () => (
 	<div className={styles.container}>
 		Designed and developed by{' '}
-		<a target='_blank' href='https://www.abhisheknairofficial.com'>
+		<a
+			target='_blank'
+			href='https://www.abhisheknairofficial.com'
+			rel='noreferrer'>
 			6foot4
 		</a>{' '}
 		and{' '}
-		<a target='_blank' href={'https://lavanya.design'}>
+		<a target='_blank' href={'https://lavanya.design'} rel='noreferrer'>
 			Lava
 		</a>
 	</div>

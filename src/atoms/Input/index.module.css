@@ -30,3 +30,9 @@
 	color: var(--color-text);
 	text-transform: capitalize;
 }
+
+@media only screen and (max-width: 640px) {
+	.textarea {
+		max-width: 100%;
+	}
+}

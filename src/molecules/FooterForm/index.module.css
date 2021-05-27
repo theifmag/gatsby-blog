@@ -11,3 +11,9 @@
 	flex-direction: column;
 	max-width: var(--three-columns);
 }
+
+@media only screen and (max-width: 640px) {
+	.form {
+		max-width: 100%;
+	}
+}
