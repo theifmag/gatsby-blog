@@ -16,7 +16,7 @@ const AboutCard = (props) => {
 				style={{ backgroundColor: colorColor[index % 3] }}></div>
 			<img className={styles.thumbnail} src={thumbnail} alt={name} />
 			<Spacer y={15} />
-			<h2 className={styles.name}>{name}</h2>
+			<h2 className={styles.title}>{name}</h2>
 			<Spacer y={12} />
 			<p className={styles.bio}>{bio}</p>
 		</div>
