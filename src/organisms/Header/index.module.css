@@ -8,6 +8,11 @@
 .container a {
 	text-decoration: none;
 }
+@media only screen and (max-width: 640px) {
+	.container {
+		padding: 16px;
+	}
+}
 
 .title {
 	font-family: var(--font-primary);
@@ -22,11 +27,29 @@
 		font-size: 2em;
 	}
 }
+@media only screen and (max-width: 640px) {
+	.title {
+		font-size: 1em;
+	}
+}
 
 .logo {
 	height: 50px;
 	width: 50px;
 	object-fit: contain;
+}
+@media only screen and (max-width: 1024px) {
+	.logo {
+		height: 32px;
+		width: 32px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.logo {
+		height: 24px;
+		width: 24px;
+	}
 }
 
 .searchIcon {
@@ -38,5 +61,12 @@
 	.searchIcon {
 		height: 32px;
 		width: 32px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.searchIcon {
+		height: 24px;
+		width: 24px;
 	}
 }

@@ -7,11 +7,6 @@
 	text-decoration: none;
 	padding: 10px 0;
 }
-@media only screen and (max-width: 1024px) {
-	.link {
-		font-size: 1.1em;
-	}
-}
 
 .link:hover {
 	color: var(--color-primary);
@@ -20,4 +15,20 @@
 
 .activeLink {
 	border-bottom: 3px solid var(--color-primary);
+}
+
+@media only screen and (max-width: 1024px) {
+	.link {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.container {
+		padding: 0 20px;
+	}
+	.link {
+		font-size: 0.9em;
+		padding: 5px 0;
+	}
 }
