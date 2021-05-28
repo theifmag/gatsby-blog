@@ -16,7 +16,7 @@ const PopularArticlesContainer = () => {
 				edges {
 					node {
 						id
-						excerpt(pruneLength: 150)
+						excerpt(pruneLength: 75)
 						frontmatter {
 							title
 							path
@@ -27,7 +27,7 @@ const PopularArticlesContainer = () => {
 		}
 	`)
 
-	const articles = data.allMarkdownRemark.edges
+	const articles = data?.allMarkdownRemark?.edges
 
 	return (
 		<div className={styles.container}>

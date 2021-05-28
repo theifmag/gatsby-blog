@@ -2,4 +2,20 @@
 	display: flex;
 	margin-top: auto;
 	justify-self: flex-end;
+	animation: lavanya 3s;
+}
+
+@keyframes lavanya {
+	0% {
+		opacity: 0;
+	}
+	33% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
 }
