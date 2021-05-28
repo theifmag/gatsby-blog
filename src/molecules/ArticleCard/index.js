@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 
 import Spacer from '../../atoms/Spacer'
+import useWindowResize from '../../functions/useWindowResize'
 
 import styles from './index.module.css'
 
@@ -9,6 +10,8 @@ const ArticleCard = (props) => {
 	const { article } = props
 	const { timeToRead, excerpt, frontmatter } = article
 	const { title, category, thumbnail, author, date, path } = frontmatter
+
+	const [mobile] = useWindowResize()
 
 	return (
 		<div className={styles.container}>
@@ -25,6 +28,7 @@ const ArticleCard = (props) => {
 				<Spacer y={2} />
 				<span className={styles.author}>{date}</span>
 				<span className={styles.author}>{' | ' + timeToRead + ' mins'}</span>
+				{mobile && <Spacer y={50} />}
 			</Link>
 		</div>
 	)

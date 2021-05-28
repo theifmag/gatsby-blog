@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 
 import Spacer from '../../atoms/Spacer'
+import useWindowResize from '../../functions/useWindowResize'
 
 import styles from './index.module.css'
 
@@ -74,7 +75,9 @@ const LargeCard = ({
 )
 
 const LatestArticleCard = ({ article, index }) => {
-	if (index < 2) {
+	const [mobile] = useWindowResize()
+
+	if (mobile || index < 2) {
 		return <LargeCard {...article} />
 	}
 

@@ -57,6 +57,9 @@
 }
 
 @media only screen and (max-width: 640px) {
+	* {
+		--horizontal-padding: 20px;
+	}
 	.titleText {
 		font-size: 1.8em;
 	}
