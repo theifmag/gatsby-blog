@@ -1,0 +1,33 @@
+.container {
+	width: var(--three-columns);
+	height: var(--three-columns);
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 2px 3px 6px 2px #00000033;
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+.name {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin-top: auto;
+	background-color: rgba(71, 121, 122, 0.8);
+	z-index: 1;
+	font-family: var(--font-primary);
+	font-size: 2em;
+	line-height: 1.5;
+	text-align: center;
+	color: var(--white);
+	font-weight: normal;
+	border-radius: 8px;
+}
