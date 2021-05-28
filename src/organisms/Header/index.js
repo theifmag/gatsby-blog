@@ -24,7 +24,7 @@ const Header = () => {
 				</Link>
 				<div className='flex-row-space-between'>
 					{mobile || <NavBar />}
-					{mobile || <Spacer x={30} />}
+					{mobile || <Spacer x={40} />}
 					<img className={styles.searchIcon} src={SEARCH} alt='search'></img>
 				</div>
 			</header>

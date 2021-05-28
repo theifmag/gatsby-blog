@@ -18,7 +18,7 @@
 	border: solid 1.5px var(--color-primary);
 	font-family: var(--font-secondary);
 	font-weight: 600;
-	font-size: 0.7em;
+	font-size: 0.6em;
 	color: var(--color-primary);
 	text-transform: uppercase;
 }
@@ -34,7 +34,6 @@
 .excerpt {
 	font-family: var(--font-secondary);
 	font-size: 1em;
-	font-weight: 600;
 	line-height: 1.5;
 	letter-spacing: normal;
 	text-align: left;
@@ -49,7 +48,6 @@
 	opacity: 0.6;
 	font-family: var(--font-secondary);
 	font-size: 0.9em;
-	font-weight: 600;
 	line-height: 1.5;
 	text-align: left;
 	color: #7b7b89;

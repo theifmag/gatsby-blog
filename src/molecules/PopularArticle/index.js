@@ -13,7 +13,7 @@ const PopularArticle = ({ article }) => {
 		<article className={styles.container}>
 			<Link to={path}>
 				<h2 className={styles.title}>{title}</h2>
-				<Spacer y={20} />
+				<Spacer y={10} />
 				<p className={styles.excerpt}>{excerpt}</p>
 			</Link>
 		</article>

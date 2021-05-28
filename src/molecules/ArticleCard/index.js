@@ -16,9 +16,9 @@ const ArticleCard = (props) => {
 				<img alt='thumbnail' src={thumbnail} className={styles.thumbnail} />
 				<Spacer y={20} />
 				<span className={styles.category}>{category}</span>
-				<Spacer y={10} />
-				<h2 className={styles.title}>{title}</h2>
 				<Spacer y={16} />
+				<h2 className={styles.title}>{title}</h2>
+				<Spacer y={10} />
 				<p className={styles.excerpt}>{excerpt}</p>
 				<Spacer y={16} />
 				<span className={styles.author}>{`By ${author}`}</span>
