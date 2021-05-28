@@ -40,11 +40,11 @@
 .category {
 	padding: 6px 10px;
 	border-radius: 4px;
-	border: solid 1px var(--color-dark);
+	border: solid 1.5px var(--color-primary);
 	font-family: var(--font-secondary);
-	font-weight: bolder;
-	font-size: 0.6em;
-	color: var(--color-dark);
+	font-weight: 600;
+	font-size: 0.7em;
+	color: var(--color-primary);
 	text-transform: uppercase;
 }
 
@@ -52,10 +52,14 @@
 	font-family: var(--font-secondary);
 	font-size: 1em;
 	font-weight: 600;
-	line-height: 1.5;
 	letter-spacing: normal;
 	text-align: left;
 	color: var(--color-text);
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	max-height: 3em;
+	line-height: 1.5em;
 }
 
 .author {
