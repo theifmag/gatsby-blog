@@ -23,9 +23,10 @@ const LatestArticlesSection = () => {
 							path
 							category
 							author
-							date(formatString: "MMMM yyyy")
+							date(formatString: "MMM-yy")
 							thumbnail
 						}
+						timeToRead
 					}
 				}
 			}
@@ -33,7 +34,12 @@ const LatestArticlesSection = () => {
 	`)
 
 	const articles = data.allMarkdownRemark.edges.map((i) => {
-		return { ...i.node.frontmatter, id: i.node.id, excerpt: i.node.excerpt }
+		return {
+			...i.node.frontmatter,
+			id: i.node.id,
+			excerpt: i.node.excerpt,
+			timeToRead: i.node.timeToRead,
+		}
 	})
 
 	return (

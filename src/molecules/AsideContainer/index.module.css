@@ -1,8 +1,8 @@
 .container {
-	background-color: var(--color-aside);
+	/* background-color: var(--color-aside); */
 	width: calc(var(--three-columns));
 	margin-left: auto;
-	max-height: calc(100vh - 100px);
+	max-height: calc(100vh - 150px);
 	padding: 30px 40px;
 	overflow: scroll;
 	position: sticky;

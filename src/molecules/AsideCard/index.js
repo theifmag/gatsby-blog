@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 
 import Spacer from '../../atoms/Spacer'
@@ -8,15 +9,17 @@ const AsideCard = (props) => {
 	const { article } = props
 
 	const { excerpt, frontmatter } = article.node
-	const { title, thumbnail } = frontmatter
+	const { title, thumbnail, path } = frontmatter
 
 	return (
 		<div className={styles.container}>
-			<img alt='thumbnail' src={thumbnail} className={styles.thumbnail} />
-			<Spacer y={30} />
-			<h3 className={styles.title}>{title}</h3>
-			<Spacer y={16} />
-			<p className={styles.description}>{excerpt}</p>
+			<Link to={path}>
+				<img alt='thumbnail' src={thumbnail} className={styles.thumbnail} />
+				<Spacer y={30} />
+				<h3 className={styles.title}>{title}</h3>
+				<Spacer y={16} />
+				<p className={styles.description}>{excerpt}</p>
+			</Link>
 		</div>
 	)
 }

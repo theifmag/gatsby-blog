@@ -24,6 +24,7 @@ const SmallCard = ({
 	excerpt,
 	author,
 	date,
+	timeToRead,
 	path,
 }) => (
 	<article className={styles.smallContainer}>
@@ -39,7 +40,7 @@ const SmallCard = ({
 				<Spacer y={16} />
 				<Author author={author} />
 				<Spacer y={5} />
-				<Date date={date} />
+				<Date date={date + ' | ' + timeToRead + ' mins'} />
 			</div>
 		</Link>
 	</article>
@@ -52,6 +53,7 @@ const LargeCard = ({
 	excerpt,
 	author,
 	date,
+	timeToRead,
 	path,
 }) => (
 	<article className={styles.largeContainer}>
@@ -66,7 +68,7 @@ const LargeCard = ({
 			<Spacer y={20} />
 			<Author author={author} />
 			<Spacer y={5} />
-			<Date date={date} />
+			<Date date={date + ' | ' + timeToRead + ' mins'} />
 		</Link>
 	</article>
 )

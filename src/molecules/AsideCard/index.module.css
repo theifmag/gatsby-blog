@@ -3,6 +3,10 @@
 	flex-direction: column;
 }
 
+.container * {
+	text-decoration: none;
+}
+
 .thumbnail {
 	width: var(--three-columns);
 	height: calc(var(--three-columns) * 0.75);
@@ -13,7 +17,7 @@
 
 .title {
 	font-family: var(--font-primary);
-	font-size: 1.5em;
+	font-size: 1.2em;
 	text-align: left;
 	color: var(--color-black);
 }

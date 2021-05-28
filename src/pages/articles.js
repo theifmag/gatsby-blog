@@ -16,10 +16,10 @@ const ArticlesPage = () => {
 						category
 						thumbnail
 						author
-						date(formatString: "MMMM YYYY")
+						date(formatString: "MMM-YY")
 						path
 					}
-					excerpt(format: PLAIN, truncate: true, pruneLength: 150)
+					excerpt(format: PLAIN, truncate: true, pruneLength: 100)
 				}
 				distinct(field: frontmatter___category)
 			}

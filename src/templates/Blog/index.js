@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
@@ -16,9 +16,18 @@ export default function Template({
 }) {
 	const { site, markdownRemark } = data // data.markdownRemark holds your post data
 	const { siteMetadata } = site
-	const { frontmatter, html } = markdownRemark
+	const { frontmatter, timeToRead, html } = markdownRemark
 
 	const [mobile] = useWindowResize()
+
+	useEffect(() => {
+		var anchors = document
+			.getElementById(frontmatter.path)
+			.getElementsByTagName('a')
+		for (var i = 0; i < anchors.length; i++) {
+			anchors[i].setAttribute('target', '_blank')
+		}
+	}, [])
 
 	return (
 		<>
@@ -32,7 +41,7 @@ export default function Template({
 			<Header />
 
 			<div className={styles.container}>
-				<article>
+				<article id={frontmatter.path}>
 					<Spacer y={mobile ? 20 : 100} />
 					<Title text={frontmatter.title} />
 					<Spacer y={mobile ? 20 : 80} />
@@ -40,7 +49,9 @@ export default function Template({
 					<Spacer y={20} />
 					<div>
 						<h5 className={styles.authorName}>{frontmatter.author}</h5>
-						<h5 className={styles.articleDate}>{frontmatter.date}</h5>
+						<h5 className={styles.articleDate}>
+							{frontmatter.date + ' | ' + timeToRead + ' mins'}
+						</h5>
 					</div>
 					<Spacer y={50} />
 					<div className='flex-row'>
@@ -48,7 +59,10 @@ export default function Template({
 							className={styles.blogContent}
 							dangerouslySetInnerHTML={{ __html: html }}
 						/>
-						<AsideContainer category={frontmatter.category} />
+						<AsideContainer
+							path={frontmatter.path}
+							category={frontmatter.category}
+						/>
 					</div>
 					<Spacer y={150} />
 				</article>
@@ -76,6 +90,7 @@ export const pageQuery = graphql`
 				author
 				category
 			}
+			timeToRead
 		}
 	}
 `

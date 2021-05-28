@@ -35,6 +35,16 @@
 	width: var(--six-columns);
 }
 
+.blogContent img {
+	width: 100%;
+}
+
+.blogContent a {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--color-primary);
+}
+
 @media only screen and (max-width: 1024px) {
 }
 

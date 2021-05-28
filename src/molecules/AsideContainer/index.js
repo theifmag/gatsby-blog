@@ -5,28 +5,35 @@ import styles from './index.module.css'
 import AsideCard from '../AsideCard'
 import Spacer from '../../atoms/Spacer'
 
-const AsideContainer = ({ category }) => {
+const AsideContainer = ({ category, path }) => {
 	const data = useStaticQuery(graphql`
-		query AsideQuery($category: String) {
-			allMarkdownRemark(
-				filter: { frontmatter: { category: { eq: $category } } }
-				limit: 2
-			) {
+		query AsideQuery {
+			allMarkdownRemark {
 				edges {
 					node {
 						id
 						frontmatter {
 							title
 							thumbnail
+							category
+							path
 						}
-						excerpt(truncate: true)
+						excerpt(pruneLength: 100)
 					}
 				}
 			}
 		}
 	`)
 
-	const articlesData = data.allMarkdownRemark.edges
+	const articlesData = data.allMarkdownRemark.edges.filter(
+		(i) =>
+			i.node.frontmatter.category === category &&
+			i.node.frontmatter.path !== path
+	)
+
+	if (!articlesData.length) {
+		return <></>
+	}
 
 	return (
 		<>
