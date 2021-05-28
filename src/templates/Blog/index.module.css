@@ -1,6 +1,5 @@
 .container {
 	padding: 0 var(--horizontal-padding);
-	background-color: var(--white);
 }
 
 .title {
@@ -25,6 +24,7 @@
 	font-family: var(--font-secondary);
 	font-size: 1em;
 	color: var(--color-text);
+	font-weight: normal;
 }
 
 .blogContent {
@@ -57,6 +57,7 @@
 	.thumbnailImage {
 		margin: 0 -20px;
 		border-radius: 0;
+		width: 100vw;
 	}
 	.container > article > div:nth-child(n-1) {
 		flex-direction: column;

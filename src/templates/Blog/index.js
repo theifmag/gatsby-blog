@@ -53,7 +53,7 @@ export default function Template({
 							{frontmatter.date + ' | ' + timeToRead + ' mins'}
 						</h5>
 					</div>
-					<Spacer y={50} />
+					<Spacer y={mobile ? 30 : 50} />
 					<div className='flex-row'>
 						<div
 							className={styles.blogContent}
@@ -64,7 +64,7 @@ export default function Template({
 							category={frontmatter.category}
 						/>
 					</div>
-					<Spacer y={150} />
+					<Spacer y={mobile ? 80 : 150} />
 				</article>
 			</div>
 			<Footer />
