@@ -16,7 +16,6 @@
 
 .authorName {
 	font-family: var(--font-secondary);
-	font-weight: 600;
 	font-size: 1.2em;
 	color: var(--color-black);
 	margin-bottom: 10px;
@@ -31,6 +30,7 @@
 .blogContent {
 	font-family: var(--font-secondary);
 	font-size: 1.1em;
+	line-height: 1.5;
 	color: var(--color-black);
 	width: var(--six-columns);
 }
