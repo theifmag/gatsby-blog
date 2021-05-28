@@ -10,14 +10,19 @@
 		"about": "Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry. Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. Arius id, vulputate nec nunc. Suspendisse magna asdbry.Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry. Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry. Suspendisse magna asdbry. In hac habitasse platea dictumst. Fusce mauris risus, ornare vel. arius id, vulputate nec nunc. Suspendisse magna asdbry",
 		"bios": [
 			{
+				"name": "Amrita S Nair",
+				"thumbnail": "/assets/amrita.png",
+				"bio": "The founder of The IF Magazine and The Silent Sexism Project.  A Lawyer with a keen interest in Human Rights Law, Constitutional Law & Gender Studies"
+			},
+			{
 				"name": "Tanisha Sudarshan",
 				"thumbnail": "/assets/tanisha.png",
 				"bio": "A lawyer with a keen interest in human rights, sustainable development, and policy. An avid reader, she also pens academic articles and poetry with the same ease."
 			},
 			{
-				"name": "Amrita S Nair",
-				"thumbnail": "/assets/amrita.png",
-				"bio": "The founder of The IF Magazine and The Silent Sexism Project.  A Lawyer with a keen interest in Human Rights Law, Constitutional Law & Gender Studies"
+				"name": "Mahima Meenaxi",
+				"thumbnail": "/assets/mahima.png",
+				"bio": "A lawyer hailing from Bengaluru. As a feminist and an advocate of labour rights, she believes that gender discrimination is a result of deep-rooted class discrimination."
 			},
 			{
 				"name": "Gowri R",
@@ -33,11 +38,6 @@
 				"name": "Astha Chhabra",
 				"thumbnail": "/assets/tanisha.png",
 				"bio": "An engineer by profession who has always found herself inclined towards writing. A keen interest to speak up in support of feminism prompted her to create a platform to share her thoughts."
-			},
-			{
-				"name": "Mahima Meenaxi",
-				"thumbnail": "/assets/tanisha.png",
-				"bio": "A lawyer hailing from Bengaluru. As a feminist and an advocate of labour rights, she believes that gender discrimination is a result of deep-rooted class discrimination."
 			},
 			{
 				"name": "Parinishta T.",

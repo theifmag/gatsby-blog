@@ -1,7 +1,7 @@
 .container {
 	position: relative;
 }
-/* .container > .background, */
+.container > .background,
 .container > .thumbnail {
 	filter: grayscale(50%);
 }
