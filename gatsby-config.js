@@ -50,18 +50,15 @@ module.exports = {
 				short_name: `IF Mag`,
 				start_url: `/`,
 				background_color: `#fff`,
-				theme_color: `#381696`,
+				theme_color: `#d41776`,
 				display: `standalone`,
-				icon: 'src/images/icon.png',
+				icon: 'src/images/banner/Logo.png',
 			},
 		},
 		{
 			resolve: `gatsby-plugin-google-fonts`,
 			options: {
-				fonts: [
-					`Playfair Display\:300,500,800`,
-					`Montserrat\:300,500,800`
-				],
+				fonts: [`Playfair Display\:300,500,800`, `Montserrat\:300,500,800`],
 				display: 'swap',
 			},
 		},
