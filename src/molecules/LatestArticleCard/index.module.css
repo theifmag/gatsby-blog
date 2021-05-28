@@ -1,4 +1,9 @@
-.smallContainer {
+.largeContainer *,
+.smallContainer * {
+	text-decoration: none;
+}
+
+.smallContainer > a {
 	display: flex;
 }
 

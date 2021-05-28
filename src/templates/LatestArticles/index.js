@@ -11,7 +11,7 @@ const LatestArticlesSection = () => {
 	const data = useStaticQuery(graphql`
 		query LatestArticlesQuery {
 			allMarkdownRemark(
-				limit: 6
+				limit: 7
 				sort: { fields: frontmatter___date, order: DESC }
 			) {
 				edges {
