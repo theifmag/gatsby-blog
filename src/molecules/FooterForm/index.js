@@ -17,9 +17,9 @@ const FooterForm = () => {
 				className={styles.form}>
 				<input type='hidden' name='form-name' value='contact' />
 				<Input name='name' placeholder='name' />
-				<Spacer y={16} />
+				<Spacer y={12} />
 				<Input name='email' placeholder='email' />
-				<Spacer y={16} />
+				<Spacer y={12} />
 				<TextArea name='message' placeholder='your message' />
 				<Spacer y={32} />
 				<Button text='submit' type='submit' />

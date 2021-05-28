@@ -12,6 +12,7 @@ const OurTeam = () => {
 			<Title text='Our Team' />
 			<Spacer y={100} />
 			<TeamPhotos />
+			<Spacer y={100} />
 		</section>
 	)
 }
