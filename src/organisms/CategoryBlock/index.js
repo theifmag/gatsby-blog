@@ -8,7 +8,6 @@ import styles from './index.module.css'
 
 const CategoryBlock = ({ category }) => {
 	const [categoryTitle, articles] = category
-
 	const [collapse, setCollapse] = useState(false)
 
 	const onArrowClick = () => {
@@ -16,7 +15,7 @@ const CategoryBlock = ({ category }) => {
 	}
 
 	return (
-		<div className={styles.container}>
+		<div id={categoryTitle} className={styles.container}>
 			<div className={'flex-row-space-between'}>
 				<h1 className={styles.title}>{categoryTitle}</h1>
 				<Spacer x={30} />

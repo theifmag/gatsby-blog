@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import Spacer from '../atoms/Spacer'
@@ -6,7 +6,10 @@ import CategoryBlock from '../organisms/CategoryBlock'
 import Footer from '../organisms/Footer'
 import Header from '../organisms/Header'
 
-const ArticlesPage = () => {
+const ArticlesPage = ({ location }) => {
+	const { state = {} } = location
+	const { name } = state
+
 	const data = useStaticQuery(graphql`
 		query ArticlesPageQuery {
 			allMarkdownRemark {
@@ -36,6 +39,13 @@ const ArticlesPage = () => {
 		})
 		return [category, articlesInThisCategory]
 	})
+
+	useEffect(() => {
+		if (name) {
+			const element = document.getElementById(name)
+			element?.scrollIntoView()
+		}
+	}, [name])
 
 	return (
 		<>

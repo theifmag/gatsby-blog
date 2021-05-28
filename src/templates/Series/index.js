@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import Spacer from '../../atoms/Spacer'
 import Title from '../../atoms/Title'
@@ -13,21 +14,32 @@ const Series = () => {
 			image: '/assets/series/rendezvous.png',
 		},
 		{
-			name: 'Podcasts',
+			name: 'Casteism',
 			image: '/assets/series/podcasts.png',
 		},
 		{
-			name: 'Stories',
+			name: 'Rendezvous',
 			image: '/assets/series/stories.png',
 		},
 	]
+
+	const data = useStaticQuery(graphql`
+		query SeriesQuery {
+			allMarkdownRemark {
+				distinct(field: frontmatter___category)
+			}
+		}
+	`)
+
+	const filterForEmpty = (item) =>
+		data.allMarkdownRemark.distinct.includes(item.name)
 
 	return (
 		<section className={styles.container}>
 			<Title text='Series' />
 			<Spacer y={100} />
 			<div className={styles.wrapper}>
-				{seriesList.map((series, key) => (
+				{seriesList.filter(filterForEmpty).map((series, key) => (
 					<SeriesCard key={key} {...series} />
 				))}
 			</div>

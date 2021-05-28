@@ -1,6 +1,6 @@
 .container {
-	width: var(--three-columns);
-	height: var(--three-columns);
+	width: calc((100vw - 2 * var(--horizontal-padding) - 100px) / 3);
+	height: calc((100vw - 2 * var(--horizontal-padding) - 100px) / 3);
 	position: relative;
 	border-radius: 8px;
 	box-shadow: 2px 3px 6px 2px #00000033;
@@ -30,4 +30,5 @@
 	color: var(--white);
 	font-weight: normal;
 	border-radius: 8px;
+	padding: 5px;
 }
