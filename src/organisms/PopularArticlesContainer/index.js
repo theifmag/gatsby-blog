@@ -3,10 +3,13 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import Spacer from '../../atoms/Spacer'
 import PopularArticle from '../../molecules/PopularArticle'
+import useWindowSize from '../../functions/useWindowResize'
 
 import styles from './index.module.css'
 
 const PopularArticlesContainer = () => {
+	const [mobile] = useWindowSize()
+
 	const data = useStaticQuery(graphql`
 		query PopularQuery {
 			allMarkdownRemark(
@@ -35,6 +38,7 @@ const PopularArticlesContainer = () => {
 				<Fragment key={index}>
 					{index !== 0 && <Spacer x={40} />}
 					<PopularArticle article={article} key={index} />
+					{mobile && <Spacer y={30} />}
 				</Fragment>
 			))}
 		</div>
