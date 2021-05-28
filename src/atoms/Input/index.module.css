@@ -15,6 +15,9 @@
 	padding: 1em;
 	border: 0;
 	border-radius: 4px;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-family: var(--font-secondary);
 	background-color: var(--color-light);
 }
 
