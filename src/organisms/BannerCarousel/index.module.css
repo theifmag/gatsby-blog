@@ -1,6 +1,5 @@
 .container {
 	width: var(--three-columns);
-	display: flex;
 }
 
 .image {

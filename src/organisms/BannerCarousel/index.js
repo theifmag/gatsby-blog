@@ -1,13 +1,15 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
+import Spacer from '../../atoms/Spacer'
 
 import styles from './index.module.css'
+import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 
 import CAROUSEL_IMAGE from '../../images/banner/carousel-1.jpg'
 
 const BannerCarousel = () => (
 	<div className={styles.container}>
+		<Spacer y={60} />
 		<Carousel
 			autoPlay
 			emulateTouch
