@@ -54,3 +54,12 @@
 	text-align: left;
 	color: #7b7b89;
 }
+
+.circleForLavanya {
+	height: 5px;
+	width: 5px;
+	border-radius: 10px;
+	margin: 5px;
+	display: inline-block;
+	background-color: var(--color-text);
+}

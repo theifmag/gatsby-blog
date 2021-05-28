@@ -24,8 +24,9 @@ const EditorsChoiceSection = () => {
 							category
 							author
 							thumbnail
-							date(formatString: "MMMM YYYY")
+							date(formatString: "MMM-YY")
 						}
+						timeToRead
 					}
 				}
 			}

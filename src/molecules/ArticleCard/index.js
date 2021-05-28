@@ -24,6 +24,7 @@ const ArticleCard = (props) => {
 				<span className={styles.author}>{`By ${author}`}</span>
 				<Spacer y={2} />
 				<span className={styles.author}>{date}</span>
+				<span className={styles.author}>{' | ' + timeToRead + ' mins'}</span>
 			</Link>
 		</div>
 	)
