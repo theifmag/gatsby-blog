@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import styles from './index.module.css'
@@ -41,10 +41,10 @@ const AsideContainer = ({ category, path }) => {
 				<h2 className={styles.title}>You may also like</h2>
 				<Spacer y={30} />
 				{articlesData.map((article, key) => (
-					<>
-						<AsideCard key={key} article={article} />
+					<Fragment key={key}>
+						<AsideCard article={article} />
 						<Spacer y={30} />
-					</>
+					</Fragment>
 				))}
 			</aside>
 			<Spacer y={50} />

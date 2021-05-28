@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import Spacer from '../../atoms/Spacer'
@@ -32,10 +32,10 @@ const PopularArticlesContainer = () => {
 	return (
 		<div className={styles.container}>
 			{articles.map((article, index) => (
-				<>
+				<Fragment key={index}>
 					{index !== 0 && <Spacer x={40} />}
 					<PopularArticle article={article} key={index} />
-				</>
+				</Fragment>
 			))}
 		</div>
 	)

@@ -26,13 +26,28 @@
 	font-family: var(--font-primary);
 	font-size: 1.3em;
 	text-align: left;
+	line-height: 1.4;
 	color: var(--color-black);
 }
 
 .excerpt {
 	font-family: var(--font-secondary);
 	font-size: 1em;
-	line-height: 1.5;
+	line-height: 1.5em;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	max-height: 3em;
 	text-align: left;
 	color: var(--color-text);
+}
+
+@media only screen and (max-width: 1024px) {
+	.title {
+		font-size: 1.1em;
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+		overflow: hidden;
+		max-height: 2.8em;
+	}
 }

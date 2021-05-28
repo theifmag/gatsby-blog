@@ -19,3 +19,9 @@
 	text-align: left;
 	color: var(--color-text);
 }
+
+@media only screen and (max-width: 1024px) {
+	.title {
+		font-size: 1.5em;
+	}
+}
