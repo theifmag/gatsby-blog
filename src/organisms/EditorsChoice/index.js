@@ -17,7 +17,7 @@ const EditorsChoiceSection = () => {
 				edges {
 					node {
 						id
-						excerpt(pruneLength: 150)
+						excerpt(pruneLength: 100)
 						frontmatter {
 							title
 							path

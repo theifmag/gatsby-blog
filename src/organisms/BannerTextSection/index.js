@@ -8,7 +8,7 @@ import styles from './index.module.css'
 
 const BannerTextSection = () => (
 	<div className={styles.container}>
-		<Spacer y={80} />
+		<Spacer y={60} />
 		<HeroText />
 		<PopularArticlesContainer />
 		<Spacer y={20} />

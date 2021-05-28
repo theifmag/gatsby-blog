@@ -39,6 +39,10 @@
 	letter-spacing: normal;
 	text-align: left;
 	color: var(--color-text);
+	text-transform: lowercase;
+}
+.excerpt:first-letter {
+	text-transform: uppercase;
 }
 
 .author {
