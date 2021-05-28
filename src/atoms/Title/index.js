@@ -13,7 +13,7 @@ const Title = ({ text }) => {
 			<h1 className={styles.title}>{text}</h1>
 			{mobile || (
 				<>
-					<Spacer x={40} />
+					<Spacer x={20} />
 					<div className={styles.underline}></div>
 				</>
 			)}
