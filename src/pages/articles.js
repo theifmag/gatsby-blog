@@ -1,5 +1,6 @@
-import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+
 import Spacer from '../atoms/Spacer'
 import CategoryBlock from '../organisms/CategoryBlock'
 import Footer from '../organisms/Footer'
