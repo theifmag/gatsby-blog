@@ -15,12 +15,12 @@ const Series = () => {
 			imageName: 'rendezvous',
 		},
 		{
-			name: 'Casteism',
+			name: 'Podcasts',
 			image: '/assets/series/podcasts.png',
 			imageName: 'podcasts',
 		},
 		{
-			name: 'Rendezvous',
+			name: 'Stories',
 			image: '/assets/series/stories.png',
 			imageName: 'stories',
 		},
