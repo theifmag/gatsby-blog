@@ -62,6 +62,18 @@ module.exports = {
 				display: 'swap',
 			},
 		},
+		{
+			resolve: `gatsby-plugin-sharp`,
+			options: {
+				defaults: {
+					formats: [`auto`, `webp`],
+					placeholder: 'blurred',
+					quality: 100,
+					breakpoints: [640, 1024, 1366],
+					backgroundColor: `transparent`,
+				},
+			},
+		},
 		`gatsby-plugin-sass`,
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-netlify-cms`,
@@ -70,7 +82,6 @@ module.exports = {
 		'gatsby-plugin-use-query-params',
 		`gatsby-remark-line-breaks`,
 		`gatsby-plugin-image`,
-		`gatsby-plugin-sharp`,
 		`gatsby-transformer-sharp`,
 	],
 }

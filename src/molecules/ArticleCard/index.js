@@ -1,5 +1,5 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Spacer from '../../atoms/Spacer'
 import useWindowResize from '../../functions/useWindowResize'
