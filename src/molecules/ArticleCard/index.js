@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Spacer from '../../atoms/Spacer'
 import useWindowResize from '../../functions/useWindowResize'
@@ -8,16 +8,23 @@ import useWindowResize from '../../functions/useWindowResize'
 import styles from './index.module.css'
 
 const ArticleCard = (props) => {
-	const { article } = props
-	const { timeToRead, excerpt, frontmatter } = article
+	const { article, allFile } = props
+	const { timeToRead, excerpt, frontmatter, id } = article
 	const { title, category, thumbnail, author, date, path } = frontmatter
 
 	const [mobile] = useWindowResize()
 
+	const image = allFile.find((i) => thumbnail.includes(i.name))?.childImageSharp
+		?.gatsbyImageData
+
 	return (
 		<div className={styles.container}>
 			<Link to={path}>
-				<img alt='thumbnail' src={thumbnail} className={styles.thumbnail} />
+				<GatsbyImage
+					alt='thumbnail'
+					image={image}
+					className={styles.thumbnail}
+				/>
 				<Spacer y={20} />
 				<span className={styles.category}>{category}</span>
 				<Spacer y={16} />

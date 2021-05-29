@@ -13,6 +13,17 @@ const EditorsChoiceSection = () => {
 
 	const data = useStaticQuery(graphql`
 		query EditorsChoiceQuery {
+			allFile(filter: { sourceInstanceName: { eq: "markdown-images" } }) {
+				edges {
+					node {
+						id
+						childImageSharp {
+							gatsbyImageData(quality: 100, width: 350, placeholder: BLURRED)
+						}
+						name
+					}
+				}
+			}
 			allMarkdownRemark(
 				limit: 3
 				filter: { frontmatter: { EditorChoice: { eq: true } } }
@@ -36,6 +47,8 @@ const EditorsChoiceSection = () => {
 		}
 	`)
 
+	const allFile = data.allFile.edges.map((i) => i.node)
+
 	const articles = data.allMarkdownRemark.edges.map((i) => i.node)
 
 	return (
@@ -45,7 +58,7 @@ const EditorsChoiceSection = () => {
 			<Spacer y={mobile ? 30 : 100} />
 			<div className={styles.articleContainer}>
 				{articles.map((article, key) => (
-					<ArticleCard article={article} key={key} />
+					<ArticleCard allFile={allFile} article={article} key={key} />
 				))}
 			</div>
 			<Spacer y={100} />
