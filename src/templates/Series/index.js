@@ -39,6 +39,7 @@ const Series = () => {
 
 	return (
 		<section className={styles.container}>
+			<Spacer y={100} />
 			<Title text='Series' />
 			<Spacer y={100} />
 			<div className={styles.wrapper}>

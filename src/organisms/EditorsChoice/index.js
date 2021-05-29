@@ -48,7 +48,7 @@ const EditorsChoiceSection = () => {
 					<ArticleCard article={article} key={key} />
 				))}
 			</div>
-			<Spacer y={100} />
+			<Spacer y={mobile ? 0 : 100} />
 		</section>
 	)
 }
