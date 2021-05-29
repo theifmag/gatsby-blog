@@ -28,24 +28,11 @@ const Series = () => {
 
 	const data = useStaticQuery(graphql`
 		query SeriesQuery {
-			allFile(filter: { sourceInstanceName: { eq: "markdown-images" } }) {
-				edges {
-					node {
-						id
-						childImageSharp {
-							gatsbyImageData(quality: 100, width: 350, placeholder: BLURRED)
-						}
-						name
-					}
-				}
-			}
 			allMarkdownRemark {
 				distinct(field: frontmatter___category)
 			}
 		}
 	`)
-
-	const allFile = data.allFile.edges.map((i) => i.node)
 
 	const filterForEmpty = (item) =>
 		data.allMarkdownRemark.distinct.includes(item.name)
@@ -56,7 +43,7 @@ const Series = () => {
 			<Spacer y={100} />
 			<div className={styles.wrapper}>
 				{seriesList.filter(filterForEmpty).map((series, key) => (
-					<SeriesCard allFile={allFile} key={key} {...series} />
+					<SeriesCard key={key} {...series} />
 				))}
 			</div>
 			<Spacer y={100} />

@@ -2,13 +2,15 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
+import useImageData from '../../functions/useImageData'
+
 import styles from './index.module.css'
 
-const SeriesCard = ({ allFile, imageName, name }) => {
+const SeriesCard = ({ imageName, name }) => {
+	const allFile = useImageData()
+
 	const imageData = allFile.find((i) => i.name.includes(imageName))
 		?.childImageSharp?.gatsbyImageData
-
-	console.log({ imageData })
 
 	return (
 		<Link to={'/articles'} state={{ name }}>

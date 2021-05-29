@@ -4,15 +4,17 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Spacer from '../../atoms/Spacer'
 import useWindowResize from '../../functions/useWindowResize'
+import useImageData from '../../functions/useImageData'
 
 import styles from './index.module.css'
 
 const ArticleCard = (props) => {
-	const { article, allFile } = props
+	const { article } = props
 	const { timeToRead, excerpt, frontmatter, id } = article
 	const { title, category, thumbnail, author, date, path } = frontmatter
 
 	const [mobile] = useWindowResize()
+	const allFile = useImageData()
 
 	const image = allFile.find((i) => thumbnail.includes(i.name))?.childImageSharp
 		?.gatsbyImageData
