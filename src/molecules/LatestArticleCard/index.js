@@ -1,8 +1,10 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import { Link } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Spacer from '../../atoms/Spacer'
 import useWindowResize from '../../functions/useWindowResize'
+import useImageData from '../../functions/useImageData'
 
 import styles from './index.module.css'
 
@@ -30,7 +32,11 @@ const SmallCard = ({
 }) => (
 	<article className={styles.smallContainer}>
 		<Link to={path}>
-			<img src={thumbnail} alt='thumbnail' className={styles.smallThumbnail} />
+			<GatsbyImage
+				image={thumbnail}
+				alt='thumbnail'
+				className={styles.smallThumbnail}
+			/>
 			<Spacer x={30} />
 			<div className={styles.smallTextBox}>
 				<Category category={category} />
@@ -59,7 +65,11 @@ const LargeCard = ({
 }) => (
 	<article className={styles.largeContainer}>
 		<Link to={path}>
-			<img className={styles.largeThumbnail} src={thumbnail} alt='thumbnail' />
+			<GatsbyImage
+				className={styles.largeThumbnail}
+				image={thumbnail}
+				alt='thumbnail'
+			/>
 			<Spacer y={20} />
 			<Category category={category} />
 			<Spacer y={10} />
@@ -76,12 +86,16 @@ const LargeCard = ({
 
 const LatestArticleCard = ({ article, index }) => {
 	const [mobile] = useWindowResize()
+	const allFile = useImageData()
+
+	const image = allFile.find((i) => article.thumbnail.includes(i.name))
+		?.childImageSharp?.gatsbyImageData
 
 	if (mobile || index < 2) {
-		return <LargeCard {...article} />
+		return <LargeCard {...article} thumbnail={image} />
 	}
 
-	return <SmallCard {...article} />
+	return <SmallCard {...article} thumbnail={image} />
 }
 
 export default LatestArticleCard
