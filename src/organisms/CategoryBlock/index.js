@@ -1,14 +1,24 @@
 import React, { useState } from 'react'
 
 import Spacer from '../../atoms/Spacer'
-import ArticleCard from '../../molecules/ArticleCard'
+import ArticleCard, {
+	Title,
+	Excerpt,
+	Image,
+	Author,
+	DateTime,
+	Category,
+} from '../../molecules/ArticleCard'
+import useWindowSize from '../../functions/useWindowResize'
 
 import DOWN_ARROW from '../../images/articles/down-arrow.svg'
 import styles from './index.module.css'
+import { Link } from 'gatsby'
 
 const CategoryBlock = ({ category }) => {
 	const [categoryTitle, articles] = category
 	const [collapse, setCollapse] = useState(false)
+	const [mobile] = useWindowSize()
 
 	const onArrowClick = () => {
 		setCollapse(!collapse)
@@ -18,7 +28,7 @@ const CategoryBlock = ({ category }) => {
 		<div id={categoryTitle} className={styles.container}>
 			<div className={'flex-row-space-between'}>
 				<h1 className={styles.title}>{categoryTitle}</h1>
-				<Spacer x={30} />
+				<Spacer x={mobile ? 0 : 30} />
 				<div className={styles.arrowContainer} onClick={onArrowClick}>
 					<img
 						src={DOWN_ARROW}
@@ -26,18 +36,40 @@ const CategoryBlock = ({ category }) => {
 						className={[styles.arrow, collapse && styles.upArrow].join(' ')}
 					/>
 				</div>
-				<Spacer x={30} />
-				<div className={styles.underline}></div>
+				{mobile || <Spacer x={30} />}
+				{mobile || <div className={styles.underline}></div>}
 			</div>
-			<Spacer y={60} />
+			<Spacer y={mobile ? 30 : 60} />
 			{collapse || (
 				<>
 					<div className={styles.articlesContainer}>
-						{articles.map((article, key) => (
-							<ArticleCard article={article} key={key} />
-						))}
+						{articles.map((article, key) =>
+							mobile ? (
+								<Link to={article.frontmatter.path}>
+									<article className={styles.articleTag} key={key}>
+										<div>
+											<Category category={article.frontmatter.category} />
+											<Title title={article.frontmatter.title} />
+											<Spacer y={10} />
+											<Excerpt excerpt={article.excerpt} />
+											<Spacer y={10} />
+											<Author author={article.frontmatter.author} />
+											<Spacer y={1} />
+											<DateTime
+												date={article.frontmatter.date}
+												timeToRead={article.timeToRead}
+											/>
+										</div>
+										<Spacer x={20} />
+										<Image thumbnail={article.frontmatter.thumbnail} />
+									</article>
+								</Link>
+							) : (
+								<ArticleCard key={key} article={article} />
+							)
+						)}
 					</div>
-					<Spacer y={100} />
+					<Spacer y={mobile ? 30 : 100} />
 				</>
 			)}
 		</div>

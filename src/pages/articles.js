@@ -5,10 +5,13 @@ import Spacer from '../atoms/Spacer'
 import CategoryBlock from '../organisms/CategoryBlock'
 import Footer from '../organisms/Footer'
 import Header from '../organisms/Header'
+import useImageData from '../functions/useImageData'
 
 const ArticlesPage = ({ location }) => {
 	const { state = {} } = location
 	const { name } = state
+
+	const [mobile] = useImageData()
 
 	const data = useStaticQuery(graphql`
 		query ArticlesPageQuery {
@@ -50,7 +53,7 @@ const ArticlesPage = ({ location }) => {
 	return (
 		<>
 			<Header />
-			<Spacer y={80} />
+			<Spacer y={mobile ? 30 : 80} />
 			{megaArrayOfCategories.map((category, key) => (
 				<CategoryBlock category={category} key={key} />
 			))}

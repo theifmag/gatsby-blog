@@ -62,4 +62,24 @@
 		width: 100%;
 		height: 75%;
 	}
+
+	.category {
+		border: 0;
+		padding: 0;
+		position: absolute;
+		top: -15px;
+	}
+
+	.title {
+		font-size: 1.1em;
+	}
+
+	.excerpt {
+		font-size: 0.8em;
+		line-height: 1.3em;
+		max-height: 2.6em;
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+		overflow: hidden;
+	}
 }

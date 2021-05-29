@@ -8,40 +8,60 @@ import useImageData from '../../functions/useImageData'
 
 import styles from './index.module.css'
 
+export const Image = ({ thumbnail }) => {
+	const allFile = useImageData()
+
+	const image = allFile.find((i) => thumbnail.includes(i.name))?.childImageSharp
+		?.gatsbyImageData
+	return image ? (
+		<GatsbyImage alt='thumbnail' image={image} className={styles.thumbnail} />
+	) : (
+		<img src={thumbnail} className={styles.thumbnail} alt='thumbnail' />
+	)
+}
+
+export const Category = ({ category }) => (
+	<span className={styles.category}>{category}</span>
+)
+
+export const Title = ({ title }) => <h2 className={styles.title}>{title}</h2>
+
+export const Excerpt = ({ excerpt }) => (
+	<p className={styles.excerpt}>{excerpt}</p>
+)
+
+export const Author = ({ author }) => (
+	<span className={styles.author}>{`By ${author}`}</span>
+)
+
+export const DateTime = ({ date, timeToRead }) => (
+	<>
+		<span className={styles.author}>{date}</span>
+		<span className={styles.author}>{' | ' + timeToRead + ' mins'}</span>
+	</>
+)
+
 const ArticleCard = (props) => {
 	const { article } = props
 	const { timeToRead, excerpt, frontmatter, id } = article
 	const { title, category, thumbnail, author, date, path } = frontmatter
 
 	const [mobile] = useWindowResize()
-	const allFile = useImageData()
-
-	const image = allFile.find((i) => thumbnail.includes(i.name))?.childImageSharp
-		?.gatsbyImageData
 
 	return (
 		<div className={styles.container}>
 			<Link to={path}>
-				{image ? (
-					<GatsbyImage
-						alt='thumbnail'
-						image={image}
-						className={styles.thumbnail}
-					/>
-				) : (
-					<img src={thumbnail} className={styles.thumbnail} alt='thumbnail' />
-				)}
+				<Image thumbnail={thumbnail} />
 				<Spacer y={20} />
-				<span className={styles.category}>{category}</span>
+				<Category category={category} />
 				<Spacer y={16} />
-				<h2 className={styles.title}>{title}</h2>
+				<Title title={title} />
 				<Spacer y={10} />
-				<p className={styles.excerpt}>{excerpt}</p>
+				<Excerpt excerpt={excerpt} />
 				<Spacer y={16} />
-				<span className={styles.author}>{`By ${author}`}</span>
+				<Author author={author} />
 				<Spacer y={2} />
-				<span className={styles.author}>{date}</span>
-				<span className={styles.author}>{' | ' + timeToRead + ' mins'}</span>
+				<DateTime date={date} timeToRead={timeToRead} />
 				{mobile && <Spacer y={50} />}
 			</Link>
 		</div>

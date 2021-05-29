@@ -42,3 +42,44 @@
 	grid-gap: 50px;
 	transition: height 0.3s;
 }
+
+@media only screen and (max-width: 1024px) {
+	.title {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.title {
+		font-size: 1.4em;
+	}
+
+	.arrowContainer {
+		background-color: transparent;
+	}
+
+	.container > div:first-child {
+		justify-content: flex-start;
+	}
+
+	.articlesContainer {
+		grid-template-columns: auto;
+	}
+	.articlesContainer * {
+		text-decoration: none;
+	}
+
+	.articleTag {
+		display: flex;
+		position: relative;
+	}
+
+	.articleTag > div:last-child {
+		height: 100px;
+		/* width: 100px; */
+	}
+	.articleTag img {
+		height: 100px;
+		width: 100px;
+	}
+}
