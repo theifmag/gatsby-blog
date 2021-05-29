@@ -21,6 +21,7 @@ const Author = ({ author }) => (
 const Date = ({ date }) => <span className={styles.author}>{date}</span>
 
 const SmallCard = ({
+	image,
 	thumbnail,
 	category,
 	title,
@@ -32,11 +33,19 @@ const SmallCard = ({
 }) => (
 	<article className={styles.smallContainer}>
 		<Link to={path}>
-			<GatsbyImage
-				image={thumbnail}
-				alt='thumbnail'
-				className={styles.smallThumbnail}
-			/>
+			{image ? (
+				<GatsbyImage
+					image={image}
+					alt='thumbnail'
+					className={styles.smallThumbnail}
+				/>
+			) : (
+				<img
+					src={thumbnail}
+					className={styles.smallThumbnail}
+					alt='thumbnail'
+				/>
+			)}
 			<Spacer x={30} />
 			<div className={styles.smallTextBox}>
 				<Category category={category} />
@@ -54,6 +63,7 @@ const SmallCard = ({
 )
 
 const LargeCard = ({
+	image,
 	thumbnail,
 	category,
 	title,
@@ -65,11 +75,19 @@ const LargeCard = ({
 }) => (
 	<article className={styles.largeContainer}>
 		<Link to={path}>
-			<GatsbyImage
-				className={styles.largeThumbnail}
-				image={thumbnail}
-				alt='thumbnail'
-			/>
+			{image ? (
+				<GatsbyImage
+					className={styles.largeThumbnail}
+					image={image}
+					alt='thumbnail'
+				/>
+			) : (
+				<img
+					src={thumbnail}
+					className={styles.largeThumbnail}
+					alt='thumbnail'
+				/>
+			)}
 			<Spacer y={20} />
 			<Category category={category} />
 			<Spacer y={10} />
@@ -92,10 +110,10 @@ const LatestArticleCard = ({ article, index }) => {
 		?.childImageSharp?.gatsbyImageData
 
 	if (mobile || index < 2) {
-		return <LargeCard {...article} thumbnail={image} />
+		return <LargeCard {...article} image={image} />
 	}
 
-	return <SmallCard {...article} thumbnail={image} />
+	return <SmallCard {...article} image={image} />
 }
 
 export default LatestArticleCard

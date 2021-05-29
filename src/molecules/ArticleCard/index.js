@@ -22,11 +22,15 @@ const ArticleCard = (props) => {
 	return (
 		<div className={styles.container}>
 			<Link to={path}>
-				<GatsbyImage
-					alt='thumbnail'
-					image={image}
-					className={styles.thumbnail}
-				/>
+				{image ? (
+					<GatsbyImage
+						alt='thumbnail'
+						image={image}
+						className={styles.thumbnail}
+					/>
+				) : (
+					<img src={thumbnail} className={styles.thumbnail} alt='thumbnail' />
+				)}
 				<Spacer y={20} />
 				<span className={styles.category}>{category}</span>
 				<Spacer y={16} />
