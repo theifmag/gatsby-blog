@@ -15,7 +15,7 @@ const AsideCard = (props) => {
 		<div className={styles.container}>
 			<Link to={path}>
 				<img alt='thumbnail' src={thumbnail} className={styles.thumbnail} />
-				<Spacer y={30} />
+				<Spacer y={20} />
 				<h3 className={styles.title}>{title}</h3>
 				<Spacer y={16} />
 				<p className={styles.description}>{excerpt}</p>

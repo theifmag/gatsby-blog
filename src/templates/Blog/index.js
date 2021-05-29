@@ -42,10 +42,10 @@ export default function Template({
 
 			<div className={styles.container}>
 				<article id={frontmatter.path}>
-					<Spacer y={mobile ? 20 : 100} />
-					<Title text={frontmatter.title} />
-					<Spacer y={mobile ? 20 : 80} />
+					<Spacer y={mobile ? 20 : 50} />
 					<img src={frontmatter.thumbnail} className={styles.thumbnailImage} />
+					<Spacer y={mobile ? 20 : 50} />
+					<Title text={frontmatter.title} />
 					<Spacer y={20} />
 					<div>
 						<h5 className={styles.authorName}>{frontmatter.author}</h5>

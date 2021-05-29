@@ -15,7 +15,7 @@
 
 .authorName {
 	font-family: var(--font-secondary);
-	font-size: 1.2em;
+	font-size: 1em;
 	color: var(--color-black);
 	margin-bottom: 10px;
 }
@@ -43,6 +43,11 @@
 	text-decoration: none;
 	font-weight: bold;
 	color: var(--color-primary);
+}
+
+.blogContent h5 {
+	font-size: 1.1em;
+	font-weight: medium;
 }
 
 @media only screen and (max-width: 1024px) {
