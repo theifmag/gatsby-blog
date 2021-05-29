@@ -21,21 +21,25 @@ const BannerCarousel = () => (
 			showThumbs={false}
 			showStatus={false}>
 			<StaticImage
+				loading='eager'
 				className={styles.image}
 				src={CAROUSEL_IMAGE_ONE}
 				alt='carousel'
 			/>
 			<StaticImage
+				loading='eager'
 				className={styles.image}
 				src={CAROUSEL_IMAGE_TWO}
 				alt='carousel'
 			/>
 			<StaticImage
+				loading='eager'
 				className={styles.image}
 				src={CAROUSEL_IMAGE_THREE}
 				alt='carousel'
 			/>
 			<StaticImage
+				loading='eager'
 				className={styles.image}
 				src={CAROUSEL_IMAGE_FOUR}
 				alt='carousel'

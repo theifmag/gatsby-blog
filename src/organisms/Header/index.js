@@ -20,6 +20,7 @@ const Header = () => {
 				<Link to='/'>
 					<div className='flex-row-space-between'>
 						<StaticImage
+							loading='eager'
 							objectFit='contain'
 							className={styles.logo}
 							src={LOGO}
@@ -33,6 +34,7 @@ const Header = () => {
 					{mobile || <NavBar />}
 					{mobile || <Spacer x={40} />}
 					<StaticImage
+						loading='eager'
 						objectFit='contain'
 						className={styles.searchIcon}
 						src={SEARCH}

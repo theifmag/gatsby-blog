@@ -6,7 +6,8 @@
 	filter: grayscale(50%);
 }
 
-.container:hover * {
+.container:hover .background,
+.container:hover .thumbnail {
 	filter: grayscale(0%);
 }
 
