@@ -50,7 +50,7 @@
 	font-size: 0.9em;
 	line-height: 1.5;
 	text-align: left;
-	color: #7b7b89;
+	color: var(--color-text);
 }
 
 @media only screen and (max-width: 640px) {
