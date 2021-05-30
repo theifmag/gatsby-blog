@@ -11,47 +11,47 @@
 		"bios": [
 			{
 				"name": "Amrita S Nair",
-				"thumbnail": "/assets/amrita.png",
+				"thumbnail": "/assets/about/amrita.png",
 				"bio": "The founder of The IF Magazine and The Silent Sexism Project.  A Lawyer with a keen interest in Human Rights Law, Constitutional Law & Gender Studies"
 			},
 			{
 				"name": "Tanisha Sudarshan",
-				"thumbnail": "/assets/tanisha.png",
+				"thumbnail": "/assets/about/tanisha.png",
 				"bio": "A lawyer with a keen interest in human rights, sustainable development, and policy. An avid reader, she also pens academic articles and poetry with the same ease."
 			},
 			{
 				"name": "Mahima Meenaxi",
-				"thumbnail": "/assets/mahima.png",
+				"thumbnail": "/assets/about/mahima.png",
 				"bio": "A lawyer hailing from Bengaluru. As a feminist and an advocate of labour rights, she believes that gender discrimination is a result of deep-rooted class discrimination."
 			},
 			{
 				"name": "Gowri R",
-				"thumbnail": "/assets/gowri.png",
+				"thumbnail": "/assets/about/gowri.png",
 				"bio": "An artist who aims to reflect her ideology, that is feminism, through her art. She is interested in the overlapping of gender and law. Gowri is a part of IF magazine & design team."
 			},
 			{
 				"name": "Raagni Malhotra",
-				"thumbnail": "/assets/raagni.png",
+				"thumbnail": "/assets/about/raagni.png",
 				"bio": "With an Associate’s degree in Criminal Justice. this born New Yorker, was raised between the U.S. and India & brings a multicultural perspective on feminist issues to the table."
 			},
 			{
 				"name": "Astha Chhabra",
-				"thumbnail": "/assets/tanisha.png",
+				"thumbnail": "/assets/about/tanisha.png",
 				"bio": "An engineer by profession who has always found herself inclined towards writing. A keen interest to speak up in support of feminism prompted her to create a platform to share her thoughts."
 			},
 			{
 				"name": "Parinishta T.",
-				"thumbnail": "/assets/parinishta.png",
+				"thumbnail": "/assets/about/parinishta.png",
 				"bio": "A communication and Media Studies graduate and currently works as an Online Media Executive. She believes in both creating and consuming media responsibly"
 			},
 			{
 				"name": "Sarah Jacob",
-				"thumbnail": "/assets/sarah.png",
+				"thumbnail": "/assets/about/sarah.png",
 				"bio": "A design student at Srishti Bangalore. She loves to create and believes in the impact art and design can have on society. When she isn’t busy starting perpetual work in progress projects."
 			},
 			{
 				"name": "Manasa M Poovayil",
-				"thumbnail": "/assets/tanisha.png",
+				"thumbnail": "/assets/about/tanisha.png",
 				"bio": "A graduate of Electronics and Communication Engineering. She is a feminist who believes that feminism does not belong to just one gender."
 			}
 		]
