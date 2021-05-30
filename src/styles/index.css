@@ -27,6 +27,7 @@
 	--color-aside: #f4f8fc;
 
 	margin: 0;
+	font-family: var(--font-secondary);
 	/* Hide scrollbar for IE, Edge and Firefox */
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */

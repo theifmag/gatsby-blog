@@ -1,12 +1,34 @@
-import React, { useState } from 'react'
+import React, { forwardRef, useImperativeHandle, useState } from 'react'
 
 import styles from './index.module.css'
 
-const Input = (props) => {
+const Input = (props, ref) => {
 	const [value, setValue] = useState('')
 
 	const onChange = (e) => {
 		setValue(e.target.value)
+	}
+
+	useImperativeHandle(
+		ref,
+		() => ({
+			value,
+			clear: () => {
+				setValue('')
+			},
+		}),
+		[value]
+	)
+
+	if (props.textArea) {
+		return (
+			<textarea
+				className={styles.textarea}
+				value={value}
+				onChange={onChange}
+				{...props}
+			/>
+		)
 	}
 
 	return (
@@ -19,21 +41,4 @@ const Input = (props) => {
 	)
 }
 
-export const TextArea = (props) => {
-	const [value, setValue] = useState('')
-
-	const onChange = (e) => {
-		setValue(e.target.value)
-	}
-
-	return (
-		<textarea
-			className={styles.textarea}
-			value={value}
-			onChange={onChange}
-			{...props}
-		/>
-	)
-}
-
-export default Input
+export default forwardRef(Input)
