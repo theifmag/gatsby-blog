@@ -11,28 +11,25 @@ import PastPresentFuture from '../../organisms/PastPresentFuture'
 const OurStory = () => {
 	const data = useStaticQuery(graphql`
 		query OurStoryQuery {
-			site {
-				siteMetadata {
-					aboutPage {
-						about
-					}
-				}
+			aboutJson {
+				aboutOne
+				aboutTwo
 			}
 		}
 	`)
 
 	const [mobile] = useWindowResize()
 
-	const aboutText = data?.site?.siteMetadata?.aboutPage?.about
+	const { aboutOne, aboutTwo } = data?.aboutJson
 
 	return (
 		<section className={styles.container}>
 			<Spacer y={mobile ? 30 : 100} />
 			<Title text='Our Story' />
 			<Spacer y={mobile ? 20 : 50} />
-			<p
-				className={styles.aboutText}
-				dangerouslySetInnerHTML={{ __html: aboutText }}></p>
+			<p className={styles.aboutText}>{aboutOne}</p>
+			<Spacer y={10} />
+			<p className={styles.aboutText}>{aboutTwo}</p>
 			<Spacer y={mobile ? 30 : 100} />
 			<PastPresentFuture />
 			<Spacer y={mobile ? 30 : 100} />

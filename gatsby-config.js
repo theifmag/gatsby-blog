@@ -8,6 +8,7 @@ module.exports = {
 	/* Your site config here */
 	siteMetadata: require('./site-meta-data.json'),
 	plugins: [
+		`gatsby-transformer-json`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {

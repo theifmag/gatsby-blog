@@ -1,59 +1,9 @@
 {
-	"title": "The Intersectional Feminist",
-	"siteUrl": "https://www.theifmag.app/",
-	"description": "The If Mag, a GatsbyJS and Netlify CMS Blog",
-	"home": {
-		"title": "Hi! I'm The If Mag",
-		"description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
-	},
-	"aboutPage": {
-		"about": "IF is a pioneer online magazine dedicated exclusively to content relating to intersectional feminism. We are a group of young editors, writers, and illustrators from varied regional, cultural, and educational backgrounds.<br />In our shared vision for a better society, we aim to vocalize the ill effects of discrimination on the basis of social constructs such as caste, class, gender, race, and religion. We strive to celebrate diversity by representing varied geopolitical, ideological, and linguistic identities through our writing.",
-		"bios": [
-			{
-				"name": "Amrita S Nair",
-				"thumbnail": "/assets/about/amrita.png",
-				"bio": "The founder of The IF Magazine and The Silent Sexism Project.  A Lawyer with a keen interest in Human Rights Law, Constitutional Law & Gender Studies"
-			},
-			{
-				"name": "Tanisha Sudarshan",
-				"thumbnail": "/assets/about/tanisha.png",
-				"bio": "A lawyer with a keen interest in human rights, sustainable development, and policy. An avid reader, she also pens academic articles and poetry with the same ease."
-			},
-			{
-				"name": "Mahima Meenaxi",
-				"thumbnail": "/assets/about/mahima.png",
-				"bio": "A lawyer hailing from Bengaluru. As a feminist and an advocate of labour rights, she believes that gender discrimination is a result of deep-rooted class discrimination."
-			},
-			{
-				"name": "Gowri R",
-				"thumbnail": "/assets/about/gowri.png",
-				"bio": "An artist who aims to reflect her ideology, that is feminism, through her art. She is interested in the overlapping of gender and law. Gowri is a part of IF magazine & design team."
-			},
-			{
-				"name": "Raagni Malhotra",
-				"thumbnail": "/assets/about/raagni.png",
-				"bio": "With an Associate’s degree in Criminal Justice. this born New Yorker, was raised between the U.S. and India & brings a multicultural perspective on feminist issues to the table."
-			},
-			{
-				"name": "Astha Chhabra",
-				"thumbnail": "/assets/about/astha.png",
-				"bio": "An engineer by profession who has always found herself inclined towards writing. A keen interest to speak up in support of feminism prompted her to create a platform to share her thoughts."
-			},
-			{
-				"name": "Parinishta T.",
-				"thumbnail": "/assets/about/parinishta.png",
-				"bio": "A communication and Media Studies graduate and currently works as an Online Media Executive. She believes in both creating and consuming media responsibly"
-			},
-			{
-				"name": "Sarah Jacob",
-				"thumbnail": "/assets/about/sarah.png",
-				"bio": "A design student at Srishti Bangalore. She loves to create and believes in the impact art and design can have on society. When she isn’t busy starting perpetual work in progress projects."
-			},
-			{
-				"name": "Manasa M Poovayil",
-				"thumbnail": "/assets/about/tanisha.png",
-				"bio": "A graduate of Electronics and Communication Engineering. She is a feminist who believes that feminism does not belong to just one gender."
-			}
-		]
-	}
+  "title": "The Intersectional Feminist",
+  "siteUrl": "https://www.theifmag.com",
+  "description": "The If Mag, a GatsbyJS and Netlify CMS Blog",
+  "home": {
+    "title": "Hi! I'm The If Mag",
+    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+  }
 }

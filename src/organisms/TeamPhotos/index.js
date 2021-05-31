@@ -8,21 +8,18 @@ import styles from './index.module.css'
 const TeamPhotos = () => {
 	const data = useStaticQuery(graphql`
 		query TeamPhotosQuery {
-			site {
-				siteMetadata {
-					aboutPage {
-						bios {
-							bio
-							name
-							thumbnail
-						}
-					}
+			aboutJson {
+				bios {
+					bio
+					linkedin
+					name
+					thumbnail
 				}
 			}
 		}
 	`)
 
-	const { bios } = data.site.siteMetadata.aboutPage
+	const { bios } = data.aboutJson
 
 	return (
 		<section className={styles.container}>

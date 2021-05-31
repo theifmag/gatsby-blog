@@ -16,17 +16,14 @@ const WhoWeAre = () => {
 
 	const data = useStaticQuery(graphql`
 		query MyStory {
-			site {
-				siteMetadata {
-					aboutPage {
-						about
-					}
-				}
+			aboutJson {
+				aboutOne
+				aboutTwo
 			}
 		}
 	`)
 
-	const { about } = data?.site?.siteMetadata?.aboutPage
+	const { aboutOne, aboutTwo } = data?.aboutJson
 
 	return (
 		<section className={styles.container}>
@@ -36,9 +33,9 @@ const WhoWeAre = () => {
 			<div className={mobile ? styles.mobileContainer : 'flex-row'}>
 				<div>
 					{mobile && <Spacer y={40} />}
-					<p
-						className={styles.aboutText}
-						dangerouslySetInnerHTML={{ __html: about }}></p>
+					<p className={styles.aboutText}>{aboutOne}</p>
+					<Spacer y={10} />
+					<p className={styles.aboutText}>{aboutTwo}</p>
 					<Spacer y={40} />
 					<Link to='/about'>
 						<Button text='read our story' />
