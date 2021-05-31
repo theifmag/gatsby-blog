@@ -45,8 +45,8 @@ const CategoryBlock = ({ category }) => {
 					<div className={styles.articlesContainer}>
 						{articles.map((article, key) =>
 							mobile ? (
-								<Link to={article.frontmatter.path}>
-									<article className={styles.articleTag} key={key}>
+								<Link to={article.frontmatter.path} key={key}>
+									<article className={styles.articleTag}>
 										<div>
 											<Category category={article.frontmatter.category} />
 											<Title title={article.frontmatter.title} />

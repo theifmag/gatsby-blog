@@ -20,7 +20,7 @@ const Input = (props, ref) => {
 		[value]
 	)
 
-	if (props.textArea) {
+	if (props.textarea) {
 		return (
 			<textarea
 				className={styles.textarea}

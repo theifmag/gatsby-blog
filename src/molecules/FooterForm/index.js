@@ -67,7 +67,7 @@ const FooterForm = () => {
 				<Input ref={emailRef} name='email' placeholder='email' />
 				<Spacer y={12} />
 				<Input
-					textArea
+					textarea='true'
 					ref={messageRef}
 					name='message'
 					placeholder='your message'
