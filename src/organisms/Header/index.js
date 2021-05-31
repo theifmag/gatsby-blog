@@ -19,7 +19,7 @@ const Header = () => {
 	if (search) {
 		return (
 			<header className={styles.container}>
-				<Search />
+				<Search setSearch={setSearch} />
 			</header>
 		)
 	}

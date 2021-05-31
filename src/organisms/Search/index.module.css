@@ -1,0 +1,75 @@
+.container {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-color: var(--white);
+	padding: 25px var(--horizontal-padding);
+	box-sizing: border-box;
+}
+
+.container input {
+	background-color: var(--color-aside);
+	width: var(--five-columns);
+	box-sizing: border-box;
+	padding: 10px 12px;
+}
+
+.container > div:first-child {
+	position: relative;
+	box-sizing: border-box;
+	width: var(--five-columns);
+}
+
+.closeIcon {
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	right: 6px;
+	top: 6px;
+}
+
+.resultsContainer {
+	overflow: auto;
+	height: 90vh;
+}
+
+.resultContainer {
+	width: var(--five-columns);
+	position: relative;
+}
+
+.emptyContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: var(--five-columns);
+}
+
+.emptyContainer p {
+	font-size: 1.2em;
+	color: var(--color-text);
+}
+
+.emptyContainer img {
+	width: var(--three-columns);
+}
+
+@media only screen and (max-width: 640px) {
+	.container {
+		width: 100%;
+	}
+
+	.resultContainer,
+	.emptyContainer,
+	.container > div:first-child,
+	.container input {
+		width: calc(100vw - (var(--horizontal-padding) * 2));
+	}
+
+	.emptyContainer img {
+		width: 80vw;
+	}
+}
