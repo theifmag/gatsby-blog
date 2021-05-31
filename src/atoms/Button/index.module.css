@@ -17,3 +17,13 @@
 	cursor: pointer;
 	box-shadow: 0 2px 2px 1px #00000033;
 }
+
+@media only screen and (max-width: 640px) {
+	.button {
+		padding: 8px 12px;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		border-radius: 4px;
+		box-shadow: 1px 2px 3px 1px #00000033;
+	}
+}
