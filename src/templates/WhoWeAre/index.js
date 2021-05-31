@@ -36,7 +36,9 @@ const WhoWeAre = () => {
 			<div className={mobile ? styles.mobileContainer : 'flex-row'}>
 				<div>
 					{mobile && <Spacer y={40} />}
-					<p className={styles.aboutText}>{about}</p>
+					<p
+						className={styles.aboutText}
+						dangerouslySetInnerHTML={{ __html: about }}></p>
 					<Spacer y={40} />
 					<Link to='/about'>
 						<Button text='read our story' />

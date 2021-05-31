@@ -30,7 +30,9 @@ const OurStory = () => {
 			<Spacer y={mobile ? 30 : 100} />
 			<Title text='Our Story' />
 			<Spacer y={mobile ? 20 : 50} />
-			<p className={styles.aboutText}>{aboutText}</p>
+			<p
+				className={styles.aboutText}
+				dangerouslySetInnerHTML={{ __html: aboutText }}></p>
 			<Spacer y={mobile ? 30 : 100} />
 			<PastPresentFuture />
 			<Spacer y={mobile ? 30 : 100} />
