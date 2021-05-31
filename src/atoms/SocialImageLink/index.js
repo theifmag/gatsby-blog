@@ -7,7 +7,7 @@ const SocialImageLink = (props) => {
 		return <></>
 	}
 	return (
-		<a target='_blank' href={link}>
+		<a target='_blank' href={link} rel='noreferrer'>
 			<img
 				src={src}
 				alt={alt}

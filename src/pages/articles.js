@@ -7,9 +7,8 @@ import Footer from '../organisms/Footer'
 import Header from '../organisms/Header'
 import useImageData from '../functions/useImageData'
 
-const ArticlesPage = ({ location }) => {
-	const { state = {} } = location
-	const { name } = state
+const ArticlesPage = (props) => {
+	const name = props?.location?.state?.name
 
 	const [mobile] = useImageData()
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 
@@ -7,12 +7,22 @@ import NavBar from '../../molecules/NavBar'
 import useWindowResize from '../../functions/useWindowResize'
 
 import styles from './index.module.css'
+import Search from '../Search'
 
 const LOGO = '../../images/banner/Logo.png'
 const SEARCH = '../../images/banner/search.svg'
 
 const Header = () => {
 	const [mobile] = useWindowResize()
+	const [search, setSearch] = useState(false)
+
+	if (search) {
+		return (
+			<header className={styles.container}>
+				<Search />
+			</header>
+		)
+	}
 
 	return (
 		<>
@@ -34,6 +44,7 @@ const Header = () => {
 					{mobile || <NavBar />}
 					{mobile || <Spacer x={40} />}
 					<StaticImage
+						onClick={() => setSearch(true)}
 						loading='eager'
 						objectFit='contain'
 						className={styles.searchIcon}
