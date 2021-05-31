@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Spacer from '../../atoms/Spacer'
+import useWindowSize from '../../functions/useWindowResize'
 import BannerCarousel from '../../organisms/BannerCarousel'
 import BannerTextSection from '../../organisms/BannerTextSection'
 import Header from '../../organisms/Header'
@@ -8,12 +8,14 @@ import Header from '../../organisms/Header'
 import styles from './index.module.css'
 
 const BannerSection = () => {
+	const [mobile] = useWindowSize()
+
 	return (
 		<div className={styles.pageContainer}>
 			<Header />
 			<section className={styles.container}>
 				<BannerTextSection />
-				<BannerCarousel />
+				{mobile || <BannerCarousel />}
 			</section>
 		</div>
 	)

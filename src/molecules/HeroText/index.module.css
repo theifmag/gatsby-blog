@@ -29,4 +29,9 @@
 	.container {
 		width: 100%;
 	}
+
+	.title {
+		font-size: 1.2em;
+		line-height: 1.6;
+	}
 }

@@ -40,7 +40,7 @@ const EditorsChoiceSection = () => {
 
 	return (
 		<section className={styles.container}>
-			<Spacer y={50} />
+			<Spacer y={mobile ? 20 : 50} />
 			<Title text='Editor&#39;s Choice' />
 			<Spacer y={mobile ? 30 : 100} />
 			<div className={styles.articleContainer}>

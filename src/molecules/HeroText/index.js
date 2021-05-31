@@ -8,7 +8,7 @@ import useWindowResize from '../../functions/useWindowResize'
 import styles from './index.module.css'
 
 const HeroText = () => {
-	const [, tablet] = useWindowResize()
+	const [mobile, tablet] = useWindowResize()
 
 	return (
 		<div className={styles.container}>
@@ -16,9 +16,9 @@ const HeroText = () => {
 				If you see inequality as a “them” problem or “unfortunate other”
 				problem, that is a problem
 			</h1>
-			<Spacer y={tablet ? 15 : 20} />
+			<Spacer y={mobile ? 10 : tablet ? 15 : 20} />
 			<span className={styles.author}>-Kimberlee Crenshaw</span>
-			<Spacer y={tablet ? 30 : 50} />
+			<Spacer y={mobile ? 20 : tablet ? 30 : 50} />
 
 			<Link to='/about'>
 				<Button text='find out more' />
