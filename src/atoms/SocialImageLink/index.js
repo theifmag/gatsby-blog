@@ -1,22 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 const SocialImageLink = (props) => {
-	const { link, src, alt, width, height } = props
+  const {link, src, alt, width, height} = props;
 
-	if (!src) {
-		return <></>
-	}
-	return (
-		<a target='_blank' href={link} rel='noreferrer'>
-			<img
-				src={src}
-				alt={alt}
-				layout='fixed'
-				width={width || 24}
-				height={height || 24}
-			/>
-		</a>
-	)
-}
+  if (!src) {
+    return <></>;
+  }
+  return (
+    <a target="_blank" href={link} rel="noreferrer">
+      <img
+        src={src}
+        alt={alt}
+        layout="fixed"
+        width={width || 24}
+        height={height || 24}
+      />
+    </a>
+  );
+};
 
-export default SocialImageLink
+export default SocialImageLink;

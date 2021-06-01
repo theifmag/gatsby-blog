@@ -1,33 +1,33 @@
-import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import React from 'react';
+import {graphql, useStaticQuery} from 'gatsby';
 
-import AboutCard from '../../molecules/AboutCard'
+import AboutCard from '../../molecules/AboutCard';
 
-import styles from './index.module.css'
+import styles from './index.module.css';
 
 const TeamPhotos = () => {
-	const data = useStaticQuery(graphql`
-		query TeamPhotosQuery {
-			aboutJson {
-				bios {
-					bio
-					linkedin
-					name
-					thumbnail
-				}
-			}
-		}
-	`)
+  const data = useStaticQuery(graphql`
+    query TeamPhotosQuery {
+      aboutJson {
+        bios {
+          bio
+          linkedin
+          name
+          thumbnail
+        }
+      }
+    }
+  `);
 
-	const { bios } = data.aboutJson
+  const {bios} = data.aboutJson;
 
-	return (
-		<section className={styles.container}>
-			{bios.map((bio, key) => (
-				<AboutCard {...bio} index={key} key={key} />
-			))}
-		</section>
-	)
-}
+  return (
+    <section className={styles.container}>
+      {bios.map((bio, key) => (
+        <AboutCard {...bio} index={key} key={key} />
+      ))}
+    </section>
+  );
+};
 
-export default TeamPhotos
+export default TeamPhotos;

@@ -1,73 +1,73 @@
 .container {
-	padding: 0 var(--horizontal-padding);
+  padding: 0 var(--horizontal-padding);
 }
 
 .title {
-	font-family: var(--font-primary);
-	font-size: 2.5em;
-	font-weight: bold;
+  font-family: var(--font-primary);
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .thumbnailImage {
-	width: 100%;
-	border-radius: 1em;
+  width: 100%;
+  border-radius: 1em;
 }
 
 .authorName {
-	font-family: var(--font-secondary);
-	font-size: 1em;
-	color: var(--color-black);
-	margin-bottom: 10px;
+  font-family: var(--font-secondary);
+  font-size: 1em;
+  color: var(--color-black);
+  margin-bottom: 10px;
 }
 
 .articleDate {
-	font-family: var(--font-secondary);
-	font-size: 1em;
-	color: var(--color-text);
-	font-weight: normal;
+  font-family: var(--font-secondary);
+  font-size: 1em;
+  color: var(--color-text);
+  font-weight: normal;
 }
 
 .blogContent {
-	font-family: var(--font-secondary);
-	font-size: 1.1em;
-	line-height: 1.5;
-	color: var(--color-black);
-	width: var(--six-columns);
+  font-family: var(--font-secondary);
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: var(--color-black);
+  width: var(--six-columns);
 }
 
 .blogContent img {
-	width: 100%;
+  width: 100%;
 }
 
 .blogContent a {
-	text-decoration: none;
-	font-weight: bold;
-	color: var(--color-primary);
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-primary);
 }
 
 .blogContent h5 {
-	font-size: 1.1em;
-	font-weight: medium;
+  font-size: 1.1em;
+  font-weight: medium;
 }
 
 @media only screen and (max-width: 1024px) {
-	.container > article > div:nth-child(n-1) {
-		flex-direction: column;
-	}
-	.blogContent {
-		width: 100%;
-	}
+  .container > article > div:nth-child(n-1) {
+    flex-direction: column;
+  }
+  .blogContent {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 640px) {
-	.container {
-		padding: 0 20px;
-		box-sizing: border-box;
-	}
+  .container {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 
-	.thumbnailImage {
-		margin: 0 -20px;
-		border-radius: 0;
-		width: 100vw;
-	}
+  .thumbnailImage {
+    margin: 0 -20px;
+    border-radius: 0;
+    width: 100vw;
+  }
 }
