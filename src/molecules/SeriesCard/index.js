@@ -13,7 +13,7 @@ const SeriesCard = ({imageName, name}) => {
     ?.childImageSharp?.gatsbyImageData;
 
   return (
-    <Link to={'/articles'} state={{name}}>
+    <Link to="/articles" state={{name}}>
       <div className={styles.container}>
         <GatsbyImage className={styles.image} image={imageData} alt={name} />
         <h3 className={styles.name}>{name}</h3>

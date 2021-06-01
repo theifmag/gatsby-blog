@@ -74,7 +74,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     site {
       siteMetadata {
         title

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 
 import Header from '../organisms/Header';
@@ -11,7 +11,7 @@ export default function About() {
     <section>
       <Helmet>
         <title>About - The Intersectional Feminist</title>
-        <meta name="description" content={'About us page of the IF mag'} />
+        <meta name="description" content="About us page of the IF mag" />
       </Helmet>
       <Header />
       <OurStory />

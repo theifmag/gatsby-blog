@@ -37,13 +37,13 @@ export const Author = ({author}) => (
 export const DateTime = ({date, timeToRead}) => (
   <>
     <span className={styles.author}>{date}</span>
-    <span className={styles.author}>{' | ' + timeToRead + ' mins'}</span>
+    <span className={styles.author}>{` | ${timeToRead} mins`}</span>
   </>
 );
 
 const ArticleCard = (props) => {
   const {article} = props;
-  const {timeToRead, excerpt, frontmatter, id} = article;
+  const {timeToRead, excerpt, frontmatter} = article;
   const {title, category, thumbnail, author, date, path} = frontmatter;
 
   const [mobile] = useWindowResize();

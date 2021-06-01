@@ -47,7 +47,8 @@ const AboutCard = (props) => {
         className={styles.background}
         style={{
           backgroundColor: desktop ? colorColor[index] : mobileColor[index],
-        }}></div>
+        }}
+      />
       <GatsbyImage className={styles.thumbnail} image={image} alt={name} />
       <Spacer y={15} />
       <h2 className={styles.title}>{name}</h2>

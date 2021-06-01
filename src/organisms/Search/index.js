@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import {graphql, Link, useStaticQuery} from 'gatsby';
 import {useFlexSearch} from 'react-use-flexsearch';
+import {StaticImage} from 'gatsby-plugin-image';
 
 import Input from '../../atoms/Input';
 import {Author, Category, Title, Excerpt} from '../../molecules/ArticleCard';
 
 import * as styles from './index.module.css';
 import Spacer from '../../atoms/Spacer';
-import {StaticImage} from 'gatsby-plugin-image';
 
 const EMPTY_IMAGE = '../../images/banner/empty_search_results.svg';
 const CLOSE_ICON = '../../images/banner/close_icon.svg';
@@ -39,7 +39,7 @@ const Search = ({setSearch}) => {
     }
   };
 
-  const noSearchText = !!searchTerm
+  const noSearchText = searchTerm
     ? 'Uh oh! There are no results'
     : 'Start typing to see some results';
 

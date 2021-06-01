@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'gatsby';
 
 import Spacer from '../../atoms/Spacer';
 import ArticleCard, {
@@ -13,7 +14,6 @@ import useWindowSize from '../../functions/useWindowResize';
 
 import DOWN_ARROW from '../../images/articles/down-arrow.svg';
 import * as styles from './index.module.css';
-import {Link} from 'gatsby';
 
 const CategoryBlock = ({category}) => {
   const [categoryTitle, articles] = category;
@@ -26,7 +26,7 @@ const CategoryBlock = ({category}) => {
 
   return (
     <div id={categoryTitle} className={styles.container}>
-      <div className={'flex-row-space-between'}>
+      <div className="flex-row-space-between">
         <h1 className={styles.title}>{categoryTitle}</h1>
         <Spacer x={mobile ? 0 : 30} />
         <div className={styles.arrowContainer} onClick={onArrowClick}>
@@ -37,37 +37,38 @@ const CategoryBlock = ({category}) => {
           />
         </div>
         {mobile || <Spacer x={30} />}
-        {mobile || <div className={styles.underline}></div>}
+        {mobile || <div className={styles.underline} />}
       </div>
       <Spacer y={mobile ? 30 : 60} />
       {collapse || (
         <>
           <div className={styles.articlesContainer}>
-            {articles.map((article, key) =>
-              mobile ? (
-                <Link to={article.frontmatter.path} key={key}>
-                  <article className={styles.articleTag}>
-                    <div>
-                      <Category category={article.frontmatter.category} />
-                      <Title title={article.frontmatter.title} />
-                      <Spacer y={10} />
-                      <Excerpt excerpt={article.excerpt} />
-                      <Spacer y={10} />
-                      <Author author={article.frontmatter.author} />
-                      <Spacer y={1} />
-                      <DateTime
-                        date={article.frontmatter.date}
-                        timeToRead={article.timeToRead}
-                      />
-                    </div>
-                    <Spacer x={20} />
-                    <Image thumbnail={article.frontmatter.thumbnail} />
-                  </article>
-                </Link>
-              ) : (
-                <ArticleCard key={key} article={article} />
-              ),
-            )}
+            {articles.map((article, key) => {
+              if (mobile) {
+                return (
+                  <Link to={article.frontmatter.path} key={key}>
+                    <article className={styles.articleTag}>
+                      <div>
+                        <Category category={article.frontmatter.category} />
+                        <Title title={article.frontmatter.title} />
+                        <Spacer y={10} />
+                        <Excerpt excerpt={article.excerpt} />
+                        <Spacer y={10} />
+                        <Author author={article.frontmatter.author} />
+                        <Spacer y={1} />
+                        <DateTime
+                          date={article.frontmatter.date}
+                          timeToRead={article.timeToRead}
+                        />
+                      </div>
+                      <Spacer x={20} />
+                      <Image thumbnail={article.frontmatter.thumbnail} />
+                    </article>
+                  </Link>
+                );
+              }
+              return <ArticleCard key={key} article={article} />;
+            })}
           </div>
           <Spacer y={mobile ? 30 : 100} />
         </>

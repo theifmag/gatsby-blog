@@ -56,7 +56,7 @@ const SmallCard = ({
         <Spacer y={16} />
         <Author author={author} />
         <Spacer y={5} />
-        <Date date={date + ' | ' + timeToRead + ' mins'} />
+        <Date date={`${date} | ${timeToRead} mins`} />
       </div>
     </Link>
   </article>
@@ -97,7 +97,7 @@ const LargeCard = ({
       <Spacer y={20} />
       <Author author={author} />
       <Spacer y={5} />
-      <Date date={date + ' | ' + timeToRead + ' mins'} />
+      <Date date={`${date} | ${timeToRead} mins`} />
     </Link>
   </article>
 );
