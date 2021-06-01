@@ -25,7 +25,7 @@ export default function Template({
     const anchors = document
       .getElementById(frontmatter.path)
       .getElementsByTagName('a');
-    anchors.forEach((anchor) => {
+    [...anchors].forEach((anchor) => {
       anchor.setAttribute('target', '_blank');
     });
   }, []);
