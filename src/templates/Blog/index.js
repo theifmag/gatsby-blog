@@ -46,7 +46,7 @@ export default function Template({
 					<img src={frontmatter.thumbnail} className={styles.thumbnailImage} />
 					<Spacer y={mobile ? 20 : 50} />
 					<Title text={frontmatter.title} />
-					<Spacer y={20} />
+					<Spacer y={mobile ? 20 : 50} />
 					<div>
 						<h5 className={styles.authorName}>{frontmatter.author}</h5>
 						<h5 className={styles.articleDate}>
