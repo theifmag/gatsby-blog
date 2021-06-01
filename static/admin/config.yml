@@ -3,6 +3,9 @@ backend:
   # change repo to your git repository url
   repo: theifmag/gatsby-blog
 
+site_url: https://www.theifmag.com
+display_url: https://www.theifmag.com
+
 media_folder: static/assets
 public_folder: /assets
 
