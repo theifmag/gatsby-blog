@@ -6,7 +6,7 @@ import Spacer from '../../atoms/Spacer';
 import useWindowResize from '../../functions/useWindowResize';
 import useImageData from '../../functions/useImageData';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const Category = ({category}) => (
   <span className={styles.category}>{category}</span>

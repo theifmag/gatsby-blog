@@ -6,7 +6,7 @@ import Spacer from '../../atoms/Spacer';
 import LatestArticleCard from '../../molecules/LatestArticleCard';
 import useWindowSize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const LatestArticlesSection = () => {
   const [mobile] = useWindowSize();
@@ -36,14 +36,12 @@ const LatestArticlesSection = () => {
     }
   `);
 
-  const articles = data.allMarkdownRemark.edges.map((i) => {
-    return {
-      ...i.node.frontmatter,
-      id: i.node.id,
-      excerpt: i.node.excerpt,
-      timeToRead: i.node.timeToRead,
-    };
-  });
+  const articles = data.allMarkdownRemark.edges.map((i) => ({
+    ...i.node.frontmatter,
+    id: i.node.id,
+    excerpt: i.node.excerpt,
+    timeToRead: i.node.timeToRead,
+  }));
 
   return (
     <section className={styles.container}>

@@ -3,7 +3,7 @@ import React from 'react';
 import Spacer from '../../atoms/Spacer';
 import SocialImageLink from '../../atoms/SocialImageLink';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 import FACEBOOK_LOGO from '../../images/social/facebook.svg';
 import INSTAGRAM_LOGO from '../../images/social/instagram.svg';

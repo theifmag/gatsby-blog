@@ -5,9 +5,9 @@ import {StaticImage} from 'gatsby-plugin-image';
 import Spacer from '../../atoms/Spacer';
 import NavBar from '../../molecules/NavBar';
 import useWindowResize from '../../functions/useWindowResize';
-
-import styles from './index.module.css';
 import Search from '../Search';
+
+import * as styles from './index.module.css';
 
 const LOGO = '../../images/banner/Logo.png';
 const SEARCH = '../../images/banner/search.svg';

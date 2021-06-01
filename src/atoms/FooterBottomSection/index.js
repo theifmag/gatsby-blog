@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const FooterBottomSection = () => (
   <div className={styles.container}>
@@ -12,7 +12,7 @@ const FooterBottomSection = () => (
       6foot4
     </a>{' '}
     and{' '}
-    <a target="_blank" href={'https://lavanya.design'} rel="noreferrer">
+    <a target="_blank" href="https://lavanya.design" rel="noreferrer">
       Lava
     </a>
   </div>

@@ -5,7 +5,7 @@ import {StaticImage} from 'gatsby-plugin-image';
 import useWindowSize from '../../functions/useWindowResize';
 import Spacer from '../../atoms/Spacer';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
 const CAROUSEL_IMAGE_ONE = '../../images/banner/carousel-1.jpg';

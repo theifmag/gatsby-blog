@@ -3,7 +3,7 @@ import {graphql, useStaticQuery} from 'gatsby';
 
 import AboutCard from '../../molecules/AboutCard';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const TeamPhotos = () => {
   const data = useStaticQuery(graphql`

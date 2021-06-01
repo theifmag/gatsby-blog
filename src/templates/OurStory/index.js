@@ -5,7 +5,7 @@ import Spacer from '../../atoms/Spacer';
 import Title from '../../atoms/Title';
 import useWindowResize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 import PastPresentFuture from '../../organisms/PastPresentFuture';
 
 const OurStory = () => {

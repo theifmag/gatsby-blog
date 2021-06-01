@@ -12,7 +12,7 @@ import ArticleCard, {
 import useWindowSize from '../../functions/useWindowResize';
 
 import DOWN_ARROW from '../../images/articles/down-arrow.svg';
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 import {Link} from 'gatsby';
 
 const CategoryBlock = ({category}) => {

@@ -3,7 +3,7 @@ import React from 'react';
 
 import Spacer from '../../atoms/Spacer';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const AsideCard = (props) => {
   const {article} = props;

@@ -10,24 +10,22 @@ import Footer from '../organisms/Footer';
 
 import '../styles/index.css';
 
-const HomePage = () => {
-  return (
-    <>
-      <Helmet>
-        <title>The Intersectional Feminist</title>
-        <meta
-          name="description"
-          content={'The If Mag The Best Blogs on every topic'}
-        />
-      </Helmet>
-      <BannerSection />
-      <EditorsChoiceSection />
-      <WhoWeAre />
-      <Series />
-      <LatestArticlesSection />
-      <Footer />
-    </>
-  );
-};
+const HomePage = () => (
+  <>
+    <Helmet>
+      <title>The Intersectional Feminist</title>
+      <meta
+        name="description"
+        content="The If Mag The Best Blogs on every topic"
+      />
+    </Helmet>
+    <BannerSection />
+    <EditorsChoiceSection />
+    <WhoWeAre />
+    <Series />
+    <LatestArticlesSection />
+    <Footer />
+  </>
+);
 
 export default HomePage;

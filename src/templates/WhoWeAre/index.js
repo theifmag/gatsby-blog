@@ -7,7 +7,7 @@ import Title from '../../atoms/Title';
 import Button from '../../atoms/Button';
 import useWindowSize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const LOGO = '../../images/banner/intersectionality-logo.png';
 

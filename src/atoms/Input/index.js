@@ -1,6 +1,6 @@
 import React, {forwardRef, useImperativeHandle, useState} from 'react';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const Input = (props, ref) => {
   const [value, setValue] = useState('');

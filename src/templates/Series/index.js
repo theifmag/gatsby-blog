@@ -5,7 +5,7 @@ import Spacer from '../../atoms/Spacer';
 import Title from '../../atoms/Title';
 import SeriesCard from '../../molecules/SeriesCard';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const Series = () => {
   const seriesList = [

@@ -4,7 +4,7 @@ import {GatsbyImage} from 'gatsby-plugin-image';
 
 import useImageData from '../../functions/useImageData';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const SeriesCard = ({imageName, name}) => {
   const allFile = useImageData();

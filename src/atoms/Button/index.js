@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const Button = (props) => {
   const {text, onClick = () => {}} = props;

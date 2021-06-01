@@ -6,7 +6,7 @@ import ContactLinks from '../../molecules/ContactLinks';
 import FooterForm from '../../molecules/FooterForm';
 import useWindowResize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const Footer = () => {
   const [mobile] = useWindowResize();

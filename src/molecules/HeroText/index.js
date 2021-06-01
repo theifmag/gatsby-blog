@@ -5,7 +5,7 @@ import Button from '../../atoms/Button';
 import Spacer from '../../atoms/Spacer';
 import useWindowResize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const HeroText = () => {
   const [mobile, tablet] = useWindowResize();

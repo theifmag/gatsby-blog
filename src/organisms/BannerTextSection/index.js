@@ -6,7 +6,7 @@ import HeroText from '../../molecules/HeroText';
 import PopularArticlesContainer from '../PopularArticlesContainer';
 import BannerCarousel from '../BannerCarousel';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const BannerTextSection = () => {
   const [mobile] = useWindowSize();

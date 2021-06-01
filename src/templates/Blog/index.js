@@ -10,7 +10,7 @@ import Spacer from '../../atoms/Spacer';
 import useWindowResize from '../../functions/useWindowResize';
 import AsideContainer from '../../molecules/AsideContainer';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.

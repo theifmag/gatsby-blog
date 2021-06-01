@@ -6,7 +6,7 @@ import Spacer from '../../atoms/Spacer';
 import Input from '../../atoms/Input';
 import validate from '../../functions/validate';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const FooterForm = () => {
   const nameRef = useRef();

@@ -3,7 +3,7 @@ import {Link} from 'gatsby';
 
 import Spacer from '../../atoms/Spacer';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const PopularArticle = ({article}) => {
   const {excerpt, frontmatter} = article.node;

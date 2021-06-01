@@ -3,7 +3,7 @@ import React from 'react';
 import Spacer from '../Spacer';
 import useWindowResize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const TimePeriodCard = ({name, content}) => {
   const [mobile] = useWindowResize();

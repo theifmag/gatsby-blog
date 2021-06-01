@@ -2,7 +2,7 @@ import {graphql, useStaticQuery} from 'gatsby';
 import React from 'react';
 import TimePeriodCard from '../../atoms/TimePeriodCard';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const PastPresentFuture = () => {
   const data = useStaticQuery(graphql`

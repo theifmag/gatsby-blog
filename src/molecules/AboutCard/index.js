@@ -5,7 +5,7 @@ import Spacer from '../../atoms/Spacer';
 import useImageData from '../../functions/useImageData';
 import useWindowResize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const colorColor = [
   '#fcc09b',

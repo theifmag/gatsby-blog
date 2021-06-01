@@ -36,9 +36,9 @@ const ArticlesPage = (props) => {
   // distinct = array of categories
   // nodes = array of all articles
   const megaArrayOfCategories = distinct.sort().map((category) => {
-    const articlesInThisCategory = nodes.filter((article) => {
-      return article?.frontmatter?.category === category;
-    });
+    const articlesInThisCategory = nodes.filter(
+      (article) => article?.frontmatter?.category === category,
+    );
     return [category, articlesInThisCategory];
   });
 

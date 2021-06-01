@@ -4,7 +4,7 @@ import {Link} from 'gatsby';
 import Spacer from '../../atoms/Spacer';
 import useWindowResize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const NavBar = () => {
   const [mobile] = useWindowResize();

@@ -6,7 +6,7 @@ import Title from '../../atoms/Title';
 import useWindowSize from '../../functions/useWindowResize';
 import ArticleCard from '../../molecules/ArticleCard';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const EditorsChoiceSection = () => {
   const [mobile] = useWindowSize();

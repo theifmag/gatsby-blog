@@ -6,7 +6,7 @@ import Spacer from '../../atoms/Spacer';
 import useWindowResize from '../../functions/useWindowResize';
 import useImageData from '../../functions/useImageData';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 export const Image = ({thumbnail}) => {
   const allFile = useImageData();

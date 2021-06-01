@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 import AsideCard from '../AsideCard';
 import Spacer from '../../atoms/Spacer';
 

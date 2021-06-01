@@ -5,7 +5,7 @@ import Spacer from '../../atoms/Spacer';
 import PopularArticle from '../../molecules/PopularArticle';
 import useWindowSize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 
 const PopularArticlesContainer = () => {
   const [mobile] = useWindowSize();

@@ -5,7 +5,7 @@ import {useFlexSearch} from 'react-use-flexsearch';
 import Input from '../../atoms/Input';
 import {Author, Category, Title, Excerpt} from '../../molecules/ArticleCard';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
 import Spacer from '../../atoms/Spacer';
 import {StaticImage} from 'gatsby-plugin-image';
 

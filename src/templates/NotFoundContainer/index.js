@@ -5,7 +5,8 @@ import Button from '../../atoms/Button';
 import Spacer from '../../atoms/Spacer';
 import useWindowSize from '../../functions/useWindowResize';
 
-import styles from './index.module.css';
+import * as styles from './index.module.css';
+
 const EMPTY_IMAGE = '../../images/404/404-image.png';
 
 const NotFoundContainer = () => {
