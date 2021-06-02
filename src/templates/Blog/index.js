@@ -28,7 +28,7 @@ export default function Template({
     [...anchors].forEach((anchor) => {
       anchor.setAttribute('target', '_blank');
     });
-  }, []);
+  }, [frontmatter.path]);
 
   return (
     <>
@@ -44,7 +44,11 @@ export default function Template({
       <div className={styles.container}>
         <article id={frontmatter.path}>
           <Spacer y={mobile ? 20 : 50} />
-          <img src={frontmatter.thumbnail} className={styles.thumbnailImage} />
+          <img
+            src={frontmatter.thumbnail}
+            alt="thumbnail"
+            className={styles.thumbnailImage}
+          />
           <Spacer y={mobile ? 20 : 50} />
           <Title text={frontmatter.title} />
           <Spacer y={mobile ? 20 : 50} />

@@ -5,7 +5,7 @@
   "version": "1.6.0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/W3Layouts/gatsby-starter-delog/issues"
+    "url": "https://github.com/theifmag/gatsby-blog/issues"
   },
   "dependencies": {
     "gatsby": "^3.6.1",
@@ -50,14 +50,15 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.0"
   },
-  "homepage": "https://github.com/W3Layouts/gatsby-starter-delog#readme",
+  "homepage": "https://www.theifmag.com",
   "keywords": [
-    "gatsby",
-    "netlify cms"
+    "feminism",
+    "intersectional feminism",
+    "blog"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/W3Layouts/gatsby-starter-delog.git"
+    "url": "git+https://github.com/theifmag/gatsby-blog.git"
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
