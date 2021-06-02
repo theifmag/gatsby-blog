@@ -9,7 +9,9 @@ import useImageData from '../../functions/useImageData';
 import * as styles from './index.module.css';
 
 const Category = ({category}) => (
-  <span className={styles.category}>{category}</span>
+  <Link to="/articles" state={{name: category}}>
+    <span className={styles.category}>{category}</span>
+  </Link>
 );
 
 const Excerpt = ({excerpt}) => <p className={styles.excerpt}>{excerpt}</p>;

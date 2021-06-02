@@ -21,7 +21,9 @@ export const Image = ({thumbnail}) => {
 };
 
 export const Category = ({category}) => (
-  <span className={styles.category}>{category}</span>
+  <Link to="/articles" state={{name: category}}>
+    <span className={styles.category}>{category}</span>
+  </Link>
 );
 
 export const Title = ({title}) => <h2 className={styles.title}>{title}</h2>;
@@ -42,7 +44,7 @@ export const DateTime = ({date, timeToRead}) => (
 );
 
 const ArticleCard = (props) => {
-  const {article} = props;
+  const {article, noCategory} = props;
   const {timeToRead, excerpt, frontmatter} = article;
   const {title, category, thumbnail, author, date, path} = frontmatter;
 
@@ -52,8 +54,12 @@ const ArticleCard = (props) => {
     <div className={styles.container}>
       <Link to={path}>
         <Image thumbnail={thumbnail} />
-        <Spacer y={20} />
-        <Category category={category} />
+        {noCategory || (
+          <>
+            <Spacer y={20} />
+            <Category category={category} />
+          </>
+        )}
         <Spacer y={16} />
         <Title title={title} />
         <Spacer y={10} />

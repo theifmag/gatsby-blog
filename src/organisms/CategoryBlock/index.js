@@ -8,7 +8,6 @@ import ArticleCard, {
   Image,
   Author,
   DateTime,
-  Category,
 } from '../../molecules/ArticleCard';
 import useWindowSize from '../../functions/useWindowResize';
 
@@ -49,7 +48,6 @@ const CategoryBlock = ({category}) => {
                   <Link to={article.frontmatter.path} key={key}>
                     <article className={styles.articleTag}>
                       <div>
-                        <Category category={article.frontmatter.category} />
                         <Title title={article.frontmatter.title} />
                         <Spacer y={10} />
                         <Excerpt excerpt={article.excerpt} />
@@ -67,7 +65,7 @@ const CategoryBlock = ({category}) => {
                   </Link>
                 );
               }
-              return <ArticleCard key={key} article={article} />;
+              return <ArticleCard noCategory key={key} article={article} />;
             })}
           </div>
           <Spacer y={mobile ? 30 : 100} />
