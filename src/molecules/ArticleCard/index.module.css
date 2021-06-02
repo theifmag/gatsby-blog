@@ -1,86 +1,84 @@
 .container {
-	width: calc(var(--three-columns) + var(--column-gap));
+  width: calc(var(--three-columns) + var(--column-gap));
 }
 .container * {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .thumbnail {
-	width: calc(var(--three-columns) + var(--column-gap));
-	height: calc((var(--three-columns) + var(--column-gap)) * 0.75);
-	border-radius: 8px;
-	object-fit: cover;
+  width: calc(var(--three-columns) + var(--column-gap));
+  height: calc((var(--three-columns) + var(--column-gap)) * 0.75);
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .category {
-	padding: 6px 10px;
-	border-radius: 4px;
-	border: solid 1.5px var(--color-primary);
-	font-family: var(--font-secondary);
-	font-weight: 600;
-	font-size: 0.6em;
-	color: var(--color-primary);
-	text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: solid 1.5px var(--color-primary);
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 0.6em;
+  color: var(--color-primary);
+  text-transform: uppercase;
 }
 
 .title {
-	font-family: var(--font-primary);
-	font-size: 1.5em;
-	text-align: left;
-	color: var(--color-black);
-	line-height: 1.4;
+  font-family: var(--font-primary);
+  font-size: 1.5em;
+  text-align: left;
+  color: var(--color-black);
+  line-height: 1.4;
 }
 
 .excerpt {
-	font-family: var(--font-secondary);
-	font-size: 1em;
-	line-height: 1.5;
-	letter-spacing: normal;
-	text-align: left;
-	color: var(--color-text);
-	text-transform: lowercase;
+  font-family: var(--font-secondary);
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--color-text);
+  text-transform: lowercase;
 }
 .excerpt:first-letter {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .author {
-	opacity: 0.8;
-	font-family: var(--font-secondary);
-	font-size: 0.9em;
-	line-height: 1.5;
-	text-align: left;
-	color: var(--color-text);
+  opacity: 0.8;
+  font-family: var(--font-secondary);
+  font-size: 0.9em;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--color-text);
 }
 
 @media only screen and (max-width: 640px) {
-	.container {
-		width: 100%;
-		position: relative;
-	}
+  .container {
+    width: 100%;
+    position: relative;
+  }
 
-	.thumbnail {
-		width: 100%;
-		height: 75%;
-	}
+  .thumbnail {
+    width: 100%;
+    height: 75%;
+  }
 
-	.category {
-		border: 0;
-		padding: 0;
-		position: absolute;
-		top: -15px;
-	}
+  .category {
+    border: 0;
+    padding: 0;
+  }
 
-	.title {
-		font-size: 1.1em;
-	}
+  .title {
+    font-size: 1.1em;
+  }
 
-	.excerpt {
-		font-size: 0.8em;
-		line-height: 1.3em;
-		max-height: 2.6em;
-		text-overflow: ellipsis;
-		word-wrap: break-word;
-		overflow: hidden;
-	}
+  .excerpt {
+    font-size: 0.8em;
+    line-height: 1.3em;
+    max-height: 2.6em;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
 }

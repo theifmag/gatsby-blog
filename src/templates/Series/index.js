@@ -1,6 +1,7 @@
 import React from 'react';
 import {graphql, useStaticQuery} from 'gatsby';
 
+import useWindowSize from '../../functions/useWindowResize';
 import Spacer from '../../atoms/Spacer';
 import Title from '../../atoms/Title';
 import SeriesCard from '../../molecules/SeriesCard';
@@ -26,6 +27,8 @@ const Series = () => {
     },
   ];
 
+  const [mobile] = useWindowSize();
+
   const data = useStaticQuery(graphql`
     query SeriesQuery {
       allMarkdownRemark {
@@ -41,7 +44,7 @@ const Series = () => {
     <section className={styles.container}>
       <Spacer y={100} />
       <Title text="Series" />
-      <Spacer y={100} />
+      <Spacer y={mobile ? 50 : 100} />
       <div className={styles.wrapper}>
         {seriesList.filter(filterForEmpty).map((series, key) => (
           <SeriesCard key={key} {...series} />

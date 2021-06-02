@@ -74,6 +74,7 @@ const LargeCard = ({
   date,
   timeToRead,
   path,
+  mobile,
 }) => (
   <article className={styles.largeContainer}>
     <Link to={path}>
@@ -90,9 +91,9 @@ const LargeCard = ({
           alt="thumbnail"
         />
       )}
-      <Spacer y={20} />
+      <Spacer y={mobile ? 10 : 20} />
       <Category category={category} />
-      <Spacer y={10} />
+      <Spacer y={mobile ? 5 : 10} />
       <h2 className={styles.largeTitle}>{title}</h2>
       <Spacer y={20} />
       <Excerpt excerpt={excerpt} />
@@ -112,7 +113,7 @@ const LatestArticleCard = ({article, index}) => {
     ?.childImageSharp?.gatsbyImageData;
 
   if (mobile || index < 2) {
-    return <LargeCard {...article} image={image} />;
+    return <LargeCard mobile={mobile} {...article} image={image} />;
   }
 
   return <SmallCard {...article} image={image} />;

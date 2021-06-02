@@ -56,11 +56,11 @@ const ArticleCard = (props) => {
         <Image thumbnail={thumbnail} />
         {noCategory || (
           <>
-            <Spacer y={20} />
+            <Spacer y={mobile ? 10 : 20} />
             <Category category={category} />
           </>
         )}
-        <Spacer y={16} />
+        <Spacer y={mobile ? 5 : 16} />
         <Title title={title} />
         <Spacer y={10} />
         <Excerpt excerpt={excerpt} />

@@ -42,7 +42,7 @@ const EditorsChoiceSection = () => {
     <section className={styles.container}>
       <Spacer y={mobile ? 20 : 50} />
       <Title text="Editor&#39;s Choice" />
-      <Spacer y={mobile ? 30 : 100} />
+      <Spacer y={mobile ? 50 : 100} />
       <div className={styles.articleContainer}>
         {articles.map((article, key) => (
           <ArticleCard article={article} key={key} />
