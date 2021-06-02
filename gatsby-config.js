@@ -154,7 +154,6 @@ module.exports = {
           })),
       },
     },
-    `gatsby-plugin-react-css-modules`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
