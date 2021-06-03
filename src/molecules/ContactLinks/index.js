@@ -9,6 +9,7 @@ import * as styles from './index.module.css';
 import FACEBOOK_LOGO from '../../images/social/facebook.svg';
 import INSTAGRAM_LOGO from '../../images/social/instagram.svg';
 import LINKEDIN_LOGO from '../../images/social/linkedin.svg';
+import TWITTER_LOGO from '../../images/social/twitter.svg';
 
 const ContactLinks = () => {
   const data = useStaticQuery(graphql`
@@ -20,13 +21,14 @@ const ContactLinks = () => {
             email
             instagram
             facebook
+            twitter
           }
         }
       }
     }
   `);
 
-  const {linkedIn, email, instagram, facebook} =
+  const {linkedIn, twitter, email, instagram, facebook} =
     data.site.siteMetadata.socialLinks;
 
   return (
@@ -57,6 +59,8 @@ const ContactLinks = () => {
           alt="Linkedin logo"
           link={linkedIn}
         />
+        <Spacer x={20} />
+        <SocialImageLink src={TWITTER_LOGO} alt="Twitter logo" link={twitter} />
       </div>
     </div>
   );
