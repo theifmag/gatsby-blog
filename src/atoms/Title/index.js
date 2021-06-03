@@ -5,7 +5,7 @@ import useWindowResize from '../../functions/useWindowResize';
 
 import * as styles from './index.module.css';
 
-const Title = ({text}) => {
+const Title = ({text, primary}) => {
   const [mobile] = useWindowResize();
 
   return (
@@ -14,7 +14,10 @@ const Title = ({text}) => {
       {mobile || (
         <>
           <Spacer x={20} />
-          <div className={styles.underline} />
+          <div
+            className={styles.underline}
+            style={primary && {backgroundColor: 'var(--color-primary)'}}
+          />
         </>
       )}
     </div>

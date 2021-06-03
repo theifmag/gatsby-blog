@@ -24,13 +24,14 @@
 }
 
 .titleContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
 }
 
 .titleContainer > div:last-child {
   display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
 }
 
 @media only screen and (max-width: 640px) {

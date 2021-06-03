@@ -45,7 +45,7 @@ const WhoWeAre = () => {
     <section className={styles.container}>
       <Spacer y={mobile ? 30 : 50} />
       <div className={styles.titleContainer}>
-        <Title text="Our Story" />
+        <Title primary text="Our Story" />
         <div>
           <SocialImageLink
             src={FACEBOOK_LOGO}
