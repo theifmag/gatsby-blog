@@ -8,6 +8,11 @@ import Button from '../../atoms/Button';
 import useWindowSize from '../../functions/useWindowResize';
 
 import * as styles from './index.module.css';
+import SocialImageLink from '../../atoms/SocialImageLink';
+
+import FACEBOOK_LOGO from '../../images/social/facebook.svg';
+import INSTAGRAM_LOGO from '../../images/social/instagram.svg';
+import LINKEDIN_LOGO from '../../images/social/linkedin.svg';
 
 const LOGO = '../../images/banner/intersectionality-logo.png';
 
@@ -20,15 +25,47 @@ const WhoWeAre = () => {
         aboutOne
         aboutTwo
       }
+      site {
+        siteMetadata {
+          socialLinks {
+            linkedIn
+            instagram
+            facebook
+          }
+        }
+      }
     }
   `);
 
   const {aboutOne, aboutTwo} = data?.aboutJson;
 
+  const {linkedIn, instagram, facebook} = data.site.siteMetadata.socialLinks;
+
   return (
     <section className={styles.container}>
       <Spacer y={mobile ? 30 : 50} />
-      <Title text="Our Story" />
+      <div className={styles.titleContainer}>
+        <Title text="Our Story" />
+        <div>
+          <SocialImageLink
+            src={FACEBOOK_LOGO}
+            alt="Facebook logo"
+            link={facebook}
+          />
+          <Spacer x={20} />
+          <SocialImageLink
+            src={INSTAGRAM_LOGO}
+            alt="Instagram logo"
+            link={instagram}
+          />
+          <Spacer x={20} />
+          <SocialImageLink
+            src={LINKEDIN_LOGO}
+            alt="Linkedin logo"
+            link={linkedIn}
+          />
+        </div>
+      </div>
       <Spacer y={mobile ? 50 : 80} />
       <div className={mobile ? styles.mobileContainer : 'flex-row'}>
         <div>
