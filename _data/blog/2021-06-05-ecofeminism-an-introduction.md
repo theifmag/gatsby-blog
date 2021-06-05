@@ -8,7 +8,7 @@ author: Tanisha Sudarshan
 category: Environment
 EditorChoice: false
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -49,9 +49,9 @@ EditorChoice: false
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
   DefSemiHidden="true" DefQFormat="false" DefPriority="99"
   LatentStyleCount="267">
@@ -307,9 +307,9 @@ EditorChoice: false
   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -338,19 +338,29 @@ EditorChoice: false
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 The Twenty-first Century has brought wondrous changes to the human society. We now live in what Sociologists call an “Anthropocentric” era. A period where humans are not only at the top of the food chain, but also in many ways own and control the food chain. This anthropocentric view of the world is doing more harm than good to humans themselves. Prime examples include the cyclones and hurricanes that ravage the coastal cities, epidemic outbreaks and ravishing forest fires! Pop-culture has several references to the inevitable end! But not all is lost, for we can still salvage ourselves from Doomsday by making amends to the way we treat Nature and natural resources.  
 
+<br>
+
 The ideology that is ‘Ecofeminism’ questions the patriarchal anthropocentric existence and proposes that it is high time we break away from the false construction that we are separate from nature. The term ‘Ecofeminism’ was coined by French Feminist Françoise d’Eubonne in 1974. The central theme of this ideology revolves around the connection between environmental destruction and social injustice, which affects the vulnerable sections of the society, particularly women.  
+
+<br>
 
 The movement began as a cry against the destruction and commodification of Mother Earth and women soon stood for environmental and social justice. A cry to better ourselves and change the way we view the earth. The Ecofeminist movement that took roots in the 70s grew steadily as both an academic movement as well as an activist movement through the 80s and the 90s. The Women and Life on Earth (WLOE) Conference in Amherst in 1980 organised by Ynestra King heralded many such events across the globe. While Ecofeminism began as an American ideology, it soon reached the international arena. The Women’s Environmental Development Organisation (WEDO) was a key lobbyist in the 1992 Rio Conference.   
 
+<br>
+
 The Ecofeminist approach though having its genesis in the West, it has found strong roots even in India. Dr. Vandana Shiva, one of India’s strongest proponents of Ecofeminism, is an icon even globally. Not only has she published several academic works with respect to Ecofeminism, but she has also taken part in the Chipko Movement in the Doon valley. It is her view that the anthropocentric society running on capitalist and patriarchal terms has lead to the Dead Earth Assumption- where the earth is not seen as living but only as a supplier of raw materials for economic activities. Ecofeminism, on the other hand, calls for the overturning of this Dead Earth Assumption by the revival and spread of indigenous wisdom.
 
+<br>
+
 This movement that was born alongside the Second Wave of Feminism was, in fact, far ahead of its time, for it saw the intersection between environmental and social issues. The WLOE Conferences, eighty in total, primarily discussed the intersectionality between environment and social topics, including health, feminist theory, art, and militarism. The ideals behind the movement are found in the Academy Award-winning movie ‘Avatar’ where the Na’avi fought against the capitalistic human invaders to save their planet.
+
+<br>
 
 While initial proponents of the theory believe in the interconnectedness between earth and women, there is a desperate need to revive Ecofeminism and to expand the ideology. No theory is free of faults. As many critics pointed out, Ecofeminism oversimplified the feminist and environmentalist struggle, eventually boiling the concept down to ‘women and the earth standing up against capitalist patriarchy’. However so, the Ecofeminist thought did highlight the dire situation that human society was in then. The theory propounds the shift from anthropocentric to ecocentric approach where the interest of the environment is valued. Looking at Ecofeminism through the lens of Intersectional Feminism would thus be ideal in order to shift from an anthropocentric society to an ecocentric society. The author hopes that *Homo sapiens,* once again, resign to being a part of the cycle for, after all, they are just one of the millions of species of living creatures that have tread Mother Earth.
 
