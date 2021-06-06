@@ -13,8 +13,6 @@ const EMPTY_IMAGE = '../../images/banner/empty_search_results.svg';
 const CLOSE_ICON = '../../images/banner/close_icon.svg';
 
 const Search = ({setSearch}) => {
-  const [searchTerm, setSearchTerm] = useState('');
-
   const data = useStaticQuery(graphql`
     query SearchQuery {
       localSearchPages {
@@ -25,6 +23,7 @@ const Search = ({setSearch}) => {
   `);
 
   const {index, store} = data.localSearchPages;
+  const [searchTerm, setSearchTerm] = useState('');
   const results = useFlexSearch(searchTerm, index, store);
 
   const onTextChange = (e) => {
@@ -47,6 +46,7 @@ const Search = ({setSearch}) => {
     <div className={styles.container}>
       <div>
         <Input
+          autoFocus
           placeholder="Search..."
           value={searchTerm}
           onChange={onTextChange}
@@ -79,9 +79,9 @@ const Search = ({setSearch}) => {
       </div>
       {!!results.length || (
         <div className={styles.emptyContainer}>
-          <Spacer y={50} />
+          <Spacer y={80} />
           <StaticImage objectFit="contain" src={EMPTY_IMAGE} alt="empty" />
-          <Spacer y={30} />
+          <Spacer y={50} />
           <p>{noSearchText}</p>
         </div>
       )}

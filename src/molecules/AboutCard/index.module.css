@@ -3,7 +3,7 @@
 }
 /* .container > .background, */
 .container > .thumbnail {
-  filter: grayscale(75%);
+  filter: grayscale(50%);
 }
 
 .container:hover .background,

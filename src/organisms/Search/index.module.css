@@ -1,75 +1,99 @@
 .container {
-	height: 100vh;
-	width: 100vw;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	background-color: var(--white);
-	padding: 25px var(--horizontal-padding);
-	box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: var(--white);
+  padding: 25px var(--horizontal-padding);
+  box-sizing: border-box;
 }
 
 .container input {
-	background-color: var(--color-aside);
-	width: var(--five-columns);
-	box-sizing: border-box;
-	padding: 10px 12px;
+  background-color: var(--color-aside);
+  color: var(--color-text);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 60px;
+  font-size: 1.8em;
+  font-family: var(--font-primary);
+}
+.container input:focus {
+  box-shadow: 1px 2px 4px #00000033;
+}
+.container input::placeholder {
+  font-family: var(--font-primary);
 }
 
 .container > div:first-child {
-	position: relative;
-	box-sizing: border-box;
-	width: var(--five-columns);
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .closeIcon {
-	height: 28px;
-	width: 28px;
-	position: absolute;
-	right: 6px;
-	top: 6px;
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  right: 20px;
+  top: 25%;
+  cursor: pointer;
 }
 
 .resultsContainer {
-	overflow: auto;
-	height: 90vh;
+  overflow: auto;
+  height: 90vh;
 }
 
 .resultContainer {
-	width: var(--five-columns);
-	position: relative;
+  width: var(--five-columns);
+  position: relative;
 }
 
 .emptyContainer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: var(--five-columns);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: var(--five-columns);
 }
 
 .emptyContainer p {
-	font-size: 1.2em;
-	color: var(--color-text);
+  font-size: 1.2em;
+  color: var(--color-text);
 }
 
 .emptyContainer img {
-	width: var(--three-columns);
+  width: 100%;
 }
 
 @media only screen and (max-width: 640px) {
-	.container {
-		width: 100%;
-	}
+  .container {
+    width: 100%;
+  }
 
-	.resultContainer,
-	.emptyContainer,
-	.container > div:first-child,
-	.container input {
-		width: calc(100vw - (var(--horizontal-padding) * 2));
-	}
+  .container input {
+    height: 50px;
+    font-size: 1.3em;
+    padding: 0 12px;
+  }
 
-	.emptyContainer img {
-		width: 80vw;
-	}
+  .closeIcon {
+    height: 24px;
+    width: 24px;
+    right: 12px;
+  }
+
+  .resultContainer,
+  .emptyContainer,
+  .container > div:first-child,
+  .container input {
+    width: calc(100vw - (var(--horizontal-padding) * 2));
+  }
+
+  .emptyContainer img {
+    width: 80vw;
+  }
 }
