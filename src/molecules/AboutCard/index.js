@@ -6,6 +6,8 @@ import useImageData from '../../functions/useImageData';
 import useWindowResize from '../../functions/useWindowResize';
 
 import * as styles from './index.module.css';
+import LINKEDIN_LOGO from '../../images/social/linkedin.svg';
+import SocialImageLink from '../../atoms/SocialImageLink';
 
 const colorColor = [
   '#fcc09b',
@@ -32,7 +34,7 @@ const mobileColor = [
 ];
 
 const AboutCard = (props) => {
-  const {name, bio, thumbnail, index} = props;
+  const {name, bio, thumbnail, linkedin, index} = props;
 
   const allFile = useImageData();
 
@@ -51,7 +53,14 @@ const AboutCard = (props) => {
       />
       <GatsbyImage className={styles.thumbnail} image={image} alt={name} />
       <Spacer y={15} />
-      <h2 className={styles.title}>{name}</h2>
+      <div className="flex-row-space-between">
+        <h2 className={styles.title}>{name}</h2>
+        <SocialImageLink
+          src={LINKEDIN_LOGO}
+          alt="Instagram logo"
+          link={linkedin}
+        />
+      </div>
       <Spacer y={12} />
       <p className={styles.bio}>{bio}</p>
     </div>
