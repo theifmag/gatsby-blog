@@ -3,7 +3,6 @@ import React, {useEffect} from 'react';
 import Helmet from 'react-helmet';
 import {graphql} from 'gatsby';
 
-import {GatsbyImage} from 'gatsby-plugin-image';
 import Header from '../../organisms/Header';
 import Footer from '../../organisms/Footer';
 import Title from '../../atoms/Title';
@@ -21,12 +20,6 @@ export default function Template({
   const {frontmatter, timeToRead, html} = markdownRemark;
   const {thumbnail, path, metaDescription, title, category, date, author} =
     frontmatter;
-
-  const allFile = data.allFile.edges.map((i) => i.node);
-  const ImageComponent = allFile.find((i) => thumbnail.includes(i.name));
-  const Image = ImageComponent?.childImageSharp
-    ? ImageComponent?.childImageSharp?.gatsbyImageData
-    : ImageComponent?.publicURL;
 
   const [mobile] = useWindowResize();
 
@@ -60,11 +53,9 @@ export default function Template({
             </h5>
           </div>
           <Spacer y={mobile ? 20 : 50} />
-          <GatsbyImage
+          <img
             className={styles.thumbnailImage}
-            image={Image}
-            objectFit="contain"
-            objectPosition="left top"
+            src={thumbnail}
             alt="thumbnail"
           />
           <Spacer y={mobile ? 30 : 50} />
@@ -102,18 +93,6 @@ export const pageQuery = graphql`
         category
       }
       timeToRead
-    }
-    allFile(filter: {sourceInstanceName: {eq: "markdown-images"}}) {
-      edges {
-        node {
-          id
-          childImageSharp {
-            gatsbyImageData(quality: 100, width: 1200, placeholder: BLURRED)
-          }
-          name
-          publicURL
-        }
-      }
     }
   }
 `;
