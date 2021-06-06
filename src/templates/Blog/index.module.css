@@ -9,8 +9,7 @@
 }
 
 .thumbnailImage {
-  width: 100%;
-  border-radius: 1em;
+  max-height: 100vh;
 }
 
 .authorName {

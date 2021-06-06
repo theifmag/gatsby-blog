@@ -5,12 +5,12 @@ import Spacer from '../atoms/Spacer';
 import CategoryBlock from '../organisms/CategoryBlock';
 import Footer from '../organisms/Footer';
 import Header from '../organisms/Header';
-import useImageData from '../functions/useImageData';
+import useWindowSize from '../functions/useWindowResize';
 
 const ArticlesPage = (props) => {
   const name = props?.location?.state?.name;
 
-  const [mobile] = useImageData();
+  const [mobile] = useWindowSize();
 
   const data = useStaticQuery(graphql`
     query ArticlesPageQuery {

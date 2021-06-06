@@ -14,7 +14,12 @@ export const Image = ({thumbnail}) => {
   const image = allFile.find((i) => thumbnail.includes(i.name))?.childImageSharp
     ?.gatsbyImageData;
   return image ? (
-    <GatsbyImage alt="thumbnail" image={image} className={styles.thumbnail} />
+    <GatsbyImage
+      alt="thumbnail"
+      objectFit="cover"
+      image={image}
+      className={styles.thumbnail}
+    />
   ) : (
     <img src={thumbnail} className={styles.thumbnail} alt="thumbnail" />
   );
