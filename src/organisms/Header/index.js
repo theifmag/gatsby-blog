@@ -9,7 +9,7 @@ import Search from '../Search';
 
 import * as styles from './index.module.css';
 
-const LOGO = '../../images/banner/Logo.png';
+const LOGO = '../../images/banner/logo.svg';
 const SEARCH = '../../images/banner/search.svg';
 
 const Header = () => {
