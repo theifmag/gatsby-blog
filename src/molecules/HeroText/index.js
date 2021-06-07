@@ -12,7 +12,7 @@ const HeroText = () => {
   const onClick = () => {
     document
       .getElementById('WhoWeAre')
-      ?.scrollIntoView({behavior: 'smooth', block: 'start'});
+      ?.scrollIntoView({behavior: 'smooth', block: 'center'});
   };
 
   return (

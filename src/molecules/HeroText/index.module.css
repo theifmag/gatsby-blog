@@ -9,6 +9,22 @@
   line-height: 1.5;
   text-align: left;
   color: var(--color-black);
+  animation: lavanya 2s;
+}
+
+@keyframes lavanya {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .author {
@@ -17,6 +33,7 @@
   font-weight: 500;
   text-align: left;
   color: var(--color-text);
+  animation: lavanya 2s;
 }
 
 .container > p {
