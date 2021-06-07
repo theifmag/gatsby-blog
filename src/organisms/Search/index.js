@@ -38,9 +38,7 @@ const Search = ({setSearch}) => {
     }
   };
 
-  const noSearchText = searchTerm
-    ? 'Uh oh! There are no results'
-    : 'Start typing to see some results';
+  const noSearchText = searchTerm ? 'Uh oh! There are no results' : '';
 
   return (
     <div className={styles.container}>
