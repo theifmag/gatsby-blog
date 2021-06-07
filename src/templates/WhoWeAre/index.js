@@ -1,14 +1,13 @@
 import React from 'react';
-import {graphql, Link, useStaticQuery} from 'gatsby';
+import {graphql, useStaticQuery} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
 
 import Spacer from '../../atoms/Spacer';
 import Title from '../../atoms/Title';
-import Button from '../../atoms/Button';
 import useWindowSize from '../../functions/useWindowResize';
+import SocialImageLink from '../../atoms/SocialImageLink';
 
 import * as styles from './index.module.css';
-import SocialImageLink from '../../atoms/SocialImageLink';
 
 import FACEBOOK_LOGO from '../../images/social/facebook.svg';
 import INSTAGRAM_LOGO from '../../images/social/instagram.svg';
@@ -45,7 +44,7 @@ const WhoWeAre = () => {
     data.site.siteMetadata.socialLinks;
 
   return (
-    <section className={styles.container}>
+    <section id="WhoWeAre" className={styles.container}>
       <Spacer y={mobile ? 30 : 50} />
       <div className={styles.titleContainer}>
         <Title primary text="Our Story" />
@@ -82,10 +81,6 @@ const WhoWeAre = () => {
           <p className={styles.aboutText}>{aboutOne}</p>
           <Spacer y={10} />
           <p className={styles.aboutText}>{aboutTwo}</p>
-          <Spacer y={40} />
-          <Link to="/about">
-            <Button text="read our story" />
-          </Link>
         </div>
         <StaticImage
           src={LOGO}

@@ -3,7 +3,6 @@ import React from 'react';
 import Spacer from '../../atoms/Spacer';
 import useWindowSize from '../../functions/useWindowResize';
 import HeroText from '../../molecules/HeroText';
-import PopularArticlesContainer from '../PopularArticlesContainer';
 import BannerCarousel from '../BannerCarousel';
 
 import * as styles from './index.module.css';
@@ -17,7 +16,6 @@ const BannerTextSection = () => {
       {mobile && <Spacer y={50} />}
       {mobile && <BannerCarousel />}
       {mobile && <Spacer y={50} />}
-      <PopularArticlesContainer />
       {mobile || <Spacer y={20} />}
     </div>
   );
