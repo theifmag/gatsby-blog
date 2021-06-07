@@ -59,7 +59,7 @@ export default function Template({
             alt="thumbnail"
           />
           <Spacer y={mobile ? 30 : 50} />
-          <div className="flex-row">
+          <div style={{display: 'flex'}}>
             <div
               className={styles.blogContent}
               dangerouslySetInnerHTML={{__html: html}}

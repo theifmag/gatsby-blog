@@ -25,11 +25,12 @@ const AsideContainer = ({category, path}) => {
     }
   `);
 
-  const articlesData = data.allMarkdownRemark.edges.filter(
+  let articlesData = data.allMarkdownRemark.edges.filter(
     (i) =>
       i.node.frontmatter.category === category &&
       i.node.frontmatter.path !== path,
   );
+  articlesData = articlesData.slice(0, 1);
 
   if (!articlesData.length) {
     return <></>;
