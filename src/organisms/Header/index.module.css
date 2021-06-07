@@ -35,15 +35,9 @@
 }
 
 .logo {
-  height: 40px;
-  width: 40px;
+  height: 32px;
+  width: 32px;
   object-fit: contain;
-}
-@media only screen and (max-width: 1024px) {
-  .logo {
-    height: 32px;
-    width: 32px;
-  }
 }
 
 @media only screen and (max-width: 640px) {
