@@ -44,7 +44,7 @@ export default function Template({
       <div className={styles.container}>
         <article id={path}>
           <Spacer y={mobile ? 20 : 50} />
-          <Title text={title} />
+          <Title removeThatLineBro text={title} />
           <Spacer y={mobile ? 20 : 50} />
           <div>
             <h5 className={styles.authorName}>{author}</h5>
