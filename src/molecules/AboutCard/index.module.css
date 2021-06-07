@@ -28,14 +28,17 @@
 
 .title {
   font-family: var(--font-primary);
-  font-size: 1.4em;
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
   color: var(--color-black);
 }
-.title + * {
+.title + div + * {
   filter: grayscale(100%);
+}
+.container:hover .title + div + * {
+  filter: grayscale(0%);
 }
 
 .bio {

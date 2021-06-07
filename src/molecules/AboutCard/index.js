@@ -53,8 +53,9 @@ const AboutCard = (props) => {
       />
       <GatsbyImage className={styles.thumbnail} image={image} alt={name} />
       <Spacer y={15} />
-      <div className="flex-row-space-between">
+      <div className="flex-row">
         <h2 className={styles.title}>{name}</h2>
+        <Spacer x={15} />
         <SocialImageLink
           src={LINKEDIN_LOGO}
           alt="Instagram logo"
