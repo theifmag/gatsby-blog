@@ -77,15 +77,12 @@
   }
 
   .container input {
-    height: 50px;
-    font-size: 1.3em;
-    padding: 0 12px;
+    font-size: 1em;
   }
 
   .closeIcon {
     height: 24px;
     width: 24px;
-    right: 12px;
   }
 
   .resultContainer,

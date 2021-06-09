@@ -45,7 +45,6 @@ const Search = ({setSearch}) => {
       <div>
         <StaticImage
           onClick={onCloseClick}
-          className={styles.closeIcon}
           objectFit="contain"
           src={SEARCH}
           height={28}
