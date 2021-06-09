@@ -3,7 +3,6 @@
   height: calc((100vw - 2 * var(--horizontal-padding) - 100px) / 3);
   position: relative;
   border-radius: 8px;
-  box-shadow: 2px 3px 6px 2px #00000033;
 }
 
 .image {

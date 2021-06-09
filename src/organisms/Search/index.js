@@ -37,9 +37,7 @@ const Search = ({setSearch}) => {
     }
   };
 
-  const noSearchText = searchTerm
-    ? 'Uh oh! There are no results'
-    : 'Start typing to see some results...';
+  const noSearchText = searchTerm ? 'Uh oh! There are no results' : '';
 
   return (
     <div className={styles.container}>
@@ -61,14 +59,6 @@ const Search = ({setSearch}) => {
             alt="empty"
           />
         )}
-        <StaticImage
-          onClick={onCloseClick}
-          objectFit="contain"
-          src={CLOSE_ICON}
-          height={28}
-          width={28}
-          alt="empty"
-        />
       </div>
       <Spacer y={20} />
       <div className={!!results.length && styles.resultsContainer}>

@@ -1,10 +1,4 @@
 .container {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
   background-color: var(--white);
   padding: 25px var(--horizontal-padding);
   box-sizing: border-box;
