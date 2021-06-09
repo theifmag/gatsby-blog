@@ -64,6 +64,7 @@
   overflow: hidden;
   max-height: 3em;
   line-height: 1.5em;
+  text-transform: lowercase;
 }
 
 .author {

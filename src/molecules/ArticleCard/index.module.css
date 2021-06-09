@@ -70,12 +70,12 @@
   }
 
   .title {
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
 
   .excerpt {
-    font-size: 0.8em;
-    line-height: 1.3em;
+    font-size: 1em;
+    line-height: 1.3;
     max-height: 2.6em;
     text-overflow: ellipsis;
     word-wrap: break-word;
