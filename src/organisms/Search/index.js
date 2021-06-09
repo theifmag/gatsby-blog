@@ -9,7 +9,6 @@ import {Author, Category, Title, Excerpt} from '../../molecules/ArticleCard';
 import * as styles from './index.module.css';
 import Spacer from '../../atoms/Spacer';
 
-const EMPTY_IMAGE = '../../images/banner/empty_search_results.svg';
 const CLOSE_ICON = '../../images/banner/close_icon.svg';
 
 const Search = ({setSearch}) => {
@@ -38,22 +37,36 @@ const Search = ({setSearch}) => {
     }
   };
 
-  const noSearchText = searchTerm ? 'Uh oh! There are no results' : '';
+  const noSearchText = searchTerm
+    ? 'Uh oh! There are no results'
+    : 'Start typing to see some results...';
 
   return (
     <div className={styles.container}>
       <div>
         <Input
           autoFocus
-          placeholder="Search..."
+          placeholder="Search articles, categories, authors..."
           value={searchTerm}
           onChange={onTextChange}
         />
+        {searchTerm && (
+          <StaticImage
+            onClick={onCloseClick}
+            className={styles.closeIcon}
+            objectFit="contain"
+            src={CLOSE_ICON}
+            height={28}
+            width={28}
+            alt="empty"
+          />
+        )}
         <StaticImage
           onClick={onCloseClick}
-          className={styles.closeIcon}
           objectFit="contain"
           src={CLOSE_ICON}
+          height={28}
+          width={28}
           alt="empty"
         />
       </div>
@@ -77,8 +90,6 @@ const Search = ({setSearch}) => {
       </div>
       {!!results.length || (
         <div className={styles.emptyContainer}>
-          <Spacer y={80} />
-          <StaticImage objectFit="contain" src={EMPTY_IMAGE} alt="empty" />
           <Spacer y={50} />
           <p>{noSearchText}</p>
         </div>

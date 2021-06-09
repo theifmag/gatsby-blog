@@ -11,36 +11,44 @@
 }
 
 .container input {
-  background-color: var(--color-aside);
+  background-color: var(--white);
   color: var(--color-text);
-  width: 100%;
+  width: var(--six-columns);
   box-sizing: border-box;
   padding: 0 20px;
   height: 60px;
-  font-size: 1.8em;
+  font-size: 1.3em;
   font-family: var(--font-secondary);
+  border-radius: 8px;
+  box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
 }
 .container input:focus {
-  box-shadow: 1px 1px 10px var(--color-primary);
-  border: 1px solid var(--color-primary);
+  box-shadow: 0px 8px 20px rgb(0 0 0 / 16%);
 }
 .container input::placeholder {
   font-family: var(--font-secondary);
 }
 
 .container > div:first-child {
-  position: relative;
   box-sizing: border-box;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .closeIcon {
-  height: 28px;
-  width: 28px;
-  position: absolute;
-  right: 20px;
-  top: 25%;
+  position: relative;
+  right: 40px;
   cursor: pointer;
+}
+
+.container > div:first-child > span {
+  position: relative;
+  left: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .resultsContainer {
@@ -49,16 +57,15 @@
 }
 
 .resultContainer {
-  width: var(--five-columns);
+  width: var(--six-columns);
   position: relative;
 }
 
 .emptyContainer {
   display: flex;
   flex-direction: column;
-  margin: auto;
   align-items: center;
-  width: var(--five-columns);
+  width: var(--six-columns);
 }
 
 .emptyContainer p {
