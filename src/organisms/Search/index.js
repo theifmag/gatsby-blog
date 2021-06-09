@@ -5,11 +5,12 @@ import {StaticImage} from 'gatsby-plugin-image';
 
 import Input from '../../atoms/Input';
 import {Author, Category, Title, Excerpt} from '../../molecules/ArticleCard';
-
-import * as styles from './index.module.css';
 import Spacer from '../../atoms/Spacer';
 
+import * as styles from './index.module.css';
+
 const CLOSE_ICON = '../../images/banner/close_icon.svg';
+const SEARCH = '../../images/banner/search.svg';
 
 const Search = ({setSearch}) => {
   const data = useStaticQuery(graphql`
@@ -42,6 +43,15 @@ const Search = ({setSearch}) => {
   return (
     <div className={styles.container}>
       <div>
+        <StaticImage
+          onClick={onCloseClick}
+          className={styles.closeIcon}
+          objectFit="contain"
+          src={SEARCH}
+          height={28}
+          width={28}
+          alt="empty"
+        />
         <Input
           autoFocus
           placeholder="Search articles, categories, authors..."
