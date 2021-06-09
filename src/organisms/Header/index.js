@@ -6,6 +6,7 @@ import Spacer from '../../atoms/Spacer';
 import NavBar from '../../molecules/NavBar';
 import useWindowResize from '../../functions/useWindowResize';
 import Search from '../Search';
+import ScrollToTop from '../../atoms/ScrollToTop';
 
 import * as styles from './index.module.css';
 
@@ -26,6 +27,7 @@ const Header = () => {
 
   return (
     <>
+      {mobile || <ScrollToTop />}
       <header className={styles.container}>
         <Link to="/">
           <div className="flex-row-space-between">
