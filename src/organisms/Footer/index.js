@@ -16,7 +16,7 @@ const Footer = () => {
       <footer className={styles.container}>
         <h1 className="titleText">Want to collaborate?</h1>
         <Spacer y={40} />
-        <section className="flex-row">
+        <section className={styles.section}>
           <div className={styles.contactSection}>
             <ContactLinks />
           </div>
