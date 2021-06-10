@@ -9,8 +9,7 @@ import ScrollToTop from '../../atoms/ScrollToTop';
 
 import * as styles from './index.module.css';
 
-import LOGO from '../../images/banner/logo.svg';
-
+const LOGO = '../../images/banner/logo.svg';
 const SEARCH = '../../images/banner/search.svg';
 
 const Header = ({noSearch}) => {
@@ -22,10 +21,15 @@ const Header = ({noSearch}) => {
       <header className={styles.container}>
         <Link to="/">
           <div className="flex-row-space-between">
-            <img src={LOGO} className={styles.logo} alt="The If mag Logo" />
-            <Spacer x={mobile ? 5 : 20} />
-            <span>The</span>
-            <h1 className={styles.title}>Intersectional Feminist</h1>
+            <StaticImage
+              loading="eager"
+              objectFit="contain"
+              className={styles.logo}
+              src={LOGO}
+              alt="logo"
+            />
+            <Spacer x={mobile ? 10 : 20} />
+            <h1 className={styles.title}>the intersectional feminist</h1>
           </div>
         </Link>
         <div className="flex-row-space-between">
