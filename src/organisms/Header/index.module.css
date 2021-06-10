@@ -14,15 +14,22 @@
   }
 }
 
+.logo + div + span {
+  transform: rotateZ(-90deg);
+  font-size: 0.75em;
+  font-family: var(--font-logo);
+  color: var(--color-black);
+}
+
 .title {
-  font-family: var(--font-primary);
+  font-family: var(--font-logo);
   font-size: 1.5em;
   letter-spacing: 0.5px;
   text-align: left;
-  font-weight: 600;
   color: var(--color-black);
   text-transform: capitalize;
 }
+
 @media only screen and (max-width: 1024px) {
   .title {
     font-size: 1.2em;
@@ -30,13 +37,12 @@
 }
 @media only screen and (max-width: 640px) {
   .title {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 
 .logo {
-  height: 32px;
-  width: 32px;
+  height: 28px;
   object-fit: contain;
 }
 
