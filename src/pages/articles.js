@@ -45,7 +45,9 @@ const ArticlesPage = (props) => {
   useEffect(() => {
     if (name) {
       const element = document.getElementById(name);
-      element?.scrollIntoView();
+      setTimeout(() => {
+        element?.scrollIntoView();
+      }, 10);
     }
   }, [name]);
 
