@@ -3,8 +3,8 @@ template: BlogPost
 path: /intersectionality-in-democracy
 date: 2021-02-18T05:41:40.709Z
 title: Intersectionality in Democracy
-metaDescription: "[The authors do not represent the interest of any political
-  party. This piece is written in an unbiased manner.]"
+metaDescription: '[The authors do not represent the interest of any political
+  party. This piece is written in an unbiased manner.]'
 thumbnail: /assets/intersectionality-779x400.jpg
 author: Manasa Poovayil and Tanisha  Sudarshan
 category: Politics
